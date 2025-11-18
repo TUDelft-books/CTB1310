@@ -6,8 +6,8 @@ parts:
   chapters:
   - file: instructies
   - file: contact_information
-#  - url: https://brightspace.tudelft.nl/d2l/home/774702
-#    title: Brightspace 📢
+  - url: https://brightspace.tudelft.nl/d2l/home/774692
+    title: Brightspace 📢
 #- caption: Lesstof 🧑‍🏫
 - caption: Diverse
   chapters:
