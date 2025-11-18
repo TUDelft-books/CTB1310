@@ -151,7 +151,12 @@ jobs:
           git checkout -b 2025-draft
           git merge origin/2025-teacher
           git add .
-          git commit -m "Generate assignment version"
+          # Commit only if there are staged changes; avoid failing when clean
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Generate assignment version"
+          fi
           git push origin 2025-draft --force
       
       - name: Merge 2025-draft into 2025
