@@ -1,6 +1,4 @@
 (intro)=
-# Welcome to the Template Book
+# Welkom bij Constructiemechanica 2
 
-_This is the first page the student will see when opening the url._
-
-This book can be used as a template for other books. It includes a starter package of the software developed by the TeachBooks initiative and some exercises to get you going!
+Dit online interactieve boek bevat de lesstof voor de lessen over statisch onbepaaldheid van Constructiemechanica 2. Voor meer informatie over het gebruik van dit boek, zie [](./instructies.md).

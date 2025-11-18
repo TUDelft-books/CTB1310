@@ -1,11 +1,4 @@
-# Changelog
+# Changelog 🔖
 
-## `<latest version>`: `<date>`
-- `<Added/modified/deleted>` [](`<relative link to changed file>`)
-- ...
-- Full Changelog: `[<previous version>...<current version>](<link to diff as provided by GitHub>)`
-
-## `<previous version>`: <...>
-- <...>
-
-<...>
+## 2025-08-20: v2025.0.0
+- Eerste opzet van boek voor nieuwe studiejaar

@@ -1,3 +1,4 @@
-# References
+# Bronvermelding 📖
+
 :::{bibliography}
 :::
