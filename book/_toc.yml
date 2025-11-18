@@ -8,7 +8,7 @@ parts:
   - file: contact_information
 #  - url: https://brightspace.tudelft.nl/d2l/home/774702
 #    title: Brightspace 📢
-- caption: Lesstof 🧑‍🏫
+#- caption: Lesstof 🧑‍🏫
 - caption: Diverse
   chapters:
   - file: changelog
