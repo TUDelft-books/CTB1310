@@ -1,3 +1,3 @@
-# 27 februari: Torderende momenten
+# 27 februari: Wringende momenten
 
-In deze les leer je hoe je de torderende momenten kan bepalen aan de hand van differentiaalvergelijkingen en evenwichtsvergelijkingen.
+In deze les leer je hoe je de wringende momenten kan bepalen aan de hand van differentiaalvergelijkingen en evenwichtsvergelijkingen.
