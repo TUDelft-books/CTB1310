@@ -15,6 +15,7 @@ parts:
     sections:
     - file: torsie_krachten/instructie.md
     - file: torsie_krachten/instructie2.md
+    - file: torsie_krachten/lesoefening1.md
 # END REMOVE-FROM-RELEASE
 - caption: Diverse
   chapters:

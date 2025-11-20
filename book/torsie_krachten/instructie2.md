@@ -4,7 +4,7 @@
 ```{attributiongrey} Bronvermelding
 :class: attribution
 
-Deze pagina is gebaseerd op https://youtu.be/fqbObUeKPYk {cite:p}`HvA_torsielijn`
+Deze pagina is gebaseerd op de [kennisclip 'torsielijn' als onderdeel van het vak 'Constructieve Analyse 3' op de Hogeschool van Amsterdam](https://youtu.be/fqbObUeKPYk) {cite:p}`HvA_torsielijn`
 
 % Source files on https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/torsie
 ```
