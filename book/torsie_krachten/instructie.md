@@ -49,7 +49,9 @@ align: center
 Inwendige wringende momenten in de positieve richtingen met gekromde pijlen of pijlen met dubbele pijlpunt
 ```
 
-Daarmee kunnen we ook een vervormingsteken introduceren voor wringende momenten, geïnspireerd op het vrijlichaamsschema met de pijlen met dubbele pijlpunt. Deze kunnen we in een wringende momentenlijn gebruiken om de richting van de wringende momenten aan te geven. Het maakt niet uit of dit teken boven of onder de as wordt gezet.
+### Wringende momentenlijn
+
+Net als bij de andere snedekrachtenlijnen (momentenlijn, dwarskrachtenlijn, normaalkrachtenlijn) kunnen we ook een wringende momentenlijn tekenen. Daarvoor introduceren we een vervormingsteken, geïnspireerd op het vrijlichaamsschema met de pijlen met dubbele pijlpunt. Deze kunnen we in een wringende momentenlijn gebruiken om de richting van de wringende momenten aan te geven. Het maakt niet uit of dit teken boven of onder de as wordt gezet.
 
 ```{figure} ./instructie_data/vervormingstekens.svg
 ---
@@ -57,3 +59,7 @@ align: center
 ---
 Vervormingstekens voor wringende momenten
 ```
+
+Net als bij de buigende momentenlijn kunnen we een aantal eigenschappen van de wringende momentenlijn vinden:
+- De wringende momentenlijn is constant of lineair als er geen verdeelde wringende momenten op de constructie werken.
+- De wringende momentenlijn springt bij een uitwendig wringend moment.
