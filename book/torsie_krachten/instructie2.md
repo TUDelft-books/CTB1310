@@ -4,13 +4,13 @@
 ```{attributiongrey} Bronvermelding
 :class: attribution
 
-Deze pagina is gebaseerd op https://youtu.be/fqbObUeKPYk (CC BY 4.0, Tom van Woudenberg, Hogeschool van Amsterdam)
+Deze pagina is gebaseerd op https://youtu.be/fqbObUeKPYk {cite:p}`HvA_torsielijn`
 
 % Source files on https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/torsie
 ```
 ````
 
-# Wringende momentenlijn berekenen
+# Instructie wringende momentenlijn bepalen
 
 Net zoals bij krachten en momenten voor buiging, kunnen we ook voor wringende momenten met evenwichtsvergelijkingen oplegreacties en inwendige wringende momenten bepalen. Daarvoor is de aanpak vergelijkbaar met die van buigende momenten.
 
