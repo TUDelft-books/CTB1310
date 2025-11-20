@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<!-- Gegenereerd door Microsoft Visio, SVG Export Mt-lijn-EGH.svg Pagina-1 -->
+<!-- Gegenereerd door Microsoft Visio, SVG Export Mt-lijn-EG.svg Pagina-1 -->
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
-		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="3.05806in" height="2.95963in"
-		viewBox="0 0 220.18 213.093" xml:space="preserve" color-interpolation-filters="sRGB" class="st12">
+		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="2.86121in" height="2.95963in"
+		viewBox="0 0 206.007 213.093" xml:space="preserve" color-interpolation-filters="sRGB" class="st12">
 	<v:documentProperties v:langID="1043" v:metric="true" v:viewMarkup="false"/>
 
 	<style type="text/css">
@@ -47,35 +47,35 @@
 		<title>Pagina-1</title>
 		<v:pageProperties v:drawingScale="0.0393701" v:pageScale="0.0393701" v:drawingUnits="24" v:shadowOffsetX="8.50394"
 				v:shadowOffsetY="-8.50394"/>
-		<g id="shape762-1" v:mID="762" v:groupContext="shape" transform="translate(85.1594,-14.5482)">
+		<g id="shape762-1" v:mID="762" v:groupContext="shape" transform="translate(70.9861,-14.5482)">
 			<title>Ligger, 2 pt.762</title>
 			<path d="M0 213.09 L42.52 213.09" class="st1"/>
 		</g>
-		<g id="shape763-4" v:mID="763" v:groupContext="shape" transform="translate(-127.934,198.545) rotate(-90)">
+		<g id="shape763-4" v:mID="763" v:groupContext="shape" transform="translate(-142.107,198.545) rotate(-90)">
 			<title>Ligger, 2 pt.763</title>
 			<path d="M0 213.09 L42.52 213.09" class="st2"/>
 		</g>
-		<g id="shape764-7" v:mID="764" v:groupContext="shape" transform="translate(-170.454,156.026) rotate(-90)">
+		<g id="shape764-7" v:mID="764" v:groupContext="shape" transform="translate(-184.627,156.026) rotate(-90)">
 			<title>Ligger, 2 pt.764</title>
 			<path d="M0 213.09 L42.52 213.09" class="st2"/>
 		</g>
-		<g id="shape765-10" v:mID="765" v:groupContext="shape" transform="translate(-170.454,113.506) rotate(-90)">
+		<g id="shape765-10" v:mID="765" v:groupContext="shape" transform="translate(-184.627,113.506) rotate(-90)">
 			<title>Ligger, 2 pt.765</title>
 			<path d="M0 213.09 L42.52 213.09" class="st2"/>
 		</g>
-		<g id="shape766-13" v:mID="766" v:groupContext="shape" transform="translate(-127.934,70.9861) rotate(-90)">
+		<g id="shape766-13" v:mID="766" v:groupContext="shape" transform="translate(-142.107,70.9861) rotate(-90)">
 			<title>Ligger, 2 pt.766</title>
 			<path d="M0 213.09 L42.52 213.09" class="st2"/>
 		</g>
-		<g id="shape767-16" v:mID="767" v:groupContext="shape" transform="translate(42.6397,-57.0679)">
+		<g id="shape767-16" v:mID="767" v:groupContext="shape" transform="translate(28.4664,-57.0679)">
 			<title>Ligger, 2 pt.767</title>
 			<path d="M0 213.09 L42.52 213.09" class="st2"/>
 		</g>
-		<g id="shape768-19" v:mID="768" v:groupContext="shape" transform="translate(42.6397,-142.107)">
+		<g id="shape768-19" v:mID="768" v:groupContext="shape" transform="translate(28.4664,-142.107)">
 			<title>Ligger, 2 pt.768</title>
 			<path d="M0 213.09 L42.52 213.09" class="st2"/>
 		</g>
-		<g id="group769-22" transform="translate(156.026,-0.375)" v:mID="769" v:groupContext="group">
+		<g id="group769-22" transform="translate(141.852,-0.375)" v:mID="769" v:groupContext="group">
 			<title>Maatlijn.769</title>
 			<g id="group770-23" transform="translate(0,-9.92126)" v:mID="770" v:groupContext="group">
 				<title>Maatlijn.31</title>
@@ -92,48 +92,48 @@
 					<path d="M3.74 213.09 L4.1 213.09 L38.42 213.09" class="st4"/>
 				</g>
 			</g>
-			<g id="shape774-39" v:mID="774" v:groupContext="shape" transform="translate(-21.2598,5.68434E-14)">
+			<g id="shape774-39" v:mID="774" v:groupContext="shape" transform="translate(-21.2598,2.84217E-14)">
 				<title>Blad.774</title>
-				<desc>1 m / 6 kNm</desc>
+				<desc>1 m / 12 kNm</desc>
 				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
 				<v:textRect cx="42.5197" cy="206.007" width="85.04" height="14.1732"/>
 				<rect x="0" y="198.92" width="85.0394" height="14.1732" class="st6"/>
-				<text x="12.19" y="209.61" class="st7" v:langID="1043"><v:paragraph v:horizAlign="1"/><v:tabList/>1 m / 6 kNm</text>			</g>
+				<text x="9.19" y="209.61" class="st7" v:langID="1043"><v:paragraph v:horizAlign="1"/><v:tabList/>1 m / 12 kNm</text>			</g>
 		</g>
-		<g id="shape775-42" v:mID="775" v:groupContext="shape" transform="translate(78.0728,-0.375)">
+		<g id="shape775-42" v:mID="775" v:groupContext="shape" transform="translate(63.8995,-0.375)">
 			<title>Punt A.775</title>
 			<desc>0</desc>
 			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
 			<v:textRect cx="7.08661" cy="206.007" width="14.18" height="14.1732"/>
 			<rect x="0" y="198.92" width="14.1732" height="14.1732" class="st8"/>
 			<text x="4.09" y="209.61" class="st7" v:langID="1043"><v:paragraph v:horizAlign="1"/><v:tabList/>0</text>		</g>
-		<g id="shape776-45" v:mID="776" v:groupContext="shape" transform="translate(120.592,-0.375)">
+		<g id="shape776-45" v:mID="776" v:groupContext="shape" transform="translate(106.419,-0.375)">
 			<title>Punt A.776</title>
 			<desc>0</desc>
 			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
 			<v:textRect cx="7.08661" cy="206.007" width="14.18" height="14.1732"/>
 			<rect x="0" y="198.92" width="14.1732" height="14.1732" class="st8"/>
 			<text x="4.09" y="209.61" class="st7" v:langID="1043"><v:paragraph v:horizAlign="1"/><v:tabList/>0</text>		</g>
-		<g id="shape777-48" v:mID="777" v:groupContext="shape" transform="translate(14.2932,-198.8)">
+		<g id="shape777-48" v:mID="777" v:groupContext="shape" transform="translate(0.12,-198.8)">
 			<title>Punt A.777</title>
 			<desc>Wringende momentenlijn</desc>
 			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
 			<v:textRect cx="70.8661" cy="206.007" width="141.74" height="14.1732"/>
 			<rect x="0" y="198.92" width="141.732" height="14.1732" class="st8"/>
 			<text x="9.38" y="209.61" class="st7" v:langID="1043"><v:paragraph v:horizAlign="1"/><v:tabList/>Wringende momentenlijn</text>		</g>
-		<g id="shape778-51" v:mID="778" v:groupContext="shape" transform="translate(14.2932,-14.5482)">
+		<g id="shape778-51" v:mID="778" v:groupContext="shape" transform="translate(35.5531,-14.5482)">
 			<title>Ligger, 2 pt.778</title>
-			<path d="M0 213.09 L70.87 213.09" class="st1"/>
+			<path d="M0 213.09 L35.43 213.09" class="st1"/>
 		</g>
-		<g id="shape779-54" v:mID="779" v:groupContext="shape" transform="translate(14.2932,-57.0679)">
+		<g id="shape779-54" v:mID="779" v:groupContext="shape" transform="translate(35.5531,-57.0679)">
 			<title>Ligger, 2 pt.779</title>
-			<path d="M0 213.09 L70.87 213.09" class="st1"/>
+			<path d="M0 213.09 L35.43 213.09" class="st1"/>
 		</g>
-		<g id="shape780-57" v:mID="780" v:groupContext="shape" transform="translate(227.387,156.026) rotate(90)">
+		<g id="shape780-57" v:mID="780" v:groupContext="shape" transform="translate(248.646,156.026) rotate(90)">
 			<title>Ligger, 2 pt.780</title>
 			<path d="M0 213.09 L42.52 213.09" class="st1"/>
 		</g>
-		<g id="group791-60" transform="translate(68.1515,-21.6348)" v:mID="791" v:groupContext="group">
+		<g id="group791-60" transform="translate(53.9783,-21.6348)" v:mID="791" v:groupContext="group">
 			<title>wringmomenten negatief klein</title>
 			<g id="shape792-61" v:mID="792" v:groupContext="shape" transform="translate(215.928,184.747) rotate(90)">
 				<title>Blad.792</title>
@@ -148,19 +148,19 @@
 				<path d="M0 213.09 L5.67 213.09" class="st11"/>
 			</g>
 		</g>
-		<g id="shape833-75" v:mID="833" v:groupContext="shape" transform="translate(0.120001,-0.375)">
+		<g id="shape833-75" v:mID="833" v:groupContext="shape" transform="translate(-177.54,212.718) rotate(-90)">
 			<title>Punt A.833</title>
 			<desc>10</desc>
 			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
 			<v:textRect cx="14.1732" cy="206.007" width="28.35" height="14.1732"/>
 			<rect x="0" y="198.92" width="28.3465" height="14.1732" class="st8"/>
 			<text x="8.17" y="209.61" class="st7" v:langID="1043"><v:paragraph v:horizAlign="1"/><v:tabList/>10</text>		</g>
-		<g id="shape834-78" v:mID="834" v:groupContext="shape" transform="translate(0.12,-57.0679)">
+		<g id="shape834-78" v:mID="834" v:groupContext="shape" transform="translate(-177.54,177.285) rotate(-90)">
 			<title>Punt A.834</title>
 			<desc>10</desc>
 			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
-			<v:textRect cx="14.1732" cy="206.007" width="28.35" height="14.1732"/>
-			<rect x="0" y="198.92" width="28.3465" height="14.1732" class="st8"/>
-			<text x="8.17" y="209.61" class="st7" v:langID="1043"><v:paragraph v:horizAlign="1"/><v:tabList/>10</text>		</g>
+			<v:textRect cx="10.6299" cy="206.007" width="21.26" height="14.1732"/>
+			<rect x="0" y="198.92" width="21.2598" height="14.1732" class="st8"/>
+			<text x="4.63" y="209.61" class="st7" v:langID="1043"><v:paragraph v:horizAlign="1"/><v:tabList/>10</text>		</g>
 	</g>
 </svg>

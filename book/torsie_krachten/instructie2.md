@@ -1,20 +1,30 @@
 % Source files on https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/torsie
 
-# Evenwichtsvergelijkingen voor wringende momenten
+````{margin}
+```{attributiongrey} Bronvermelding
+:class: attribution
+
+Deze pagina is gebaseerd op https://youtu.be/fqbObUeKPYk (CC BY 4.0, Tom van Woudenberg, Hogeschool van Amsterdam)
+
+% Source files on https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/torsie
+```
+````
+
+# Wringende momentenlijn berekenen
 
 Net zoals bij krachten en momenten voor buiging, kunnen we ook voor wringende momenten met evenwichtsvergelijkingen oplegreacties en inwendige wringende momenten bepalen. Daarvoor is de aanpak vergelijkbaar met die van buigende momenten.
 
-::::::{prf:algorithm} Evenwicht voor wringende momenten
+::::::{prf:algorithm} Bepalen wringende momentenlijn
 :nonumber: true
 
 1. Teken het vrijlichaamsschema van de constructie of maak een snede en teken het vrijlichaamschema van een deel van de constructie. Neem wringende momenten aan bij een inklemming of starre verbinding.
-2. Stel de evenwichtsvergelijkingen op voor de wringende momenten rondom een as in de richting van een staaf: $\sum T_{\rm{staaf}} = 0$. Alle krachten, buigende en wringende momenten die een draaiing rondom deze as veroorzaken komen in deze evenwichtsvergelijking terecht.
+2. Stel de evenwichtsvergelijkingen op voor de wringende momenten rondom een as in dezelfde richting als de staaf: $\sum T_{\rm{as}} = 0$. Alle krachten, buigende en wringende momenten die een draaiing rondom deze as veroorzaken komen in deze evenwichtsvergelijking terecht.
 3. Los de evenwichtsvergelijking op om de onbekende wringende momenten of oplegreacties te bepalen.
-4. Herhaal dit op alle karakteristieke punten op de wringende momentenlijn te bepalen.
+4. Herhaal dit op alle karakteristieke punten om de wringende momentenlijn te bepalen.
 
 ::::::
 
-De toepassing van de evenwichtsvergelijkingen wordt getoond op onderstaande voorbeeld.
+Het bepalen van de wringende momentenlijn wordt getoond op onderstaande voorbeeld.
 
 ::::::{prf:example}
 :nonumber: true
@@ -34,7 +44,7 @@ Daarvoor maken we op alle karakteristieke punten een snede. Beginnend bij $\rm{G
 ---
 align: center
 ---
-Vrijlichaamsschema van deel $\rm{GH}$ met het globale $y,z-$ assenstelsel. Het buigend moment $M_z$ is aangegeven met een kromme pijl en het wringend moment $M_{\rm{t}}$ met een pijl met dubbele pijlpunt. De snedekrachten in de andere vlakken en de normaalkracht zijn weggelaten.
+Het buigend moment $M_z$ is aangegeven met een kromme pijl en het wringend moment $M_{\rm{t}}$ met een pijl met dubbele pijlpunt. De snedekrachten in de andere vlakken en de normaalkracht zijn weggelaten.
 ```
 
 Hiervoor kan een evenwichtsvergelijking worden opgesteld rondom de as:
@@ -42,9 +52,11 @@ Hiervoor kan een evenwichtsvergelijking worden opgesteld rondom de as:
 $$
 \begin{align*}
 \sum T_{\rm{GH}} &= 0 \\
-M_{\rm{t,G}}^{\rm{GH}} &= 0
+M_{\rm{t}}^{\rm{GH}} &= 0
 \end{align*}
 $$
+
+Het wringend moment in $\rm{GH}$ is de enige bijdrage aan de evenwichtsvergelijking en is dus gelijk aan nul.
 
 Daarmee kan een beginnetje worden gemaakt met de wringende momentenlijn:
 
@@ -61,23 +73,116 @@ Vervolgens maken we een snede in $\rm{E}$:
 ---
 align: center
 ---
-Vrijlichaamsschema van deel $\rm{EH}$ met het globale $x,y,z-$ assenstelsel. De snedekrachten die gelijk zijn aan $0$ zijn weggelaten.
+De snedekrachten die gelijk zijn aan $0$ zijn weggelaten.
 ```
 
 $$
 \begin{align*}
 \sum T_{\rm{EG}} &= 0 \\
--M_{\rm{t,E}}^{\rm{EH}} - 10 \cdot 1 &= 0 \\
-M_{\rm{t,E}}^{\rm{EH}} &= -10 \, \rm{kNm} \left( \twoheadrightarrow \mid \twoheadleftarrow \right)
+-M_{\rm{t}}^{\rm{EH}} - 10 \cdot 1 &= 0 \\
+M_{\rm{t}}^{\rm{EH}} &= -10 \ \rm{kNm} \left( \twoheadrightarrow \mid \twoheadleftarrow \right)
 \end{align*} 
 $$
 
+```{tip}
+In deze evenwichtsvergelijking kunnen de richtingen van het assenstelsel als positief worden aangenomen, maar dat is niet vereist. In dit geval wijst $M_{\rm{t}}^{\rm{EH}}$ in de negatieve $x$-richting en is daarom negatief in de evenwichtsvergelijking. Ook de kracht van $10 \ \rm{kN}$ veroorzaakt een wringend moment in de negatieve $x$-richting, als je de rechterhandregel toepast met je vingers krullend in de richting van de kracht wijst je duim in de negatieve $x$-richting.
+
+Daarnaast zou de evenwichtsvergelijking ook kunnen worden opgesteld rondom een andere as. Echter is de as $\rm{EG}$ hier het makkelijkste omdat het onbekende buigende moment $M_{\rm{E}}$ en dwarskracht $V_{\rm{E}}$ door deze as gaan en dus een arm hebben van $0$.
+```
+
 Daarmee kan de wringende momentenlijn verder worden ingevuld:
 
-```{figure} ./instructie2_data/Mt-lijn-EGH.svg
+```{figure} ./instructie2_data/Mt-lijn-EG.svg
 ---
 align: center
 ---
 Wringende momentenlijn met deel $\rm{GH}$ en $\rm{EH}$ bekend
 ```
+
+Op dezelfde manier kunnen we doorgaan met snedes. Bijvoorbeeld met een snede bij $\rm{E}$ aan de kant van $\rm{DE}$:
+
+```{figure} ./instructie2_data/FBD_DE.svg
+---
+align: center
+---
+De snedekrachten die gelijk zijn aan $0$ zijn weggelaten.
+```
+
+$$
+\begin{align*}
+\sum T_{\rm{DE}} &= 0 \\
+M_{\rm{t}}^{\rm{DE}} - 10 \cdot 1 &= 0 \\
+M_{\rm{t}}^{\rm{DE}} &= 10 \ \rm{kNm} \left( \twoheadleftarrow \mid \twoheadrightarrow \right)
+\end{align*} 
+$$
+
+Vervolgens het wringend moment in deel $\rm{CD}$:
+
+```{figure} ./instructie2_data/FBD_CD.svg
+---
+align: center
+---
+De snedekrachten die gelijk zijn aan $0$ zijn weggelaten.
+```
+
+$$
+\begin{align*}
+\sum T_{\rm{CD}} &= 0 \\
+M_{\rm{t}}^{\rm{CD}} + 10 \cdot 2 &= 0 \\
+M_{\rm{t}}^{\rm{CD}} &= -20 \ \rm{kNm} \left( \twoheadrightarrow \mid \twoheadleftarrow \right)
+\end{align*} 
+$$
+
+Vervolgens het wringend moment in deel $\rm{BC}$:
+
+```{figure} ./instructie2_data/FBD_BC.svg
+---
+align: center
+---
+De snedekrachten die gelijk zijn aan $0$ zijn weggelaten.
+```
+
+$$
+\begin{align*}
+\sum T_{\rm{BC}} &= 0 \\
+M_{\rm{t}}^{\rm{BC}} + 10 \cdot 3 + 3 \cdot 2 \cdot 1 + \frac{1}{2} \cdot 6 \cdot 2 \cdot \frac{2}{3}&= 0 \\
+M_{\rm{t}}^{\rm{BC}} &= -40 \ \rm{kNm} \left( \twoheadrightarrow \mid \twoheadleftarrow \right)
+\end{align*} 
+$$
+
+Tot slot het wringend moment in deel $\rm{AB}$:
+
+```{figure} ./instructie2_data/FBD_AB.svg
+---
+align: center
+---
+De snedekrachten die gelijk zijn aan $0$ zijn weggelaten.
+```
+
+$$
+\begin{align*}
+\sum T_{\rm{AB}} &= 0 \\
+M_{\rm{t}}^{\rm{AB}} + 10 \cdot 1 - 3 \cdot 2 \cdot 1 - \frac{1}{2} \cdot 6 \cdot 2 \cdot 1&= 0 \\
+M_{\rm{t}}^{\rm{AB}} &= 2 \ \rm{kNm} \left( \twoheadleftarrow \mid \twoheadrightarrow \right)
+\end{align*} 
+$$
+
+Dit alles samen geeft de volgende wringende momentenlijn:
+
+```{figure} ./instructie2_data/Mt-lijn.svg
+---
+align: center
+---
+```
+
 ::::::
+
+## Meer voorbeelden
+In hoofdstuk 6.4 van het boek Mechanica, spanningen, vervormingen en verplaatsingen {cite:p}`Hartsuijker2013` worden ook wringende momenten uitgerekend in voorbeeld 1 - 5. Negeer de berekeningen van stijfheden, spanningen en verplaatsingen.
+
+% ## Instructies in collegevorm
+%
+% Dit onderwerp is [les ...](...) gepresenteerd in collegevorm tot ....
+
+## Oefeningen
+Opgaves 6.7, 6.8, 6.11, 6.13, 6.30 in hoofdstuk 4.5 van het boek Mechanica, spanningen, vervormingen en verplaatsingen {cite:p}`Hartsuijker2013`. Bepaal enkel de wringend momentenlijn en negeer de vragen over stijfheden, spanningen en verplaatsingen. Antwoorden zijn [hier](https://icozct.tudelft.nl/TUD_CT/boekantwoorden/vol2/Chapter6/) beschikbaar.

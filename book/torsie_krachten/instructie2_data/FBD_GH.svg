@@ -102,12 +102,12 @@
 		</g>
 		<g id="shape605-31" v:mID="605" v:groupContext="shape" transform="translate(35.6584,-71.0915)">
 			<title>Blad.605</title>
-			<desc>Mt,GGH</desc>
+			<desc>MtGH</desc>
 			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
 			<v:textRect cx="21.2598" cy="123.718" width="42.52" height="14.1732"/>
 			<rect x="0" y="116.632" width="42.5197" height="14.1732" class="st10"/>
-			<text x="5.76" y="127.32" class="st11" v:langID="1043"><v:paragraph v:horizAlign="1"/><v:tabList/>M<tspan dy="-0.279em"
-						class="st12" v:baseFontSize="12">t,G</tspan><tspan dy="0.081em" class="st13" v:baseFontSize="12">GH</tspan></text>		</g>
+			<text x="9.55" y="127.32" class="st11" v:langID="1043"><v:paragraph v:horizAlign="1"/><v:tabList/>M<tspan dy="-0.279em"
+						class="st12" v:baseFontSize="12">t</tspan><tspan dy="0.081em" class="st13" v:baseFontSize="12">GH</tspan></text>		</g>
 		<g id="shape606-36" v:mID="606" v:groupContext="shape" transform="translate(92.3513,-78.1781)">
 			<title>Punt A.606</title>
 			<desc>G</desc>

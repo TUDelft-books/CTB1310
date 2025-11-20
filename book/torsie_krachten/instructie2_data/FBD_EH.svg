@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<!-- Gegenereerd door Microsoft Visio, SVG Export FBD_EH.svg Pagina-1 -->
+<!-- Gegenereerd door Microsoft Visio, SVG Export Mt-lijn-EGH.svg Pagina-1 -->
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
 		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="3.2867in" height="2.03189in"
 		viewBox="0 0 236.643 146.296" xml:space="preserve" color-interpolation-filters="sRGB" class="st20">
@@ -201,12 +201,12 @@
 		</g>
 		<g id="shape755-109" v:mID="755" v:groupContext="shape" transform="translate(89.9116,-87.1152)">
 			<title>Blad.755</title>
-			<desc>Mt,EEG</desc>
+			<desc>MtEG</desc>
 			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
 			<v:textRect cx="21.2598" cy="139.209" width="42.52" height="14.1732"/>
 			<rect x="0" y="132.123" width="42.5197" height="14.1732" class="st10"/>
-			<text x="6.62" y="142.81" class="st5" v:langID="1043"><v:paragraph v:horizAlign="1"/><v:tabList/>M<tspan dy="-0.279em"
-						class="st18" v:baseFontSize="12">t,E</tspan><tspan dy="0.081em" class="st19" v:baseFontSize="12">EG</tspan></text>		</g>
+			<text x="9.98" y="142.81" class="st5" v:langID="1043"><v:paragraph v:horizAlign="1"/><v:tabList/>M<tspan dy="-0.279em"
+						class="st18" v:baseFontSize="12">t</tspan><tspan dy="0.081em" class="st19" v:baseFontSize="12">EG</tspan></text>		</g>
 		<g id="shape756-114" v:mID="756" v:groupContext="shape" transform="translate(188.475,-58.7063) rotate(36.8699)">
 			<title>Wringend moment.756</title>
 			<path d="M17.72 146.3 L18.08 146.3 L42.52 146.3" class="st17"/>

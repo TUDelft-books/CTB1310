@@ -61,5 +61,33 @@ Vervormingstekens voor wringende momenten
 ```
 
 Net als bij de buigende momentenlijn kunnen we een aantal eigenschappen van de wringende momentenlijn vinden:
-- De wringende momentenlijn is constant of lineair als er geen verdeelde wringende momenten op de constructie werken.
-- De wringende momentenlijn springt bij een uitwendig wringend moment.
+
+- De wringende momentenlijn is constant als er geen verdeelde wringende momenten op de constructie werken. Dit verband volgt uit de differentiaalvergelijking zoals hieronder wordt afgeleid.
+- De wringende momentenlijn springt bij een uitwendig wringend moment. Dit volgt uit het evenwicht rondom een uitwendige wringend moment.
+
+## Evenwichtsvergelijkingen voor wringende momenten
+
+Net zoals bij krachten en momenten voor buiging, kunnen we ook voor wringende momenten met evenwichtsvergelijkingen oplegreacties en inwendige wringende momenten bepalen. Daarvoor is de aanpak vergelijkbaar met die van buigende momenten: op basis van het het vrijlichaamsschema van de constructie of maak een een deel van de constructie wordt een evenwichtsvergelijking opgesteld. Deze evenwichtsvergelijkingen wordt opgesteld rondom een as: $\sum T_{\rm{as}} = 0$. Alle krachten, buigende en wringende momenten die een draaiing rondom deze as veroorzaken komen in deze evenwichtsvergelijking terecht.
+
+## Differentiaalvergelijking voor wringing
+
+Net als bij de differentiaalvergelijkingen voor buiging kan de differentiaalvergelijking voor wringing worden afgeleid door te kijken naar een klein element van lengte $\Delta x$.
+
+```{figure} ./instructie_data/deltax.svg
+---
+align: center
+---
+Vrijlichaamsschema van een klein element met wringende momenten
+```
+
+Evenwicht rondom de as van het element geeft:
+
+$$
+\begin{align*}
+\sum T_{\rm{element}} &= 0 \\
+- M_{\rm{t}} + q_{\rm{M}_{\rm{t}}} \cdot \Delta x +  M_{\rm{t}} + \Delta M_{\rm{t}} &= 0 \\
+q_{\rm{M}_{\rm{t}}} \cdot \Delta x + \Delta M_{\rm{t}} &= 0 \\
+\mathop {\lim }\limits_{\Delta x \to 0 } \left( \cfrac{\Delta M_{\rm{t}}}{\Delta x} \right) &= \mathop {\lim }\limits_{\Delta x \to 0 } \left( - q_{\rm{M}_{\rm{t}}} \right) \\
+\cfrac{dM_{\rm{t}}}{dx} &= - q_{\rm{M}_{\rm{t}}}
+\end{align*} 
+$$
