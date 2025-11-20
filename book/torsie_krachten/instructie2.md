@@ -68,10 +68,16 @@ $$
 \begin{align*}
 \sum T_{\rm{EG}} &= 0 \\
 -M_{\rm{t,E}}^{\rm{EH}} - 10 \cdot 1 &= 0 \\
-M_{\rm{t,E}}^{\rm{EH}} &= -10 \, \rm{kNm} \includegraphics{instructie2_data/richting_EH.svg} 
-\end{align*}
+M_{\rm{t,E}}^{\rm{EH}} &= -10 \, \rm{kNm} \left( \twoheadrightarrow \mid \twoheadleftarrow \right)
+\end{align*} 
 $$
 
-text<img style="display:inline-block; height:2em; width:auto; transform:translate(0, 0.75em)" src="instructie2_data/richting_EH.svg" alt="Jupyter book v1"> text
+Daarmee kan de wringende momentenlijn verder worden ingevuld:
 
+```{figure} ./instructie2_data/Mt-lijn-EGH.svg
+---
+align: center
+---
+Wringende momentenlijn met deel $\rm{GH}$ en $\rm{EH}$ bekend
+```
 ::::::
