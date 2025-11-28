@@ -25,6 +25,7 @@ Als je vastloopt met een bepaald onderwerp, kun je terecht bij de studentassiste
 :width: 473px
 :align: center
 :class: dark-light
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/studentenassistenten
 ```
 
 - Alexander Dzhanibekyan
