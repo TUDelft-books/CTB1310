@@ -47,6 +47,8 @@ sphinx:                                              # Options passed on to the 
     sphinx_codex_merge_with_proof:     true # default value
     tud_change_titlesize: false
     metadata_figure_settings:
+      style: 
+        placement: hide
       license:
         summaries: false
         individual: false
