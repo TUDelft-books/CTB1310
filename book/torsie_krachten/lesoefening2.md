@@ -16,7 +16,7 @@ Gegeven is de volgende constructie:
 align: center
 source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/torsie2
 ---
-Constructie
+Constructie en willekeurige doorsnede met bekend dwarskrachtencentrum
 ```
 
 :::::{exercise}
