@@ -6,7 +6,6 @@
 
 Deze pagina houdt de notatie aan zoals geïntroduceerd in {cite:t}`Hartsuijker2013`
 
-% Source files on https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/torsie
 ```
 ````
 
@@ -21,6 +20,7 @@ De verschillende uitwendige momenten kunnen we zowel in 3D als 2D bekijken. De a
 ```{figure} ./instructie_data/moment_curved.svg
 ---
 align: center
+source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/torsie
 ---
 Uitwendige momenten in 3D en 2D met gekromde pijlen in de positieve richtingen
 ```
@@ -30,6 +30,7 @@ Omdat het zeker in 3D lastig is om de verschillende momenten te onderscheiden, w
 ```{figure} ./instructie_data/moment_pijl.svg
 ---
 align: center
+source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/torsie
 ---
 Uitwendige momenten in 3D met pijlen met dubbele pijlpunt in de positieve richtingen
 ```
@@ -45,6 +46,7 @@ Inwendige momenten kunnen we op dezelfde manier onderscheiden als uitwendige mom
 ```{figure} ./instructie_data/inwendige_moment.svg
 ---
 align: center
+source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/torsie
 ---
 Inwendige wringende momenten in de positieve richtingen met gekromde pijlen of pijlen met dubbele pijlpunt
 ```
@@ -56,6 +58,7 @@ Net als bij de andere snedekrachtenlijnen (momentenlijn, dwarskrachtenlijn, norm
 ```{figure} ./instructie_data/vervormingstekens.svg
 ---
 align: center
+source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/torsie
 ---
 Vervormingstekens voor wringende momenten
 ```
@@ -76,6 +79,7 @@ Net als bij de differentiaalvergelijkingen voor buiging kan de differentiaalverg
 ```{figure} ./instructie_data/deltax.svg
 ---
 align: center
+source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/torsie
 ---
 Vrijlichaamsschema van een klein element met wringende momenten
 ```

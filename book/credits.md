@@ -19,12 +19,12 @@ Om de website opnieuw te maken heb je twee opties (meer informatie in de [TeachB
 - Op je eigen computer: clone deze repository, installeer de vereiste pakketten (`pip install -r requirements.txt`) en bouw het boek (`teachbooks build book`). De website wordt lokaal opgeslagen in `book/_build/index.html`.
 
 ## Licentie 📝
-Dit boek is [CC BY 4.0 gelicenseerd](https://creativecommons.org/licenses/by/4.0/) waardoor je het materiaal mag delen en aanpassen, zolang de bron wordt vermeld. Externe bronnen die in dit boek worden hergebruikt, staan hieronder vermeld.
+Dit boek is [CC BY 4.0 gelicenseerd](https://creativecommons.org/licenses/by/4.0/) waardoor je het materiaal mag delen en aanpassen, zolang de bron wordt vermeld.
 
 (external_resources)=
 ### Externe bronnen 🌐
 
-Delen van dit boek zijn afkomstig uit andere externe bronnen en op verschillende manieren hergebruikt. In het bijzonder is er materiaal gedeeld met [CTS1000 Structural Mechanics 2025/2026](https://oit.tudelft.nl/CT1000/2025/intro.html) en [Structural Mechanics @ BSc Civil Engineering](http://oit.tudelft.nl/CEG-mechanics-BSc/).
+Delen van dit boek zijn afkomstig uit andere externe bronnen en op verschillende manieren hergebruikt. In het bijzonder is er materiaal gedeeld met [CTS1000 Structural Mechanics 2025/2026](https://oit.tudelft.nl/CT1000/2025/intro.html), [CTB2210 Constructiemechanica 3 2025/2026](https://oit.tudelft.nl/CTB2210/2025/intro.html) en [Structural Mechanics @ BSc Civil Engineering](http://oit.tudelft.nl/CEG-mechanics-BSc/).
 
 (editor)=
 ## Over de auteur 👨‍🏫
@@ -52,6 +52,5 @@ Naast constructiemechanicavakken, geeft Tom vakken over optimalisatie, numerieke
 - {fa}`building-columns` [TU Delft profiel](https://www.tudelft.nl/en/staff/t.r.vanwoudenberg/)
 
 ### Dankwoord 🙏
-Dank aan studentenassistent Iris Oskam en Martijn Westerhof voor het controleren van de antwoorden en toevoegen van uitwerkingen
 
 Daarnaast veel dank aan de diverse collega's en studentassistenten van [TeachBooks](https://teachbooks.io/) voor het samen ontwikkelen van tools en het bieden van ondersteuning om dit boek te verbeteren.

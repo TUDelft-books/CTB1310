@@ -6,7 +6,6 @@
 
 Deze pagina is gebaseerd op de [kennisclip 'torsielijn' als onderdeel van het vak 'Constructieve Analyse 3' op de Hogeschool van Amsterdam](https://youtu.be/fqbObUeKPYk) {cite:p}`HvA_torsielijn`
 
-% Source files on https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/torsie
 ```
 ````
 
@@ -32,6 +31,7 @@ Het bepalen van de wringende momentenlijn wordt getoond op onderstaande voorbeel
 ```{figure} ./instructie2_data/torsielijn.svg
 ---
 align: center
+source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/torsie
 ---
 Voorbeeldconstructie
 ```
@@ -43,6 +43,7 @@ Daarvoor maken we op alle karakteristieke punten een snede. Beginnend bij $\rm{G
 ```{figure} ./instructie2_data/FBD_GH.svg
 ---
 align: center
+source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/torsie
 ---
 Het buigend moment $M_z$ is aangegeven met een kromme pijl en het wringend moment $M_{\rm{t}}$ met een pijl met dubbele pijlpunt. De snedekrachten in de andere vlakken en de normaalkracht zijn weggelaten.
 ```
@@ -63,6 +64,7 @@ Daarmee kan een beginnetje worden gemaakt met de wringende momentenlijn:
 ```{figure} ./instructie2_data/Mt-lijn-GH.svg
 ---
 align: center
+source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/torsie
 ---
 Wringende momentenlijn met enkel deel $\rm{GH}$ bekend
 ```
@@ -72,6 +74,7 @@ Vervolgens maken we een snede in $\rm{E}$:
 ```{figure} ./instructie2_data/FBD_EH.svg
 ---
 align: center
+source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/torsie
 ---
 De snedekrachten die gelijk zijn aan $0$ zijn weggelaten.
 ```
@@ -95,6 +98,7 @@ Daarmee kan de wringende momentenlijn verder worden ingevuld:
 ```{figure} ./instructie2_data/Mt-lijn-EG.svg
 ---
 align: center
+source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/torsie
 ---
 Wringende momentenlijn met deel $\rm{GH}$ en $\rm{EH}$ bekend
 ```
@@ -104,6 +108,7 @@ Op dezelfde manier kunnen we doorgaan met snedes. Bijvoorbeeld met een snede bij
 ```{figure} ./instructie2_data/FBD_DE.svg
 ---
 align: center
+source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/torsie
 ---
 De snedekrachten die gelijk zijn aan $0$ zijn weggelaten.
 ```
@@ -121,6 +126,7 @@ Vervolgens het wringend moment in deel $\rm{CD}$:
 ```{figure} ./instructie2_data/FBD_CD.svg
 ---
 align: center
+source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/torsie
 ---
 De snedekrachten die gelijk zijn aan $0$ zijn weggelaten.
 ```
@@ -138,6 +144,7 @@ Vervolgens het wringend moment in deel $\rm{BC}$:
 ```{figure} ./instructie2_data/FBD_BC.svg
 ---
 align: center
+source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/torsie
 ---
 De snedekrachten die gelijk zijn aan $0$ zijn weggelaten.
 ```
@@ -155,6 +162,7 @@ Tot slot het wringend moment in deel $\rm{AB}$:
 ```{figure} ./instructie2_data/FBD_AB.svg
 ---
 align: center
+source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/torsie
 ---
 De snedekrachten die gelijk zijn aan $0$ zijn weggelaten.
 ```
@@ -172,6 +180,7 @@ Dit alles samen geeft de volgende wringende momentenlijn:
 ```{figure} ./instructie2_data/Mt-lijn.svg
 ---
 align: center
+source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/torsie
 ---
 ```
 

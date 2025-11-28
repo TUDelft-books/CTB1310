@@ -7,8 +7,6 @@ Deze oefening is gebaseerd op [deze oefening uit het online boek van het vak CT1
 ```
 ````
 
-% Source files on https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/torsie2
-
 # Begeleide oefening 1
 
 Gegeven is de volgende constructie:
@@ -16,6 +14,7 @@ Gegeven is de volgende constructie:
 ```{figure} ./lesoefening_data/constructie.svg
 ---
 align: center
+source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/torsie2
 ---
 Constructie
 ```
@@ -28,6 +27,7 @@ Gegeven zijn twee 3D-weergaves van de constructie
 ```{figure} ./lesoefening_data/3D.svg
 ---
 align: center
+source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/torsie2
 ---
 ```
 
@@ -90,6 +90,7 @@ Bepaal de wringend momentenlijn.
 ```{figure} ./lesoefening_data/Mt-line.svg
 ---
 align: center
+source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/torsie2
 ---
 Wringend momentenlijn
 ```

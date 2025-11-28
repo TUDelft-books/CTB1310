@@ -2,6 +2,7 @@
 teachbooks
 
 git+https://github.com/TeachBooks/TeachBooks-Favourites
+git+https://github.com/TeachBooks/Sphinx-Metadata-Figure
 
 sphinx-tudelft-theme
 sphinx-apa-references
