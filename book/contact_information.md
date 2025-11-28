@@ -22,7 +22,7 @@ Als je vastloopt met een bepaald onderwerp, kun je terecht bij de studentassiste
 - SA-mech-CITG@tudelft.nl
 
 ```{figure} figures/overzichtfoto's.jpg
-:width: 300px
+:width: 473px
 :align: center
 :class: dark-light
 ```
