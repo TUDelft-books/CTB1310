@@ -445,11 +445,11 @@
 			</g>
 			<g id="shape520-264" v:mID="520" v:groupContext="shape" transform="translate(-12.4016,2.84217E-14)">
 				<title>Blad.520</title>
-				<desc>10 m</desc>
+				<desc>17.5 m</desc>
 				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
 				<v:textRect cx="37.2047" cy="173.443" width="74.41" height="14.1732"/>
 				<rect x="0" y="166.357" width="74.4095" height="14.1732" class="st1"/>
-				<text x="25.04" y="177.04" class="st7" v:langID="1043"><v:paragraph v:horizAlign="1"/><v:tabList/>10 m</text>			</g>
+				<text x="20.54" y="177.04" class="st7" v:langID="1043"><v:paragraph v:horizAlign="1"/><v:tabList/>17.5 m</text>			</g>
 		</g>
 	</g>
 </svg>
