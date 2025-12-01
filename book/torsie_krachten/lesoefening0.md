@@ -81,6 +81,16 @@ M_{\rm{t}}^{\rm{AB}} &= 2 \ \rm{kNm} \left( \twoheadleftarrow \mid \twoheadright
 \end{align*} 
 $$
 
+Dit geeft de volgende wringende momentenlijn:
+
+```{figure} ./instructie2_data/Mt-lijn.svg
+---
+align: center
+source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/torsie
+---
+Wringende momentenlijn gehele constructie
+```
+
 ::::
 
 % solution_end

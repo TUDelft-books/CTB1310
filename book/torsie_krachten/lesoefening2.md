@@ -39,7 +39,7 @@ Wat weet je over de vorm van de wringende momentenlijn.
 
 De wringende momentenlijn verloopt tussen de punten $\rm{A}$ en $\rm{B}$, $\rm{B}$ en $\rm{C}$ *linear*: de constante verdeelde belasting treedt op naast het dwarskrachtencentrum, dus dat zorgt voor een lineair verlopende wringende momentenlijn.
 
-In \(\rm{C}\) het wringend moment is gelijk aan *een nog onbekende waarde*: dit uiteinde is geen vrij uiteinde.
+In $\rm{C}$ het wringend moment is gelijk aan *een nog onbekende waarde*: dit uiteinde is geen vrij uiteinde.
 
 Rondom de punten $\rm{A}$ en $\rm{B}$, het wringende moment maakt *een sprong*: de uitwendige geconcentreerde wringende momenten zorgen voor een uitwendig wringend moment, wat een sprong veroorzaakt inde wringende momentenlijn.
 
