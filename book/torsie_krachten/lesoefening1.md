@@ -22,7 +22,7 @@ Constructie
 :::::{exercise}
 :nonumber: true
 
-Gegeven zijn twee 3D-weergaves van de constructie
+Gegeven zijn vier 3D-weergaves van de constructie
 
 ```{figure} ./lesoefening_data/3D.svg
 ---
@@ -31,7 +31,7 @@ source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tre
 ---
 ```
 
-```{h5p} https://tudelft.h5p.com/content/1292750958020428577/embed
+```{h5p} https://tudelft.h5p.com/content/1292760346691162017/embed
 ```
 
 :::::
@@ -41,7 +41,41 @@ source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tre
 ::::{admonition} Oplossing
 :class: solution, dropdown
 
+Optie 1 is correct:
+
 Ons assenstelsel is altijd rechtsdraaiend, dus een rotatie van bijvoorbeeld z naar x geeft met de rechterhandregel je duim in de richting van de y-as.
+
+Het assenstelsel had daarnaast de verdeelde belastingen en oplegging op de x-as, niet de puntlasten.
+
+::::
+
+% solution_end
+
+:::::{exercise}
+:nonumber: true
+
+Gegeven zijn vier 2D-weergaves van de constructie
+
+```{figure} ./lesoefening_data/2D.svg
+---
+align: center
+source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/torsie2
+---
+```
+
+```{h5p} https://tudelft.h5p.com/content/1292760349282191447/embed
+```
+
+:::::
+
+% solution_start
+
+::::{admonition} Oplossing
+:class: solution, dropdown
+
+Optie 1 is correct:
+
+De puntenlasten zorgen voor draaiing van \(z\) naar \(y\) dus dat is een negatief wringend moment. De verdeelde belasting zorgt niet voor een wringend moment.
 
 ::::
 
