@@ -13,6 +13,7 @@ Als je vastloopt met een bepaald onderwerp, kun je terecht bij de studentassiste
 :width: 300px
 :align: center
 :class: dark-light
+:source: Private collection
 ```
 
 ## Studentassistenten

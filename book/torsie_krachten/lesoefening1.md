@@ -7,7 +7,7 @@ Deze oefening is gebaseerd op [deze oefening uit het online boek van het vak CT1
 ```
 ````
 
-# Begeleide oefening 1
+# Begeleide oefening 2
 
 Gegeven is de volgende constructie:
 
