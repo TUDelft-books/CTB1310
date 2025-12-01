@@ -173,6 +173,7 @@ Dit geeft de volgende wringende momentenlijn:
 align: center
 source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/torsie
 ---
+Deel van de wringende momentenlijn
 ```
 
 De rest van deze momentenlijn volgt in [](./lesoefening0.md).

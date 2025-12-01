@@ -7,9 +7,45 @@ Deze pagina is gebaseerd op de [kennisclip 'torsielijn' als onderdeel van het va
 ```
 ````
 
-# Begeleide oefening 0
+# Begeleide oefening 1
 
-Vervolgens het wringend moment in deel $\rm{BC}$:
+In [](./instructie2.md) is een deel van de wringende momentenlijn bepaald voor de volgende constructie:
+
+```{figure} ./instructie2_data/torsielijn.svg
+---
+align: center
+source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/torsie
+---
+
+```
+Deze wringende momentenlijn was al gevonden:
+
+```{figure} ./instructie2_data/Mt-lijn_deels.svg
+---
+align: center
+source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/torsie
+---
+Deel van de wringende momentenlijn
+```
+
+Waarvan je de rest van de wringende momentenlijn gaat bepalen.
+
+:::::{exercise}
+:nonumber: true
+
+Bepaal de wringend momentenlijn.
+
+```{h5p} https://tudelft.h5p.com/content/1292760395413508957/embed
+```
+
+:::::
+
+% solution_start
+
+::::{admonition} Oplossing
+:class: solution, dropdown
+
+Het wringend moment in deel $\rm{BC}$:
 
 ```{figure} ./instructie2_data/FBD_BC.svg
 ---
@@ -44,3 +80,7 @@ M_{\rm{t}}^{\rm{AB}} + 10 \cdot 1 - 3 \cdot 2 \cdot 1 - \frac{1}{2} \cdot 6 \cdo
 M_{\rm{t}}^{\rm{AB}} &= 2 \ \rm{kNm} \left( \twoheadleftarrow \mid \twoheadrightarrow \right)
 \end{align*} 
 $$
+
+::::
+
+% solution_end

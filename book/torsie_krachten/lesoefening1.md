@@ -19,6 +19,8 @@ source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tre
 Constructie
 ```
 
+Waarvan je de wringende momentenlijn moet bepalen.
+
 :::::{exercise}
 :nonumber: true
 
