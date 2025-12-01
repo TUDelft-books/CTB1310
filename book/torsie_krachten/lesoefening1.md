@@ -77,7 +77,7 @@ source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tre
 
 Optie 1 is correct:
 
-De puntenlasten zorgen voor draaiing van \(z\) naar \(y\) dus dat is een negatief wringend moment. De verdeelde belasting zorgt niet voor een wringend moment.
+De puntenlasten zorgen voor draaiing van $z$ naar $y$ dus dat is een negatief wringend moment. De verdeelde belasting zorgt niet voor een wringend moment.
 
 ::::
 
