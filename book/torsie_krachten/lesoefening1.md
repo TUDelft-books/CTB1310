@@ -49,6 +49,10 @@ Ons assenstelsel is altijd rechtsdraaiend, dus een rotatie van bijvoorbeeld z na
 
 Het assenstelsel had daarnaast de verdeelde belastingen en oplegging op de x-as, niet de puntlasten.
 
+Optie 3 is ook correct:
+
+Het assenstelsel mag verplaatst worden, zolang de wringende momenten worden bepaald in de staafas en niet in de verplaatste x-as. 
+
 ::::
 
 % solution_end
