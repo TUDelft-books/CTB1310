@@ -104,9 +104,9 @@ Wat weet je over de vorm van de wringende momentenlijn.
 
 De wringende momentenlijn verloopt tussen de punten $\rm{A}$ en $\rm{B}$, $\rm{B}$ en $\rm{C}$, etc *constant*: de verdeelde belasting treedt op in het dwarskrachtencentrum, dus er is geen verdeelde belasting die zorgt voor wringende momenten.
 
-In \(\rm{E}\) het wringend moment is gelijk aan *0*: op het vrije uiteinde werken geen uitwendige wringende momenten, dus de wringende momentenlijn begint op 0.
+In $\rm{E}$ is het wringend moment gelijk aan *0*: op het vrije uiteinde werken geen uitwendige wringende momenten, dus de wringende momentenlijn begint op 0.
 
-Rondom de punten $\rm{B}$, $\rm{C}$, $\rm{D}$ en $\rm{E}$, het wringende moment maakt *een sprong*: de puntlasten zorgen voor een uitwendig wringend moment, wat een sprong veroorzaakt inde wringende momentenlijn.
+Rondom de punten $\rm{B}$, $\rm{C}$, $\rm{D}$ en $\rm{E}$, maakt het wringende moment *een sprong*: de puntlasten zorgen voor een uitwendig wringend moment, wat een sprong veroorzaakt in de wringende momentenlijn.
 
 ::::
 
