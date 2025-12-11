@@ -53,7 +53,6 @@ sphinx:                                              # Options passed on to the 
     - teachbooks_favourites
     - sphinx_tudelft_theme
     - sphinx_apa_references
-    - sphinx_metadata_figure
 
 teachbooks:
   attribution_color: attributiongrey

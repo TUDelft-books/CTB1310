@@ -11,6 +11,9 @@ parts:
 # START REMOVE-FROM-RELEASE
 - caption: Lesstof 🧑‍🏫
   chapters:
+  - file: shear_rect/les.md
+    sections:
+    - file: shear_rect/instructie.md
   - file: torsie_krachten/les.md
     sections:
     - file: torsie_krachten/instructie.md
