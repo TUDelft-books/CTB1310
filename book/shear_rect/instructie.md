@@ -24,7 +24,7 @@ Een klein stukje materiaal dat wordt belast door schuifspanningen en normaalspan
 
 ::::::
 
-Voor het bepalen van schuifspanningen kijken we naar het evenwicht van een stukje van een balk op.
+Voor het bepalen van schuifspanningen kijken we naar het evenwicht van een stukje van een balk, het zogenaamde afschuivende deel.
 
 ...
 
