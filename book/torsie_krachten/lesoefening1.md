@@ -49,6 +49,10 @@ Ons assenstelsel is altijd rechtsdraaiend, dus een rotatie van bijvoorbeeld z na
 
 Het assenstelsel had daarnaast de verdeelde belastingen en oplegging op de x-as, niet de puntlasten.
 
+Optie 3 is ook correct:
+
+Je hebt nu het assenstelsel verplaatst, maar dat is niet erg zolang je de wringende momenten nog maar wel laat aangrijpen in het dwarskrachtencentrum, niet op de locatie van het nieuwe assenstelsel.
+
 ::::
 
 % solution_end
@@ -100,9 +104,9 @@ Wat weet je over de vorm van de wringende momentenlijn.
 
 De wringende momentenlijn verloopt tussen de punten $\rm{A}$ en $\rm{B}$, $\rm{B}$ en $\rm{C}$, etc *constant*: de verdeelde belasting treedt op in het dwarskrachtencentrum, dus er is geen verdeelde belasting die zorgt voor wringende momenten.
 
-In \(\rm{E}\) het wringend moment is gelijk aan *0*: op het vrije uiteinde werken geen uitwendige wringende momenten, dus de wringende momentenlijn begint op 0.
+In $\rm{E}$ is het wringend moment gelijk aan *0*: op het vrije uiteinde werken geen uitwendige wringende momenten, dus de wringende momentenlijn begint op 0.
 
-Rondom de punten $\rm{B}$, $\rm{C}$, $\rm{D}$ en $\rm{E}$, het wringende moment maakt *een sprong*: de puntlasten zorgen voor een uitwendig wringend moment, wat een sprong veroorzaakt inde wringende momentenlijn.
+Rondom de punten $\rm{B}$, $\rm{C}$, $\rm{D}$ en $\rm{E}$, maakt het wringende moment *een sprong*: de puntlasten zorgen voor een uitwendig wringend moment, wat een sprong veroorzaakt in de wringende momentenlijn.
 
 ::::
 
