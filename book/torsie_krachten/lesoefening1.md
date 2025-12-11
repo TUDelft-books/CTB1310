@@ -51,7 +51,7 @@ Het assenstelsel had daarnaast de verdeelde belastingen en oplegging op de x-as,
 
 Optie 3 is ook correct:
 
-Het assenstelsel mag verplaatst worden, zolang de wringende momenten worden bepaald in de staafas en niet in de verplaatste x-as. 
+Je hebt nu het assenstelsel verplaatst, maar dat is niet erg zolang je de wringende momenten nog maar wel laat aangrijpen in het dwarskrachtencentrum, niet op de locatie van het nieuwe assenstelsel.
 
 ::::
 
