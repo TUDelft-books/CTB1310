@@ -79,11 +79,11 @@
 		</g>
 		<g id="shape1430-19" v:mID="1430" v:groupContext="shape" transform="translate(81.1623,-99.5876)">
 			<title>Blad.1430</title>
-			<desc>6 kN</desc>
+			<desc>60 kN</desc>
 			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
-			<v:textRect cx="17.7166" cy="133.935" width="35.44" height="14.1732"/>
-			<rect x="0" y="126.849" width="35.4331" height="14.1732" class="st6"/>
-			<text x="5.88" y="137.54" class="st7" v:langID="1043"><v:paragraph v:horizAlign="1"/><v:tabList/>6 kN</text>		</g>
+			<v:textRect cx="21.2598" cy="133.935" width="42.52" height="14.1732"/>
+			<rect x="0" y="126.849" width="42.5197" height="14.1732" class="st6"/>
+			<text x="6.43" y="137.54" class="st7" v:langID="1043"><v:paragraph v:horizAlign="1"/><v:tabList/>60 kN</text>		</g>
 		<g id="shape1431-22" v:mID="1431" v:groupContext="shape" transform="translate(3.20952,-85.4144)">
 			<title>Blad.1431</title>
 			<desc>A</desc>

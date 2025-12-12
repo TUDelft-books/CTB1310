@@ -133,8 +133,8 @@ Dat betekent dus dat de schuifspanningen op de linker en rechter doorsnede ter h
 
 Spanningen op afschuivend deel van de doorsnede.
 ```
-### Conclusie schuifspanningen
 
+### Conclusie schuifspanningen
 
 De schuifspanningsformule beschrijft dus de schuifspanningen zowel in langsrichting $x$ als in het doorsnedevlak $yz$ volgens $\tau_{\rm{gem}} \left( z \right) = -\cfrac{V_{z} \, S_{z}^{\rm{a}} \left( z \right)}{b \left(z \right) \, I_{zz}}$
 
@@ -183,7 +183,7 @@ Daarnaast leidt de relatie $\sigma_{zx} = \sigma_{xz}$ ook tot de conclusie dat 
 Spanningen op randen zijn nul loodrecht op de rand.
 ```
 
-Tot slot kunnen we de formule simplificeren door het teken direct te relateren aan de richting van de snedekracht. De resultante van de schuifspanning werkt namelijk altijd in de richting van de snedekracht. We kunnen daarmee de formule herschrijven naar: $\tau_{\rm{gem}} \left( z \right) = \left| \cfrac{V_{z} \, S_{z}^{\rm{a}} \left( z \right)}{b \left(z \right) \, I_{zz}} \right|$.
+Tot slot kunnen we de formule simplificeren door het teken direct te relateren aan de richting van de snedekracht. De resultante van de schuifspanning werkt namelijk altijd in de richting van de snedekracht. We kunnen daarmee de formule herschrijven naar: $\tau_{\rm{gem}} \left( z \right) = \left| - \cfrac{V_{z} \, S_{z}^{\rm{a}} \left( z \right)}{b \left(z \right) \, I_{zz}} \right|$.
 
 ```{figure} ./instructie_data/richtingen.svg
 :align: center
@@ -198,7 +198,7 @@ Daarmee kunnen we de volgende aanpak beschrijven voor het bepalen van het schuif
 :nonumber: true
 
 1. Bereken de snedekracht $V_z$ in de doorsnede.
-2. Neem een aantal karakteristieke afschuivend delen waarin de schuifspanningen constant zijn en bepaal de schuifspanningen op deze delen met $\tau_{\rm{gem}} \left( z \right) = \left| \cfrac{V_{z} \, S_{z}^{\rm{a}} \left( z \right)}{b \left(z \right) \, I_{zz}} \right|$. Het afschuivende deel door het normaalkrachtencentrum geeft de maximale schuifspanning. Leidt het teken af van de schuifspanningen af aan de hand van de richting van de snedekracht.
+2. Neem een aantal karakteristieke afschuivend delen waarin de schuifspanningen constant zijn en bepaal de schuifspanningen op deze delen met $\tau_{\rm{gem}} \left( z \right) = \left| - \cfrac{V_{z} \, S_{z}^{\rm{a}} \left( z \right)}{b \left(z \right) \, I_{zz}} \right|$. Het afschuivende deel door het normaalkrachtencentrum geeft de maximale schuifspanning. Leidt het teken af van de schuifspanningen af aan de hand van de richting van de snedekracht.
 3. Teken het schuifspanningsprofiel in bijvoorbeeld het $x,z$-assenstelsel. Voor een rechthoekige doorsnede verloopt dit parabolisch.
 
 ::::::
@@ -242,7 +242,7 @@ Vrijlichaamsschema van linker deel van constructie doorgesneden in $\rm{D}$.
 ```
 
 $$
-\sum F_{\rm{v}} = 0 \to V_{\rm{D}} = 3 \, \rm{kN} \left(⎽|⎺\right)
+\sum F_{\rm{v}} = 0 \to V_{\rm{D}} = 30 \, \rm{kN} \left(⎽|⎺\right)
 $$
 
 Nu kunnen we de schuifspanningen bepalen op karakteristieke afschuivende delen in de doorsnede. Op de boven en onderzijde is de schuifspanning $0$ en aangezien we een rechthoekige doorsnede hebben weten we dat het schuifspanningsverloop parabolisch is met een maximum ter hoogte van het normaalkrachtencentrum. Daarom wordt op dat punt de maximale schuifspanning bepaald waarmee het hele schuifspanningsverloop gedefinieerd is. Het normaalkrachtencentrum bevindt zich in het zwaartepunt van de doorsnede, wat voor een rechthoek precies in het midden is.
@@ -259,8 +259,8 @@ Het statisch moment van dit afschuivende deel is:
 $$
 \begin{align*}
 S_{z}^{\rm{a}} \left( 0 \right) &= A_{\rm{afschuivend} \, \rm{deel}} \, z_{\rm{N.C.} \longleftrightarrow \rm{zwaartepunt} \, \rm{afschuivend} \, \rm{deel} } \\
-&= \left( 90 \cdot 62.25 \cdot 2\right) \cdot \cfrac{90}{2}\\
-&= 506250 \, \rm{mm^3}
+&= \left( 90 \cdot 62.25 \cdot 2\right) \cdot -\cfrac{90}{2}\\
+&= -506250 \, \rm{mm^3}
 \end{align*}
 $$
 
@@ -278,9 +278,9 @@ Daarmee kunnen we de maximale schuifspanning bepalen:
 
 $$
 \begin{align*}
-\tau_{\rm{max}} &= \left| \cfrac{V_{z} \, S_{z}^{\rm{a}} \left( 0 \right)}{b \, I_{zz}} \right| \\
-&= \left| \cfrac{3000 \, \cdot 506250}{125 \cdot 60750000} \right| \\
-&= 20 \, \rm{MPa}
+\tau_{\rm{max}} &= \left| -\cfrac{V_{z} \, S_{z}^{\rm{a}} \left( 0 \right)}{b \, I_{zz}} \right| \\
+&= \left| -\cfrac{30000 \, \cdot -506250}{125 \cdot 60750000} \right| \\
+&= 2 \, \rm{MPa}
 \end{align*}
 $$
 

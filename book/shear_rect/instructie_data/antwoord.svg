@@ -115,11 +115,11 @@
 		</g>
 		<g id="shape1660-62" v:mID="1660" v:groupContext="shape" transform="translate(124.95,-71.2411)">
 			<title>Maatlijn verticaal.1619</title>
-			<desc>20 MPa</desc>
+			<desc>2 MPa</desc>
 			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
 			<v:textRect cx="24.0945" cy="135.396" width="48.19" height="14.1732"/>
 			<rect x="0" y="128.309" width="48.189" height="14.1732" class="st3"/>
-			<text x="5.26" y="139" class="st10" v:langID="1043"><v:paragraph v:horizAlign="1"/><v:tabList/>20 MPa</text>		</g>
+			<text x="8.26" y="139" class="st10" v:langID="1043"><v:paragraph v:horizAlign="1"/><v:tabList/>2 MPa</text>		</g>
 		<g id="shape1661-65" v:mID="1661" v:groupContext="shape" transform="translate(54.0836,-127.934)">
 			<title>Maatlijn verticaal.1661</title>
 			<desc>0 MPa</desc>
