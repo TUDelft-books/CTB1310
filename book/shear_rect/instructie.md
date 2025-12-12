@@ -11,6 +11,7 @@ Twee op elkaar liggende balken. Voor het samenvoegen zouden schuifspanningen nod
 
 ## Model
 
+### Evenwicht afschuivend deel
 Voor het bepalen van schuifspanningen kijken we naar het evenwicht van een infinitesimaal (oneindig kleine afmetingen) stukje van een balk
 
 ```{figure} ./instructie_data/beam_section.svg
@@ -103,6 +104,8 @@ $$
 
 ::::::
 
+### Evenwicht infinitesimaal blokje
+
 We kunnen ook de schuifspanning op de linker en rechter doorsnede vinden. Dit kunnen we doen door het momentenevenwicht van de schuifspanningen te bekijken op een infinitesimaal (oneindig kleine afmetingen) blokje. De schuifspanningen zijn beschreven met index-notatie, waarbij de eerste index de normaalrichting van het vlakje aangeeft waar de spanning op werkt en de tweede index de richting van de werklijn van de spanning.
 
 ```{figure} ./instructie_data/blokje.svg
@@ -130,11 +133,10 @@ Dat betekent dus dat de schuifspanningen op de linker en rechter doorsnede ter h
 
 Spanningen op afschuivend deel van de doorsnede.
 ```
+### Conclusie schuifspanningen
 
-De schuifspanningsformule beschrijft dus de schuifspanningen zowel in langsrichting $x$ als in het doorsnedevlak $yz$
 
-
-## Eigenschappen schuifspanningsmodel
+De schuifspanningsformule beschrijft dus de schuifspanningen zowel in langsrichting $x$ als in het doorsnedevlak $yz$ volgens $\tau_{\rm{gem}} \left( z \right) = -\cfrac{V_{z} \, S_{z}^{\rm{a}} \left( z \right)}{b \left(z \right) \, I_{zz}}$
 
 Vanwege de aanname dat de schuifspanning gemiddeld verdeeld is over de langsrichting van het afschuivende deel van de doorsnede, geldt dat de formule alleen een geldig antwoord geeft als een afschuivend deel wordt genomen waarin de schuifspanning daadwerkelijk constant is. Het blijkt dat dit alleen geldig is als de breedte van de doorsnede veel kleiner is dan de hoogte. Als we zo'n doorsnede hebben moet het snedevlak dan symmetrisch en dwars op de randen van de doorsnede genomen:
 
