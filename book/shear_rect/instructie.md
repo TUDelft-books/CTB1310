@@ -136,7 +136,7 @@ De schuifspanningsformule beschrijft dus de schuifspanningen zowel in langsricht
 
 ## Eigenschappen schuifspanningsmodel
 
-Vanwege de aanname dat de schuifspanning gemiddeld verdeeld is over de langsrichting van het afschuivende deel van de doorsnede, geldt dat de formule alleen een geldig antwoord geeft als een afschuivend deel wordt genomen waarin de schuifspanning daadwerkelijk constant is. Het snedevlak moet daarom symmetrisch en dwars op de randen van de doorsnede genomen:
+Vanwege de aanname dat de schuifspanning gemiddeld verdeeld is over de langsrichting van het afschuivende deel van de doorsnede, geldt dat de formule alleen een geldig antwoord geeft als een afschuivend deel wordt genomen waarin de schuifspanning daadwerkelijk constant is. Het blijkt dat dit alleen geldig is als de breedte van de doorsnede veel kleiner is dan de hoogte. Als we zo'n doorsnede hebben moet het snedevlak dan symmetrisch en dwars op de randen van de doorsnede genomen:
 
 ```{figure} ./instructie_data/constant.svg
 :align: center
@@ -178,7 +178,128 @@ Daarnaast leidt de relatie $\sigma_{zx} = \sigma_{xz}$ ook tot de conclusie dat 
 :align: center
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/shear_rect
 
-Spanningen op randen zijn nul dwars op de rand.
+Spanningen op randen zijn nul loodrecht op de rand.
 ```
 
-## Rechthoekige doorsnede
+Tot slot kunnen we de formule simplificeren door het teken direct te relateren aan de richting van de snedekracht. De resultante van de schuifspanning werkt namelijk altijd in de richting van de snedekracht. We kunnen daarmee de formule herschrijven naar: $\tau_{\rm{gem}} \left( z \right) = \left| \cfrac{V_{z} \, S_{z}^{\rm{a}} \left( z \right)}{b \left(z \right) \, I_{zz}} \right|$.
+
+```{figure} ./instructie_data/richtingen.svg
+:align: center
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/shear_rect
+
+Resultante van schuifspanningen komt overeen met richting van snedekracht. Normaalspanningen zijn niet getoond.
+```
+
+Daarmee kunnen we de volgende aanpak beschrijven voor het bepalen van het schuifspanningsverloop in een doorsnede:
+
+::::::{prf:algorithm} Bepalen schuifspanningsverloop in een doorsnede
+:nonumber: true
+
+1. Bereken de snedekracht $V_z$ in de doorsnede.
+2. Neem een aantal karakteristieke afschuivend delen waarin de schuifspanningen constant zijn en bepaal de schuifspanningen op deze delen met $\tau_{\rm{gem}} \left( z \right) = \left| \cfrac{V_{z} \, S_{z}^{\rm{a}} \left( z \right)}{b \left(z \right) \, I_{zz}} \right|$. Het afschuivende deel door het normaalkrachtencentrum geeft de maximale schuifspanning. Leidt het teken af van de schuifspanningen af aan de hand van de richting van de snedekracht.
+3. Teken het schuifspanningsprofiel in bijvoorbeeld het $x,z$-assenstelsel. Voor een rechthoekige doorsnede verloopt dit parabolisch.
+
+::::::
+
+## Voorbeeld
+
+Het bepalen van de wringende momentenlijn wordt getoond op onderstaande voorbeeld.
+
+::::::{prf:example}
+:nonumber: true
+
+```{figure} ./instructie_data/voorbeeld.svg
+:align: center
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/shear_rect
+
+Voorbeeldconstructie
+```
+
+Gevraagd is het schuifspanningsverloop op een positieve snede in $\rm{D}$.
+
+Allereerst bepalen we de dwarskracht in doorsnede $\rm{D}$. Daarvoor bepalen we eerst de oplegreacties:
+
+```{figure} ./instructie_data/oplegreacties.svg
+:align: center
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/shear_rect
+
+Vrijlichaamsschema van de gehele constructie.
+```
+
+$$
+\left. \sum T \right| _{\rm{B}} = 0 \to A_{\rm{v}} = 3 \, \rm{kN} \left(↑\right)
+$$
+
+Daarmee kunnen we de dwarskracht in $\rm{D}$ bepalen op een positieve snede:
+
+```{figure} ./instructie_data/FBD_D.svg
+:align: center
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/shear_rect
+
+Vrijlichaamsschema van linker deel van constructie doorgesneden in $\rm{D}$.
+```
+
+$$
+\sum F_{\rm{v}} = 0 \to V_{\rm{D}} = 3 \, \rm{kN} \left(⎽|⎺\right)
+$$
+
+Nu kunnen we de schuifspanningen bepalen op karakteristieke afschuivende delen in de doorsnede. Op de boven en onderzijde is de schuifspanning $0$ en aangezien we een rechthoekige doorsnede hebben weten we dat het schuifspanningsverloop parabolisch is met een maximum ter hoogte van het normaalkrachtencentrum. Daarom wordt op dat punt de maximale schuifspanning bepaald waarmee het hele schuifspanningsverloop gedefinieerd is. Het normaalkrachtencentrum bevindt zich in het zwaartepunt van de doorsnede, wat voor een rechthoek precies in het midden is.
+
+```{figure} ./instructie_data/afschuivend_deel.svg
+:align: center
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/shear_rect
+
+Afschuivend deel door het normaalkrachtencentrum.
+```
+
+Het statisch moment van dit afschuivende deel is:
+
+$$
+\begin{align*}
+S_{z}^{\rm{a}} \left( 0 \right) &= A_{\rm{afschuivend} \, \rm{deel}} \, z_{\rm{N.C.} \longleftrightarrow \rm{zwaartepunt} \, \rm{afschuivend} \, \rm{deel} } \\
+&= \left( 90 \cdot 62.25 \cdot 2\right) \cdot \cfrac{90}{2}\\
+&= 506250 \, \rm{mm^3}
+\end{align*}
+$$
+
+Het traagheidsmoment van de volledige doorsnede is:
+
+$$
+\begin{align*}
+I_{zz} &= \cfrac{b \, h^3}{12} \\
+&= \cfrac{125 \cdot 180^3}{12} \\
+&= 60750000 \, \rm{mm^4}
+\end{align*}
+$$
+
+Daarmee kunnen we de maximale schuifspanning bepalen:
+
+$$
+\begin{align*}
+\tau_{\rm{max}} &= \left| \cfrac{V_{z} \, S_{z}^{\rm{a}} \left( 0 \right)}{b \, I_{zz}} \right| \\
+&= \left| \cfrac{3000 \, \cdot 506250}{125 \cdot 60750000} \right| \\
+&= 20 \, \rm{MPa}
+\end{align*}
+$$
+
+Dat geeft het volgende schuifspanningsverloop in de doorsnede:
+
+```{figure} ./instructie_data/antwoord.svg
+:align: center
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/shear_rect
+
+Schuifspanningsverloop op positieve snede in $\rm{D}$.
+```
+
+## Alternatieve afleiding
+In hoofdstuk 5.1 en 5.3 van het boek Mechanica, spanningen, vervormingen en verplaatsingen {cite:p}`Hartsuijker2013` wordt een alternatief model afgeleid gegeven voor het bepalen van schuifspanningen.
+
+## Meer voorbeelden
+In hoofdstuk 5.2 en 5.4.1 van het boek Mechanica, spanningen, vervormingen en verplaatsingen {cite:p}`Hartsuijker2013` worden meer voorbeelden gegeven van het bepalen van schuifspanningen in verschillende situaties. Negeer voorbeeld 5.2.2 - 5.2.4 en voorbeeld 2 in 5.4.1.
+
+% ## Instructies in collegevorm
+%
+% Dit onderwerp is [les ...](...) gepresenteerd in collegevorm tot ....
+
+## Oefeningen
+Opgaves 5.2b, 5.3, 5.13 - 5.28, 5.69 en 5.71 in hoofdstuk 5 van het boek Mechanica, spanningen, vervormingen en verplaatsingen {cite:p}`Hartsuijker2013`. Antwoorden zijn [hier](https://icozct.tudelft.nl/TUD_CT/boekantwoorden/vol2/Chapter6/) beschikbaar.
