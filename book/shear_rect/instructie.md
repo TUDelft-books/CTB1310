@@ -183,7 +183,7 @@ Daarnaast leidt de relatie $\sigma_{zx} = \sigma_{xz}$ ook tot de conclusie dat 
 Spanningen op randen zijn nul loodrecht op de rand.
 ```
 
-Tot slot kunnen we de formule simplificeren door het teken direct te relateren aan de richting van de snedekracht. De resultante van de schuifspanning werkt namelijk altijd in de richting van de snedekracht. We kunnen daarmee de formule herschrijven naar: $\tau_{\rm{gem}} \left( z \right) = \left| - \cfrac{V_{z} \, S_{z}^{\rm{a}} \left( z \right)}{b \left(z \right) \, I_{zz}} \right|$.
+Tot slot kunnen we de formule simplificeren door het teken direct te relateren aan de richting van de snedekracht. De resultante van de schuifspanning werkt namelijk altijd in de richting van de snedekracht. We kunnen daarmee de formule herschrijven naar: $\tau_{\rm{gem}} \left( z \right) = \left| \cfrac{V_{z} \, S_{z}^{\rm{a}} \left( z \right)}{b \left(z \right) \, I_{zz}} \right|$.
 
 ```{figure} ./instructie_data/richtingen.svg
 :align: center
@@ -278,8 +278,8 @@ Daarmee kunnen we de maximale schuifspanning bepalen:
 
 $$
 \begin{align*}
-\tau_{\rm{max}} &= \left| -\cfrac{V_{z} \, S_{z}^{\rm{a}} \left( 0 \right)}{b \, I_{zz}} \right| \\
-&= \left| -\cfrac{30000 \, \cdot -506250}{125 \cdot 60750000} \right| \\
+\tau_{\rm{max}} &= \left| \cfrac{V_{z} \, S_{z}^{\rm{a}} \left( 0 \right)}{b \, I_{zz}} \right| \\
+&= \left| \cfrac{30000 \, \cdot -506250}{125 \cdot 60750000} \right| \\
 &= 2 \, \rm{MPa}
 \end{align*}
 $$
