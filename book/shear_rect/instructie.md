@@ -78,10 +78,25 @@ Met:
 
 ::::::{prf:assumption}
 :nonumber: true
+:label: gemiddelde_schuifspanning
 
-Om het evenwicht op te stellen kunnen we alleen de resulterende schuifkracht bepalen, de verdeling is daarmee onbekend. We kunnen daarmee alleen maar de gemiddelde schuifspanning bepalen. Voor doorsnedes in het $xy$ vlak blijkt deze gemiddelde schuifspanning terecht als de breedte van de doorsnede veel kleiner is dan de hoogte van de doorsnede.
+Om het evenwicht op te stellen kunnen we alleen de resulterende schuifkracht bepalen, de verdeling is daarmee onbekend. We kunnen daarmee alleen maar de gemiddelde schuifspanning bepalen. Voor afschuivende vlakken blijkt deze gemiddelde schuifspanning terecht als de breedte van de doorsnede veel kleiner is dan de hoogte van de doorsnede.
 
-Daarnaast gaan we in deze berekeningen uit van dezelfde $I_{zz}$ in de linker en rechter doorsnede, wat betekent dat we aannemen dat de doorsnede niet verandert over de lengte van de balk; dus een prismatische balk.
+```{figure} ./instructie_data/hb.svg
+:align: center
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/shear_rect
+
+Voor doorsnedes waarin de breedte veel kleiner is dan de hoogte zoals links getoond, is de aanname van een gemiddelde schuifspanning geldig. Als dat niet zo is, zoals rechts getoond, is de aanname niet geldig.
+```
+
+Daarnaast gaan we in deze berekeningen uit van hetzelfde afschuivend vlak (en dus ook $I_{zz}$ en $A^{\rm{a}}$) in de linker en rechter doorsnede, wat betekent dat we aannemen dat de doorsnede niet verandert over de lengte van de balk; dus een prismatische balk.
+
+```{figure} ./instructie_data/prismatisch.svg
+:align: center
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/shear_rect
+
+Een niet-prismatisch balk geeft een ander spanningsverloop, $I_zz$ en $A^{\rm{a}}$ in de linker en rechter doorsnede.
+```
 
 ::::::
 
@@ -91,9 +106,9 @@ Daarnaast gaan we in deze berekeningen uit van dezelfde $I_{zz}$ in de linker en
 $$
 \begin{align*}
 \sum F_x &= 0 \\
--\int_{A^{\rm{a}}} \sigma_{\rm{linker} \, \rm{doorsnede}} \, dA^{\rm{a}} + \int_{A^{\rm{a}}} \sigma_{\rm{rechter} \, \rm{doorsnede}}  \, dA^{\rm{a}} + \int_{A^{\parallel}} \tau \left( x\right) \, dA^{\parallel} &= 0 \\
-\underbrace{-\int_{A^{\rm{a}}} \cfrac{M_z \, z}{I_{zz,\rm{linker} \, \rm{doorsnede}}} \, dA^{\rm{a}} + \int_{A^{\rm{a}}} \cfrac{M_z \, z}{I_{zz,\rm{rechter} \, \rm{ doorsnede}}} \, dA^{\rm{a}}}_{\rm{Als} \, I_{zz,\rm{linker} \, \rm{doorsnede}} = I_{zz,\rm{linker} \, \rm{doorsnede}}=I_{zz} \rm{vervallen} \, \rm{deze} \, \rm{termen}} + \int_{A^{\rm{a}}} \cfrac{\Delta M_z \,z}{I_{zz}} \, dA^{\rm{a}} + \int_{A^{\parallel}} \tau \left( x\right) \, dA^{\parallel} &= 0 \\
- \int_{A^{\rm{a}}} \cfrac{\Delta M_z \,z}{I_{zz}} \, dA^{\rm{a}} + \underbrace{\int_{A^{\parallel}} \tau \left( x\right) \, dA^{\parallel}}_{\rm{Als} \, \tau \left( x\right) = \tau_{\rm{gem}} \, \text{kan} \, \rm{deze} \, \rm{uit} \, \rm{de} \, \rm{integraal} \, \rm{worden} \, \rm{gehaald} } &= 0 \\
+-\int_{A^{\rm{a}}_{\rm{links}}} \sigma_{\rm{links}} \, dA^{\rm{a}}_{\rm{links}} + \int_{A^{\rm{a}}_{\rm{rechts}}} \sigma_{\rm{rechts}} \, dA^{\rm{a}}_{\rm{rechts}} + \int_{A^{\parallel}} \tau \left( x\right) \, dA^{\parallel} &= 0 \\
+\underbrace{-\int_{A^{\rm{a}}_{\rm{links}}} \cfrac{M_z \, z}{I_{zz,\rm{links}}} \, dA^{\rm{a}}_{\rm{links}} + \int_{A^{\rm{a}}_{\rm{rechts}}} \cfrac{M_z \, z}{I_{zz,\rm{rechts}}} \, dA^{\rm{a}}_{\rm{rechts}}}_{\rm{Als} \, \rm{linker-} \, \rm{en} \, \rm{rechter} \, \rm{afschuivend} \, \rm{vlak} \, \rm{gelijk} \, \rm{zijn} \, \rm{vervallen} \, \rm{deze} \, \rm{termen}} + \underbrace{\int_{A^{\rm{a}}} \cfrac{\Delta M_z \,z}{I_{zz}} \, dA^{\rm{a}}}_{\rm{uitgaande} \, \rm{van} \, \rm{gelijk} \, \rm{linker-} \, \rm{en} \, \rm{rechter} \, \rm{afschuivend} \, \rm{vlak}} + \int_{A^{\parallel}} \tau \left( x\right) \, dA^{\parallel} &= 0 \\
+ \int_{A^{\rm{a}}} \cfrac{\Delta M_z \,z}{I_{zz}} \, dA^{\rm{a}} + \int_{A^{\parallel}} \underbrace{\tau \left( x\right)}_{\rm{Als} \, \tau \left( x\right) = \tau_{\rm{gem}} \, \text{kan} \, \rm{deze} \, \rm{uit} \, \rm{de} \, \rm{integraal} \, \rm{worden} \, \rm{gehaald} }  \, dA^{\parallel} &= 0 \\
 \cfrac{\Delta M_z}{I_{zz}} \int_{A^{\rm{a}}} z \, dA^{\rm{a}} + \tau_{\rm{gem}} \int_{A^{\parallel}} \, dA^{\parallel} &= 0 \\
 \cfrac{\Delta M_z}{I_{zz}} S_{z}^{\rm{a}}\left(z \right) + \tau_{\rm{gem}} A^{\parallel} &= 0 \\
 \cfrac{\Delta M_z}{I_{zz}} S_{z}^{\rm{a}}\left(z \right) + \tau_{\rm{gem}} \, b \left(z \right) \, \Delta x &= 0 \\
@@ -174,6 +189,7 @@ Het statisch moment is maximaal ter hoogte van het normaalkrachtencentrum, waar 
 
 ::::::
 
+{#vrije-randen}
 Daarnaast leidt de relatie $\sigma_{zx} = \sigma_{xz}$ ook tot de conclusie dat de schuifspanningen dwars op de vrije randen van een doorsnede nul moeten zijn, omdat er daar geen evenwicht kan zijn met een andere spanning.
 
 ```{figure} ./instructie_data/randen.svg
@@ -205,7 +221,7 @@ Daarmee kunnen we de volgende aanpak beschrijven voor het bepalen van het schuif
 
 ## Voorbeeld
 
-Het bepalen van de wringende momentenlijn wordt getoond op onderstaande voorbeeld.
+Het bepalen van schuifspanningen voor een rechthoekige doorsnede wordt gedemonstreerd op onderstaande voorbeeld.
 
 ::::::{prf:example}
 :nonumber: true
