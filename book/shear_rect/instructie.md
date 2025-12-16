@@ -89,7 +89,7 @@ Om het evenwicht op te stellen kunnen we alleen de resulterende schuifkracht bep
 Voor doorsnedes waarin de breedte veel kleiner is dan de hoogte zoals links getoond, is de aanname van een gemiddelde schuifspanning geldig. Als dat niet zo is, zoals rechts getoond, is de aanname niet geldig.
 ```
 
-Daarnaast gaan we in deze berekeningen uit van hetzelfde afschuivend vlak (en dus ook $I_{zz}$ en $A^{\rm{a}}$) in de linker en rechter doorsnede, wat betekent dat we aannemen dat de doorsnede niet verandert over de lengte van de balk; dus een prismatische balk.
+Daarnaast gaan we in deze berekeningen uit van dezelfde doorsnede (en dus ook dezelfde doorsnedegrootheden $I_{zz}$ en $A^{\rm{a}}$) in de linker en rechter doorsnede, wat betekent dat we aannemen dat de doorsnede niet verandert over de lengte van de balk; dus een prismatische balk.
 
 ```{figure} ./instructie_data/prismatisch.svg
 :align: center
