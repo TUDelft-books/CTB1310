@@ -3,7 +3,7 @@
 <!-- Gegenereerd door Microsoft Visio, SVG Export hb.svg Pagina-1 -->
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
 		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="4.73275in" height="2.56739in"
-		viewBox="0 0 340.758 184.852" xml:space="preserve" color-interpolation-filters="sRGB" class="st10">
+		viewBox="0 0 340.758 184.852" xml:space="preserve" color-interpolation-filters="sRGB" class="st11">
 	<v:documentProperties v:langID="1043" v:metric="true" v:viewMarkup="false"/>
 
 	<style type="text/css">
@@ -17,7 +17,8 @@
 		.st7 {fill:#31859b;fill-opacity:1;stroke:#31859b;stroke-opacity:1;stroke-width:0.34246575342466}
 		.st8 {fill:#bfbfbf;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
 		.st9 {font-size:1em;font-style:normal}
-		.st10 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+		.st10 {stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.5}
+		.st11 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
 	]]>
 	</style>
 
@@ -365,5 +366,9 @@
 			<rect x="0" y="170.679" width="56.6929" height="14.1732" class="st4"/>
 			<text x="12.58" y="181.37" class="st5" v:langID="1043"><v:paragraph v:horizAlign="1"/><v:tabList/>h<tspan class="st9"> </tspan><tspan
 						class="st9">&#62;&#62; </tspan>b</text>		</g>
+		<g id="shape1857-349" v:mID="1857" v:groupContext="shape" transform="translate(171.201,-112.573) rotate(-29.876)">
+			<title>Blad.1857</title>
+			<path d="M0 184.85 L15.36 184.85" class="st10"/>
+		</g>
 	</g>
 </svg>
