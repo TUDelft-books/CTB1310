@@ -4,6 +4,8 @@ De vorige keer hebben we gekeken naar [schuifspanningen in rechthoekige doorsned
 
 ## Model
 
+### Beperkingen van het model voor niet-rechthoekige dikwandige doorsneden
+
 Tijdens de afleiding van de schuifspanningsformule had ons model een aantal aannames. Een aanname was voor rechthoekige doorsnedes als een grote aanname: [ons model is alleen geldig als de schuifspanningen evenredig verdeeld zijn over het afschuifvlak](gemiddelde_schuifspanning). Dit is alleen het geval als de breedte van de het afschuivend deel veel kleiner is dan de hoogte van de afschuivend deel. Voor niet-rechthoekige doorsneden, die verschillende delen kunnen hebben met verschillende breedte-hoogte verhoudingen, kan deze aanname dus zorgen voor een ongeldig model voor een deel van de doorsnede.
 
 ```{figure} ./instructie_data/samengesteld.svg
@@ -38,6 +40,17 @@ Daarmee kunnen we de schuifspanningsformule voor dikwandige doorsneden dus allee
 - Waarvan de vrije randen in de $y$- of $z$-richting lopen.
 
 Als niet aan deze voorwaarden wordt voldaan zou wel een totale kracht kunnen worden gevonden die moet worden overgedragen in het afschuivend vlak, maar de verdeling van de schuifspanningen in dat vlak kan niet worden bepaald met de schuifspanningsformule.
+
+### Schuifspanningen in andere richtingen
+
+Als er een afschuifvlak wordt genomen dat niet loodrecht op de $z$-as staat, bijvoorbeeld een afschuifvlak in de $x$-richting, dan kan ons schuifspanningsmodel ook worden toegepast. Net zoals voorheen moet het afschuifvlak loodrecht op de randen worden genomen. De schuifspanning die dan wordt berekend is de schuifspanning loodrecht op het snedevlak en evenwijdig aan de rand, maar dus niet per sé in de $z$-richting.
+
+```{figure} ./instructie_data/nonz.svg
+:align: center
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/shear
+
+Afschuifvlakken in verschillende richtingen, maar altijd loodrecht op de rand
+```
 
 ## Voorbeeld
 
