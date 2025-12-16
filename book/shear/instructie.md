@@ -33,7 +33,7 @@ Links de schuifspanningen volgens ons model, rechts nulspanningen getoond loodre
 
 Daarmee kunnen we de schuifspanningsformule voor dikwandige doorsneden dus alleen toepassen op afschuivende vlakken die:
 
-- Als 
+- Door delen van de doorsnede gaan waar de breedte veel kleiner is dan de hoogte
 - Ver af liggen van overgangen in breedte van de doorsnede
 - Waarvan de vrije randen in de $y$- of $z$-richting lopen.
 

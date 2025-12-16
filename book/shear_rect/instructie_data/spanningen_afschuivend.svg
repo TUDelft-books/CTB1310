@@ -2,8 +2,8 @@
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <!-- Gegenereerd door Microsoft Visio, SVG Export spanningen_afschuivend.svg Pagina-1 -->
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
-		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="3.16002in" height="4.60954in"
-		viewBox="0 0 227.522 331.887" xml:space="preserve" color-interpolation-filters="sRGB" class="st21">
+		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="3.16002in" height="4.39958in"
+		viewBox="0 0 227.522 316.77" xml:space="preserve" color-interpolation-filters="sRGB" class="st20">
 	<v:documentProperties v:langID="1043" v:metric="true" v:viewMarkup="false"/>
 
 	<style type="text/css">
@@ -26,9 +26,8 @@
 		.st16 {font-size:1em}
 		.st17 {font-size:1em;font-style:normal}
 		.st18 {stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
-		.st19 {baseline-shift:33.349%;font-family:Sans Serif Collection;font-size:0.666979em}
-		.st20 {baseline-shift:-32.4941%;font-size:0.649882em;font-style:normal}
-		.st21 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+		.st19 {baseline-shift:-32.4941%;font-size:0.649882em;font-style:normal}
+		.st20 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
 	]]>
 	</style>
 
@@ -60,300 +59,287 @@
 		<title>Pagina-1</title>
 		<v:pageProperties v:drawingScale="0.0393701" v:pageScale="0.0393701" v:drawingUnits="24" v:shadowOffsetX="8.50394"
 				v:shadowOffsetY="-8.50394"/>
-		<g id="shape166-1" v:mID="166" v:groupContext="shape" transform="translate(71.2411,-128.878)">
+		<g id="shape166-1" v:mID="166" v:groupContext="shape" transform="translate(71.2411,-113.761)">
 			<title>Blad.166</title>
-			<rect x="0" y="303.541" width="56.6929" height="28.3465" class="st1"/>
+			<rect x="0" y="288.423" width="56.6929" height="28.3465" class="st1"/>
 		</g>
-		<g id="shape173-3" v:mID="173" v:groupContext="shape" transform="translate(28.7215,-157.224)">
+		<g id="shape173-3" v:mID="173" v:groupContext="shape" transform="translate(28.7215,-142.107)">
 			<title>Spanning.173</title>
-			<path d="M3.47 331.89 L3.83 331.89 L42.52 331.89" class="st2"/>
+			<path d="M3.47 316.77 L3.83 316.77 L42.52 316.77" class="st2"/>
 		</g>
-		<g id="shape174-9" v:mID="174" v:groupContext="shape" transform="translate(39.3514,-143.051)">
+		<g id="shape174-9" v:mID="174" v:groupContext="shape" transform="translate(39.3514,-127.934)">
 			<title>Spanning.174</title>
-			<path d="M3.47 331.89 L3.83 331.89 L31.89 331.89" class="st2"/>
+			<path d="M3.47 316.77 L3.83 316.77 L31.89 316.77" class="st2"/>
 		</g>
-		<g id="shape175-14" v:mID="175" v:groupContext="shape" transform="translate(49.9813,-128.878)">
+		<g id="shape175-14" v:mID="175" v:groupContext="shape" transform="translate(49.9813,-113.761)">
 			<title>Spanning.175</title>
-			<path d="M3.47 331.89 L3.83 331.89 L21.26 331.89" class="st2"/>
+			<path d="M3.47 316.77 L3.83 316.77 L21.26 316.77" class="st2"/>
 		</g>
-		<g id="group185-19" transform="translate(85.4144,-72.1851)" v:mID="185" v:groupContext="group">
+		<g id="group185-19" transform="translate(85.4144,-57.0679)" v:mID="185" v:groupContext="group">
 			<title>z-as.185</title>
-			<g id="shape186-20" v:mID="186" v:groupContext="shape" transform="translate(331.887,303.541) rotate(90)">
+			<g id="shape186-20" v:mID="186" v:groupContext="shape" transform="translate(316.77,288.423) rotate(90)">
 				<title>Blad.186</title>
-				<path d="M0 331.89 L22.62 331.89" class="st4"/>
+				<path d="M0 316.77 L22.62 316.77" class="st4"/>
 			</g>
 			<g id="shape187-27" v:mID="187" v:groupContext="shape">
 				<title>Blad.187</title>
 				<desc>z</desc>
 				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
-				<v:textRect cx="7.08661" cy="324.801" width="14.18" height="14.1732"/>
-				<rect x="0" y="317.714" width="14.1732" height="14.1732" class="st6"/>
-				<text x="4.75" y="328.4" class="st7" v:langID="1043"><v:paragraph v:horizAlign="1"/><v:tabList/>z</text>			</g>
+				<v:textRect cx="7.08661" cy="309.683" width="14.18" height="14.1732"/>
+				<rect x="0" y="302.597" width="14.1732" height="14.1732" class="st6"/>
+				<text x="4.75" y="313.28" class="st7" v:langID="1043"><v:paragraph v:horizAlign="1"/><v:tabList/>z</text>			</g>
 		</g>
-		<g id="group188-30" transform="translate(85.4144,-86.3583)" v:mID="188" v:groupContext="group">
+		<g id="group188-30" transform="translate(85.4144,-71.2411)" v:mID="188" v:groupContext="group">
 			<title>x-as.188</title>
-			<g id="shape189-31" v:mID="189" v:groupContext="shape" transform="translate(-3.77277E-12,-14.1732)">
+			<g id="shape189-31" v:mID="189" v:groupContext="shape" transform="translate(-3.60192E-12,-14.1732)">
 				<title>Blad.189</title>
-				<path d="M0 331.89 L22.62 331.89" class="st4"/>
+				<path d="M0 316.77 L22.62 316.77" class="st4"/>
 			</g>
 			<g id="shape190-36" v:mID="190" v:groupContext="shape" transform="translate(14.1732,0)">
 				<title>Blad.190</title>
 				<desc>x</desc>
 				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
-				<v:textRect cx="7.08661" cy="324.801" width="14.18" height="14.1732"/>
-				<rect x="0" y="317.714" width="14.1732" height="14.1732" class="st6"/>
-				<text x="4.42" y="328.4" class="st7" v:langID="1043"><v:paragraph v:horizAlign="1"/><v:tabList/>x</text>			</g>
+				<v:textRect cx="7.08661" cy="309.683" width="14.18" height="14.1732"/>
+				<rect x="0" y="302.597" width="14.1732" height="14.1732" class="st6"/>
+				<text x="4.42" y="313.28" class="st7" v:langID="1043"><v:paragraph v:horizAlign="1"/><v:tabList/>x</text>			</g>
 		</g>
-		<g id="shape191-39" v:mID="191" v:groupContext="shape" transform="translate(294.231,-24.4696) rotate(53.1301)">
+		<g id="shape191-39" v:mID="191" v:groupContext="shape" transform="translate(282.137,-15.3993) rotate(53.1301)">
 			<title>Blad.191</title>
-			<path d="M0 331.89 L35.43 331.89" class="st8"/>
+			<path d="M0 316.77 L35.43 316.77" class="st8"/>
 		</g>
-		<g id="shape196-42" v:mID="196" v:groupContext="shape" transform="translate(184.627,506.55) rotate(180)">
+		<g id="shape196-42" v:mID="196" v:groupContext="shape" transform="translate(184.627,491.433) rotate(180)">
 			<title>Spanning.196</title>
-			<path d="M3.47 331.89 L3.83 331.89 L56.69 331.89" class="st2"/>
+			<path d="M3.47 316.77 L3.83 316.77 L56.69 316.77" class="st2"/>
 		</g>
-		<g id="shape197-47" v:mID="197" v:groupContext="shape" transform="translate(170.454,520.723) rotate(180)">
+		<g id="shape197-47" v:mID="197" v:groupContext="shape" transform="translate(170.454,505.606) rotate(180)">
 			<title>Spanning.197</title>
-			<path d="M3.47 331.89 L3.83 331.89 L42.52 331.89" class="st2"/>
+			<path d="M3.47 316.77 L3.83 316.77 L42.52 316.77" class="st2"/>
 		</g>
-		<g id="shape198-52" v:mID="198" v:groupContext="shape" transform="translate(156.281,534.896) rotate(180)">
+		<g id="shape198-52" v:mID="198" v:groupContext="shape" transform="translate(156.281,519.779) rotate(180)">
 			<title>Spanning.198</title>
-			<path d="M3.47 331.89 L3.83 331.89 L28.35 331.89" class="st2"/>
+			<path d="M3.47 316.77 L3.83 316.77 L28.35 316.77" class="st2"/>
 		</g>
-		<g id="shape199-57" v:mID="199" v:groupContext="shape" transform="translate(419.307,409.342) rotate(135)">
+		<g id="shape199-57" v:mID="199" v:groupContext="shape" transform="translate(408.617,398.653) rotate(135)">
 			<title>Blad.199</title>
-			<path d="M0 331.89 L40.09 331.89" class="st8"/>
+			<path d="M0 316.77 L40.09 316.77" class="st8"/>
 		</g>
-		<g id="shape258-60" v:mID="258" v:groupContext="shape" transform="translate(71.2411,-298.957)">
+		<g id="shape258-60" v:mID="258" v:groupContext="shape" transform="translate(71.2411,-283.84)">
 			<title>Blad.258</title>
-			<rect x="0" y="303.541" width="56.6929" height="28.3465" class="st1"/>
+			<rect x="0" y="288.423" width="56.6929" height="28.3465" class="st1"/>
 		</g>
-		<g id="group267-62" transform="translate(85.4144,-242.264)" v:mID="267" v:groupContext="group">
+		<g id="group267-62" transform="translate(85.4144,-227.147)" v:mID="267" v:groupContext="group">
 			<title>z-as.267</title>
-			<g id="shape268-63" v:mID="268" v:groupContext="shape" transform="translate(331.887,303.541) rotate(90)">
+			<g id="shape268-63" v:mID="268" v:groupContext="shape" transform="translate(316.77,288.423) rotate(90)">
 				<title>Blad.268</title>
-				<path d="M0 331.89 L22.62 331.89" class="st4"/>
+				<path d="M0 316.77 L22.62 316.77" class="st4"/>
 			</g>
 			<g id="shape269-68" v:mID="269" v:groupContext="shape">
 				<title>Blad.269</title>
 				<desc>z</desc>
 				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
-				<v:textRect cx="7.08661" cy="324.801" width="14.18" height="14.1732"/>
-				<rect x="0" y="317.714" width="14.1732" height="14.1732" class="st6"/>
-				<text x="4.75" y="328.4" class="st7" v:langID="1043"><v:paragraph v:horizAlign="1"/><v:tabList/>z</text>			</g>
+				<v:textRect cx="7.08661" cy="309.683" width="14.18" height="14.1732"/>
+				<rect x="0" y="302.597" width="14.1732" height="14.1732" class="st6"/>
+				<text x="4.75" y="313.28" class="st7" v:langID="1043"><v:paragraph v:horizAlign="1"/><v:tabList/>z</text>			</g>
 		</g>
-		<g id="group270-71" transform="translate(85.4144,-256.437)" v:mID="270" v:groupContext="group">
+		<g id="group270-71" transform="translate(85.4144,-241.32)" v:mID="270" v:groupContext="group">
 			<title>x-as.270</title>
-			<g id="shape271-72" v:mID="271" v:groupContext="shape" transform="translate(-3.77277E-12,-14.1732)">
+			<g id="shape271-72" v:mID="271" v:groupContext="shape" transform="translate(-3.60192E-12,-14.1732)">
 				<title>Blad.271</title>
-				<path d="M0 331.89 L22.62 331.89" class="st4"/>
+				<path d="M0 316.77 L22.62 316.77" class="st4"/>
 			</g>
 			<g id="shape272-77" v:mID="272" v:groupContext="shape" transform="translate(14.1732,0)">
 				<title>Blad.272</title>
 				<desc>x</desc>
 				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
-				<v:textRect cx="7.08661" cy="324.801" width="14.18" height="14.1732"/>
-				<rect x="0" y="317.714" width="14.1732" height="14.1732" class="st6"/>
-				<text x="4.42" y="328.4" class="st7" v:langID="1043"><v:paragraph v:horizAlign="1"/><v:tabList/>x</text>			</g>
+				<v:textRect cx="7.08661" cy="309.683" width="14.18" height="14.1732"/>
+				<rect x="0" y="302.597" width="14.1732" height="14.1732" class="st6"/>
+				<text x="4.42" y="313.28" class="st7" v:langID="1043"><v:paragraph v:horizAlign="1"/><v:tabList/>x</text>			</g>
 		</g>
-		<g id="shape287-80" v:mID="287" v:groupContext="shape" transform="translate(-274.819,29.3871) rotate(-90)">
+		<g id="shape287-80" v:mID="287" v:groupContext="shape" transform="translate(-259.702,29.3871) rotate(-90)">
 			<title>Spanning.287</title>
-			<path d="M3.47 331.89 L3.83 331.89 L21.26 331.89" class="st2"/>
+			<path d="M3.47 316.77 L3.83 316.77 L21.26 316.77" class="st2"/>
 		</g>
-		<g id="shape288-85" v:mID="288" v:groupContext="shape" transform="translate(473.994,8.12726) rotate(90)">
+		<g id="shape288-85" v:mID="288" v:groupContext="shape" transform="translate(458.877,8.12726) rotate(90)">
 			<title>Spanning.288</title>
-			<path d="M3.47 331.89 L3.83 331.89 L21.26 331.89" class="st2"/>
+			<path d="M3.47 316.77 L3.83 316.77 L21.26 316.77" class="st2"/>
 		</g>
-		<g id="shape289-90" v:mID="289" v:groupContext="shape" transform="translate(35.8081,-298.957)">
+		<g id="shape289-90" v:mID="289" v:groupContext="shape" transform="translate(35.8081,-283.84)">
 			<title>Blad.289</title>
-			<path d="M7.09 303.54 C2.83 312.04 0 317.71 0 331.89" class="st8"/>
+			<path d="M7.09 288.42 C2.83 296.93 0 302.6 0 316.77" class="st8"/>
 		</g>
-		<g id="shape290-93" v:mID="290" v:groupContext="shape" transform="translate(42.8947,-327.303)">
+		<g id="shape290-93" v:mID="290" v:groupContext="shape" transform="translate(42.8947,-312.186)">
 			<title>Blad.290</title>
-			<path d="M0 331.89 L28.35 331.89" class="st8"/>
+			<path d="M0 316.77 L28.35 316.77" class="st8"/>
 		</g>
-		<g id="shape291-96" v:mID="291" v:groupContext="shape" transform="translate(127.934,-327.303)">
+		<g id="shape291-96" v:mID="291" v:groupContext="shape" transform="translate(127.934,-312.186)">
 			<title>Blad.291</title>
-			<path d="M0 331.89 L28.35 331.89" class="st8"/>
+			<path d="M0 316.77 L28.35 316.77" class="st8"/>
 		</g>
-		<g id="shape292-99" v:mID="292" v:groupContext="shape" transform="translate(149.194,-298.957)">
+		<g id="shape292-99" v:mID="292" v:groupContext="shape" transform="translate(149.194,-283.84)">
 			<title>Blad.292</title>
-			<path d="M7.09 303.54 C2.83 312.04 0 317.71 0 331.89" class="st8"/>
+			<path d="M7.09 288.42 C2.83 296.93 0 302.6 0 316.77" class="st8"/>
 		</g>
-		<g id="shape293-102" v:mID="293" v:groupContext="shape" transform="translate(35.8081,-298.957) rotate(1.46284E-06)">
+		<g id="shape293-102" v:mID="293" v:groupContext="shape" transform="translate(35.8081,-283.84) rotate(1.46284E-06)">
 			<title>Blad.293</title>
-			<path d="M0 331.89 L35.43 331.89" class="st8"/>
+			<path d="M0 316.77 L35.43 316.77" class="st8"/>
 		</g>
-		<g id="shape294-105" v:mID="294" v:groupContext="shape" transform="translate(127.934,-298.957)">
+		<g id="shape294-105" v:mID="294" v:groupContext="shape" transform="translate(127.934,-283.84)">
 			<title>Blad.294</title>
-			<path d="M0 331.89 L21.26 331.89" class="st8"/>
+			<path d="M0 316.77 L21.26 316.77" class="st8"/>
 		</g>
-		<g id="shape295-108" v:mID="295" v:groupContext="shape" transform="translate(78.3278,-178.484)">
+		<g id="shape295-108" v:mID="295" v:groupContext="shape" transform="translate(78.3278,-163.367)">
 			<title>Blad.295</title>
 			<desc>+</desc>
 			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
-			<v:textRect cx="21.2598" cy="324.801" width="42.52" height="14.1732"/>
-			<rect x="0" y="317.714" width="42.5197" height="14.1732" class="st6"/>
-			<text x="13.16" y="332" class="st9" v:langID="1043"><v:paragraph v:horizAlign="1"/><v:tabList/>+</text>		</g>
-		<g id="shape296-111" v:mID="296" v:groupContext="shape" transform="translate(403.128,32.9304) rotate(90)">
+			<v:textRect cx="21.2598" cy="309.683" width="42.52" height="14.1732"/>
+			<rect x="0" y="302.597" width="42.5197" height="14.1732" class="st6"/>
+			<text x="13.16" y="316.88" class="st9" v:langID="1043"><v:paragraph v:horizAlign="1"/><v:tabList/>+</text>		</g>
+		<g id="shape296-111" v:mID="296" v:groupContext="shape" transform="translate(388.011,32.9304) rotate(90)">
 			<title>Blad.296</title>
-			<path d="M0 331.89 L21.26 331.89" class="st8"/>
+			<path d="M0 316.77 L21.26 316.77" class="st8"/>
 		</g>
-		<g id="shape297-114" v:mID="297" v:groupContext="shape" transform="translate(459.821,32.9304) rotate(90)">
+		<g id="shape297-114" v:mID="297" v:groupContext="shape" transform="translate(444.704,32.9304) rotate(90)">
 			<title>Blad.297</title>
-			<path d="M0 331.89 L21.26 331.89" class="st8"/>
+			<path d="M0 316.77 L21.26 316.77" class="st8"/>
 		</g>
-		<g id="shape298-117" v:mID="298" v:groupContext="shape" transform="translate(71.2411,-275.837)">
+		<g id="shape298-117" v:mID="298" v:groupContext="shape" transform="translate(71.2411,-260.72)">
 			<title>Blad.298</title>
-			<path d="M0 330.03 C17.01 322.94 42.52 337.11 56.69 330.03" class="st8"/>
+			<path d="M0 314.91 C17.01 307.82 42.52 322 56.69 314.91" class="st8"/>
 		</g>
-		<g id="shape299-120" v:mID="299" v:groupContext="shape" transform="translate(78.3278,-284.784)">
+		<g id="shape299-120" v:mID="299" v:groupContext="shape" transform="translate(78.3278,-269.666)">
 			<title>Spanning.299</title>
-			<path d="M3.47 331.89 L3.83 331.89 L14.17 331.89" class="st2"/>
+			<path d="M3.47 316.77 L3.83 316.77 L14.17 316.77" class="st2"/>
 		</g>
-		<g id="shape300-125" v:mID="300" v:groupContext="shape" transform="translate(99.5876,-284.784)">
+		<g id="shape300-125" v:mID="300" v:groupContext="shape" transform="translate(99.5876,-269.666)">
 			<title>Spanning.300</title>
-			<path d="M3.47 331.89 L3.83 331.89 L21.26 331.89" class="st2"/>
+			<path d="M3.47 316.77 L3.83 316.77 L21.26 316.77" class="st2"/>
 		</g>
-		<g id="group709-130" transform="translate(71.2411,-15.4922)" v:mID="709" v:groupContext="group">
+		<g id="group709-130" transform="translate(71.2411,-0.374972)" v:mID="709" v:groupContext="group">
 			<title>Maatlijn.709</title>
 			<g id="group710-131" transform="translate(0,-9.92126)" v:mID="710" v:groupContext="group">
 				<title>Maatlijn.31</title>
-				<g id="shape711-132" v:mID="711" v:groupContext="shape" transform="translate(331.887,323.383) rotate(90)">
+				<g id="shape711-132" v:mID="711" v:groupContext="shape" transform="translate(316.77,308.266) rotate(90)">
 					<title>Blad.711</title>
-					<path d="M0 331.89 L8.5 331.89" class="st10"/>
+					<path d="M0 316.77 L8.5 316.77" class="st10"/>
 				</g>
-				<g id="shape712-135" v:mID="712" v:groupContext="shape" transform="translate(388.58,323.383) rotate(90)">
+				<g id="shape712-135" v:mID="712" v:groupContext="shape" transform="translate(373.463,308.266) rotate(90)">
 					<title>Blad.712</title>
-					<path d="M0 331.89 L8.5 331.89" class="st10"/>
+					<path d="M0 316.77 L8.5 316.77" class="st10"/>
 				</g>
 				<g id="shape713-138" v:mID="713" v:groupContext="shape" transform="translate(0,-4.25197)">
 					<title>Blad.713</title>
-					<path d="M3.74 331.89 L4.1 331.89 L52.59 331.89" class="st11"/>
+					<path d="M3.74 316.77 L4.1 316.77 L52.59 316.77" class="st11"/>
 				</g>
 			</g>
-			<g id="shape714-147" v:mID="714" v:groupContext="shape" transform="translate(-1.14032E-06,7.08661)">
+			<g id="shape714-147" v:mID="714" v:groupContext="shape" transform="translate(-1.14032E-06,-2.83581E-05)">
 				<title>Blad.714</title>
-				<desc>Δx =</desc>
+				<desc>Δx</desc>
 				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
-				<v:textRect cx="16.2992" cy="324.801" width="32.6" height="14.1732"/>
-				<rect x="0" y="317.714" width="32.5984" height="14.1732" class="st6"/>
-				<text x="4.23" y="328.4" class="st13" v:langID="1043"><v:paragraph v:horizAlign="1"/><v:tabList/>Δ<tspan
-							class="st14">x =</tspan></text>			</g>
+				<v:textRect cx="28.3465" cy="309.683" width="56.7" height="14.1732"/>
+				<rect x="0" y="302.597" width="56.6929" height="14.1732" class="st6"/>
+				<text x="21.82" y="313.28" class="st13" v:langID="1043"><v:paragraph v:horizAlign="1"/><v:tabList/>Δ<tspan
+							class="st14">x</tspan></text>			</g>
 		</g>
-		<g id="group716-151" transform="translate(-128.835,203.009) rotate(-90)" v:mID="716" v:groupContext="group">
+		<g id="group716-151" transform="translate(-113.718,203.009) rotate(-90)" v:mID="716" v:groupContext="group">
 			<title>Maatlijn.31</title>
-			<g id="shape717-152" v:mID="717" v:groupContext="shape" transform="translate(331.887,323.383) rotate(90)">
+			<g id="shape717-152" v:mID="717" v:groupContext="shape" transform="translate(316.77,308.266) rotate(90)">
 				<title>Blad.717</title>
-				<path d="M0 331.89 L8.5 331.89" class="st10"/>
+				<path d="M0 316.77 L8.5 316.77" class="st10"/>
 			</g>
-			<g id="shape718-155" v:mID="718" v:groupContext="shape" transform="translate(360.234,323.383) rotate(90)">
+			<g id="shape718-155" v:mID="718" v:groupContext="shape" transform="translate(345.116,308.266) rotate(90)">
 				<title>Blad.718</title>
-				<path d="M0 331.89 L8.5 331.89" class="st10"/>
+				<path d="M0 316.77 L8.5 316.77" class="st10"/>
 			</g>
 			<g id="shape719-158" v:mID="719" v:groupContext="shape" transform="translate(0,-4.25197)">
 				<title>Blad.719</title>
-				<path d="M3.74 331.89 L4.1 331.89 L24.25 331.89" class="st11"/>
+				<path d="M3.74 316.77 L4.1 316.77 L24.25 316.77" class="st11"/>
 			</g>
 		</g>
-		<g id="shape720-165" v:mID="720" v:groupContext="shape" transform="translate(198.8,-140.217)">
+		<g id="shape720-165" v:mID="720" v:groupContext="shape" transform="translate(198.8,-125.099)">
 			<title>Blad.720</title>
 			<desc>Aa b(z)</desc>
 			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
-			<v:textRect cx="14.1732" cy="329.053" width="28.35" height="5.66929"/>
-			<rect x="0" y="326.218" width="28.3465" height="5.66929" class="st6"/>
-			<text x="8.78" y="325.45" class="st7" v:langID="1043"><v:paragraph v:horizAlign="1"/><v:tabList/>A<tspan dy="-0.198em"
+			<v:textRect cx="14.1732" cy="313.935" width="28.35" height="5.66929"/>
+			<rect x="0" y="311.101" width="28.3465" height="5.66929" class="st6"/>
+			<text x="8.78" y="310.33" class="st7" v:langID="1043"><v:paragraph v:horizAlign="1"/><v:tabList/>A<tspan dy="-0.198em"
 						class="st15" v:baseFontSize="12">a<v:newlineChar/></tspan><tspan x="4.84" dy="1.329em" class="st16">b</tspan><tspan
 						class="st17">(</tspan>z<tspan class="st17">)</tspan></text>		</g>
-		<g id="shape723-172" v:mID="723" v:groupContext="shape" transform="translate(205.887,-143.051)">
+		<g id="shape723-172" v:mID="723" v:groupContext="shape" transform="translate(205.887,-127.934)">
 			<title>Blad.723</title>
-			<path d="M0 331.89 L14.17 331.89" class="st18"/>
+			<path d="M0 316.77 L14.17 316.77" class="st18"/>
 		</g>
-		<g id="group724-175" transform="translate(194.548,-298.957)" v:mID="724" v:groupContext="group">
+		<g id="group724-175" transform="translate(194.548,-283.84)" v:mID="724" v:groupContext="group">
 			<title>Maatlijn verticaal.724</title>
-			<g id="group725-176" transform="translate(-323.383,331.887) rotate(-90)" v:mID="725" v:groupContext="group">
+			<g id="group725-176" transform="translate(-308.266,316.77) rotate(-90)" v:mID="725" v:groupContext="group">
 				<title>Maatlijn.31</title>
-				<g id="shape726-177" v:mID="726" v:groupContext="shape" transform="translate(331.887,323.383) rotate(90)">
+				<g id="shape726-177" v:mID="726" v:groupContext="shape" transform="translate(316.77,308.266) rotate(90)">
 					<title>Blad.726</title>
-					<path d="M0 331.89 L8.5 331.89" class="st10"/>
+					<path d="M0 316.77 L8.5 316.77" class="st10"/>
 				</g>
-				<g id="shape727-180" v:mID="727" v:groupContext="shape" transform="translate(360.234,323.383) rotate(90)">
+				<g id="shape727-180" v:mID="727" v:groupContext="shape" transform="translate(345.116,308.266) rotate(90)">
 					<title>Blad.727</title>
-					<path d="M0 331.89 L8.5 331.89" class="st10"/>
+					<path d="M0 316.77 L8.5 316.77" class="st10"/>
 				</g>
 				<g id="shape728-183" v:mID="728" v:groupContext="shape" transform="translate(0,-4.25197)">
 					<title>Blad.728</title>
-					<path d="M3.74 331.89 L4.1 331.89 L24.25 331.89" class="st11"/>
+					<path d="M3.74 316.77 L4.1 316.77 L24.25 316.77" class="st11"/>
 				</g>
 			</g>
 			<g id="shape729-190" v:mID="729" v:groupContext="shape" transform="translate(4.25197,-11.3386)">
 				<title>Blad.729</title>
 				<desc>Aa b(z)</desc>
 				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
-				<v:textRect cx="14.1732" cy="329.053" width="28.35" height="5.66929"/>
-				<rect x="0" y="326.218" width="28.3465" height="5.66929" class="st6"/>
-				<text x="8.78" y="325.45" class="st7" v:langID="1043"><v:paragraph v:horizAlign="1"/><v:tabList/>A<tspan
+				<v:textRect cx="14.1732" cy="313.935" width="28.35" height="5.66929"/>
+				<rect x="0" y="311.101" width="28.3465" height="5.66929" class="st6"/>
+				<text x="8.78" y="310.33" class="st7" v:langID="1043"><v:paragraph v:horizAlign="1"/><v:tabList/>A<tspan
 							dy="-0.198em" class="st15" v:baseFontSize="12">a<v:newlineChar/></tspan><tspan x="4.84" dy="1.329em"
 							class="st16">b</tspan><tspan class="st17">(</tspan>z<tspan class="st17">)</tspan></text>			</g>
 		</g>
-		<g id="shape730-197" v:mID="730" v:groupContext="shape" transform="translate(205.887,-313.13)">
+		<g id="shape730-197" v:mID="730" v:groupContext="shape" transform="translate(205.887,-298.013)">
 			<title>Blad.730</title>
-			<path d="M0 331.89 L14.17 331.89" class="st18"/>
+			<path d="M0 316.77 L14.17 316.77" class="st18"/>
 		</g>
-		<g id="shape731-200" v:mID="731" v:groupContext="shape" transform="translate(99.5876,-12.6576)">
-			<title>Maatlijn verticaal.720</title>
-			<desc>A᜶ b(z)</desc>
-			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
-			<v:textRect cx="14.1732" cy="329.053" width="28.35" height="5.66929"/>
-			<rect x="0" y="326.218" width="28.3465" height="5.66929" class="st6"/>
-			<text x="8.56" y="326" class="st7" v:langID="1043"><v:paragraph v:horizAlign="1"/><v:tabList/>A<tspan dy="0.049em"
-						class="st19" v:baseFontSize="12">᜶<v:newlineChar/></tspan><tspan x="4.84" dy="1.213em" class="st16">b</tspan><tspan
-						class="st17">(</tspan>z<tspan class="st17">)</tspan></text>		</g>
-		<g id="shape732-207" v:mID="732" v:groupContext="shape" transform="translate(106.674,-15.4922)">
-			<title>Blad.732</title>
-			<path d="M0 331.89 L14.17 331.89" class="st18"/>
-		</g>
-		<g id="shape736-210" v:mID="736" v:groupContext="shape" transform="translate(127.934,-270.61)">
+		<g id="shape736-200" v:mID="736" v:groupContext="shape" transform="translate(127.934,-255.493)">
 			<title>Blad.736</title>
 			<desc>τ(x)</desc>
 			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
-			<v:textRect cx="14.1732" cy="324.801" width="28.35" height="14.1732"/>
-			<rect x="0" y="317.714" width="28.3465" height="14.1732" class="st6"/>
-			<text x="5.03" y="328.4" class="st7" v:langID="1043"><v:paragraph v:horizAlign="1"/><v:tabList/>τ<tspan class="st17">(</tspan><tspan
+			<v:textRect cx="14.1732" cy="309.683" width="28.35" height="14.1732"/>
+			<rect x="0" y="302.597" width="28.3465" height="14.1732" class="st6"/>
+			<text x="5.03" y="313.28" class="st7" v:langID="1043"><v:paragraph v:horizAlign="1"/><v:tabList/>τ<tspan class="st17">(</tspan><tspan
 						class="st17">x)</tspan></text>		</g>
-		<g id="shape739-215" v:mID="739" v:groupContext="shape" transform="translate(14.5482,-306.043)">
+		<g id="shape739-205" v:mID="739" v:groupContext="shape" transform="translate(14.5482,-290.926)">
 			<title>Blad.739</title>
 			<desc>τ(z)</desc>
 			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
-			<v:textRect cx="14.1732" cy="324.801" width="28.35" height="14.1732"/>
-			<rect x="0" y="317.714" width="28.3465" height="14.1732" class="st6"/>
-			<text x="5.37" y="328.4" class="st7" v:langID="1043"><v:paragraph v:horizAlign="1"/><v:tabList/>τ<tspan class="st17">(</tspan><tspan
+			<v:textRect cx="14.1732" cy="309.683" width="28.35" height="14.1732"/>
+			<rect x="0" y="302.597" width="28.3465" height="14.1732" class="st6"/>
+			<text x="5.37" y="313.28" class="st7" v:langID="1043"><v:paragraph v:horizAlign="1"/><v:tabList/>τ<tspan class="st17">(</tspan><tspan
 						class="st17">z)</tspan></text>		</g>
-		<g id="shape740-220" v:mID="740" v:groupContext="shape" transform="translate(156.281,-306.043)">
+		<g id="shape740-210" v:mID="740" v:groupContext="shape" transform="translate(156.281,-290.926)">
 			<title>Blad.740</title>
 			<desc>τ(z)</desc>
 			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
-			<v:textRect cx="14.1732" cy="324.801" width="28.35" height="14.1732"/>
-			<rect x="0" y="317.714" width="28.3465" height="14.1732" class="st6"/>
-			<text x="5.37" y="328.4" class="st7" v:langID="1043"><v:paragraph v:horizAlign="1"/><v:tabList/>τ<tspan class="st17">(</tspan><tspan
+			<v:textRect cx="14.1732" cy="309.683" width="28.35" height="14.1732"/>
+			<rect x="0" y="302.597" width="28.3465" height="14.1732" class="st6"/>
+			<text x="5.37" y="313.28" class="st7" v:langID="1043"><v:paragraph v:horizAlign="1"/><v:tabList/>τ<tspan class="st17">(</tspan><tspan
 						class="st17">z)</tspan></text>		</g>
-		<g id="shape741-225" v:mID="741" v:groupContext="shape" transform="translate(0.375,-114.705)">
+		<g id="shape741-215" v:mID="741" v:groupContext="shape" transform="translate(0.375,-99.5876)">
 			<title>Blad.741</title>
 			<desc>σlinker doorsnede(z)</desc>
 			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
-			<v:textRect cx="42.5197" cy="324.801" width="85.04" height="14.1732"/>
-			<rect x="0" y="317.714" width="85.0394" height="14.1732" class="st6"/>
-			<text x="7.13" y="328.4" class="st7" v:langID="1043"><v:paragraph v:horizAlign="1"/><v:tabList/>σ<tspan dy="-0.279em"
-						class="st20" v:baseFontSize="12">linker doorsnede</tspan><tspan dy="0.181em" class="st17">(</tspan>z<tspan
+			<v:textRect cx="42.5197" cy="309.683" width="85.04" height="14.1732"/>
+			<rect x="0" y="302.597" width="85.0394" height="14.1732" class="st6"/>
+			<text x="7.13" y="313.28" class="st7" v:langID="1043"><v:paragraph v:horizAlign="1"/><v:tabList/>σ<tspan dy="-0.279em"
+						class="st19" v:baseFontSize="12">linker doorsnede</tspan><tspan dy="0.181em" class="st17">(</tspan>z<tspan
 						class="st17">)</tspan></text>		</g>
-		<g id="shape742-231" v:mID="742" v:groupContext="shape" transform="translate(113.761,-114.705)">
+		<g id="shape742-221" v:mID="742" v:groupContext="shape" transform="translate(113.761,-99.5876)">
 			<title>Blad.742</title>
 			<desc>σrechter doorsnede(z)</desc>
 			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
-			<v:textRect cx="42.5197" cy="324.801" width="85.04" height="14.1732"/>
-			<rect x="0" y="317.714" width="85.0394" height="14.1732" class="st6"/>
-			<text x="5.41" y="328.4" class="st7" v:langID="1043"><v:paragraph v:horizAlign="1"/><v:tabList/>σ<tspan dy="-0.279em"
-						class="st20" v:baseFontSize="12">rechter doorsnede</tspan><tspan dy="0.181em" class="st17">(</tspan>z<tspan
+			<v:textRect cx="42.5197" cy="309.683" width="85.04" height="14.1732"/>
+			<rect x="0" y="302.597" width="85.0394" height="14.1732" class="st6"/>
+			<text x="5.41" y="313.28" class="st7" v:langID="1043"><v:paragraph v:horizAlign="1"/><v:tabList/>σ<tspan dy="-0.279em"
+						class="st19" v:baseFontSize="12">rechter doorsnede</tspan><tspan dy="0.181em" class="st17">(</tspan>z<tspan
 						class="st17">)</tspan></text>		</g>
 	</g>
 </svg>

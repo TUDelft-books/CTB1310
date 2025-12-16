@@ -53,7 +53,16 @@ Tijdens de afleiding van de formules voor normaalspanningen werden daarnaast nog
 
 ::::::
 
-Nu stellen we een vrijlichaamsschema op met spanningen voor een deel van de doorsnede, het zogenaamde afschuivend deel. Hierop werken dezelfde spanningen, met op het doorgesneden vlak geen normaalspanning maar wel een mogelijk schuifspanning. Deze doorsnede heeft ook een dikte: $b$ is de dikte van de doorsnede in de dwarsrichting $y$. $A^{\rm{a}}$ is het oppervlakte van de linker en rechter doorsnede, $A^{\parallel}$ is het oppervlakte van de onderste doorsnede
+Nu stellen we een vrijlichaamsschema op met spanningen voor een deel van de doorsnede, het zogenaamde afschuivend deel. Dit afschuivend deel heeft breedte $b$ in de dwarsrichting $y$. $A^{\rm{a}}$ is het oppervlakte van de linker en rechter doorsnede, $A^{\parallel}$ is het oppervlakte van de onderste doorsnede
+
+```{figure} ./instructie_data/deltaxA.svg
+:align: center
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/shear_rect
+
+Afschuivend deel met oppervlakte $A^{\rm{a}}$ voor de linker en rechter doorsnede en oppervlakte $A^{\parallel}$ voor de onderste doorsnede. Oppervlakte $A^{\rm{a}}$ heeft een breedte van $b$ en dus hoogte van $\cfrac{A^{\rm{a}}}{b}$. Oppervlakte $A^{\parallel}$ heeft een lengte van $\Delta x$ en breedte $b$.
+```
+
+Op dit afschuivend deel werken dezelfde spanningen als op de hele doorsnede, met daarnaast op het doorgesneden vlak geen normaalspanning maar wel een mogelijk schuifspanning.
 
 ```{figure} ./instructie_data/spanningen_afschuivend.svg
 :align: center
