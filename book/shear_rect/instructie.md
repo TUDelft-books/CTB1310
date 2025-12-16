@@ -189,8 +189,7 @@ Het statisch moment is maximaal ter hoogte van het normaalkrachtencentrum, waar 
 
 ::::::
 
-{#vrije-randen}
-Daarnaast leidt de relatie $\sigma_{zx} = \sigma_{xz}$ ook tot de conclusie dat de schuifspanningen dwars op de vrije randen van een doorsnede nul moeten zijn, omdat er daar geen evenwicht kan zijn met een andere spanning.
+[Daarnaast leidt de relatie $\sigma_{zx} = \sigma_{xz}$ ook tot de conclusie dat de schuifspanningen dwars op de vrije randen van een doorsnede nul moeten zijn, omdat er daar geen evenwicht kan zijn met een andere spanning.](#vrije-randen)
 
 ```{figure} ./instructie_data/randen.svg
 :align: center
