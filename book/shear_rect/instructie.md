@@ -95,7 +95,7 @@ Daarnaast gaan we in deze berekeningen uit van dezelfde doorsnede (en dus ook de
 :align: center
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/shear_rect
 
-Een niet-prismatisch balk geeft een ander spanningsverloop, $I_zz$ en $A^{\rm{a}}$ in de linker en rechter doorsnede.
+Een niet-prismatisch balk geeft een ander spanningsverloop, $I_{zz}$ en $A^{\rm{a}}$ in de linker en rechter doorsnede.
 ```
 
 ::::::
