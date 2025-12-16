@@ -53,13 +53,13 @@ Tijdens de afleiding van de formules voor normaalspanningen werden daarnaast nog
 
 ::::::
 
-Nu stellen we een vrijlichaamsschema op met spanningen voor een deel van de doorsnede, het zogenaamde afschuivend deel. Dit afschuivend deel heeft breedte $b$ in de dwarsrichting $y$. $A^{\rm{a}}$ is het oppervlakte van de linker en rechter doorsnede, $A^{\parallel}$ is het oppervlakte van de onderste doorsnede
+Nu stellen we een vrijlichaamsschema op met spanningen voor een deel van de doorsnede, het zogenaamde afschuivend deel. Dit afschuivend deel heeft breedte $b \left(z\right)$ en lengte $\Delta x$. $A^{\rm{a}}$ is het oppervlakte van de linker en rechter doorsnede, $A^{\parallel}$ is het oppervlakte van de onderste doorsnede. Hieruit volgt dus hoogte van dit vrijlichaamsschema van $\cfrac{A^{\rm{a}}}{b}$
 
 ```{figure} ./instructie_data/deltaxA.svg
 :align: center
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/shear_rect
 
-Afschuivend deel met oppervlakte $A^{\rm{a}}$ voor de linker en rechter doorsnede en oppervlakte $A^{\parallel}$ voor de onderste doorsnede. Oppervlakte $A^{\rm{a}}$ heeft een breedte van $b$ en dus hoogte van $\cfrac{A^{\rm{a}}}{b}$. Oppervlakte $A^{\parallel}$ heeft een lengte van $\Delta x$ en breedte $b$.
+Afschuivend deel met oppervlakte $A^{\rm{a}}$ voor de linker en rechter doorsnede en oppervlakte $A^{\parallel}$ voor de onderste doorsnede.
 ```
 
 Op dit afschuivend deel werken dezelfde spanningen als op de hele doorsnede, met daarnaast op het doorgesneden vlak geen normaalspanning maar wel een mogelijk schuifspanning.
@@ -74,14 +74,14 @@ Spanningen op een afschuivend deel van de doorsnede.
 Door het evenwicht in de langsrichting op te stellen, kunnen we de schuifspanning bepalen:
 
 $$
-\sum F_x = 0 \to \tau_{\rm{gem}} \left( z \right) = -\cfrac{V_{z} \, S_{z}^{\rm{a}} \left( z \right)}{b \left(z \right) \, I_{zz}}
+\sum F_x = 0 \to \tau_{\rm{gem}} = -\cfrac{V_{z} \, S_{z}^{\rm{a}} }{b \, I_{zz}}
 $$
 
 Met:
-- $\tau_{\rm{gem}} \left( z \right)$: de gemiddelde schuifspanning op hoogte $z$ in de doorsnede
+- $\tau_{\rm{gem}} $: de gemiddelde schuifspanning op het afschuivend oppervlakte van het afschuivende gedeelte en op de afschuiflijn in de doorsnede
 - $V_{z}$: de snedekracht in de $z$-richting
-- $S_{z}^{\rm{a}} \left( z \right)$: het statisch moment van het afschuivende deel van de doorsnede ten opzichte van de $y$-as op hoogte $z$
-- $b \left(z \right)$: de dikte van de doorsnede in de $y$-richting op hoogte $z$
+- $S_{z}^{\rm{a}}$: het statisch moment van het afschuivende deel van de doorsnede ten opzichte van de $y$-as
+- $b$: de totale breedte van de afschuivende vlak.
 - $I_{zz}$: het traagheidsmoment van de volledige doorsnede in de $z$-richting
 
 
@@ -89,13 +89,13 @@ Met:
 :nonumber: true
 :label: gemiddelde_schuifspanning
 
-Om het evenwicht op te stellen kunnen we alleen de resulterende schuifkracht bepalen, de verdeling is daarmee onbekend. We kunnen daarmee alleen maar de gemiddelde schuifspanning bepalen op een bepaalde hoogte $z$. Voor afschuivende vlakken blijkt deze gemiddelde schuifspanning terecht als de breedte van de doorsnede veel kleiner is dan de hoogte van de doorsnede.
+Om het evenwicht op te stellen kunnen we alleen de resulterende schuifkracht bepalen, de verdeling is daarmee onbekend. We kunnen daarmee alleen maar de gemiddelde schuifspanning bepalen. Voor afschuivende vlakken blijkt deze gemiddelde schuifspanning terecht als de breedte van het afschuivend vlak veel kleiner is dan de hoogte van het afschuivend vlak.
 
 ```{figure} ./instructie_data/hb.svg
 :align: center
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/shear_rect
 
-Voor doorsnedes waarin de breedte veel kleiner is dan de hoogte zoals links getoond, is de aanname van een gemiddelde schuifspanning op een bepaalde hoogte $z$ geldig. Als dat niet zo is, zoals rechts getoond, is de aanname niet geldig: voor dezelfde $z$ varieert de schuifspanning over de breedte.
+Voor doorsnedes waarin de breedte veel kleiner is dan de hoogte zoals links getoond, is de aanname van een gemiddelde schuifspanning over afschuifvlakken geldig. Als dat niet zo is, zoals rechts getoond, is de aanname niet geldig: voor dezelfde $z$ varieert de schuifspanning over het afschuifvlak.
 ```
 
 Daarnaast gaan we in deze berekeningen uit van dezelfde doorsnede (en dus ook dezelfde doorsnedegrootheden $I_{zz}$ en $A^{\rm{a}}$) in de linker en rechter doorsnede, wat betekent dat we aannemen dat de doorsnede niet verandert over de lengte van de balk; dus een prismatische balk.
@@ -119,10 +119,10 @@ $$
 \underbrace{-\int_{A^{\rm{a}}_{\rm{links}}} \cfrac{M_z \, z}{I_{zz,\rm{links}}} \, dA^{\rm{a}}_{\rm{links}} + \int_{A^{\rm{a}}_{\rm{rechts}}} \cfrac{M_z \, z}{I_{zz,\rm{rechts}}} \, dA^{\rm{a}}_{\rm{rechts}}}_{\rm{Als} \, \rm{linker-} \, \rm{en} \, \rm{rechter} \, \rm{afschuivend} \, \rm{vlak} \, \rm{gelijk} \, \rm{zijn} \, \rm{vervallen} \, \rm{deze} \, \rm{termen}} + \underbrace{\int_{A^{\rm{a}}} \cfrac{\Delta M_z \,z}{I_{zz}} \, dA^{\rm{a}}}_{\rm{uitgaande} \, \rm{van} \, \rm{gelijk} \, \rm{linker-} \, \rm{en} \, \rm{rechter} \, \rm{afschuivend} \, \rm{vlak}} + \int_{A^{\parallel}} \tau \left( x\right) \, dA^{\parallel} &= 0 \\
  \int_{A^{\rm{a}}} \cfrac{\Delta M_z \,z}{I_{zz}} \, dA^{\rm{a}} + \int_{A^{\parallel}} \underbrace{\tau \left( x\right)}_{\rm{Als} \, \tau \left( x\right) = \tau_{\rm{gem}} \, \text{kan} \, \rm{deze} \, \rm{uit} \, \rm{de} \, \rm{integraal} \, \rm{worden} \, \rm{gehaald} }  \, dA^{\parallel} &= 0 \\
 \cfrac{\Delta M_z}{I_{zz}} \int_{A^{\rm{a}}} z \, dA^{\rm{a}} + \tau_{\rm{gem}} \int_{A^{\parallel}} \, dA^{\parallel} &= 0 \\
-\cfrac{\Delta M_z}{I_{zz}} S_{z}^{\rm{a}}\left(z \right) + \tau_{\rm{gem}} A^{\parallel} &= 0 \\
-\cfrac{\Delta M_z}{I_{zz}} S_{z}^{\rm{a}}\left(z \right) + \tau_{\rm{gem}} \, b \left(z \right) \, \Delta x &= 0 \\
-\lim_{\Delta x \to 0} \tau_{\rm{gem}} &= \lim_{\Delta x \to 0} \cfrac{- \cfrac{\Delta M_z}{\Delta x} \, S_{z}^{\rm{a}}\left(z \right)}{b \left(z \right) \, I_{zz}} \\
-\underbrace{\tau_{\rm{gem}} \left(z \right)}_{\rm{In} \, \rm{een} \, \rm{doorsnede} \, \rm{is} \, \rm{de} \, \rm{schuifspanning} \, \rm{dus} \, \rm{variabel} \, \rm{in} \, z} &= -\cfrac{V_z \, S_{z}^{\rm{a}}\left(z \right)}{b \left(z \right) \, I_{zz}}
+\cfrac{\Delta M_z}{I_{zz}} S_{z}^{\rm{a}} + \tau_{\rm{gem}} A^{\parallel} &= 0 \\
+\cfrac{\Delta M_z}{I_{zz}} S_{z}^{\rm{a}} + \tau_{\rm{gem}} \, b  \, \Delta x &= 0 \\
+\lim_{\Delta x \to 0} \tau_{\rm{gem}} &= \lim_{\Delta x \to 0} \cfrac{- \cfrac{\Delta M_z}{\Delta x} \, S_{z}^{\rm{a}}}{b \, I_{zz}} \\
+\tau_{\rm{gem}} &= -\cfrac{V_z \, S_{z}^{\rm{a}}}{b \, I_{zz}}
 \end{align*}
 $$
 
@@ -160,7 +160,7 @@ Spanningen op afschuivend deel van de doorsnede.
 
 ### Conclusie schuifspanningen
 
-De schuifspanningsformule beschrijft dus de schuifspanningen zowel in langsrichting $x$ als in het doorsnedevlak $yz$ volgens $\tau_{\rm{gem}} \left( z \right) = -\cfrac{V_{z} \, S_{z}^{\rm{a}} \left( z \right)}{b \left(z \right) \, I_{zz}}$
+De schuifspanningsformule beschrijft dus de schuifspanningen zowel in langsrichting $x$ als in het doorsnedevlak $yz$ volgens $\tau_{\rm{gem}}  = -\cfrac{V_{z} \, S_{z}^{\rm{a}} }{b \, I_{zz}}$
 
 Vanwege de aanname dat de schuifspanning gemiddeld verdeeld is over de langsrichting van het afschuivende deel van de doorsnede, geldt dat de formule alleen een geldig antwoord geeft als een afschuivend deel wordt genomen waarin de schuifspanning daadwerkelijk constant is. We moeten het snedevlak daarom symmetrisch en loodrecht op de randen van de doorsnede nemen:
 
@@ -171,7 +171,7 @@ Vanwege de aanname dat de schuifspanning gemiddeld verdeeld is over de langsrich
 Het afschuivend deel van de doorsnede moet symmetrisch en loodrecht op de randen van de doorsnede genomen worden om een constante schuifspanning te garanderen.
 ```
 
-Daarnaast is voor de vorm van het schuifspanningsverloop in de doorsnede af te leiden dat bij een doorsnede met constante dikte $b$ de schuifspanning maximaal is ter hoogte van het normaalkrachtencentrum. Daarnaast verloop deze, specifiek voor rechthoekige doorsnedes, parabolisch.
+Daarnaast is voor de vorm van het schuifspanningsverloop in de doorsnede af te leiden dat bij een doorsnede met constante breedte de schuifspanning maximaal is ter hoogte van het normaalkrachtencentrum. Daarnaast verloop deze, specifiek voor rechthoekige doorsnedes, parabolisch.
 
 ```{figure} ./instructie_data/parabolisch.svg
 :align: center
@@ -183,11 +183,11 @@ Parabolisch verloop van schuifspanningen met maximum ter hoogte van het normaalk
 ::::::{admonition} Volledige afleiding
 :class: notation, dropdown
 
-Om het schuifspanningsverloop te bepalen, kunnen we de formule voor de gemiddelde schuifspanning herschrijven door het statisch moment uit te werken voor een constante dikte $b$:
+Om het schuifspanningsverloop te bepalen, kunnen we de formule voor de gemiddelde schuifspanning herschrijven door het statisch moment uit te werken voor een constante breedte:
 
 $$
 \begin{align*}
-\tau_{\rm{gem}} \left(z \right) &= -\cfrac{V_z \, S_{z}^{\rm{a}}\left(z \right)}{b \, I_{zz}} \\
+\tau_{\rm{gem}} \left(z \right) &= -\cfrac{V_z \, S_{z}^{\rm{a}}}{b \, I_{zz}} \\
 \tau_{\rm{gem}} \left(z \right) &= -\cfrac{V_z \, \int_{A^{\rm{a}}} z \, dA^{\rm{a}} }{b \, I_{zz}} \\
 \tau_{\rm{gem}} \left(z \right) &= -\cfrac{V_z \, b \int z \, dz }{b \, I_{zz}} \\
 \tau_{\rm{gem}} \left(z \right) &= -\cfrac{V_z \, \left(z^2 + \underbrace{C}_{\rm{integration} \, \rm{constant}} \right)}{\, I_{zz}}
@@ -207,7 +207,7 @@ Daarnaast leidt de relatie $\sigma_{zx} = \sigma_{xz}$ ook tot de conclusie dat 
 Spanningen op randen zijn nul loodrecht op de rand.
 ```
 
-Tot slot kunnen we de formule simplificeren door het teken direct te relateren aan de richting van de snedekracht. De resultante van de schuifspanning werkt namelijk altijd in de richting van de snedekracht. We kunnen daarmee de formule herschrijven naar: $\tau_{\rm{gem}} \left( z \right) = \cfrac{\left|  V_{z} \, S_{z}^{\rm{a}} \left( z \right) \right|}{b \left(z \right) \, I_{zz}} $.
+Tot slot kunnen we de formule simplificeren door het teken direct te relateren aan de richting van de snedekracht. De resultante van de schuifspanning werkt namelijk altijd in de richting van de snedekracht. We kunnen daarmee de formule herschrijven naar: $\tau_{\rm{gem}}  = \cfrac{\left|  V_{z} \, S_{z}^{\rm{a}}  \right|}{b \, I_{zz}} $.
 
 ```{figure} ./instructie_data/richtingen.svg
 :align: center
@@ -222,8 +222,13 @@ Daarmee kunnen we de volgende aanpak beschrijven voor het bepalen van het schuif
 :nonumber: true
 
 1. Bereken de snedekracht $V_z$ in de doorsnede.
-2. Neem een aantal karakteristieke afschuivend delen waarin de schuifspanningen constant zijn en bepaal de schuifspanningen op deze delen met $\tau_{\rm{gem}} \left( z \right) = \cfrac{ \left| V_{z} \, S_{z}^{\rm{a}} \left( z \right)\right|}{b \left(z \right) \, I_{zz}}$. Het afschuivende deel door het normaalkrachtencentrum geeft de maximale schuifspanning. Leid het teken af van de schuifspanningen af aan de hand van de richting van de snedekracht.
-3. Teken het schuifspanningsprofiel in bijvoorbeeld het $x,z$-assenstelsel. Voor een rechthoekige doorsnede verloopt dit parabolisch.
+2. Neem een aantal karakteristieke afschuivend delen waarin de schuifspanningen constant zijn en bepaal de schuifspanningen op deze delen. Het afschuivende deel door het normaalkrachtencentrum geeft de maximale schuifspanning. Leid het teken af van de schuifspanningen af aan de hand van de richting van de snedekracht. De schuifspanningen kunnen berekend worden met $\tau_{\rm{gem}}  = \cfrac{ \left| V_{z} \, S_{z}^{\rm{a}} \right|}{b  \, I_{zz}}$. Hierin is:
+    - $\tau_{\rm{gem}} $: de gemiddelde schuifspanning op het afschuivend oppervlakte van het afschuivende gedeelte en op de afschuiflijn in de doorsnede.
+    - $V_{z}$: de snedekracht in de $z$-richting.
+    - $S_{z}^{\rm{a}}$: het statisch moment van het afschuivende deel van de doorsnede ten opzichte van de $y$-as.
+    - $b$: de totale breedte van de afschuivende vlak.
+    - $I_{zz}$: het traagheidsmoment van de volledige doorsnede in de $z$-richting.
+3. Teken het schuifspanningsprofiel op de doorsnede. Voor een rechthoekige doorsnede verloopt dit parabolisch.
 
 ::::::
 
@@ -282,7 +287,7 @@ Het statisch moment van dit afschuivende deel is:
 
 $$
 \begin{align*}
-S_{z}^{\rm{a}} \left( 0 \right) &= A_{\rm{afschuivend} \, \rm{deel}} \, z_{\rm{N.C.} \longleftrightarrow \rm{zwaartepunt} \, \rm{afschuivend} \, \rm{deel} } \\
+S_{z}^{\rm{a}} &= A_{\rm{afschuivend} \, \rm{deel}} \, z_{\rm{N.C.} \longleftrightarrow \rm{zwaartepunt} \, \rm{afschuivend} \, \rm{deel} } \\
 &= \left( 90 \cdot 62.25 \cdot 2\right) \cdot -\cfrac{90}{2}\\
 &= -506250 \, \rm{mm^3}
 \end{align*}
@@ -302,7 +307,7 @@ Daarmee kunnen we de maximale schuifspanning bepalen:
 
 $$
 \begin{align*}
-\tau_{\rm{max}} &= \cfrac{\left|V_{z} \, S_{z}^{\rm{a}} \left( 0 \right)\right|}{b \, I_{zz}} \\
+\tau_{\rm{max}} &= \cfrac{\left|V_{z} \, S_{z}^{\rm{a}}\right|}{b \, I_{zz}} \\
 &= \cfrac{\left| 30000 \, \cdot -506250 \right|}{125 \cdot 60750000} \\
 &= 2 \, \rm{MPa}
 \end{align*}
@@ -328,4 +333,4 @@ In hoofdstuk 5.2 en 5.4.1 van het boek Mechanica, spanningen, vervormingen en ve
 % Dit onderwerp is [les ...](...) gepresenteerd in collegevorm tot ....
 
 ## Oefeningen
-Opgaves 5.2b, 5.3, 5.13 - 5.28, 5.69 en 5.71 in hoofdstuk 5 van het boek Mechanica, spanningen, vervormingen en verplaatsingen {cite:p}`Hartsuijker2013`. Antwoorden zijn [hier](https://icozct.tudelft.nl/TUD_CT/boekantwoorden/vol2/Chapter6/) beschikbaar.
+Opgaves 5.2b, 5.3, 5.13 - 5.28, 5.69 en 5.71 in hoofdstuk 5 van het boek Mechanica, spanningen, vervormingen en verplaatsingen {cite:p}`Hartsuijker2013`. Antwoorden zijn [hier](https://icozct.tudelft.nl/TUD_CT/boekantwoorden/vol2/Chapter5/) beschikbaar.
