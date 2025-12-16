@@ -198,7 +198,7 @@ Daarmee kunnen we de volgende aanpak beschrijven voor het bepalen van het schuif
 :nonumber: true
 
 1. Bereken de snedekracht $V_z$ in de doorsnede.
-2. Neem een aantal karakteristieke afschuivend delen waarin de schuifspanningen constant zijn en bepaal de schuifspanningen op deze delen met $\tau_{\rm{gem}} \left( z \right) = \left| - \cfrac{V_{z} \, S_{z}^{\rm{a}} \left( z \right)}{b \left(z \right) \, I_{zz}} \right|$. Het afschuivende deel door het normaalkrachtencentrum geeft de maximale schuifspanning. Leidt het teken af van de schuifspanningen af aan de hand van de richting van de snedekracht.
+2. Neem een aantal karakteristieke afschuivend delen waarin de schuifspanningen constant zijn en bepaal de schuifspanningen op deze delen met $\tau_{\rm{gem}} \left( z \right) = \left| - \cfrac{V_{z} \, S_{z}^{\rm{a}} \left( z \right)}{b \left(z \right) \, I_{zz}} \right|$. Het afschuivende deel door het normaalkrachtencentrum geeft de maximale schuifspanning. Leid het teken af van de schuifspanningen af aan de hand van de richting van de snedekracht.
 3. Teken het schuifspanningsprofiel in bijvoorbeeld het $x,z$-assenstelsel. Voor een rechthoekige doorsnede verloopt dit parabolisch.
 
 ::::::
