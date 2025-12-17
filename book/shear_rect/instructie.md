@@ -87,7 +87,6 @@ Met:
 
 ::::::{prf:assumption}
 :nonumber: true
-:label: gemiddelde_schuifspanning
 
 Om het evenwicht op te stellen kunnen we alleen de resulterende schuifkracht bepalen, de verdeling is daarmee onbekend. We kunnen daarmee alleen maar de gemiddelde schuifspanning bepalen. Voor afschuivende vlakken blijkt deze gemiddelde schuifspanning terecht als de breedte van het afschuivend vlak veel kleiner is dan de hoogte van het afschuivend vlak. Deze spanning werkt dan loodrecht op het afschuivend vlak en evenwijdig aan de rand van de doorsnede.
 

@@ -8,7 +8,7 @@ De vorige keer hebben we gekeken naar [schuifspanningen in rechthoekige doorsned
 
 Tijdens de afleiding van de schuifspanningsformule had ons model een aantal aannames. Voor niet-rechthoekige doorsnedes komen daar nog een aantal bij.
 
-De eerdere aanname [ons model is alleen geldig als de schuifspanningen evenredig verdeeld zijn over het afschuifvlak](gemiddelde_schuifspanning) is voor niet-rechthoekige doorsnedes ook van belang vanwege de variatie in afschuivende delen. Voor elk afschuivend deel geldt dat het model alleen geldig is als de breedte van de het afschuivend deel veel kleiner is dan de hoogte van de afschuivend deel. Voor niet-rechthoekige doorsneden, die verschillende delen kunnen hebben met verschillende breedte-hoogte verhoudingen, kan deze aanname dus ook zorgen voor een ongeldig model voor een **deel** van de doorsnede.
+De eerdere aanname waarmee ons model alleen geldig is als de schuifspanningen evenredig verdeeld zijn over het afschuifvlak is voor niet-rechthoekige doorsnedes ook van belang vanwege de variatie in afschuivende delen. Voor elk afschuivend deel geldt dat het model alleen geldig is als de breedte van de het afschuivend deel veel kleiner is dan de hoogte van de afschuivend deel. Voor niet-rechthoekige doorsneden, die verschillende delen kunnen hebben met verschillende breedte-hoogte verhoudingen, kan deze aanname dus ook zorgen voor een ongeldig model voor een **deel** van de doorsnede.
 
 ```{figure} ./instructie_data/samengesteld.svg
 :align: center
@@ -54,6 +54,16 @@ Niet-rechthoekige doorsnedes zouden kunnen voldoen aan alle aannames, maar niet 
 Afschuifvlakken in verschillende richtingen, maar altijd loodrecht op de rand
 ```
 
+In theorie zouden ook niet-vlakke afschuifvlakken kunnen worden genomen, maar dat vereist kennis uit de elasticiteitstheorie om evenredige verdelingen te kunnen garanderen. Daarom beperken we ons tot vlakke afschuifvlakken.
+
+```{figure} ./instructie_data/curved.svg
+:align: center
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/shear
+
+Mogelijke gekromde afschuifvlakken
+```
+
+
 ## Voorbeeld
 
 Het bepalen van de schuifspanningen voor een niet-rechthoekige doorsnede wordt getoond op onderstaande voorbeeld.
@@ -70,10 +80,16 @@ Doorsnede en constructie
 
 Gevraagd is om zoveel mogelijk informatie te geven over de absolute waarde van de schuifspanningen in een doorsnede bij $\rm{A}$
 
-Allereerst kunnen we de afschuifvlakken bepalen waar we de schuifspanningen kunnen berekenen. Deze afschuifvlakken moeten loodrecht op de randen worden genomen. Daarnaast mag het afschuifvlak niet genomen worden in de buurt van een overgang in breedte. Dat heeft tot gevolg dat de afschuifvlakken alleen in de getoonde delen kan worden genomen.
+Allereerst kunnen we de afschuifvlakken bepalen waar we de schuifspanningen kunnen berekenen. Deze afschuifvlakken moeten loodrecht op de randen worden genomen. Daarnaast mag het afschuifvlak niet genomen worden in de buurt van een overgang in breedte. Dat heeft tot gevolg dat de afschuifvlakken alleen in de getoonde delen kunnen worden genomen.
 
+```{figure} ./instructie_data/mogelijke_afschuifvlakken.svg
+:align: center
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/shear
 
-Voor deze delen geldt dat $h \gg b$, dus we kunnen de schuifspanningsformule toepassen. We berekenen de schuifspanningen in de verschillende delen:
+Links afschuifvlakken die niet mogelijk zijn, rechts mogelijke afschuifvlakken.
+```
+
+We kunnen de schuifspanningen dus alleen bepalen in het diagonale gedeelte en dan niet te dicht bij de hoeken. Laten we beginnen met een afschuifvlak
 
 ::::::
 
