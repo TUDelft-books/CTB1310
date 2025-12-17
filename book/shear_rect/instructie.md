@@ -89,7 +89,7 @@ Met:
 :nonumber: true
 :label: gemiddelde_schuifspanning
 
-Om het evenwicht op te stellen kunnen we alleen de resulterende schuifkracht bepalen, de verdeling is daarmee onbekend. We kunnen daarmee alleen maar de gemiddelde schuifspanning bepalen. Voor afschuivende vlakken blijkt deze gemiddelde schuifspanning terecht als de breedte van het afschuivend vlak veel kleiner is dan de hoogte van het afschuivend vlak.
+Om het evenwicht op te stellen kunnen we alleen de resulterende schuifkracht bepalen, de verdeling is daarmee onbekend. We kunnen daarmee alleen maar de gemiddelde schuifspanning bepalen. Voor afschuivende vlakken blijkt deze gemiddelde schuifspanning terecht als de breedte van het afschuivend vlak veel kleiner is dan de hoogte van het afschuivend vlak. Deze spanning werkt dan loodrecht op het afschuivend vlak en evenwijdig aan de rand van de doorsnede.
 
 ```{figure} ./instructie_data/hb.svg
 :align: center
@@ -158,7 +158,7 @@ Dat betekent dus dat de schuifspanningen op de linker en rechter doorsnede ter h
 Spanningen op afschuivend deel van de doorsnede.
 ```
 
-### Conclusie schuifspanningen
+### Implicaties model schuifspanningen
 
 De schuifspanningsformule beschrijft dus de schuifspanningen zowel in langsrichting $x$ als in het doorsnedevlak $yz$ volgens $\tau_{\rm{gem}}  = -\cfrac{V_{z} \, S_{z}^{\rm{a}} }{b \, I_{zz}}$
 
