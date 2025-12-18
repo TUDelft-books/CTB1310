@@ -89,7 +89,43 @@ Allereerst kunnen we de afschuifvlakken bepalen waar we de schuifspanningen kunn
 Links afschuifvlakken die niet mogelijk zijn, rechts mogelijke afschuifvlakken.
 ```
 
-We kunnen de schuifspanningen dus alleen bepalen in het diagonale gedeelte en dan niet te dicht bij de hoeken. Laten we beginnen met een afschuifvlak
+We kunnen de schuifspanningen dus alleen bepalen in het diagonale gedeelte en dan niet te dicht bij de hoeken. We kiezen daarom voor een afschuifvlak op een vrij willekeurige hoogte van $\bar{z} = -60 \, \rm{mm}$. Daarvoor moeten eerst de doorsnedegrootheden worden bepaald, beginnend met het oppervlakte $A$.
+
+```{figure} ./instructie_data/A.svg
+:align: center
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/shear
+
+Berekening oppervlakte
+```
+
+$$
+A = 280 \cdot 140 \cdot \cfrac{1}{2} - 200 \cdot 100 \cfrac{1}{2} = 9600 \, \rm{mm^2}
+$$
+
+Vervolgens kunnen we het zwaartepunt/normaalkrachtencentrum bepalen. Daarvoor verdelen we de constructie in parallellogrammen en driehoeken, elk met een eigen zwaartepunt.
+
+```{figure} ./instructie_data/statisch_moment.svg
+:align: center
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/shear
+
+Onderverdeling van doorsnede in parallellogrammen en driehoeken voor het bepalen van het statisch moment, elk met een eigen zwaartepunt ($\rm{C}$)
+```
+
+$$
+\bar{z}_{\rm{N.C.}} = \cfrac{40 \cdot 100 \cdot 50 \cdot 2 + 80 \cdot 40 \cdot \cfrac{1}{2} \cdot \left(100 + \cfrac{1}{3} \cdot 40 \right)}{9600} = 60.\bar{5} \, \rm{mm}
+$$
+
+Daarmee kan het traagheidsmoment $I_{zz}$ worden bepaald, gebruik makend van dezelfde onderverdeling als voor het zwaartepunt.
+
+$$
+\begin{align*}
+I_{zz} = &  \,2 \cdot \left( \cfrac{1}{12} \cdot 40 \cdot 100^3 + 100 \cdot 40\ \cdot \left(60.\bar{5} - 50 \right)^2 \right) \\
+& + \cfrac{1}{36} \cdot 80 \cdot 40^3 + 80 \cdot 40 \cdot \cfrac{1}{2} \cdot \left(60.\bar{5} - \left(100 + \cfrac{1}{3} \cdot 40 \right) \right)^2 \\
+\approx & \, 12.2 \cdot 10^6 \, \rm{mm^4}
+\end{align*}
+$$
+
+Nu kan het 
 
 ::::::
 

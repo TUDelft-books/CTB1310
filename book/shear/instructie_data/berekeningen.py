@@ -9,8 +9,12 @@ V = sym.nsimplify(120000)
 
 A = h * h*2 / 2 - (h - t*sym.sqrt(2)) **2 * 2 / 2
 
-Sz = h ** 2 * 2 / 2 * h / 3 - (h - t*sym.sqrt(2))**2 * 2 / 2 * (h - t*sym.sqrt(2)) / 3
+print(A)
 
+Sz = h ** 2 * 2 / 2 * h / 3 - (h - t*sym.sqrt(2))**2 * 2 / 2 * (h - t*sym.sqrt(2)) / 3
+print(Sz)
+Sz = (t * sym.sqrt(2) * 2) * t * sym.sqrt(2) / 2 * (h - t*sym.sqrt(2)/3*2) + (h - t*sym.sqrt(2)) * t * sym.sqrt(2) * (h - t*sym.sqrt(2)) / 2 * 2
+print(Sz)
 zc = Sz / A
 
 print(zc)
@@ -18,7 +22,7 @@ print(zc.evalf())
 
 #sym.plot(zc, (h, 0, 300))
 
-Izz = (h - t * sym.sqrt(2))**3 * t * sym.sqrt(2) * 2 / 12 + t*sym.sqrt(2) * (h - t*sym.sqrt(2)) * (h - t*sym.sqrt(2) - zc) **2 + 2 * t * sym.sqrt(2) * (t*sym.sqrt(2))**3 /36 + t * sym.sqrt(2) * 2 * t * sym.sqrt(2) * (h - t * sym.sqrt(2) / 3 * 2 - zc) **2
+Izz = (h - t * sym.sqrt(2))**3 * t * sym.sqrt(2) * 2 / 12 + 2 * t*sym.sqrt(2) * (h - t*sym.sqrt(2)) * ((h - t*sym.sqrt(2))/2 - zc) **2 + 2 * t * sym.sqrt(2) * (t*sym.sqrt(2))**3 /36 + t * sym.sqrt(2) * 2 * t * sym.sqrt(2) / 2 * (h - t * sym.sqrt(2) / 3 * 2 - zc) **2
 
 print(Izz)
 print(Izz.evalf())
