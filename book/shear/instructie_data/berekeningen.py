@@ -29,11 +29,12 @@ print(Izz.evalf())
 
 h_tau = sym.symbols('h_tau', positive=True)
 
-Sz = (h_tau * sym.sqrt(2) * t) * (zc - h_tau / 2) + (t * sym.sqrt(2) * 2) * t * sym.sqrt(2) / 2 * (zc - t * sym.sqrt(2) / 3 * 2)
-print(Sz.subs(h_tau, zc))
+Sz = ((h_tau - t / sym.sqrt(2)/2)*sym.sqrt(2)* t) * (zc - (h_tau - t / sym.sqrt(2)/2) / 2) + (t * sym.sqrt(2)) * t / sym.sqrt(2) / 2 * (zc - t / sym.sqrt(2) / 3 * 1)
+print(Sz.simplify())
+print(Sz.subs(h_tau, 48), Sz.subs(h_tau, 48).evalf())
 
 tau = V * Sz.subs(h_tau,zc) / Izz / t
 print(tau, tau.evalf())
 
-tau = V * Sz.subs(h_tau, 50) / Izz / t
+tau = V * Sz.subs(h_tau, 48) / Izz / t
 print(tau, tau.evalf())

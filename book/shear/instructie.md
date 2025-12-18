@@ -89,7 +89,16 @@ Allereerst kunnen we de afschuifvlakken bepalen waar we de schuifspanningen kunn
 Links afschuifvlakken die niet mogelijk zijn, rechts mogelijke afschuifvlakken.
 ```
 
-We kunnen de schuifspanningen dus alleen bepalen in het diagonale gedeelte en dan niet te dicht bij de hoeken. We kiezen daarom voor een afschuifvlak op een vrij willekeurige hoogte van $\bar{z} = -60 \, \rm{mm}$. Daarvoor moeten eerst de doorsnedegrootheden worden bepaald, beginnend met het oppervlakte $A$.
+We kunnen de schuifspanningen dus alleen bepalen in het diagonale gedeelte en dan niet te dicht bij de hoeken. We kiezen daarom voor een afschuifvlak op een vrij willekeurige hoogte van $\bar{z} = -48 \, \rm{mm}$.
+
+```{figure} ./instructie_data/snede.svg
+:align: center
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/shear
+
+Afschuifvlak gekozen op $\bar{z} = -48 \, \rm{mm}$
+```
+
+Nu moeten we eerst de doorsnedegrootheden worden bepaald, beginnend met het oppervlakte $A$.
 
 ```{figure} ./instructie_data/A.svg
 :align: center
@@ -125,7 +134,28 @@ I_{zz} = &  \,2 \cdot \left( \cfrac{1}{12} \cdot 40 \cdot 100^3 + 100 \cdot 40\ 
 \end{align*}
 $$
 
-Nu kan het 
+Nu kan het statisch moment van het afschuivend deel worden bepaald. We kiezen voor een afschuifvlak met de hartlijn op $\bar{z} = -48 \, \rm{mm}$. Het afschuivend deel nemen we het deel onder deze snede, hoewel we ook het andere deel hadden kunnen nemen, maar dat is complexer. Dit afschuivend deel is verdeeld in een gekantelde rechthoek en driehoek, waarvan de afmetingen volgen uit de goniometrie van de doorsnede.
+
+```{figure} ./instructie_data/Sa.svg
+:align: center
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/shear
+
+Afschuivend deel met afmetingen met N.C. van de hele doorsnede op $60.\bar{5} \, \rm{mm}$ vanaf de onderkant en het snijpunt van snedevlak en hartlijn op $-48 \, \rm{mm}$
+```
+
+$$
+\begin{align*}
+S_a = & \, 40 \cdot 20 \cdot \cfrac{1}{2} \cdot \left(60.\bar{5} - \cfrac{20}{3} \right)\\
+& + 20 \sqrt{2} \cdot 38 \sqrt{2} \cdot \left(60.\bar{5} - \cfrac{38}{2} \right) \\
+= & \, 84720 \, \rm{mm}^3 \\
+\end{align*}
+$$
+
+Dit geeft:
+
+$$
+\tau = \cfrac{V \, S_a}{I_{zz} \, t} \approx \cfrac{120000 \cdot 84720}{12.2 \cdot 10^6 \cdot 20 \sqrt{2}} \approx 29.6 \, \rm{MPa}
+$$
 
 ::::::
 
