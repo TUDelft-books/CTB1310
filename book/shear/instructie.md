@@ -154,8 +154,19 @@ $$
 Dit geeft:
 
 $$
-\tau = \cfrac{V \, S_a}{I_{zz} \, t} \approx \cfrac{120000 \cdot 84720}{12.2 \cdot 10^6 \cdot 20 \sqrt{2}} \approx 29.6 \, \rm{MPa}
+\tau \approx \cfrac{\left| V \, S_a \right| }{I_{zz} \, t} \approx \cfrac{\left| 120000 \cdot 84720\right|}{12.2 \cdot 10^6 \cdot 20 \sqrt{2}} \approx 29.6 \, \rm{MPa}
 $$
+
+Het resultaat is dus een evenredig verdeelde schuifspanning op ons schuifvlak. De werklijn is dwars op het afschuifvlak en evenwijdig aan de rand en de richting is nog niet bepaald. Het bepalen van de richting passen we pas een volgende keer toe bij dunwandige doorsneden.
+
+
+```{figure} ./instructie_data/resultaat.svg
+:align: center
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/shear
+
+Afschuivend deel met afmetingen met N.C. van de hele doorsnede op $60.\bar{5} \, \rm{mm}$ vanaf de onderkant en het snijpunt van snedevlak en hartlijn op $-48 \, \rm{mm}$
+```
+
 
 ::::::
 
