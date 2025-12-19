@@ -24,12 +24,22 @@ Izz = b1*h1**3/12 + b1*h1*(z_bar - h1/2)**2 + \
 
 print("I_zz=", Izz.simplify(), "\approx", Izz.evalf())
 
-z_snede = 250
+z_snede = sym.nsimplify(250)
 Sz = (h1 + h2 + h3 + z_snede / 2 - z_bar) * (h1 + h2 + h3 - z_snede) * b2
 
 print(Sz)
 
-V = 600000
+V = sym.nsimplify(600000)
 
 tau = V * Sz / (Izz * b2)
 print("tau=", tau.simplify(), "\approx", tau.evalf())
+
+Bv = V / 1000
+
+L = sym.symbols('L', positive=True)
+L = sym.nsimplify(8)
+q = sym.symbols('q', positive=True)
+
+eq = sym.Eq(Bv * L - q * (L*5/8)**2 / 2, 0)
+sol = sym.solve(eq, q)
+print("q=", sym.simplify(sol[0]), "\approx", sol[0].evalf())
