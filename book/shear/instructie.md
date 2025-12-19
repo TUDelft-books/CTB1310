@@ -2,9 +2,7 @@
 
 De vorige keer hebben we gekeken naar [schuifspanningen in rechthoekige doorsnedes](../shear_rect/instructie.md). In deze instructie breiden we dat uit naar schuifspanningen in algemene dikwandige doorsnedes.
 
-## Implicaties model schuifspanningen voor niet-rechthoekige dikwandige doorsneden
-
-### Relatie met elasticiteitstheorie
+## Relatie met elasticiteitstheorie
 
 Onze schuifspanningsmodel is gebaseerd op een aantal aannames om van snedekrachten naar spanningen te komen. Een meer geavanceerde manier om spanningen in constructies te bepalen is met (complexe) elasticiteitstheorie. Vaak wordt die theorie opgelost met computersimulaties, waarmee spanningen op elk punt in de doorsnede kunnen worden bepaald. Deze simulaties kunnen de beperkingen van ons model bevestigen.
 
@@ -18,6 +16,8 @@ Onze schuifspanningsmodel is gebaseerd op een aantal aannames om van snedekracht
 
 Voorbeeld van simulatie op basis van elasticiteitstheorie op doorsnedeniveau. De vectoren geven de richting aan van de schuifspanningen en de kleur en grootte de absolute waarde.
 ```
+
+## Implicaties model schuifspanningen voor niet-rechthoekige dikwandige doorsneden
 
 ### Beperkingen van het model
 
