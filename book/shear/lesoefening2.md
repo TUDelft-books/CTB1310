@@ -19,6 +19,7 @@ Verder is gegeven dat voor een segment van een ring geldt:
 :copyright: © DuckRabbitDuckRabbit 2020
 :date: 2020-12-13
 :placement: caption
+:width: 50%
 
 Zwaartepunt van een ringsegment
 ```
