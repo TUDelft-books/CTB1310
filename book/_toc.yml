@@ -20,6 +20,7 @@ parts:
     sections:
     - file: shear/instructie.md
     - file: shear/lesoefening1.md
+    - file: shear/lesoefening2.md
   - file: torsie_krachten/les.md
     sections:
     - file: torsie_krachten/instructie.md

@@ -75,8 +75,18 @@ In theorie zouden ook niet-vlakke afschuifvlakken kunnen worden genomen, maar da
 :align: center
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/shear
 
-Mogelijke gekromde afschuifvlakken
+Mogelijke gekromde afschuifvlakken, maar geen onderdeel van dit vak.
 ```
+
+Geknikt afschuifvlakken zijn wel toegestaan, zolang elk vlakdeel maar loodrecht op de randen staat en voldoen aan de andere voorwaarden. Als een symmetrische doorsnede symmetrisch wordt doorgesneden, kunnen we uitgaan van een evenredig verdeelde schuifspanning op elk vlakdeel.
+
+```{figure} ./instructie_data/geknikt.svg
+:align: center
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/shear
+
+Mogelijke geknikte afschuifvlak.
+```
+
 
 Ongeacht dat de richting van de schuifspanningen en daarmee de richting van het afschuifvlak niet altijd te bepalen zijn, kunnen we vanwege symmetrie op sommige delen van de doorsnede wel de richting bepalen (zonder waarde). In het middel van de getoonde doorsnedes moet de schuifspanning wel verticaal lopen, anders is er geen symmetrisch schuifspanningsverloop mogelijk.
 
