@@ -21,13 +21,13 @@ Verder is gegeven dat voor een segment van een ring geldt:
 :placement: caption
 :width: 50%
 
-Zwaartepunt van een ringsegment
+Zwaartepunt $\bar{x}$ van een ringsegment
 ```
 
 $$
 \begin{align*}
 A &= \alpha \left( r_2^2 - r_1^2 \right) \\
-\bar{r} &= \cfrac{2 \sin \left( \alpha \right)}{3} \cfrac{r_2^3 - r_1^3}{r_2^2 - r_1^2}
+\bar{x} &= \cfrac{2 \sin \left( \alpha \right)}{3} \cfrac{r_2^3 - r_1^3}{r_2^2 - r_1^2}
 \end{align*}
 $$
 
