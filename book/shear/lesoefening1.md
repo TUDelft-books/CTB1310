@@ -43,7 +43,7 @@ Aantal mogelijke punten voor het bepalen van de schuifspanning.
 
 Bepaal de doorsnedegrootheden
 
-```{h5p} https://tudelft.h5p.com/content/1292775929941797377
+```{h5p} https://tudelft.h5p.com/content/1292775929941797377/embed
 ```
 
 :::::
@@ -62,9 +62,9 @@ Bepaal de doorsnedegrootheden
 :::::{exercise}
 :nonumber: true
 
-Bepaal de gemiddelde schuifspanning op het horizontale afschuivlak op $\bar{z} = 250 \, \rm{mm}$ voor een negatieve snede.
+Bepaal de gemiddelde schuifspanning op het horizontale afschuifvlak op $\bar{z} = 250 \, \rm{mm}$ voor een negatieve snede.
 
-```{h5p} https://tudelft.h5p.com/content/1292775934968650997
+```{h5p} https://tudelft.h5p.com/content/1292775934968650997/embed
 ```
 
 :::::
