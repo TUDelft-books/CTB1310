@@ -47,7 +47,7 @@ Daarnaast heeft de observatie dat de schuifspanningen dwars op de vrije randen v
 :align: center
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/shear
 
-Links de schuifspanningen volgens ons model, rechts nulspanningen getoond loodrecht op de vrije randen. Op diagonale randen kunnen deze spanningen niet matchen, waarmee het model dus ongeldig is.
+Links de schuifspanningen volgens ons model met horizontale afschuifvlakken, rechts nulspanningen getoond loodrecht op de vrije randen. Op diagonale randen kunnen deze spanningen niet matchen, waarmee het model dus ongeldig is.
 ```
 
 Daarmee kunnen we de schuifspanningsformule voor dikwandige doorsneden dus alleen toepassen op afschuivende vlakken die:
@@ -78,6 +78,14 @@ In theorie zouden ook niet-vlakke afschuifvlakken kunnen worden genomen, maar da
 Mogelijke gekromde afschuifvlakken
 ```
 
+Ongeacht dat de richting van de schuifspanningen en daarmee de richting van het afschuifvlak niet altijd te bepalen zijn, kunnen we vanwege symmetrie op sommige delen van de doorsnede wel de richting bepalen (zonder waarde). In het middel van de getoonde doorsnedes moet de schuifspanning wel verticaal lopen, anders is er geen symmetrisch schuifspanningsverloop mogelijk.
+
+```{figure} ./instructie_data/werklijn_bekend.svg
+:align: center
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/shear
+
+Richting van de schuifspanningen is bekend in het midden van de doorsnede vanwege symmetrie.
+```
 
 ## Voorbeeld
 

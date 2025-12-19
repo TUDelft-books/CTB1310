@@ -3,7 +3,7 @@
 <!-- Gegenereerd door Microsoft Visio, SVG Export randen.svg Pagina-1 -->
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
 		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="4.04377in" height="2.27587in"
-		viewBox="0 0 291.152 163.862" xml:space="preserve" color-interpolation-filters="sRGB" class="st11">
+		viewBox="0 0 291.152 163.862" xml:space="preserve" color-interpolation-filters="sRGB" class="st12">
 	<v:documentProperties v:langID="1043" v:metric="true" v:viewMarkup="false"/>
 
 	<style type="text/css">
@@ -18,7 +18,8 @@
 		.st8 {stroke:#31859b;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
 		.st9 {fill:none;stroke:#31859b;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
 		.st10 {fill:none;stroke:#31859b;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.5}
-		.st11 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+		.st11 {stroke:#000000;stroke-dasharray:5.25,3.75,0,3.75;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
+		.st12 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
 	]]>
 	</style>
 
@@ -340,6 +341,14 @@
 				<v:textRect cx="7.08661" cy="156.776" width="14.18" height="14.1732"/>
 				<rect x="0" y="149.689" width="14.1732" height="14.1732" class="st4"/>
 				<text x="4.75" y="160.38" class="st5" v:langID="1043"><v:paragraph v:horizAlign="1"/><v:tabList/>z</text>			</g>
+		</g>
+		<g id="shape1036-231" v:mID="1036" v:groupContext="shape" transform="translate(21.4852,-78.1781)">
+			<title>Blad.1036</title>
+			<path d="M0 163.86 L113.39 163.86" class="st11"/>
+		</g>
+		<g id="shape1037-234" v:mID="1037" v:groupContext="shape" transform="translate(21.4852,-106.525)">
+			<title>Blad.1037</title>
+			<path d="M0 163.86 L113.39 163.86" class="st11"/>
 		</g>
 	</g>
 </svg>
