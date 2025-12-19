@@ -4,6 +4,21 @@ De vorige keer hebben we gekeken naar [schuifspanningen in rechthoekige doorsned
 
 ## Implicaties model schuifspanningen voor niet-rechthoekige dikwandige doorsneden
 
+### Relatie met elasticiteitstheorie
+
+Onze schuifspanningsmodel is gebaseerd op een aantal aannames om van snedekrachten naar spanningen te komen. Een meer geavanceerde manier om spanningen in constructies te bepalen is met (complexe) elasticiteitstheorie. Vaak wordt die theorie opgelost met computersimulaties, waarmee spanningen op elk punt in de doorsnede kunnen worden bepaald. Deze simulaties kunnen de beperkingen van ons model bevestigen.
+
+```{figure} ./instructie_data/RC-B_05_34.png
+:align: center
+:source: [Knowledge Base IDEA StatiCa](https://www.ideastatica.com/support-center/shear-in-rcs-circular-cross-sections)
+:author: IDEA StatiCa
+:license: All Rights Reserved
+:copyright: © IDEA StatiCa 2009-2025
+:placement: caption
+
+Voorbeeld van simulatie op basis van elasticiteitstheorie op doorsnedeniveau. De vectoren geven de richting aan van de schuifspanningen en de kleur en grootte de absolute waarde.
+```
+
 ### Beperkingen van het model
 
 Tijdens de afleiding van de schuifspanningsformule had ons model een aantal aannames. Voor niet-rechthoekige doorsnedes komen daar nog een aantal bij.
