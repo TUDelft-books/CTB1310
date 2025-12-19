@@ -1,4 +1,4 @@
-# Begeleide oefening 1
+# Begeleide oefening 2
 
 Gegeven is de volgende doorsnede:
 
