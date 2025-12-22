@@ -69,6 +69,26 @@ Niet-rechthoekige doorsnedes zouden kunnen voldoen aan alle aannames, maar niet 
 Afschuifvlakken in verschillende richtingen, maar altijd loodrecht op de rand
 ```
 
+Voor verticale afschuifvlakken (in horizontale doorsnededelen) geldt dat de schuifspanningen linear verlopen over de 'hoogte' (in horizontale richting) van het constructiedeel, mits de breedte van het afschuifvlak constant blijft. Dit kan op vergelijkbare wijze worden afgeleid als het parabolisch verband wat werd gevonden voor horizontale afschuifvlakken in verticale delen.
+
+::::::{admonition} Volledige afleiding
+:class: notation, dropdown
+
+Om het schuifspanningsverloop te bepalen, kunnen we de formule voor de gemiddelde schuifspanning herschrijven door het statisch moment uit te werken voor een constante breedte:
+
+$$
+\begin{align*}
+\tau_{\rm{gem}} &= -\cfrac{V_z \, S_{z}^{\rm{a}}}{b \, I_{zz}} \\
+\tau_{\rm{gem}} &= -\cfrac{V_z \, \int_{A^{\rm{a}}} z \, dA^{\rm{a}} }{b \, I_{zz}} \\
+\tau_{\rm{gem}} &= -\cfrac{V_z \, z \int_{A^{\rm{a}}} \, dA^{\rm{a}} }{b \, I_{zz}} \\
+\tau_{\rm{gem}} &= -\cfrac{V_z \, z \, A^{\rm{a}}}{b \, I_{zz}}
+\end{align*}
+$$
+
+Het statisch moment is dus niet afhankelijk van $z$, waarmee de spanning alleen maar toeneemt door de lineair toenemende waarde van $A^{\rm{a}}$.
+
+::::::
+
 In plaats van $h \gg b$ geldt voor gekromde delen van de constructie dat $R \gg b$ moet gelden, met $R$ de straal van kromming van het gekromde deel.
 
 ```{figure} ./instructie_data/rondingen.svg

@@ -186,10 +186,10 @@ Om het schuifspanningsverloop te bepalen, kunnen we de formule voor de gemiddeld
 
 $$
 \begin{align*}
-\tau_{\rm{gem}} \left(z \right) &= -\cfrac{V_z \, S_{z}^{\rm{a}}}{b \, I_{zz}} \\
-\tau_{\rm{gem}} \left(z \right) &= -\cfrac{V_z \, \int_{A^{\rm{a}}} z \, dA^{\rm{a}} }{b \, I_{zz}} \\
-\tau_{\rm{gem}} \left(z \right) &= -\cfrac{V_z \, b \int z \, dz }{b \, I_{zz}} \\
-\tau_{\rm{gem}} \left(z \right) &= -\cfrac{V_z \, \left(z^2 + \underbrace{C}_{\rm{integration} \, \rm{constant}} \right)}{\, I_{zz}}
+\tau_{\rm{gem}} &= -\cfrac{V_z \, S_{z}^{\rm{a}}}{b \, I_{zz}} \\
+\tau_{\rm{gem}} &= -\cfrac{V_z \, \int_{A^{\rm{a}}} z \, dA^{\rm{a}} }{b \, I_{zz}} \\
+\tau_{\rm{gem}} &= -\cfrac{V_z \, b \int z \, dz }{b \, I_{zz}} \\
+\tau_{\rm{gem}} &= -\cfrac{V_z \, \left(z^2 + \underbrace{C}_{\rm{integration} \, \rm{constant}} \right)}{\, I_{zz}}
 \end{align*}
 $$
 
