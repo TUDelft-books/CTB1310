@@ -207,7 +207,7 @@ Afschuivend deel met afmetingen met N.C. van de hele doorsnede op $60.\bar{5} \,
 
 $$
 \begin{align*}
-S_a = & \, 40 \cdot 20 \cdot \cfrac{1}{2} \cdot \left(60.\bar{5} - \cfrac{20}{3} \right)\\
+S_{z}^{\rm{a}} = & \, 40 \cdot 20 \cdot \cfrac{1}{2} \cdot \left(60.\bar{5} - \cfrac{20}{3} \right)\\
 & + 20 \sqrt{2} \cdot 38 \sqrt{2} \cdot \left(60.\bar{5} - \cfrac{38}{2} \right) \\
 = & \, 84720 \, \rm{mm}^3 \\
 \end{align*}
@@ -216,7 +216,7 @@ $$
 Dit geeft:
 
 $$
-\tau \approx \cfrac{\left| V \, S_a \right| }{I_{zz} \, t} \approx \cfrac{\left| 120000 \cdot 84720\right|}{12.2 \cdot 10^6 \cdot 20 \sqrt{2}} \approx 29.6 \, \rm{MPa}
+\tau = \cfrac{\left| V_z \, S_{z}^{\rm{a}} \right| }{I_{zz} \, t} \approx \cfrac{\left| 120000 \cdot 84720\right|}{12.2 \cdot 10^6 \cdot 20 \sqrt{2}} \approx 29.6 \, \rm{MPa}
 $$
 
 Het resultaat is dus een evenredig verdeelde schuifspanning op ons schuifvlak. De werklijn is dwars op het afschuifvlak en evenwijdig aan de rand en de richting is nog niet bepaald. Het bepalen van de richting passen we pas een volgende keer toe bij dunwandige doorsneden.
