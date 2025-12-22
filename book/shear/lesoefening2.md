@@ -19,15 +19,15 @@ Verder is gegeven dat voor een segment van een ring geldt:
 :copyright: © DuckRabbitDuckRabbit 2020
 :date: 2020-12-13
 :placement: caption
-:width: 50%
+:width: 30%
 
-Zwaartepunt $\bar{x}$ van een ringsegment
+Zwaartepunt $\bar{x}$ van een ringsegment met binnenste straal $r_1$, buitenste straal $r_2$ en totale hoek $2\alpha$.
 ```
 
 $$
 \begin{align*}
 A &= \alpha \left( r_2^2 - r_1^2 \right) \\
-\bar{x} &= \cfrac{2 \sin \left( \alpha \right)}{3} \cfrac{r_2^3 - r_1^3}{r_2^2 - r_1^2}
+\bar{x} &= \cfrac{2 \sin \left( \alpha \right)}{ 3 \alpha} \cfrac{r_2^3 - r_1^3}{r_2^2 - r_1^2}
 \end{align*}
 $$
 
@@ -41,6 +41,11 @@ Gegeven zijn een aantal mogelijke punten waarop de schuifspanning kan worden bep
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/shear_3
 
 Doorsnede met mogelijke punten voor het bepalen van de schuifspanning.
+```
+
+Je mag er vanuit gaan dat $R \gg b$ voor alle relevante afschuifvlakken.
+
+```{h5p} https://tudelft.h5p.com/content/1292778320901018827/embed
 ```
 
 :::::
@@ -68,6 +73,9 @@ Gegeven zijn vier mogelijke schuifspanningsverdelingen.
 Vier mogelijke schuifspanningsverdelingen.
 ```
 
+```{h5p} https://tudelft.h5p.com/content/1292778326294019037/embed
+```
+
 :::::
 
 % solution_start
@@ -85,6 +93,9 @@ Vier mogelijke schuifspanningsverdelingen.
 :nonumber: true
 
 Bepaal de doorsnedegrootheden
+
+```{h5p} https://tudelft.h5p.com/content/1292778334042905987/embed
+```
 
 :::::
 
@@ -104,6 +115,9 @@ Bepaal de doorsnedegrootheden
 
 Bepaal de maximale schuifspanning
 
+```{h5p} https://tudelft.h5p.com/content/1292778356403071697/embed
+```
+
 :::::
 
 % solution_start
@@ -120,7 +134,17 @@ Bepaal de maximale schuifspanning
 :::::{exercise}
 :nonumber: true
 
-Waar is de schuifspanning de helft van de maximale waarde?
+Waar is de schuifspanning de helft van de maximale waarde uitgedrukt als hoek van het afschuifvlak $\varphi$ tov het assenstelsel tussen $-\cfrac{\pi}{2}$ en $0$ ten opzichte van de $y$-as.?
+
+```{figure} ./lesoefening2_data/voorbeeld_hoek.svg
+:align: center
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/shear_3
+
+Voorbeeld van een hoek
+```
+
+```{h5p} https://tudelft.h5p.com/content/1292778358149562237/embed
+```
 
 :::::
 

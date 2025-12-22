@@ -69,6 +69,15 @@ Niet-rechthoekige doorsnedes zouden kunnen voldoen aan alle aannames, maar niet 
 Afschuifvlakken in verschillende richtingen, maar altijd loodrecht op de rand
 ```
 
+In plaats van $h \gg b$ geldt voor gekromde delen van de constructie dat $R \gg b$ moet gelden, met $R$ de straal van kromming van het gekromde deel.
+
+```{figure} ./instructie_data/rondingen.svg
+:align: center
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/shear
+
+De voorwaarde $R \gg b$ moet gelden voor gekromde delen van de doorsnede om een evenredige schuifspanningsverdeling te garanderen.
+```
+
 In theorie zouden ook niet-vlakke afschuifvlakken kunnen worden genomen, maar dat vereist kennis uit de elasticiteitstheorie om evenredige verdelingen te kunnen garanderen. Daarom beperken we ons tot vlakke afschuifvlakken.
 
 ```{figure} ./instructie_data/curved.svg
