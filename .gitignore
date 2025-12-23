@@ -133,6 +133,7 @@ dmypy.json
 _build/
 _built/
 .teachbooks/
+book/conf.py
 
 # poetry files
 pyproject.toml
