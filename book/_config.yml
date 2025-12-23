@@ -1,4 +1,5 @@
 title: CTB1310 - Constructiemechanica 2
+author: Tom van Woudenberg
 
 execute:
   execute_notebooks: "off"                           # Replace this if you want don't have notebooks with output and you want to add notebook output during build
