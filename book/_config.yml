@@ -31,7 +31,6 @@ sphinx:                                              # Options passed on to the 
         thebe: true                                  # Required for live code: https://teachbooks.io/manual/features/live_code.html
 # START REMOVE-FROM-RELEASE
       announcement: "<p>This book is not the version shared with students. That one is available here <a href='https://oit.tudelft.nl/CTB1310' style='color: cyan;'>oit.tudelft.nl/CTB1310</a></p>"
-      footer_content: ""
     keep_warnings: true
 # END REMOVE-FROM-RELEASE
 
