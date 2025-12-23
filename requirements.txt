@@ -1,7 +1,7 @@
 # first list the packages you wish to download from PyPI
 teachbooks
 
-git+https://github.com/TeachBooks/TeachBooks-Favourites@author
+git+https://github.com/TeachBooks/TeachBooks-Favourites@author #BUMP
 
 sphinx-tudelft-theme
 sphinx-apa-references
