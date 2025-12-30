@@ -104,8 +104,8 @@ Snede AB halverwege
 $$
 \begin{align*}
 \sum T_{\rm{BC}} &= 0 \\
-M_{\rm{t}}^{\text{BC halverwege}} - 100 \cdot 2 &= 0 \\
-M_{\rm{t}}^{\text{BC halverwege}} &= 200 \ \rm{Nm} \left( \twoheadleftarrow \mid \twoheadrightarrow \right)
+M_{\rm{t}}^{\rm{BC} \, \rm{halverwege}} - 100 \cdot 2 &= 0 \\
+M_{\rm{t}}^{\rm{BC} \, \rm{halverwege}} &= 200 \, \rm{Nm} \left( \twoheadleftarrow \mid \twoheadrightarrow \right)
 \end{align*} 
 $$
 
@@ -121,8 +121,8 @@ Snede links B
 $$
 \begin{align*}
 \sum T_{\rm{BC}} &= 0 \\
-M_{\text{t}}^{\text{B links}} - 100 \cdot 4 &= 0 \\
-M_{\text{t}}^{\text{B links}} &= 400 \ \text{Nm} \left( \twoheadleftarrow \mid \twoheadrightarrow \right)
+M_{\text{t}}^{\rm{B} \, \rm{links}} - 100 \cdot 4 &= 0 \\
+M_{\text{t}}^{\rm{B} \, \rm{inks}} &= 400 \, \rm{Nm} \left( \twoheadleftarrow \mid \twoheadrightarrow \right)
 \end{align*}
 $$
 
@@ -138,8 +138,8 @@ Snede rechts B
 $$
 \begin{align*}
 \sum T_{\text{BC}} &= 0 \\
-M_{\rm{t}}^{\text{B rechts}} - 100 \cdot 4 + 400 &= 0 \\
-M_{\rm{t}}^{\text{B rechts}} &= 0 
+M_{\rm{t}}^{\rm{B} \, \rm{rechts}} - 100 \cdot 4 + 400 &= 0 \\
+M_{\rm{t}}^{\rm{B} \, \rm{rechts}} &= 0 
 \end{align*} 
 $$
 
@@ -155,8 +155,8 @@ Snede halverwege A en B
 $$
 \begin{align*}
 \sum T_{\text{AC}} &= 0 \\
-M_{\rm{t}}^{\text{AB halverwege}} - 100 \cdot 6 + 400 &= 0 \\
-M_{\rm{t}}^{\text{AB halverwege}} &= 200 \ \text{Nm} \left( \twoheadleftarrow \mid \twoheadrightarrow \right)
+M_{\rm{t}}^{\rm{AB} \, \rm{halverwege}} - 100 \cdot 6 + 400 &= 0 \\
+M_{\rm{t}}^{\rm{AB} \, \rm{halverwege}} &= 200 \, \rm{Nm} \left( \twoheadleftarrow \mid \twoheadrightarrow \right)
 \end{align*} 
 $$
 
@@ -172,8 +172,8 @@ Schematisering voor wringend moment A
 $$
 \begin{align*}
 \sum T_{\text{AC}} &= 0 \\
-M_{\rm{t}}^{\text{A}} - 100 \cdot 8 + 400 &= 0 \\
-M_{\rm{t}}^{\text{A}} &= 400 \ \text{Nm} \left( \twoheadleftarrow \mid \twoheadrightarrow \right)
+M_{\rm{t}}^{\rm{A}} - 100 \cdot 8 + 400 &= 0 \\
+M_{\rm{t}}^{\rm{A}} &= 400 \, \rm{Nm} \left( \twoheadleftarrow \mid \twoheadrightarrow \right)
 \end{align*} 
 $$
 
