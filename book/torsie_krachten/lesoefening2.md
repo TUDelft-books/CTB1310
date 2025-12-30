@@ -122,12 +122,12 @@ $$
 \begin{align*}
 \sum T_{\rm{BC}} &= 0 \\
 M_{\text{t}}^{\rm{B} \, \rm{links}} - 100 \cdot 4 &= 0 \\
-M_{\text{t}}^{\rm{B} \, \rm{inks}} &= 400 \, \rm{Nm} \left( \twoheadleftarrow \mid \twoheadrightarrow \right)
+M_{\text{t}}^{\rm{B} \, \rm{links}} &= 400 \, \rm{Nm} \left( \twoheadleftarrow \mid \twoheadrightarrow \right)
 \end{align*}
 $$
 
 
-Het wringend moment net rechts van $\rm{B}$:\
+Het wringend moment net rechts van $\rm{B}$:
 ```{figure} ./lesoefening2_data/Snede_B_rechts.svg
 ---
 align: center
