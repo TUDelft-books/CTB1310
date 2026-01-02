@@ -5,8 +5,8 @@ q = sym.symbols('q')
 L1, L2, L3 = sym.symbols('L1 L2 L3')
 
 q = sym.nsimplify(20000)
-L3 = sym.nsimplify(3)
-L2 = sym.nsimplify(3)
+L3 = sym.nsimplify(2)
+L2 = sym.nsimplify(5)
 
 VB = q * L3
 
@@ -26,7 +26,7 @@ print(Izz,S_a)
 tau_B = VB * S_a / (Izz * b)
 print(tau_B)
 
-Bv = q * (L2 + L3) / L2
+Bv = q * (L2 + L3)**2 / 2 / L2
 print(Bv)
 
 VB_links = VB - Bv
