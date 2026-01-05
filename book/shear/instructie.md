@@ -2,6 +2,19 @@
 
 De vorige keer hebben we gekeken naar [schuifspanningen in rechthoekige doorsnedes](../shear_rect/instructie.md). In deze instructie breiden we dat uit naar schuifspanningen in algemene dikwandige doorsnedes.
 
+## Relatie met elasticiteitstheorie
+
+Onze schuifspanningsmodel is gebaseerd op een aantal aannames om van snedekrachten naar spanningen te komen. Een meer geavanceerde manier om spanningen in constructies te bepalen is met (complexe) elasticiteitstheorie. Vaak wordt die theorie opgelost met computersimulaties, waarmee spanningen op elk punt in de doorsnede kunnen worden bepaald. Deze simulaties kunnen de beperkingen van ons model bevestigen.
+
+```{figure} ./instructie_data/RC-B_05_34.png
+:align: center
+:bib: IDEAStatiCa_shear_RCS
+:show: author, license, copyright, source
+:placement: caption
+
+Voorbeeld van simulatie op basis van elasticiteitstheorie op doorsnedeniveau. De vectoren geven de richting aan van de schuifspanningen en de kleur en grootte de absolute waarde.
+```
+
 ## Implicaties model schuifspanningen voor niet-rechthoekige dikwandige doorsneden
 
 ### Beperkingen van het model
@@ -32,7 +45,7 @@ Daarnaast heeft de observatie dat de schuifspanningen dwars op de vrije randen v
 :align: center
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/shear
 
-Links de schuifspanningen volgens ons model, rechts nulspanningen getoond loodrecht op de vrije randen. Op diagonale randen kunnen deze spanningen niet matchen, waarmee het model dus ongeldig is.
+Links de schuifspanningen volgens ons model met horizontale afschuifvlakken, rechts nulspanningen getoond loodrecht op de vrije randen. Op diagonale randen kunnen deze spanningen niet matchen, waarmee het model dus ongeldig is.
 ```
 
 Daarmee kunnen we de schuifspanningsformule voor dikwandige doorsneden dus alleen toepassen op afschuivende vlakken die:
@@ -54,15 +67,62 @@ Niet-rechthoekige doorsnedes zouden kunnen voldoen aan alle aannames, maar niet 
 Afschuifvlakken in verschillende richtingen, maar altijd loodrecht op de rand
 ```
 
+Voor verticale afschuifvlakken (in horizontale doorsnededelen) geldt dat de schuifspanningen linear verlopen over de 'hoogte' (in horizontale richting) van het constructiedeel, mits de breedte van het afschuifvlak constant blijft. Dit kan op vergelijkbare wijze worden afgeleid als het parabolisch verband wat werd gevonden voor horizontale afschuifvlakken in verticale delen.
+
+::::::{admonition} Volledige afleiding
+:class: notation, dropdown
+
+Om het schuifspanningsverloop te bepalen, kunnen we de formule voor de gemiddelde schuifspanning herschrijven door het statisch moment uit te werken voor een constante breedte:
+
+$$
+\begin{align*}
+\tau_{\rm{gem}} &= -\cfrac{V_z \, S_{z}^{\rm{a}}}{b \, I_{zz}} \\
+\tau_{\rm{gem}} &= -\cfrac{V_z \, \int_{A^{\rm{a}}} z \, dA^{\rm{a}} }{b \, I_{zz}} \\
+\tau_{\rm{gem}} &= -\cfrac{V_z \, z \int_{A^{\rm{a}}} \, dA^{\rm{a}} }{b \, I_{zz}} \\
+\tau_{\rm{gem}} &= -\cfrac{V_z \, z \, A^{\rm{a}}}{b \, I_{zz}}
+\end{align*}
+$$
+
+Het statisch moment is dus niet afhankelijk van $z$, waarmee de spanning alleen maar toeneemt door de lineair toenemende waarde van $A^{\rm{a}}$.
+
+::::::
+
+In plaats van $h \gg b$ geldt voor gekromde delen van de constructie dat $R \gg b$ moet gelden, met $R$ de straal van kromming van het gekromde deel.
+
+```{figure} ./instructie_data/rondingen.svg
+:align: center
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/shear
+
+De voorwaarde $R \gg b$ moet gelden voor gekromde delen van de doorsnede om een evenredige schuifspanningsverdeling te garanderen.
+```
+
 In theorie zouden ook niet-vlakke afschuifvlakken kunnen worden genomen, maar dat vereist kennis uit de elasticiteitstheorie om evenredige verdelingen te kunnen garanderen. Daarom beperken we ons tot vlakke afschuifvlakken.
 
 ```{figure} ./instructie_data/curved.svg
 :align: center
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/shear
 
-Mogelijke gekromde afschuifvlakken
+Mogelijke gekromde afschuifvlakken, maar geen onderdeel van dit vak.
 ```
 
+Geknikt afschuifvlakken zijn wel toegestaan, zolang elk vlakdeel maar loodrecht op de randen staat en voldoen aan de andere voorwaarden. Als een symmetrische doorsnede symmetrisch wordt doorgesneden, kunnen we uitgaan van een evenredig verdeelde schuifspanning op elk vlakdeel.
+
+```{figure} ./instructie_data/geknikt.svg
+:align: center
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/shear
+
+Mogelijke geknikte afschuifvlak.
+```
+
+
+Ongeacht dat de richting van de schuifspanningen en daarmee de richting van het afschuifvlak niet altijd te bepalen zijn, kunnen we vanwege symmetrie op sommige delen van de doorsnede wel de richting bepalen (zonder waarde). In het middel van de getoonde doorsnedes moet de schuifspanning wel verticaal lopen, anders is er geen symmetrisch schuifspanningsverloop mogelijk.
+
+```{figure} ./instructie_data/werklijn_bekend.svg
+:align: center
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/shear
+
+Richting van de schuifspanningen is bekend in het midden van de doorsnede vanwege symmetrie.
+```
 
 ## Voorbeeld
 
@@ -89,7 +149,16 @@ Allereerst kunnen we de afschuifvlakken bepalen waar we de schuifspanningen kunn
 Links afschuifvlakken die niet mogelijk zijn, rechts mogelijke afschuifvlakken.
 ```
 
-We kunnen de schuifspanningen dus alleen bepalen in het diagonale gedeelte en dan niet te dicht bij de hoeken. We kiezen daarom voor een afschuifvlak op een vrij willekeurige hoogte van $\bar{z} = -60 \, \rm{mm}$. Daarvoor moeten eerst de doorsnedegrootheden worden bepaald, beginnend met het oppervlakte $A$.
+We kunnen de schuifspanningen dus alleen bepalen in het diagonale gedeelte en dan niet te dicht bij de hoeken. We kiezen daarom voor een afschuifvlak op een vrij willekeurige hoogte van $\bar{z} = -48 \, \rm{mm}$.
+
+```{figure} ./instructie_data/snede.svg
+:align: center
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/shear
+
+Afschuifvlak gekozen op $\bar{z} = -48 \, \rm{mm}$
+```
+
+Nu moeten we eerst de doorsnedegrootheden worden bepaald, beginnend met het oppervlakte $A$.
 
 ```{figure} ./instructie_data/A.svg
 :align: center
@@ -125,7 +194,39 @@ I_{zz} = &  \,2 \cdot \left( \cfrac{1}{12} \cdot 40 \cdot 100^3 + 100 \cdot 40\ 
 \end{align*}
 $$
 
-Nu kan het 
+Nu kan het statisch moment van het afschuivend deel worden bepaald. We kiezen voor een afschuifvlak met de hartlijn op $\bar{z} = -48 \, \rm{mm}$. Het afschuivend deel nemen we het deel onder deze snede, hoewel we ook het andere deel hadden kunnen nemen, maar dat is complexer. Dit afschuivend deel is verdeeld in een gekantelde rechthoek en driehoek, waarvan de afmetingen volgen uit de goniometrie van de doorsnede.
+
+```{figure} ./instructie_data/Sa.svg
+:align: center
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/shear
+
+Afschuivend deel met afmetingen met N.C. van de hele doorsnede op $60.\bar{5} \, \rm{mm}$ vanaf de onderkant en het snijpunt van snedevlak en hartlijn op $-48 \, \rm{mm}$
+```
+
+$$
+\begin{align*}
+S_{z}^{\rm{a}} = & \, 40 \cdot 20 \cdot \cfrac{1}{2} \cdot \left(60.\bar{5} - \cfrac{20}{3} \right)\\
+& + 20 \sqrt{2} \cdot 38 \sqrt{2} \cdot \left(60.\bar{5} - \cfrac{38}{2} \right) \\
+= & \, 84720 \, \rm{mm}^3 \\
+\end{align*}
+$$
+
+Dit geeft:
+
+$$
+\tau = \cfrac{\left| V_z \, S_{z}^{\rm{a}} \right| }{I_{zz} \, t} \approx \cfrac{\left| 120000 \cdot 84720\right|}{12.2 \cdot 10^6 \cdot 20 \sqrt{2}} \approx 29.6 \, \rm{MPa}
+$$
+
+Het resultaat is dus een evenredig verdeelde schuifspanning op ons schuifvlak. De werklijn is dwars op het afschuifvlak en evenwijdig aan de rand en de richting is nog niet bepaald. Het bepalen van de richting passen we pas een volgende keer toe bij dunwandige doorsneden.
+
+
+```{figure} ./instructie_data/resultaat.svg
+:align: center
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/shear
+
+Afschuivend deel met afmetingen met N.C. van de hele doorsnede op $60.\bar{5} \, \rm{mm}$ vanaf de onderkant en het snijpunt van snedevlak en hartlijn op $-48 \, \rm{mm}$
+```
+
 
 ::::::
 

@@ -127,6 +127,57 @@ Bepaal de wringend momentenlijn.
 ::::{admonition} Oplossing
 :class: solution, dropdown
 
+Het wringend moment tussen $\rm{D}$ en $\rm{DE}$ is nul. $\rm{E}$ is een vrij uiteinde en op deel $\rm{DE}$ werkt geen wringend moment. Het wringend moment voor het deel $\rm{CD}$ is te bepalen met de volgende snede:
+
+```{figure} ./lesoefening_data/Snede_CD.svg
+---
+align: center
+source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/torsie2
+---
+Snede CD
+```
+$$
+\begin{align*}
+\sum T_{\rm{CD}} &= 0 \\
+- M_{\rm{t}}^{\rm{CD}} - 120 &= 0 \\
+M_{\rm{t}}^{\rm{CD}} &= -120 \ \rm{kNm} \left( \twoheadrightarrow \mid \twoheadleftarrow \right)
+\end{align*} 
+$$
+
+Een vergelijkbare snede kan worden gemaakt om het wringend moment te vinden in deel $\rm{BC}$:
+```{figure} ./lesoefening_data/Snede_BC.svg
+---
+align: center
+source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/torsie2
+---
+Snede BC
+```
+$$
+\begin{align*}
+\sum T_{\rm{BC}} &= 0 \\
+- M_{\rm{t}}^{\rm{BC}} - 120 - 120 &= 0 \\
+M_{\rm{t}}^{\rm{BC}} &= -240 \ \rm{kNm} \left( \twoheadrightarrow \mid \twoheadleftarrow \right)
+\end{align*} 
+$$
+
+Het wringend moment in $\rm{AB}$ kan worden gevonden met de volgende snede:
+
+```{figure} ./lesoefening_data/Snede_AB.svg
+---
+align: center
+source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/torsie2
+---
+Snede AB
+```
+
+$$
+\begin{align*}
+\sum T_{\rm{AB}} &= 0 \\
+- M_{\rm{t}}^{\rm{AB}} - 120 - 120 - 120 &= 0 \\
+M_{\rm{t}}^{\rm{AB}} &= -360 \ \rm{kNm} \left( \twoheadrightarrow \mid \twoheadleftarrow \right)
+\end{align*} 
+$$
+
 ```{figure} ./lesoefening_data/Mt-line.svg
 ---
 align: center

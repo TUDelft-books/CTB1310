@@ -21,11 +21,6 @@ Om de website opnieuw te maken heb je twee opties (meer informatie in de [TeachB
 ## Licentie 📝
 Dit boek is [CC BY 4.0 gelicenseerd](https://creativecommons.org/licenses/by/4.0/) waardoor je het materiaal mag delen en aanpassen, zolang de bron wordt vermeld.
 
-(external_resources)=
-### Externe bronnen 🌐
-
-Delen van dit boek zijn afkomstig uit andere externe bronnen en op verschillende manieren hergebruikt. In het bijzonder is er materiaal gedeeld met [CTS1000 Structural Mechanics 2025/2026](https://oit.tudelft.nl/CT1000/2025/intro.html), [CTB2210 Constructiemechanica 3 2025/2026](https://oit.tudelft.nl/CTB2210/2025/intro.html) en [Structural Mechanics @ BSc Civil Engineering](http://oit.tudelft.nl/CEG-mechanics-BSc/).
-
 (editor)=
 ## Over de auteur 👨‍🏫
 
