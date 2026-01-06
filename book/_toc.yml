@@ -26,6 +26,7 @@ parts:
     - file: shear_dunwandig/instructie.md
     - file: shear_dunwandig/lesoefening1.md
     - file: shear_dunwandig/lesoefening2.md
+  - file: shear_force_center/les.md
   - file: torsie_krachten/les.md
     sections:
     - file: torsie_krachten/instructie.md

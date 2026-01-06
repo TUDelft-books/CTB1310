@@ -8,10 +8,8 @@ Onze schuifspanningsmodel is gebaseerd op een aantal aannames om van snedekracht
 
 ```{figure} ./instructie_data/RC-B_05_34.png
 :align: center
-:source: [Knowledge Base IDEA StatiCa](https://www.ideastatica.com/support-center/shear-in-rcs-circular-cross-sections)
-:author: IDEA StatiCa
-:license: All Rights Reserved
-:copyright: © IDEA StatiCa 2009-2025
+:bib: IDEAStatiCa_shear_RCS
+:show: author, license, copyright, source
 :placement: caption
 
 Voorbeeld van simulatie op basis van elasticiteitstheorie op doorsnedeniveau. De vectoren geven de richting aan van de schuifspanningen en de kleur en grootte de absolute waarde.

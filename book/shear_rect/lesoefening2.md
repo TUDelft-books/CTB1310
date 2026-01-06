@@ -12,7 +12,7 @@ Voorbeeldconstructie
 :::::{exercise}
 :nonumber: true
 
-Wat is de dwarskracht net links van $\rm{B}$?
+Wat is de dwarskracht net rechts van $\rm{B}$?
 
 ```{h5p} https://tudelft.h5p.com/content/1292769955038569107/embed
 ```
@@ -33,7 +33,7 @@ Wat is de dwarskracht net links van $\rm{B}$?
 :::::{exercise}
 :nonumber: true
 
-Bepaal de maximale schuifspanning op een negatieve doorsnede net links van $\rm{B}$.
+Bepaal de maximale schuifspanning op een negatieve doorsnede net rechts van $\rm{B}$.
 
 ```{h5p} https://tudelft.h5p.com/content/1292769957827644647/embed
 ```
