@@ -138,7 +138,7 @@ Het bepalen van de schuifspanningen voor een niet-rechthoekige doorsnede wordt g
 Doorsnede en constructie
 ```
 
-Gevraagd is om zoveel mogelijk informatie te geven over de absolute waarde van de schuifspanningen in een doorsnede bij $\rm{A}$
+Gevraagd is de absolute waarde van schuifspanningen ergens in de doorsnede bij $\rm{A}$.
 
 Allereerst kunnen we de afschuifvlakken bepalen waar we de schuifspanningen kunnen berekenen. Deze afschuifvlakken moeten loodrecht op de randen worden genomen. Daarnaast mag het afschuifvlak niet genomen worden in de buurt van een overgang in breedte. Dat heeft tot gevolg dat de afschuifvlakken alleen in de getoonde delen kunnen worden genomen.
 
