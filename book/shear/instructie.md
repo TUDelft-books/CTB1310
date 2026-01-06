@@ -12,7 +12,7 @@ Onze schuifspanningsmodel is gebaseerd op een aantal aannames om van snedekracht
 :show: author, license, copyright, source
 :placement: caption
 
-Voorbeeld van simulatie op basis van elasticiteitstheorie op doorsnedeniveau. De vectoren geven de richting aan van de schuifspanningen en de kleur en grootte de absolute waarde.
+Voorbeeld van simulatie op basis van elasticiteitstheorie op doorsnedeniveau. De vectoren geven de richting aan van de schuifspanningen en de kleur en grootte de absolute waarde (donkerblauw lage waarde, donkerrood hoge waarde).
 ```
 
 ## Implicaties model schuifspanningen voor niet-rechthoekige dikwandige doorsneden
