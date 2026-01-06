@@ -44,6 +44,8 @@ sphinx:                                              # Options passed on to the 
     sphinx_codex_merge_with_proof:     true # default value
     tud_change_titlesize: false
     git_show_all_authors: true
+    git_author_aliases:
+      ioskam: Iris Oskam
     metadata_figure_settings:
       source:
         warn_missing: true
