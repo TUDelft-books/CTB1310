@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<!-- Gegenereerd door Microsoft Visio, SVG Export constructrie.svg Pagina-1 -->
+<!-- Gegenereerd door Microsoft Visio, SVG Export constructie.svg Pagina-1 -->
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
 		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="5.48286in" height="1.93895in"
 		viewBox="0 0 394.766 139.605" xml:space="preserve" color-interpolation-filters="sRGB" class="st19">
@@ -151,11 +151,11 @@
 			<title>qz-last constant</title>
 			<g id="shape25-63" v:mID="25" v:groupContext="shape" transform="translate(0,-14.1732)">
 				<title>A.58</title>
-				<desc>20 kN/m</desc>
+				<desc>2 kN/m</desc>
 				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
 				<v:textRect cx="66.6142" cy="132.518" width="133.23" height="14.1732"/>
 				<rect x="0" y="125.431" width="133.228" height="14.1732" class="st6"/>
-				<text x="45.45" y="136.12" class="st7" v:langID="1043"><v:paragraph v:horizAlign="1"/><v:tabList/>20 kN/m</text>			</g>
+				<text x="48.45" y="136.12" class="st7" v:langID="1043"><v:paragraph v:horizAlign="1"/><v:tabList/>2 kN/m</text>			</g>
 			<g id="shape26-66" v:mID="26" v:groupContext="shape" transform="translate(139.605,125.431) rotate(90)">
 				<title>Kracht.5</title>
 				<path d="M0 139.6 L7.43 139.6" class="st8"/>
