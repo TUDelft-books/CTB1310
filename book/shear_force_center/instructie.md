@@ -153,7 +153,7 @@ Links een verdeling van normaalspanningen ten gevolge van rek, rechts de resulta
 ::::{grid-item-card} Dwarskrachtencentrum als resultante schuifspanningen
 :columns: 12 12 8 8
 
-Hoewel we enkel experimenteel weten dat er een punt is waar een dwarskracht enkel voor kromming zorgt, kunnen we de ligging van het dwarskrachtencentrum wel vinden door deze gelijk te stellen aan het aangrijpingspunt van de resultante van de schuifspanningen ten gevolge van enkel kromming. Daarbij nemen we aan dat op het waar geldt het totale aandeel van afschuiving op de dwarskracht gelijk is aan 0 $... \cdot \gamma_z + ... \cdot \gamma_t =  0$ ook geldt dat  $ \int_A{\left( \tau_{\rm{t.g.v.} \, \rm{afschuiving}} + \tau_{\rm{t.g.v.} \, \rm{wringing}} \right)}dA = 0$, wat niet gegarandeerd is.
+Hoewel we enkel experimenteel weten dat er een punt is waar een dwarskracht enkel voor kromming zorgt, kunnen we de ligging van het dwarskrachtencentrum wel vinden door deze gelijk te stellen aan het aangrijpingspunt van de resultante van de schuifspanningen ten gevolge van enkel kromming. Hoewel geldt dat $... \cdot \gamma_z + ... \cdot \gamma_t =  0$ en daarmee ook dat $ \int_A{\left( \tau_{\rm{t.g.v.} \, \rm{afschuiving}} + \tau_{\rm{t.g.v.} \, \rm{wringing}} \right)}dA = 0$ is niet gegarandeerd dat er geen afschuiving- of schuifspanningen ten gevolge van afschuiving of wringing aanwezig zijn in de doorsnede: we kunnen enkel zeggen dat de resultante van deze schuifspanningen nul is.
 
 ```{figure} ./instructie_data/DC.svg
 :align: center
@@ -162,10 +162,16 @@ Hoewel we enkel experimenteel weten dat er een punt is waar een dwarskracht enke
 Links een verdeling van schuifspanningen ten gevolge van kromming, rechts de resultante van deze schuifspanningen die aangrijpt in het dwarskrachtencentrum.
 ```
 
-Het berekenen van de resultante van de schuifspanningen ten gevolge van kromming kan enkel gedaan worden voor simpele dikwandige of dunwandige doorsneden waarbij de schuifspanningen benaderd kunnen worden met het model afgeleid in de vorige lessen.
-
 ::::
 
 :::::
 
+## Implicaties model dwarskrachtencentrum
 
+Het berekenen van de resultante van de schuifspanningen ten gevolge van kromming kan enkel gedaan worden voor simpele dikwandige of dunwandige doorsneden waarbij de schuifspanningen benaderd kunnen worden met het model afgeleid in de vorige lessen.
+
+We hebben gevonden dat we het dwarskrachtencentrum kunnen vinden door de locatie te vinden van de resultante van de schuifspanningen. Voor symmetrische doorsnedes betekent dit dat het dwarskrachtencentrum in het midden ligt.
+
+Voor doorsnedes die slechts in één richting symmetrisch is ligt het dwarskrachtencentrum op de symmetrieas. Voor de andere richting moet de locatie bepaald worden door de resultante van de schuifspanningen in die richting te bepalen. Het snijpunt van de symmetrieas en de werklijn van de resultante is dan het dwarskrachtencentrum.
+
+Voor simpele dunwandige doorsnedes bestaand uit slechts twee randen kan het dwarskrachtencentrum direct gevonden worden omdat de resultante van de schuifspanningen dan altijd aangrijpt in het verbindingspunt van de twee randen.
