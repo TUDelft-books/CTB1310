@@ -33,13 +33,13 @@ Boven de nog onbekende schuifspanningen. Onder de normaalspanningen.
 ::::::{prf:assumption}
 :nonumber: true
 
-We negeren de afschuifvervorming, enkel de vervormingen door extensie / buiging nemen we mee in de daaruit volgende normaalspanningen. De schuifspanningen en afschuifvervorming zijn dus niet één-op-één gerelateerd in ons model, waar dat bij normaalspanningen wel het geval is.
+We negeren de afschuifvervorming ($\gamma$), enkel de vervormingen door extensie / buiging $\varepsilon$ nemen we mee in de daaruit volgende normaalspanningen. De schuifspanningen en afschuifvervorming zijn dus niet één-op-één gerelateerd in ons model, waar dat bij normaalspanningen wel het geval is.
 
 ```{figure} ./instructie_data/afschuiving.svg
 :align: center
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/shear_rect
 
-Een infinitesimaal (oneindig kleine afmetingen) blokje dat wordt belast door schuifspanningen en normaalspanningen kan vervormen door zowel afschuiving als extensie, maar in ons model nemen we enkel de extensie mee om de schuifspanningen te bepalen.
+Een infinitesimaal (oneindig kleine afmetingen) blokje dat wordt belast door schuifspanningen en normaalspanningen kan vervormen door zowel afschuiving $\gamma$ als extensie $\varepsilon$, maar in ons model nemen we enkel de extensie mee om de schuifspanningen te bepalen.
 ```
 
 De aannames die we hebben gebruikt voor normaalspanningen zijn dus nog steeds geldig:
