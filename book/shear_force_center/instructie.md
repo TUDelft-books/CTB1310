@@ -168,10 +168,61 @@ Links een verdeling van schuifspanningen ten gevolge van kromming, rechts de res
 
 ## Implicaties model dwarskrachtencentrum
 
-Het berekenen van de resultante van de schuifspanningen ten gevolge van kromming kan enkel gedaan worden voor simpele dikwandige of dunwandige doorsneden waarbij de schuifspanningen benaderd kunnen worden met het model afgeleid in de vorige lessen.
+We hebben gevonden dat we het dwarskrachtencentrum kunnen vinden door de locatie te vinden van de resultante van de schuifspanningen. Voor volledig symmetrische doorsnedes betekent dit dat het dwarskrachtencentrum in het midden ligt, ook al is het niet mogelijk om de schuifspanning te bepalen
 
-We hebben gevonden dat we het dwarskrachtencentrum kunnen vinden door de locatie te vinden van de resultante van de schuifspanningen. Voor symmetrische doorsnedes betekent dit dat het dwarskrachtencentrum in het midden ligt.
+```{figure} ./instructie_data/DC_rond.svg
+:align: center
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/shear_force_center_2
+
+Voor deze twee volledig symmetrische doorsnedes ligt het dwarskrachtencentrum in het midden.
+```
+
 
 Voor doorsnedes die slechts in één richting symmetrisch is ligt het dwarskrachtencentrum op de symmetrieas. Voor de andere richting moet de locatie bepaald worden door de resultante van de schuifspanningen in die richting te bepalen. Het snijpunt van de symmetrieas en de werklijn van de resultante is dan het dwarskrachtencentrum.
 
+```{figure} ./instructie_data/DC_symmetrie.svg
+:align: center
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/shear_force_center_2
+
+Deze twee doorsnedes zijn symmtrisch in één richting, het dwarskrachtencentrum ligt dan op de symmetrieas.
+```
+
+Het berekenen van de resultante van de schuifspanningen ten gevolge van kromming kan enkel gedaan worden voor simpele symmetrische dikwandige of dunwandige doorsneden waarbij de schuifspanningen benaderd kunnen worden met het model afgeleid in de vorige lessen.
+
+```{figure} ./instructie_data/DC_niet.svg
+:align: center
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/shear_force_center_2
+
+In dezelfde twee doorsnedes is ons schuifspanningsmodel niet overal geldig, dus kunnen we de locatie van het dwarskrachtencentrum niet exact bepalen.
+```
+
 Voor simpele dunwandige doorsnedes bestaand uit slechts twee randen kan het dwarskrachtencentrum direct gevonden worden omdat de resultante van de schuifspanningen dan altijd aangrijpt in het verbindingspunt van de twee randen.
+
+```{figure} ./instructie_data/dunwandig_DC.svg
+:align: center
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/shear_force_center_2
+
+Voor deze dunwandige varianten is het dwarskrachtencentrum direct te vinden.
+```
+
+Daarmee kunnen we de volgende aanpak beschrijven voor het bepalen van het dwarskrachtencentrum:
+
+::::::{prf:algorithm} Bepalen schuifspanningsverloop in een doorsnede
+:nonumber: true
+:label: alg:dc
+
+1. Voor elke richting die geen symmetrieas heeft:
+2. Bepaal voor een willekeurige snedekracht in die richting het schuifspanningsverloop in de doorsnede ten gevolge van enkel kromming.
+3. Bepaal de werklijn van de resultante van deze schuifspanningen.
+4. Het dwarskrachtencentrum is het snijpunt van deze werklijn met de symmetrieas (indien aanwezig) of de werklijn in de andere richting.
+
+::::::
+
+Het bepalen van het dwarskrachtencentrum wordt getoond in het volgende voorbeeld.
+
+::::::{prf:example}
+:nonumber: true
+
+...
+
+::::::
