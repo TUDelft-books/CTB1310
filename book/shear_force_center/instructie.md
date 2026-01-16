@@ -153,7 +153,7 @@ Links een verdeling van normaalspanningen ten gevolge van rek, rechts de resulta
 ::::{grid-item-card} Dwarskrachtencentrum als resultante schuifspanningen
 :columns: 12 12 8 8
 
-Hoewel we enkel experimenteel weten dat er een punt is waar een dwarskracht enkel voor kromming zorgt, kunnen we de ligging van het dwarskrachtencentrum wel vinden door deze gelijk te stellen aan het aangrijpingspunt van de resultante van de schuifspanningen ten gevolge van enkel kromming. Daarbij nemen we aan dat als geldt dat als de totale $... \cdot \gamma_z + ... \cdot \gamma_t =  0$ ook geldt dat $ \int_A{\left( \tau_{\rm{t.g.v.} \, \rm{afschuiving}} + \tau_{\rm{t.g.v.} \, \rm{wringing}} \right)}dA = 0$, wat niet gegarandeerd is.
+Hoewel we enkel experimenteel weten dat er een punt is waar een dwarskracht enkel voor kromming zorgt, kunnen we de ligging van het dwarskrachtencentrum wel vinden door deze gelijk te stellen aan het aangrijpingspunt van de resultante van de schuifspanningen ten gevolge van enkel kromming. Daarbij nemen we aan dat op het waar geldt het totale aandeel van afschuiving op de dwarskracht gelijk is aan 0 $... \cdot \gamma_z + ... \cdot \gamma_t =  0$ ook geldt dat  $ \int_A{\left( \tau_{\rm{t.g.v.} \, \rm{afschuiving}} + \tau_{\rm{t.g.v.} \, \rm{wringing}} \right)}dA = 0$, wat niet gegarandeerd is.
 
 ```{figure} ./instructie_data/DC.svg
 :align: center
@@ -167,3 +167,5 @@ Het berekenen van de resultante van de schuifspanningen ten gevolge van kromming
 ::::
 
 :::::
+
+
