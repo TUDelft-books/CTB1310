@@ -11,7 +11,7 @@ Deze pagina houdt de notatie aan zoals geïntroduceerd in {cite:t}`Hartsuijker20
 
 # Instructie inleiding wringende momenten, wringende momentenlijn, evenwichtsvergelijking en differentiaalvergelijking
 
-Tot nu toe hebben we enkel gerekend aan uitwendige krachten, en momenten en inwendige dwarskrachten, normaalkrachten en buigende momenten. Echter, op en in sommige constructies komen ook wringende momenten voor. Waar buigende momenten om de lokale $y$- of $z$-as werken en zorgen voor verplaatsingen in de $z$ ($M_z$) en $y$ ($M_y$) richting, werken wringende momenten om de $x$-as van de doorsnede en zorgen voor rotaties om de $x$-as ($M_{\rm{t}}$, met de $\rm{t}$ van 'torsion').
+In de vorige les zijn wringende momenten al kort geïntroduceerd om het dwarskrachtencentrum te vinden. Vandaag gaan we dieper in op deze wringende momenten en wat er gebeurd als een kracht niet aangrijpt in het dwarskrachtencentrum.
 
 ## Uitwendige momenten
 

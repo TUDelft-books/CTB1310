@@ -43,8 +43,8 @@ Gevraagd is het schuifspanningsverloop op een negatieve snede.
 Zonder een berekening te maken kunnen we al wat zeggen over de schuifspanningen in de verschillende delen van de doorsnede:
 - Vanwege symmetrie moet de schuifspanning middenin de flens gelijk zijn aan $0$.
 - Dat geldt ook voor de vrije uiteindes van zowel de flens als het lijf.
-- De horizontale flens zal een horizontaal verloop van de schuifspanning hebben
-- Het verticale lijf zal een verticaal verloop van de schuifspanning hebben.
+- De horizontale flens zal een lineair verloop van de schuifspanning hebben in de horizontale richting.
+- Het verticale lijf zal een parabolisch verloop van de schuifspanning hebben in de verticale richting.
 - Het maximum van de schuifspanning zit ter hoogte van het normaalkrachtencentrum omdat daar het statisch moment van het afschuivend gedeelte het grootst is.
 - De dwarskracht met vervormingsteken ⎽|⎺ zorgt voor een dwarskracht omhoog op een negatieve snede.
 - Vanwege de stroming van de schuifstroom zal de schuifspanning vanuit in het lijf vanuit de flenzen naar buiten en binnen stromen en afnemen.

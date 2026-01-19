@@ -9,6 +9,8 @@ h1 = sym.nsimplify(40)
 #b = h1 * 10
 h2 = sym.nsimplify(160)
 
+V = sym.nsimplify(25.6*5) * 1000
+print('V =', V.evalf(), 'N')
 
 A = (h1 + h2) * t * 2 + b * t
 
@@ -20,16 +22,17 @@ Iyy = ((h1+h2) * t * (b/2)**2) * 2 + t * b **3 / 12
 print('Iyy =', sym.simplify(Iyy), '=', Iyy.evalf())
 
 Sy1 = t * h1 * b / 2
-sigma_1 = Sy1 / Iyy / t
+print('Sy1 =', sym.simplify(Sy1), '=', Sy1.evalf())
+sigma_1 = Sy1 / Iyy / t * V
 
 Sy2 = t * h2 * b / 2
-sigma_2 = Sy2 / Iyy / t
+sigma_2 = Sy2 / Iyy / t * V
 
-sigma_3 = (Sy1 + Sy2) / Iyy / t
+sigma_3 = (Sy1 + Sy2) / Iyy / t * V
 
 Sy3 = Sy1 + Sy2 + b / 2 * b / 4 * t
 
-sigma_4 = Sy3 / Iyy / t
+sigma_4 = Sy3 / Iyy / t * V
 
 print('sigma_1 =', sym.simplify(sigma_1), '=', sigma_1.evalf())
 print('sigma_2 =', sym.simplify(sigma_2), '=', sigma_2.evalf())
@@ -48,5 +51,5 @@ M = F3 *2 * h2 + F2 * b - F1 * b
 
 print('M =', sym.simplify(M), '=', M.evalf())
 
-a = M
+a = M / V
 print('a =', sym.simplify(a), '=', a.evalf())
