@@ -8,10 +8,10 @@ Tot nu toe hebben we enkel gerekend aan buigende momenten. Echter, op en in somm
 :show: author, license, copyright, source, date
 :placement: caption
 
-Voorbeeld van een doorsnede die wordt belast met een wringend moment $M_{\rm{t}}$ en daardoor een torsievervorming ondergaat.
+Voorbeeld van een doorsnede die wordt belast met een wringend moment $M_{\rm{t}}$ en daardoor een om zijn eigen as draait.
 ```
 
-Bij buiging hebben we het normaalkrachtencentrum gezien: het punt in de doorsnede waaromheen de momenten worden berekend en waarbij een normaalkracht geen kromming veroorzaakt. Op eenzelfde manier is er ook een dwarskrachtencentrum: het punt in de doorsnede waaromheen de wringende momenten worden berekend en waarbij een dwarskracht geen torsievervorming veroorzaakt. Echter is er een gesloten afleiding voor de locatie van het dwarskrachtencentrum niet mogelijk zoals bij het normaalkrachtencentrum. We zullen bekijken waarom dat zo is en hoe we de locatie van het dwarskrachtencentrum dan wel kunnen bepalen op basis van experimentele data en aannames.
+Bij buiging hebben we het normaalkrachtencentrum gezien: het punt in de doorsnede waaromheen de momenten worden berekend en waarbij een normaalkracht geen kromming veroorzaakt. Op eenzelfde manier is er ook een dwarskrachtencentrum: het punt in de doorsnede waaromheen de wringende momenten worden berekend en waarbij een dwarskracht niet voor draaiing van de hele doorsnede zorgt. Echter is er een gesloten afleiding voor de locatie van het dwarskrachtencentrum niet mogelijk zoals bij het normaalkrachtencentrum. We zullen bekijken waarom dat zo is en hoe we de locatie van het dwarskrachtencentrum dan wel kunnen bepalen op basis van experimentele data en aannames.
 
 :::::{grid} 1 2 2 2
 :gutter: 1 1 1 2
@@ -19,7 +19,7 @@ Bij buiging hebben we het normaalkrachtencentrum gezien: het punt in de doorsned
 ::::{grid-item-card} Vervormingen door belasting in $x$-richting
 :columns: 12 12 4 4
 
-Over het algemeen zorgt een belasting in de $x$-richting naast rek $\varepsilon$ en normaalspanningen $\sigma$:
+Over het algemeen zorgt een belasting in de $x$-richting naast extensie, met rek $\varepsilon$ en normaalspanningen $\sigma$:
 
 ```{figure} ./instructie_data/rek.svg
 :align: center
@@ -28,7 +28,7 @@ Over het algemeen zorgt een belasting in de $x$-richting naast rek $\varepsilon$
 &nbsp;
 ```
 
-Ook voor kromming $\kappa$ en buigspanningen $\sigma$:
+Ook voor buiging, met op infinitesimaal niveau kromming $\kappa$ en buigspanningen $\sigma$:
 
 ```{figure} ./instructie_data/kromming.svg
 :align: center
@@ -43,7 +43,7 @@ Ook voor kromming $\kappa$ en buigspanningen $\sigma$:
 ::::{grid-item-card} Vervormingen door belasting in $z$-richting
 :columns: 12 12 8 8
 
-Over het algemeen zorgt een belasting in de z- of y-richting naast afschuifrekken en schuifspanningen $\tau$ ten gevolge van afschuiving $\gamma_z$ (die we beide over het algemeen verwaarlozen):
+Over het algemeen zorgt een belasting in de z- of y-richting naast afschuiving, met afschuifrekken $\gamma_z$ en schuifspanningen $\tau$ (die we beide over het algemeen verwaarlozen):
 
 ```{figure} ./instructie_data/gamma_z.svg
 :align: center
@@ -52,7 +52,7 @@ Over het algemeen zorgt een belasting in de z- of y-richting naast afschuifrekke
 &nbsp;
 ```
 
-Ook voor torsievervorming (ook $\gamma_{\rm{t}}$ maar mogelijk in een andere richting) en schuifspanningen $\tau$ ten gevolge van torsie.
+Ook voor draaiing van een doorsnede, eveneens ten gevolg van afschuifrekken $\gamma_{\rm{t}}$, maar mogelijk in een andere richting, en schuifspanningen $\tau$ ten gevolge van torsie. Deze rekken en spanningen zijn echter meestal niet verwaarloosbaar:
 
 ```{figure} ./instructie_data/gamma_t.svg
 :align: center
@@ -61,7 +61,7 @@ Ook voor torsievervorming (ook $\gamma_{\rm{t}}$ maar mogelijk in een andere ric
 &nbsp;
 ```
 
-Daarnaast hebben we ook nog de schuifspanningen  $\tau$ ten gevolge van kromming $\kappa$ (buiging) zoals we die al kennen uit de vorige lessen:
+Daarnaast hebben we ook nog de schuifspanningen $\tau$ ten gevolge van buiging en de kromming $\kappa$ van opeenvolgende doorsnedes zoals we die al kennen uit de vorige lessen:
 
 ```{figure} ./instructie_data/kromming_tau.svg
 :align: center
@@ -70,7 +70,7 @@ Daarnaast hebben we ook nog de schuifspanningen  $\tau$ ten gevolge van kromming
 &nbsp;
 ```
 
-Uit experimenten zijn de torsievervorming en kromming duidelijk zichtbaar:
+Uit experimenten zijn de de draaiing van een doorsnede en buiging duidelijk zichtbaar:
 
 ```{figure} ./instructie_data/C5-A2a-1-300x258.jpeg
 :align: center
@@ -78,7 +78,7 @@ Uit experimenten zijn de torsievervorming en kromming duidelijk zichtbaar:
 :show: author, license, copyright, source, date
 :placement: caption
 
-Voorbeeld van een doorsnede die belast wordt in de $z$-richting waarbij zowel buiging $\kappa_z$ als torsievervorming $\gamma_{\rm{t}}$ optreedt.
+Voorbeeld van een doorsnede die belast wordt in de $z$-richting waarbij zowel buiging als draaiing van de doorsnede optreedt.
 ```
 
 
@@ -114,7 +114,7 @@ $N$ en $M_z$ als functie van $\epsilon$ en $\kappa_z$ voor het normaalkrachtence
 ::::{grid-item-card} Dwarskrachtencentrum volgt **niet** uit constitutieve relaties
 :columns: 12 12 8 8
 
-Een zelfde aanpak zouden we kunnen proberen voor om een relatie te vinden tussen dwarskracht, wringend moment, afschuiving en kromming voor een willekeurig referentiepunt. Echter, er is geen algemene vergelijking om dit verband te vinden. Als de vergelijkingen er zou zijn zou die de vorm hebben: $V = \underbrace{... \cdot \gamma_z}_{\rm{verwaarloosd}} + ... \cdot \gamma_t + ... \cdot \kappa_z$.
+Een zelfde aanpak zouden we kunnen proberen voor om een relatie te vinden tussen dwarskracht, wringend moment, afschuifrekken en kromming voor een willekeurig referentiepunt. Echter, er is geen algemene vergelijking om dit verband te vinden. Als de vergelijkingen er zou zijn zou die de vorm hebben: $V = \underbrace{... \cdot \gamma_z}_{\rm{verwaarloosd}} + ... \cdot \gamma_t + ... \cdot \kappa_z$.
 
 ```{figure} ./instructie_data/V_willekeurig.svg
 :align: center
@@ -138,7 +138,7 @@ $V$ en $M_{\rm{t}}$ als functie van $\gamma_t$ en $\kappa_z$ voor het dwarskrach
 :show: author, license, copyright, source, date
 :placement: caption
 
-Voorbeeld van een doorsnede die belast wordt met enkel een dwarskracht en waarbij enkel kromming optreedt.
+Voorbeeld van een doorsnede die belast wordt met enkel een dwarskracht en waarbij enkel buiging optreedt en geen draaiing van de doorsnede.
 ```
 
 
@@ -151,7 +151,7 @@ Voorbeeld van een doorsnede die belast wordt met enkel een dwarskracht en waarbi
 ::::{grid-item-card} Normaalkrachtencentrum als resultante normaalspanningen
 :columns: 12 12 4 4
 
-Bij een belasting in het normaalkrachtencentrum is er dus enkel rek en geen kromming. De ligging van het normaalkrachtencentrum nu gecontroleerd worden door deze gelijk te stellen aan het aangrijpingspunt van de resultante van de normaalspanningen.
+Bij een belasting in het normaalkrachtencentrum is er dus enkel rek en geen buiging. De ligging van het normaalkrachtencentrum nu gecontroleerd worden door deze gelijk te stellen aan het aangrijpingspunt van de resultante van de normaalspanningen.
 
 
 ```{figure} ./instructie_data/NC.svg
@@ -166,13 +166,13 @@ Links een verdeling van normaalspanningen ten gevolge van rek, rechts de resulta
 ::::{grid-item-card} Dwarskrachtencentrum als resultante schuifspanningen
 :columns: 12 12 8 8
 
-Hoewel we enkel experimenteel weten dat er een punt is waar een dwarskracht enkel voor kromming zorgt, kunnen we de ligging van het dwarskrachtencentrum wel vinden door deze gelijk te stellen aan het aangrijpingspunt van de resultante van de schuifspanningen ten gevolge van enkel kromming. Hoewel geldt dat $... \cdot \gamma_z + ... \cdot \gamma_t =  0$ en daarmee ook dat $ \int_A{\left( \tau_{\rm{t.g.v.} \, \rm{afschuiving}} + \tau_{\rm{t.g.v.} \, \rm{wringing}} \right)}dA = 0$ is niet gegarandeerd dat er geen afschuiving- of schuifspanningen ten gevolge van afschuiving of wringing aanwezig zijn in de doorsnede: we kunnen enkel zeggen dat de resultante van deze schuifspanningen nul is.
+Hoewel we enkel experimenteel weten dat er een punt is waar een dwarskracht enkel voor buiging zorgt, kunnen we de ligging van het dwarskrachtencentrum wel vinden door deze gelijk te stellen aan het aangrijpingspunt van de resultante van de schuifspanningen ten gevolge van enkel buiging. Hoewel geldt dat $... \cdot \gamma_z + ... \cdot \gamma_t =  0$ en daarmee ook dat $ \int_A{\left( \tau_{\rm{t.g.v.} \, \rm{afschuiving}} + \tau_{\rm{t.g.v.} \, \rm{wringing}} \right)}dA = 0$ is niet gegarandeerd dat er geen afschuiving- of schuifspanningen ten gevolge van afschuiving of wringing aanwezig zijn in de doorsnede: we kunnen enkel zeggen dat de resultante van deze schuifrekken- en spanningen nul is.
 
 ```{figure} ./instructie_data/DC.svg
 :align: center
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/shear_force_center_2
 
-Links een verdeling van schuifspanningen ten gevolge van kromming, rechts de resultante van deze schuifspanningen die aangrijpt in het dwarskrachtencentrum.
+Links een verdeling van schuifspanningen ten gevolge van buiging, rechts de resultante van deze schuifspanningen die aangrijpt in het dwarskrachtencentrum.
 ```
 
 ::::
@@ -190,7 +190,6 @@ We hebben gevonden dat we het dwarskrachtencentrum kunnen vinden door de locatie
 Voor deze twee volledig symmetrische doorsnedes ligt het dwarskrachtencentrum in het midden.
 ```
 
-
 Voor doorsnedes die slechts in één richting symmetrisch is ligt het dwarskrachtencentrum op de symmetrieas. Voor de andere richting moet de locatie bepaald worden door de resultante van de schuifspanningen in die richting te bepalen. Het snijpunt van de symmetrieas en de werklijn van de resultante is dan het dwarskrachtencentrum.
 
 ```{figure} ./instructie_data/DC_symmetrie.svg
@@ -200,7 +199,7 @@ Voor doorsnedes die slechts in één richting symmetrisch is ligt het dwarskrach
 Deze twee doorsnedes zijn symmtrisch in één richting, het dwarskrachtencentrum ligt dan op de symmetrieas.
 ```
 
-Het berekenen van de resultante van de schuifspanningen ten gevolge van kromming kan enkel gedaan worden voor simpele symmetrische dikwandige of dunwandige doorsneden waarbij de schuifspanningen benaderd kunnen worden met het model afgeleid in de vorige lessen.
+Het berekenen van de resultante van de schuifspanningen ten gevolge van buiging kan enkel gedaan worden voor simpele symmetrische dikwandige of dunwandige doorsneden waarbij de schuifspanningen benaderd kunnen worden met het model afgeleid in de vorige lessen.
 
 ```{figure} ./instructie_data/DC_niet.svg
 :align: center
@@ -225,7 +224,7 @@ Daarmee kunnen we de volgende aanpak beschrijven voor het bepalen van het dwarsk
 :label: alg:dc
 
 1. Voor elke richting die geen symmetrieas heeft:
-2. Bepaal voor een willekeurige snedekracht in die richting het schuifspanningsverloop in de doorsnede ten gevolge van enkel kromming.
+2. Bepaal voor een willekeurige snedekracht in die richting het schuifspanningsverloop in de doorsnede ten gevolge van enkel buiging.
 3. Bepaal de werklijn van de resultante van deze schuifspanningen.
 4. Het dwarskrachtencentrum is het snijpunt van deze werklijn met de symmetrieas (indien aanwezig) of de werklijn in de andere richting.
 
@@ -437,7 +436,7 @@ Daarmee kan de locatie van het dwarskrachtencentrum worden bepaald door het snij
 ::::::
 
 ## Alternatieve afleiding
-In hoofdstuk 5.5 van het boek Mechanica, spanningen, vervormingen en verplaatsingen {cite:p}`Hartsuijker2013` wordt er gesproken over 'geen torsie'. Dit moet geïnterpreteerd worden als geen torsievervorming. Later wordt ook gesteld dat er enkel spanningen ten gevolge van buiging optreden als de dwarskracht in het dwarskrachtencentrum aangrijpt, dat kan niet zomaar gesteld worden zoals hierboven beschreven.
+In hoofdstuk 5.5 van het boek Mechanica, spanningen, vervormingen en verplaatsingen {cite:p}`Hartsuijker2013` wordt er gesproken over 'geen torsie'. Dit moet geïnterpreteerd worden als geen draaiing van de doorsnede. Het betekent niet dat er geen torsieafschuifrek is. Later wordt ook gesteld dat er enkel spanningen ten gevolge van buiging optreden als de dwarskracht in het dwarskrachtencentrum aangrijpt, dat kan niet zomaar gesteld worden zoals hierboven beschreven.
 
 ## Meer voorbeelden
 In hoofdstuk 5.5 van het boek Mechanica, spanningen, vervormingen en verplaatsingen {cite:p}`Hartsuijker2013` worden meer voorbeelden gegeven van het bepalen van het dwarskrachtencentrum.
