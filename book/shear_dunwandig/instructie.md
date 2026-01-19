@@ -10,7 +10,7 @@ Voor dunwandige doorsneden geldt dat de wanddikte klein is ten opzichte van de a
 :align: center
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/shear_dunwandig
 
-Schuifspanningen kunnen voor dunwandige doorsneden in de gehele doorsnede worden bepaald.
+Schuifspanningen kunnen voor dunwandige doorsneden zoals deze in de gehele doorsnede worden bepaald.
 ```
 
 Omdat we nu de schuifspanning in de volledige continue doorsnede kunnen bepalen met ons schuifspanningsmodel kunnen we de schuifspanning zien als een 'stroom' van de dwarskracht door de doorsnede. Aangezien de dwarskracht de resultante is van de schuifspanningen kan de richting van de schuifspanning in elk van de doorsnededelen worden afgeleid.
@@ -19,7 +19,7 @@ Omdat we nu de schuifspanning in de volledige continue doorsnede kunnen bepalen 
 :align: center
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/shear_dunwandig
 
-De richting van de schuifspanning volgt uit de stroom van de dwarskracht die voor de resultante dwarskracht zorgt. Plaatjes uitgaande van dwarskracht naar beneden op doorsnede.
+De richting van de schuifspanning volgt uit de stroom van de dwarskracht die voor de resultante dwarskracht zorgt. Plaatjes uitgaande van dwarskracht naar beneden op doorsnede. Links hebben de horizontale delen een resultante schuifkracht van $0$. Rechts ook, waarbij de totale verticale dwarskracht wordt gevormd door een kracht omlaag op het linker verticale deel en twee krachten omhoog op de rechter verticale delen.
 ```
 
 ## Voorbeeld
@@ -35,7 +35,7 @@ Gegeven is de volgende constructie en doorsnede:
 :align: center
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/shear_dunwandig
 
-Doorsnede en constructie
+&nbsp;
 ```
 
 Gevraagd is het schuifspanningsverloop op een negatieve snede.
@@ -53,7 +53,7 @@ Zonder een berekening te maken kunnen we al wat zeggen over de schuifspanningen 
 :align: center
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/shear_dunwandig
 
-Verloop van schuifspanningen volgens het schuifspanningsmodel zonder berekeningen te maken.
+&nbsp;
 ```
 
 Om de daadwerkelijke waardes te berekenen beginnen we met het bepalen van de doorsnedegrootheden, startend met het oppervlakte $A$.

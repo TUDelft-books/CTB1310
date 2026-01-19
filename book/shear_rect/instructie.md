@@ -6,7 +6,7 @@ Tot nu toe hebben we enkel gerekend aan normaalspanningen, en enkel door buiging
 :align: center
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/shear_rect
 
-Twee op elkaar liggende balken. Voor het samenvoegen zouden schuifspanningen nodig zijn zoals rechts getoond.
+&nbsp;
 ```
 
 ## Model
@@ -59,7 +59,7 @@ Nu stellen we een vrijlichaamsschema op met spanningen voor een deel van de door
 :align: center
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/shear_rect
 
-Afschuivend deel met oppervlakte $A^{\rm{a}}$ voor de linker en rechter doorsnede en oppervlakte $A^{\parallel}$ voor de onderste doorsnede.
+&nbsp;
 ```
 
 Op dit afschuivend deel werken dezelfde spanningen als op de hele doorsnede, met daarnaast op het doorgesneden vlak geen normaalspanning maar wel een mogelijk schuifspanning.
@@ -68,7 +68,7 @@ Op dit afschuivend deel werken dezelfde spanningen als op de hele doorsnede, met
 :align: center
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/shear_rect
 
-Spanningen op een afschuivend deel van de doorsnede.
+&nbsp;
 ```
 
 Door het evenwicht in de langsrichting op te stellen, kunnen we de schuifspanning bepalen:
@@ -94,7 +94,7 @@ Om het evenwicht op te stellen kunnen we alleen de resulterende schuifkracht bep
 :align: center
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/shear_rect
 
-Voor doorsnedes waarin de breedte veel kleiner is dan de hoogte zoals links getoond, is de aanname van een gemiddelde schuifspanning over afschuifvlakken geldig. Als dat niet zo is, zoals rechts getoond, is de aanname niet geldig: voor dezelfde $z$ varieert de schuifspanning over het afschuifvlak.
+Links is de breedte veel kleiner dan de hoogte dus is de aanname van een gemiddelde schuifspanning over afschuifvlakken geldig. Rechts is de hoogte niet veel groter dan de breedte dus is de aanname niet geldig: voor dezelfde $z$ varieert de schuifspanning over het afschuifvlak.
 ```
 
 Daarnaast gaan we in deze berekeningen uit van dezelfde doorsnede (en dus ook dezelfde doorsnedegrootheden $I_{zz}$ en $A^{\rm{a}}$) in de linker en rechter doorsnede, wat betekent dat we aannemen dat de doorsnede niet verandert over de lengte van de balk; dus een prismatische balk.
@@ -103,7 +103,7 @@ Daarnaast gaan we in deze berekeningen uit van dezelfde doorsnede (en dus ook de
 :align: center
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/shear_rect
 
-Een niet-prismatisch balk geeft een ander spanningsverloop, $I_{zz}$ en $A^{\rm{a}}$ in de linker en rechter doorsnede.
+Een niet-prismatisch balk (hier met afwijkende $I_{zz}$ en $A^{\rm{a}}$ in de linker en rechter doorsnede) geeft een ander spanningsverloop in linker en rechte doorsnede voor schuifspanningen (boven) en normaalspanningen (onder).
 ```
 
 ::::::
@@ -135,7 +135,7 @@ We kunnen ook de schuifspanning op de linker en rechter doorsnede vinden. Dit ku
 :align: center
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/shear_rect
 
-Infinitesimaal blokje met schuifspanningen.
+&nbsp;
 ```
 
 $$
@@ -154,7 +154,7 @@ Dat betekent dus dat de schuifspanningen op de linker en rechter doorsnede ter h
 :align: center
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/shear_rect
 
-Spanningen op afschuivend deel van de doorsnede.
+&nbsp;
 ```
 
 ### Implicaties model schuifspanningen
@@ -167,7 +167,7 @@ Vanwege de aanname dat de schuifspanning gemiddeld verdeeld is over de langsrich
 :align: center
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/shear_rect
 
-Het afschuivend deel van de doorsnede moet symmetrisch en loodrecht op de randen van de doorsnede genomen worden om een constante schuifspanning te garanderen.
+Het afschuivend deel van de doorsnede moet symmetrisch en loodrecht op de randen van de doorsnede genomen worden om een constante schuifspanning te garanderen zoals in het rechte bovenste afschuivend deel. In het scheve afschuivend deel (rechtsonder) is de schuifspanning niet constant over het afschuivend vlak.
 ```
 
 Daarnaast is voor de vorm van het schuifspanningsverloop in de doorsnede af te leiden dat bij een doorsnede met constante breedte de schuifspanning maximaal is ter hoogte van het normaalkrachtencentrum. Daarnaast verloop deze, specifiek voor rechthoekige doorsnedes, parabolisch.
@@ -176,7 +176,7 @@ Daarnaast is voor de vorm van het schuifspanningsverloop in de doorsnede af te l
 :align: center
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/shear_rect
 
-Parabolisch verloop van schuifspanningen met maximum ter hoogte van het normaalkrachtencentrum.
+&nbsp;
 ```
 
 ::::::{admonition} Volledige afleiding
@@ -203,7 +203,7 @@ Daarnaast leidt de relatie $\sigma_{zx} = \sigma_{xz}$ ook tot de conclusie dat 
 :align: center
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/shear_rect
 
-Spanningen op randen zijn nul loodrecht op de rand.
+&nbsp;
 ```
 
 Tot slot kunnen we de formule simplificeren door het teken direct te relateren aan de richting van de snedekracht. De resultante van de schuifspanning werkt namelijk altijd in de richting van de snedekracht. We kunnen daarmee de formule herschrijven naar: $\tau_{\rm{gem}}  = \cfrac{\left|  V_{z} \, S_{z}^{\rm{a}}  \right|}{b \, I_{zz}} $.
@@ -212,7 +212,7 @@ Tot slot kunnen we de formule simplificeren door het teken direct te relateren a
 :align: center
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/shear_rect
 
-Resultante van schuifspanningen komt overeen met richting van snedekracht. Normaalspanningen zijn niet getoond.
+Resultante van schuifspanningen (som van alle spanningen onder) komt overeen met richting van snedekracht (getoond boven). Normaalspanningen zijn niet getoond.
 ```
 
 Daarmee kunnen we de volgende aanpak beschrijven voor het bepalen van het schuifspanningsverloop in een doorsnede:
@@ -242,7 +242,7 @@ Het bepalen van schuifspanningen voor een rechthoekige doorsnede wordt gedemonst
 :align: center
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/shear_rect
 
-Voorbeeldconstructie
+&nbsp;
 ```
 
 Gevraagd is het schuifspanningsverloop op een positieve snede in $\rm{D}$.
@@ -253,7 +253,7 @@ Allereerst bepalen we de dwarskracht in doorsnede $\rm{D}$. Daarvoor bepalen we 
 :align: center
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/shear_rect
 
-Vrijlichaamsschema van de gehele constructie.
+&nbsp;
 ```
 
 $$
@@ -266,7 +266,7 @@ Daarmee kunnen we de dwarskracht in $\rm{D}$ bepalen op een positieve snede:
 :align: center
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/shear_rect
 
-Vrijlichaamsschema van linker deel van constructie doorgesneden in $\rm{D}$.
+&nbsp;
 ```
 
 $$
@@ -279,7 +279,7 @@ Nu kunnen we de schuifspanningen bepalen op karakteristieke afschuivende delen i
 :align: center
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/shear_rect
 
-Afschuivend deel door het normaalkrachtencentrum.
+&nbsp;
 ```
 
 Het statisch moment van dit afschuivende deel is:

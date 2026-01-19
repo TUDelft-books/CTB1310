@@ -15,7 +15,7 @@ Gegeven is de volgende constructie en doorsnede:
 :align: center
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/shear_stresses
 
-Voorbeeldconstructie
+&nbsp;
 ```
 
 Gevraagd is de schuifspanningsverdeling op een positieve snede in de ligger.
@@ -29,7 +29,7 @@ Gegeven zijn zes mogelijke schuifspanningsverdelingen.
 :align: center
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/shear_stresses
 
-Zes mogelijke schuifspanningsverdelingen.
+&nbsp;
 ```
 
 ```{h5p} https://tudelft.h5p.com/content/1292779162260344597/embed

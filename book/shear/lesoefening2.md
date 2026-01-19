@@ -6,12 +6,12 @@ Gegeven is de volgende doorsnede:
 :align: center
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/shear_3
 
-Voorbeelddoorsnede
+&nbsp;
 ```
 
 Verder is gegeven dat voor een segment van een ring geldt:
 
-```{figure} ./lesoefening2_data/Centroid_of_an_annular_sector.svg.png
+```{figure-start} ./lesoefening2_data/Centroid_of_an_annular_sector.svg.png
 :align: center
 :source: [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Centroid_of_an_annular_sector.svg)
 :author: DuckRabbitDuckRabbit
@@ -31,6 +31,9 @@ A &= \alpha \left( r_2^2 - r_1^2 \right) \\
 \end{align*}
 $$
 
+```{figure-end}
+```
+
 :::::{exercise}
 :nonumber: true
 
@@ -40,7 +43,7 @@ Gegeven zijn een aantal mogelijke punten waarop de schuifspanning kan worden bep
 :align: center
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/shear_3
 
-Doorsnede met mogelijke punten voor het bepalen van de schuifspanning.
+&nbsp;
 ```
 
 Je mag er vanuit gaan dat $R \gg b$ voor alle relevante afschuifvlakken.
@@ -70,7 +73,7 @@ Gegeven zijn vier mogelijke schuifspanningsverdelingen.
 :align: center
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/shear_3
 
-Vier mogelijke schuifspanningsverdelingen.
+&nbsp;
 ```
 
 ```{h5p} https://tudelft.h5p.com/content/1292778326294019037/embed
@@ -140,7 +143,7 @@ Waar is de schuifspanning de helft van de maximale waarde uitgedrukt als hoek va
 :align: center
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/shear_3
 
-Voorbeeld van een hoek
+Voorbeeld van een hoek van $-\cfrac{\pi}{4}$.
 ```
 
 ```{h5p} https://tudelft.h5p.com/content/1292778358149562237/embed

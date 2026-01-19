@@ -64,7 +64,7 @@ Niet-rechthoekige doorsnedes zouden kunnen voldoen aan alle aannames, maar niet 
 :align: center
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/shear
 
-Afschuifvlakken in verschillende richtingen, maar altijd loodrecht op de rand
+Afschuifvlakken in verschillende richtingen, maar zijn altijd loodrecht op de randen in deze doorsnedes
 ```
 
 Voor verticale afschuifvlakken (in horizontale doorsnededelen) geldt dat de schuifspanningen linear verlopen over de 'hoogte' (in horizontale richting) van het constructiedeel, mits de breedte van het afschuifvlak constant blijft. Dit kan op vergelijkbare wijze worden afgeleid als het parabolisch verband wat werd gevonden voor horizontale afschuifvlakken in verticale delen.
@@ -93,7 +93,7 @@ In plaats van $h \gg b$ geldt voor gekromde delen van de constructie dat $R \gg 
 :align: center
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/shear
 
-De voorwaarde $R \gg b$ moet gelden voor gekromde delen van de doorsnede om een evenredige schuifspanningsverdeling te garanderen.
+De voorwaarde $R \gg b$ moet gelden voor gekromde delen van de doorsnede om een evenredige schuifspanningsverdeling te garanderen. Links is dat niet geldig, rechts wel.
 ```
 
 In theorie zouden ook niet-vlakke afschuifvlakken kunnen worden genomen, maar dat vereist kennis uit de elasticiteitstheorie om evenredige verdelingen te kunnen garanderen. Daarom beperken we ons tot vlakke afschuifvlakken.
@@ -102,7 +102,7 @@ In theorie zouden ook niet-vlakke afschuifvlakken kunnen worden genomen, maar da
 :align: center
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/shear
 
-Mogelijke gekromde afschuifvlakken, maar geen onderdeel van dit vak.
+Mogelijke gekromde afschuifvlakken in doorsnedes
 ```
 
 Geknikt afschuifvlakken zijn wel toegestaan, zolang elk vlakdeel maar loodrecht op de randen staat en voldoen aan de andere voorwaarden. Als een symmetrische doorsnede symmetrisch wordt doorgesneden, kunnen we uitgaan van een evenredig verdeelde schuifspanning op elk vlakdeel.
@@ -111,7 +111,7 @@ Geknikt afschuifvlakken zijn wel toegestaan, zolang elk vlakdeel maar loodrecht 
 :align: center
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/shear
 
-Mogelijke geknikte afschuifvlak.
+Mogelijke geknikte afschuifvlak met elk vlakdeel nog wel loodrecht op de randen.
 ```
 
 
@@ -121,7 +121,7 @@ Ongeacht dat de richting van de schuifspanningen en daarmee de richting van het 
 :align: center
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/shear
 
-Richting van de schuifspanningen is bekend in het midden van de doorsnede vanwege symmetrie.
+Richting van de schuifspanningen is bekend in het midden van de doorsnede vanwege symmetrie voor deze twee doorsnedes.
 ```
 
 ## Voorbeeld
@@ -135,7 +135,7 @@ Het bepalen van de schuifspanningen voor een niet-rechthoekige doorsnede wordt g
 :align: center
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/shear
 
-Doorsnede en constructie
+&nbsp;
 ```
 
 Gevraagd is de absolute waarde van schuifspanningen ergens in de doorsnede bij $\rm{A}$.
@@ -155,7 +155,7 @@ We kunnen de schuifspanningen dus alleen bepalen in het diagonale gedeelte en da
 :align: center
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/shear
 
-Afschuifvlak gekozen op $\bar{z} = -48 \, \rm{mm}$
+&nbsp;
 ```
 
 Nu moeten we eerst de doorsnedegrootheden worden bepaald, beginnend met het oppervlakte $A$.
@@ -164,7 +164,7 @@ Nu moeten we eerst de doorsnedegrootheden worden bepaald, beginnend met het oppe
 :align: center
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/shear
 
-Berekening oppervlakte
+&nbsp;
 ```
 
 $$

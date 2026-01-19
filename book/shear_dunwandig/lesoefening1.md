@@ -15,7 +15,7 @@ Gegeven is de volgende constructie en doorsnede:
 :align: center
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/continuum
 
-Voorbeeldconstructie
+&nbsp;
 ```
 
 Gevraagd is de normaal- en schuifspanning op een positieve snede in staaf $\rm{CD}$ net links van $\rm{D}$ in punt $\rm{E}$.

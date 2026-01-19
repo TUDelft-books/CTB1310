@@ -60,7 +60,7 @@ Net als bij de andere snedekrachtenlijnen (momentenlijn, dwarskrachtenlijn, norm
 align: center
 source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/torsie
 ---
-Vervormingstekens voor wringende momenten
+&nbsp;
 ```
 
 Net als bij de buigende momentenlijn kunnen we een aantal eigenschappen van de wringende momentenlijn vinden:
@@ -81,7 +81,7 @@ Net als bij de differentiaalvergelijkingen voor buiging kan de differentiaalverg
 align: center
 source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/torsie
 ---
-Vrijlichaamsschema van een klein element met wringende momenten
+Vrijlichaamsschema van een infinitesimaal element met wringende momenten
 ```
 
 Evenwicht rondom de as van het element geeft:

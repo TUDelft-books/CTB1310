@@ -6,7 +6,7 @@ Gegeven is de volgende constructie
 :align: center
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/shear_rect_oef
 
-Voorbeeldconstructie
+&nbsp;
 ```
 
 :::::{exercise}

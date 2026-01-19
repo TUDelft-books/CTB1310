@@ -16,7 +16,7 @@ In [](./instructie2.md) is een deel van de wringende momentenlijn bepaald voor d
 align: center
 source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/torsie
 ---
-
+&nbsp;
 ```
 Deze wringende momentenlijn was al gevonden:
 
@@ -88,7 +88,7 @@ Dit geeft de volgende wringende momentenlijn:
 align: center
 source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/torsie
 ---
-Wringende momentenlijn gehele constructie
+&nbsp;
 ```
 
 ::::

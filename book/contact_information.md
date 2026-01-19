@@ -14,6 +14,8 @@ Als je vastloopt met een bepaald onderwerp, kun je terecht bij de studentassiste
 :align: center
 :class: dark-light
 :source: Private collection
+
+&nbsp;
 ```
 
 ## Studentassistenten
@@ -27,6 +29,8 @@ Als je vastloopt met een bepaald onderwerp, kun je terecht bij de studentassiste
 :align: center
 :class: dark-light
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/studentenassistenten
+
+&nbsp;
 ```
 
 - Alexander Dzhanibekyan

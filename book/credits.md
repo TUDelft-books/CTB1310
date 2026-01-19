@@ -31,6 +31,8 @@ Dit boek is [CC BY 4.0 gelicenseerd](https://creativecommons.org/licenses/by/4.0
 :align: center
 :class: dark-light
 :source: Private collection
+
+&nbsp;
 ```
 
 Tom is docent aan de Technische Universiteit Delft. Tom heeft een passie voor het mechanicaonderwijs en streeft ernaar een blended leerweg te faciliteren voor studenten, waarin actief leren aantrekkelijk en lonend is.

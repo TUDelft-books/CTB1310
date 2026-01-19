@@ -31,6 +31,7 @@ Gegeven zijn drie 2D-weergaves van de constructie
 align: center
 source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/torsie2
 ---
+&nbsp;
 ```
 
 ```{h5p} https://tudelft.h5p.com/content/1292760477571217987/embed
@@ -99,7 +100,7 @@ Het wringend moment halverwege $\rm{C}$ en $\rm{B}$:
 align: center
 source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/torsie2
 ---
-Snede AB halverwege
+&nbsp;
 ```
 $$
 \begin{align*}
@@ -116,7 +117,7 @@ Het wringend moment net links van $\rm{B}$:
 align: center
 source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/torsie2
 ---
-Snede links B
+&nbsp;
 ```
 $$
 \begin{align*}
@@ -133,7 +134,7 @@ Het wringend moment net rechts van $\rm{B}$:
 align: center
 source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/torsie2
 ---
-Snede rechts B
+&nbsp;
 ```
 $$
 \begin{align*}
@@ -150,7 +151,7 @@ Het wringend moment halverwege $\rm{B}$ en $\rm{A}$:
 align: center
 source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/torsie2
 ---
-Snede halverwege A en B
+&nbsp;
 ```
 $$
 \begin{align*}
@@ -167,7 +168,7 @@ Het wringend moment in $\rm{A}$:
 align: center
 source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/torsie2
 ---
-Schematisering voor wringend moment A
+&nbsp;
 ```
 $$
 \begin{align*}
@@ -183,7 +184,7 @@ De wringende momentenlijn ziet er dan als volgt uit:
 align: center
 source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/torsie2
 ---
-Wringend momentenlijn
+&nbsp;
 ```
 
 ::::

@@ -6,7 +6,7 @@ Gegeven is de volgende constructie en doorsnede:
 :align: center
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/shear_2
 
-Voorbeeldconstructie
+&nbsp;
 ```
 
 :::::{exercise}
@@ -18,7 +18,7 @@ Gegeven zijn een aantal mogelijke punten waarop de schuifspanning kan worden bep
 :align: center
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/shear_2
 
-Aantal mogelijke punten voor het bepalen van de schuifspanning.
+&nbsp;
 ```
 
 ```{h5p} https://tudelft.h5p.com/content/1292775862047125807/embed
