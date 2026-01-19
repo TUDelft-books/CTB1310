@@ -29,6 +29,7 @@ parts:
   - file: shear_force_center/les.md
     sections:
     - file: shear_force_center/instructie.md
+    - file: shear_force_center/lesoefening1.md
   - file: torsie_krachten/les.md
     sections:
     - file: torsie_krachten/instructie.md
