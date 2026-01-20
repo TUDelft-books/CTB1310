@@ -7,6 +7,7 @@ Tot nu toe hebben we enkel gerekend aan buigende momenten. Echter, op en in somm
 :bib: shear_force_center
 :show: author, license, copyright, source, date
 :placement: caption
+:name: torsional_displacement
 
 Voorbeeld van een doorsnede die wordt belast met een wringend moment $M_{\rm{t}}$ en daardoor een om zijn eigen as draait.
 ```
@@ -77,6 +78,7 @@ Uit experimenten zijn de de draaiing van een doorsnede en buiging duidelijk zich
 :bib: shear_force_center
 :show: author, license, copyright, source, date
 :placement: caption
+:name: shear_center_fig_1
 
 Voorbeeld van een doorsnede die belast wordt in de $z$-richting waarbij zowel buiging als draaiing van de doorsnede optreedt.
 ```
@@ -137,6 +139,7 @@ $V$ en $M_{\rm{t}}$ als functie van $\gamma_t$ en $\kappa_z$ voor het dwarskrach
 :bib: shear_force_center
 :show: author, license, copyright, source, date
 :placement: caption
+:name: shear_center_fig_2
 
 Voorbeeld van een doorsnede die belast wordt met enkel een dwarskracht en waarbij enkel buiging optreedt en geen draaiing van de doorsnede.
 ```

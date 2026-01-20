@@ -11,6 +11,7 @@ Onze schuifspanningsmodel is gebaseerd op een aantal aannames om van snedekracht
 :bib: IDEAStatiCa_shear_RCS
 :show: author, license, copyright, source
 :placement: caption
+:name: simulation_shear_stresses
 
 Voorbeeld van simulatie op basis van elasticiteitstheorie op doorsnedeniveau. De vectoren geven de richting aan van de schuifspanningen en de kleur en grootte de absolute waarde (donkerblauw lage waarde, donkerrood hoge waarde).
 ```
