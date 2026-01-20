@@ -44,7 +44,7 @@ Ook voor buiging, met op infinitesimaal niveau kromming $\kappa$ en buigspanning
 ::::{grid-item-card} Vervormingen door belasting in $z$-richting
 :columns: 12 12 8 8
 
-Over het algemeen zorgt een belasting in de z- of y-richting naast afschuiving, met afschuifrekken $\gamma_z$ en schuifspanningen $\tau$ (die we beide over het algemeen verwaarlozen):
+Over het algemeen zorgt een belasting in de z- of y-richting naast afschuiving, met afschuifrekken $\gamma$ en schuifspanningen $\tau$ (die we beide over het algemeen verwaarlozen):
 
 ```{figure} ./instructie_data/gamma_z.svg
 :align: center
@@ -53,7 +53,7 @@ Over het algemeen zorgt een belasting in de z- of y-richting naast afschuiving, 
 &nbsp;
 ```
 
-Ook voor draaiing van een doorsnede, eveneens ten gevolg van afschuifrekken $\gamma_{\rm{t}}$, maar mogelijk in een andere richting, en schuifspanningen $\tau$ ten gevolge van torsie. Deze rekken en spanningen zijn echter meestal niet verwaarloosbaar:
+Ook voor draaiing van een doorsnede, $\chi$, en schuifspanningen $\tau$. Deze rekken en spanningen zijn echter meestal niet verwaarloosbaar:
 
 ```{figure} ./instructie_data/gamma_t.svg
 :align: center
@@ -116,22 +116,22 @@ $N$ en $M_z$ als functie van $\epsilon$ en $\kappa_z$ voor het normaalkrachtence
 ::::{grid-item-card} Dwarskrachtencentrum volgt **niet** uit constitutieve relaties
 :columns: 12 12 8 8
 
-Een zelfde aanpak zouden we kunnen proberen voor om een relatie te vinden tussen dwarskracht, wringend moment, afschuifrekken en kromming voor een willekeurig referentiepunt. Echter, er is geen algemene vergelijking om dit verband te vinden. Als de vergelijkingen er zou zijn zou die de vorm hebben: $V = \underbrace{... \cdot \gamma_z}_{\rm{verwaarloosd}} + ... \cdot \gamma_t + ... \cdot \kappa_z$.
+Een zelfde aanpak zouden we kunnen proberen voor om een relatie te vinden tussen dwarskracht, wringend moment, afschuifrekken en kromming voor een willekeurig referentiepunt. Echter, er is geen algemene vergelijking om dit verband te vinden. Als de vergelijkingen er zou zijn zou die de vorm hebben: $V = \underbrace{... \cdot \gamma}_{\rm{verwaarloosd}} + ... \cdot \chi + ... \cdot \kappa_z$.
 
 ```{figure} ./instructie_data/V_willekeurig.svg
 :align: center
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/shear_force_center_2
 
-$V$ en $M_{\rm{t}}$ als functie van $\gamma_z$, $\gamma_t$ en $\kappa_z$ voor een willekeurig referentiepunt.
+$V$ en $M_{\rm{t}}$ als functie van $\gamma$, $\chi$ en $\kappa_z$ voor een willekeurig referentiepunt.
 ```
 
-Als we dezelfde logica zouden toepassen zou het dwarskrachtencentrum het punt zijn waar alleen de term met de kromming overblijft, oftewel: $V = \underbrace{... \cdot \gamma_z + ... \cdot \gamma_t}_{\rm{=} \, 0} + ... \cdot \kappa_z$. Uit experimenten blijkt dat er een punt is waar dit geldt, maar er is geen algemene afleiding mogelijk zoals bij het normaalkrachtencentrum en dus ook geen formule voor het bepalen van de locatie van het dwarskrachtencentrum:
+Als we dezelfde logica zouden toepassen zou het dwarskrachtencentrum het punt zijn waar alleen de term met de kromming overblijft, oftewel: $V = \underbrace{... \cdot \gamma + ... \cdot \chi}_{\rm{=} \, 0} + ... \cdot \kappa_z$. Uit experimenten blijkt dat er een punt is waar dit geldt, maar er is geen algemene afleiding mogelijk zoals bij het normaalkrachtencentrum en dus ook geen formule voor het bepalen van de locatie van het dwarskrachtencentrum:
 
 ```{figure} ./instructie_data/V_DC.svg
 :align: center
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/shear_force_center_2
 
-$V$ en $M_{\rm{t}}$ als functie van $\gamma_t$ en $\kappa_z$ voor het dwarskrachtencentrum.
+$V$ en $M_{\rm{t}}$ als functie van $\chi$ en $\kappa_z$ voor het dwarskrachtencentrum.
 ```
 
 ```{figure} ./instructie_data/C5-A2b-300x262.jpeg
@@ -169,7 +169,7 @@ Links een verdeling van normaalspanningen ten gevolge van rek, rechts de resulta
 ::::{grid-item-card} Dwarskrachtencentrum als resultante schuifspanningen
 :columns: 12 12 8 8
 
-Hoewel we enkel experimenteel weten dat er een punt is waar een dwarskracht enkel voor buiging zorgt, kunnen we de ligging van het dwarskrachtencentrum wel vinden door deze gelijk te stellen aan het aangrijpingspunt van de resultante van de schuifspanningen ten gevolge van enkel buiging. Hoewel geldt dat $... \cdot \gamma_z + ... \cdot \gamma_t =  0$ en daarmee ook dat $ \int_A{\left( \tau_{\rm{t.g.v.} \, \rm{afschuiving}} + \tau_{\rm{t.g.v.} \, \rm{wringing}} \right)}dA = 0$ is niet gegarandeerd dat er geen afschuiving- of schuifspanningen ten gevolge van afschuiving of wringing aanwezig zijn in de doorsnede: we kunnen enkel zeggen dat de resultante van deze schuifrekken- en spanningen nul is.
+Hoewel we enkel experimenteel weten dat er een punt is waar een dwarskracht enkel voor buiging zorgt, kunnen we de ligging van het dwarskrachtencentrum wel vinden door deze gelijk te stellen aan het aangrijpingspunt van de resultante van de schuifspanningen ten gevolge van enkel buiging. Hoewel geldt dat $... \cdot \gamma + ... \cdot \chi =  0$ en daarmee ook dat $ \int_A{\left( \tau_{\rm{t.g.v.} \, \rm{afschuiving}} + \tau_{\rm{t.g.v.} \, \rm{wringing}} \right)}dA = 0$ is niet gegarandeerd dat er geen afschuiving- of schuifspanningen aanwezig zijn in de doorsnede: we kunnen enkel zeggen dat de resultante van deze schuifrekken- en spanningen nul is.
 
 ```{figure} ./instructie_data/DC.svg
 :align: center

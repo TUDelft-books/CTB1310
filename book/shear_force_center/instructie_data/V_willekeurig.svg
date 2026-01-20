@@ -21,7 +21,7 @@
 		.st11 {font-size:1em}
 		.st12 {baseline-shift:-32.4941%;font-size:0.649882em}
 		.st13 {stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
-		.st14 {marker-start:url(#mrkr39-86);stroke:#31859b;stroke-linecap:round;stroke-linejoin:round;stroke-width:2}
+		.st14 {marker-start:url(#mrkr39-80);stroke:#31859b;stroke-linecap:round;stroke-linejoin:round;stroke-width:2}
 		.st15 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
 	]]>
 	</style>
@@ -41,7 +41,7 @@
 		<g id="lend39">
 			<path d="M 0 0 L 2 -1 L 2 1 L 0 0 M 2 0 L 4 -1 L 4 1 L 2 0 " style="stroke:none"/>
 		</g>
-		<marker id="mrkr39-86" class="st9" v:arrowType="39" v:arrowSize="2" v:setback="8.86" refX="8.86" orient="auto"
+		<marker id="mrkr39-80" class="st9" v:arrowType="39" v:arrowSize="2" v:setback="8.86" refX="8.86" orient="auto"
 				markerUnits="strokeWidth" overflow="visible">
 			<use xlink:href="#lend39" transform="scale(2.26) "/>
 		</marker>
@@ -114,50 +114,47 @@
 		</g>
 		<g id="shape129-45" v:mID="129" v:groupContext="shape" transform="translate(135.021,-101.005)">
 			<title>Blad.129</title>
-			<desc>Mt = ...·γz + ...·γt + ...·κz</desc>
+			<desc>Mt = ...·γ + ...·χ + ...·κz</desc>
 			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
 			<v:textRect cx="70.8661" cy="133.978" width="141.74" height="17.0079"/>
 			<rect x="0" y="125.474" width="141.732" height="17.0079" class="st6"/>
-			<text x="14.22" y="137.58" class="st7" v:langID="1043"><v:paragraph v:horizAlign="1"/><v:tabList/>M<tspan dy="-0.279em"
-						class="st10" v:baseFontSize="12">t</tspan><tspan dy="0.181em" class="st11"> </tspan>= ...·γ<tspan
-						dy="-0.279em" class="st10" v:baseFontSize="12">z</tspan><tspan dy="0.181em" class="st11"> </tspan>+ ...·γ<tspan
-						dy="-0.279em" class="st10" v:baseFontSize="12">t </tspan><tspan dy="0.181em" class="st11">+ ...</tspan>·κ<tspan
+			<text x="15.26" y="137.58" class="st7" v:langID="1043"><v:paragraph v:horizAlign="1"/><v:tabList/>M<tspan dy="-0.279em"
+						class="st10" v:baseFontSize="12">t</tspan><tspan dy="0.181em" class="st11"> </tspan>= ...·γ + ...·χ <tspan
+						dy="-0.279em" class="st10" v:baseFontSize="12"> </tspan><tspan dy="0.181em" class="st11">+ </tspan>...·κ<tspan
 						dy="-0.279em" class="st12" v:baseFontSize="12">z</tspan></text>		</g>
-		<g id="shape130-55" v:mID="130" v:groupContext="shape" transform="translate(120.847,-54.2333)">
+		<g id="shape130-53" v:mID="130" v:groupContext="shape" transform="translate(120.847,-54.2333)">
 			<title>Blad.130</title>
-			<desc>V = ...·γz + ...·γt + ...·κz</desc>
+			<desc>V = ...·γ + ...·χ + ...·κz</desc>
 			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
 			<v:textRect cx="70.8661" cy="133.978" width="141.74" height="17.0079"/>
 			<rect x="0" y="125.474" width="141.732" height="17.0079" class="st6"/>
-			<text x="16.64" y="137.58" class="st7" v:langID="1043"><v:paragraph v:horizAlign="1"/><v:tabList/>V = ...·γ<tspan
-						dy="-0.279em" class="st10" v:baseFontSize="12">z</tspan><tspan dy="0.181em" class="st11"> </tspan>+ ...·γ<tspan
-						dy="-0.279em" class="st10" v:baseFontSize="12">t </tspan><tspan dy="0.181em" class="st11">+ ...</tspan>·κ<tspan
+			<text x="18.65" y="137.58" class="st7" v:langID="1043"><v:paragraph v:horizAlign="1"/><v:tabList/>V = ...·γ + ...·χ + ...·κ<tspan
 						dy="-0.279em" class="st12" v:baseFontSize="12">z</tspan></text>		</g>
-		<g id="shape131-63" v:mID="131" v:groupContext="shape" transform="translate(64.214,149.075) rotate(-153.435)">
+		<g id="shape131-57" v:mID="131" v:groupContext="shape" transform="translate(64.214,149.075) rotate(-153.435)">
 			<title>Blad.131</title>
 			<path d="M0 142.48 L47.54 142.48" class="st13"/>
 		</g>
-		<g id="shape132-66" v:mID="132" v:groupContext="shape" transform="translate(35.8676,156.161) rotate(-153.435)">
+		<g id="shape132-60" v:mID="132" v:groupContext="shape" transform="translate(35.8676,156.161) rotate(-153.435)">
 			<title>Blad.132</title>
 			<path d="M0 142.48 L47.54 142.48" class="st13"/>
 		</g>
-		<g id="shape133-69" v:mID="133" v:groupContext="shape" transform="translate(35.8676,198.681) rotate(-153.435)">
+		<g id="shape133-63" v:mID="133" v:groupContext="shape" transform="translate(35.8676,198.681) rotate(-153.435)">
 			<title>Blad.133</title>
 			<path d="M0 142.48 L47.54 142.48" class="st13"/>
 		</g>
-		<g id="shape134-72" v:mID="134" v:groupContext="shape" transform="translate(-20.8253,212.854) rotate(-153.435)">
+		<g id="shape134-66" v:mID="134" v:groupContext="shape" transform="translate(-20.8253,212.854) rotate(-153.435)">
 			<title>Blad.134</title>
 			<path d="M0 142.48 L47.54 142.48" class="st13"/>
 		</g>
-		<g id="shape135-75" v:mID="135" v:groupContext="shape" transform="translate(-20.8253,241.201) rotate(-153.435)">
+		<g id="shape135-69" v:mID="135" v:groupContext="shape" transform="translate(-20.8253,241.201) rotate(-153.435)">
 			<title>Blad.135</title>
 			<path d="M0 142.48 L47.54 142.48" class="st13"/>
 		</g>
-		<g id="shape136-78" v:mID="136" v:groupContext="shape" transform="translate(35.8676,269.547) rotate(-153.435)">
+		<g id="shape136-72" v:mID="136" v:groupContext="shape" transform="translate(35.8676,269.547) rotate(-153.435)">
 			<title>Blad.136</title>
 			<path d="M0 142.48 L47.54 142.48" class="st13"/>
 		</g>
-		<g id="shape138-81" v:mID="138" v:groupContext="shape" transform="translate(95.9103,179.429) rotate(-153.435)">
+		<g id="shape138-75" v:mID="138" v:groupContext="shape" transform="translate(95.9103,179.429) rotate(-153.435)">
 			<title>Wringend moment.138</title>
 			<path d="M17.72 142.48 L18.08 142.48 L42.52 142.48" class="st14"/>
 		</g>

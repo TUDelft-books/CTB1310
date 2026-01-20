@@ -38,6 +38,8 @@ parts:
     - file: torsie_krachten/lesoefening1.md
     - file: torsie_krachten/lesoefening2.md
   - file: torsie_model/les.md
+    sections:
+    - file: torsie_model/instructie.md
   - file: torsie_shear/les.md
 # END REMOVE-FROM-RELEASE
 - caption: Diverse
