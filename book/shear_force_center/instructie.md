@@ -164,12 +164,14 @@ Bij een belasting in het normaalkrachtencentrum is er dus enkel rek en geen buig
 Links een verdeling van normaalspanningen ten gevolge van rek, rechts de resultante van deze normaalspanningen die aangrijpt in het normaalkrachtencentrum.
 ```
 
+In dit geval zijn er geen buigspanningen.
+
 ::::
 
 ::::{grid-item-card} Dwarskrachtencentrum als resultante schuifspanningen
 :columns: 12 12 8 8
 
-Hoewel we enkel experimenteel weten dat er een punt is waar een dwarskracht enkel voor buiging zorgt, kunnen we de ligging van het dwarskrachtencentrum wel vinden door deze gelijk te stellen aan het aangrijpingspunt van de resultante van de schuifspanningen ten gevolge van enkel buiging. Hoewel geldt dat $... \cdot \gamma + ... \cdot \chi =  0$ en daarmee ook dat $ \int_A{\left( \tau_{\rm{t.g.v.} \, \rm{afschuiving}} + \tau_{\rm{t.g.v.} \, \rm{wringing}} \right)}dA = 0$ is niet gegarandeerd dat er geen afschuiving- of schuifspanningen aanwezig zijn in de doorsnede: we kunnen enkel zeggen dat de resultante van deze schuifrekken- en spanningen nul is.
+Hoewel we enkel experimenteel weten dat er een punt is waar een dwarskracht enkel voor buiging zorgt, kunnen we de ligging van het dwarskrachtencentrum wel vinden door deze gelijk te stellen aan het aangrijpingspunt van de resultante van de schuifspanningen ten gevolge van enkel buiging.
 
 ```{figure} ./instructie_data/DC.svg
 :align: center
@@ -177,6 +179,8 @@ Hoewel we enkel experimenteel weten dat er een punt is waar een dwarskracht enke
 
 Links een verdeling van schuifspanningen ten gevolge van buiging, rechts de resultante van deze schuifspanningen die aangrijpt in het dwarskrachtencentrum.
 ```
+
+Hoewel geldt dat $... \cdot \gamma + ... \cdot \chi =  0$ en daarmee ook dat $ \int_A{\left( \tau_{\rm{t.g.v.} \, \rm{afschuiving}} + \tau_{\rm{t.g.v.} \, \rm{wringing}} \right)}dA = 0$ is niet gegarandeerd dat er geen afschuiving- of schuifspanningen aanwezig zijn in de doorsnede: we kunnen enkel zeggen dat de som van alle rekken niet voor een rotatie zorgt en dat resultante van alle spanningen ten gevolge van afschuiving en wringing nul is.
 
 ::::
 
