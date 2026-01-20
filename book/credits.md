@@ -21,7 +21,7 @@ Om de website opnieuw te maken heb je twee opties (meer informatie in de [TeachB
 ## Licentie 📝
 Dit boek is [CC BY 4.0 gelicenseerd](https://creativecommons.org/licenses/by/4.0/) waardoor je het materiaal mag delen en aanpassen, zolang de bron wordt vermeld.
 
-Een deel van de inhoud van dit boek is afkomstig van bronnen. Deze inhoud heeft geen CC BY licentie maar er is toestemming verleent door de originele auteurs voor gebruik in dit boek. Het gaat om:
+Een deel van de inhoud van dit boek is afkomstig van bronnen. Deze inhoud heeft geen CC BY licentie maar er is toestemming verleend door de originele auteurs voor gebruik in dit boek. Het gaat om:
 - [](simulation_shear_stresses) van {cite:ts}`IDEAStatiCa_shear_RCS`
 - [](torsional_displacement) van {cite:ts}`shear_force_center`
 - [](shear_center_fig_1) van {cite:ts}`shear_force_center`
