@@ -42,12 +42,83 @@ Bepaal de doorsnedegrootheden.
 
 Gegeven zijn 6 mogelijke werklijnen/assen waarop het dwarskrachtencentrum kan liggen.
 
-```{figure} ./lesoefening_data/opties.svg
+::::{grid} 3 3 3 3
+:class-container: center-grid
+
+:::{grid-item}
+:columns: auto
+
+```{figure} ./lesoefening_data/optie_1.svg
 :align: center
+:scale: 75
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/shear_force_center
 
-&nbsp;
+Optie 1
 ```
+:::
+
+:::{grid-item}
+:columns: auto
+
+```{figure} ./lesoefening_data/optie_2.svg
+:align: center
+:scale: 75
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/shear_force_center
+
+Optie 2
+```
+:::
+
+:::{grid-item}
+:columns: auto
+
+```{figure} ./lesoefening_data/optie_3.svg
+:align: center
+:scale: 75
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/shear_force_center
+
+Optie 3
+```
+:::
+
+:::{grid-item}
+:columns: auto
+
+```{figure} ./lesoefening_data/optie_4.svg
+:align: center
+:scale: 75
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/shear_force_center
+
+Optie 4
+```
+:::
+
+:::{grid-item}
+:columns: auto
+
+```{figure} ./lesoefening_data/optie_5.svg
+:align: center
+:scale: 75
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/shear_force_center
+
+Optie 5
+```
+:::
+
+:::{grid-item}
+:columns: auto
+
+```{figure} ./lesoefening_data/optie_6.svg
+:align: center
+:scale: 75
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/shear_force_center
+
+Optie 6
+```
+:::
+
+
+::::
 
 ```{h5p} https://tudelft.h5p.com/content/1292802734390960127/embed
 ```
