@@ -1,6 +1,6 @@
 # Instructie
 
-Tot nu toe hebben we enkel gerekend aan buigende momenten. Echter, op en in sommige constructies komen ook wringende momenten voor. Waar buigende momenten om de lokale $y$- of $z$-as werken en zorgen voor verplaatsingen in de $z$ ($M_z$) en $y$ ($M_y$) richting, werken wringende momenten om de $x$-as van de doorsnede en zorgen voor rotaties om de $x$-as ($M_{\rm{t}}$, met de $\rm{t}$ van 'torsion').
+Tot nu toe hebben we enkel gerekend aan buigende momenten. Echter, op en in sommige constructies komen ook wringende momenten voor. Waar buigende momenten om de lokale $y$- of $z$-as werken en zorgen voor verplaatsingen in de $z$ ($M_z$) en $y$ ($M_y$) richting, werken wringende momenten om de $x$-as van de doorsnede en zorgen voor rotaties om de $x$-as ($M_{\rm{t}}$, met de $\rm{t}$ van 'torsion'). Deze rotaties om de $x$-as noemen we verwringing.
 
 ```{figure} ./instructie_data/torsion.png
 :align: center
@@ -9,10 +9,10 @@ Tot nu toe hebben we enkel gerekend aan buigende momenten. Echter, op en in somm
 :placement: caption
 :name: torsional_displacement
 
-Voorbeeld van een doorsnede die wordt belast met een wringend moment $M_{\rm{t}}$ en daardoor een om zijn eigen as draait.
+Voorbeeld van een doorsnede die wordt belast met een wringend moment $M_{\rm{t}}$ en daardoor verwringt.
 ```
 
-Bij buiging hebben we het normaalkrachtencentrum gezien: het punt in de doorsnede waaromheen de momenten worden berekend en waarbij een normaalkracht geen kromming veroorzaakt. Op eenzelfde manier is er ook een dwarskrachtencentrum: het punt in de doorsnede waaromheen de wringende momenten worden berekend en waarbij een dwarskracht niet voor draaiing van de hele doorsnede zorgt. Echter is er een gesloten afleiding voor de locatie van het dwarskrachtencentrum niet mogelijk zoals bij het normaalkrachtencentrum. We zullen bekijken waarom dat zo is en hoe we de locatie van het dwarskrachtencentrum dan wel kunnen bepalen op basis van experimentele data en aannames.
+Bij buiging hebben we het normaalkrachtencentrum gezien: het punt in de doorsnede waaromheen de momenten worden berekend en waarbij een normaalkracht geen kromming veroorzaakt. Op eenzelfde manier is er ook een dwarskrachtencentrum: het punt in de doorsnede waaromheen de wringende momenten worden berekend en waarbij een dwarskracht niet voor verwringing zorgt. Echter is er een gesloten afleiding voor de locatie van het dwarskrachtencentrum niet mogelijk zoals bij het normaalkrachtencentrum. We zullen bekijken waarom dat zo is en hoe we de locatie van het dwarskrachtencentrum dan wel kunnen bepalen op basis van experimentele data en aannames.
 
 :::::{grid} 1 2 2 2
 :gutter: 1 1 1 2
@@ -53,7 +53,7 @@ Over het algemeen zorgt een belasting in de z- of y-richting naast afschuiving, 
 &nbsp;
 ```
 
-Ook voor draaiing van een doorsnede, $\chi$, en schuifspanningen $\tau$. Deze rekken en spanningen zijn echter meestal niet verwaarloosbaar:
+Ook voor verwringing, $\chi$, en schuifspanningen $\tau$. Deze rekken en spanningen zijn echter meestal niet verwaarloosbaar:
 
 ```{figure} ./instructie_data/gamma_t.svg
 :align: center
@@ -80,7 +80,7 @@ Uit experimenten zijn de de draaiing van een doorsnede en buiging duidelijk zich
 :placement: caption
 :name: shear_center_fig_1
 
-Voorbeeld van een doorsnede die belast wordt in de $z$-richting waarbij zowel buiging als draaiing van de doorsnede optreedt.
+Voorbeeld van een doorsnede die belast wordt in de $z$-richting waarbij zowel buiging als verwringing van de doorsnede optreedt.
 ```
 
 
@@ -93,7 +93,7 @@ Voorbeeld van een doorsnede die belast wordt in de $z$-richting waarbij zowel bu
 ::::{grid-item-card} Normaalkrachtencentrum volgt uit constitutieve relaties
 :columns: 12 12 4 4
 
-Om de plek van het normaalkrachtencentrum te vinden kunnen we de relatie tussen normaalkracht, moment, rek en kromming uitdrukken voor een willekeurige referentiepunt. Hierbij houden we rekening met de aanname dat de doorsnedes vlak blijven en loodrecht op ‘vezels’ staan om het hele vervormingsgedrag te kunnen modelleren. Dat geeft onder andere $N = EA \epsilon + ES_z \kappa_z$:
+Om de plek van het normaalkrachtencentrum te vinden kunnen we de relatie tussen normaalkracht, moment, rek en kromming uitdrukken voor een willekeurige referentiepunt. Dat geeft onder andere $N = EA \epsilon + ES_z \kappa_z$:
 
 ```{figure} ./instructie_data/N_willekeurig.svg
 :align: center
@@ -116,7 +116,7 @@ $N$ en $M_z$ als functie van $\epsilon$ en $\kappa_z$ voor het normaalkrachtence
 ::::{grid-item-card} Dwarskrachtencentrum volgt **niet** uit constitutieve relaties
 :columns: 12 12 8 8
 
-Een zelfde aanpak zouden we kunnen proberen voor om een relatie te vinden tussen dwarskracht, wringend moment, afschuifrekken en kromming voor een willekeurig referentiepunt. Echter, er is geen algemene vergelijking om dit verband te vinden. Als de vergelijkingen er zou zijn zou die de vorm hebben: $V = \underbrace{... \cdot \gamma}_{\rm{verwaarloosd}} + ... \cdot \chi + ... \cdot \kappa_z$.
+Een zelfde aanpak zouden we kunnen proberen voor om een relatie te vinden tussen dwarskracht, wringend moment, afschuifrekken, verwringing en kromming voor een willekeurig referentiepunt. Echter, er is geen algemene vergelijking om dit verband te vinden. Als de vergelijkingen er zou zijn zou die de vorm hebben: $V = \underbrace{... \cdot \gamma}_{\rm{verwaarloosd}} + ... \cdot \chi + ... \cdot \kappa_z$.
 
 ```{figure} ./instructie_data/V_willekeurig.svg
 :align: center
@@ -141,7 +141,7 @@ $V$ en $M_{\rm{t}}$ als functie van $\chi$ en $\kappa_z$ voor het dwarskrachtenc
 :placement: caption
 :name: shear_center_fig_2
 
-Voorbeeld van een doorsnede die belast wordt met enkel een dwarskracht en waarbij enkel buiging optreedt en geen draaiing van de doorsnede.
+Voorbeeld van een doorsnede die belast wordt met enkel een dwarskracht en waarbij enkel buiging optreedt en geen verwringing.
 ```
 
 
@@ -180,7 +180,7 @@ Hoewel we enkel experimenteel weten dat er een punt is waar een dwarskracht enke
 Links een verdeling van schuifspanningen ten gevolge van buiging, rechts de resultante van deze schuifspanningen die aangrijpt in het dwarskrachtencentrum.
 ```
 
-Hoewel geldt dat $... \cdot \gamma + ... \cdot \chi =  0$ en daarmee ook dat $ \int_A{\left( \tau_{\rm{t.g.v.} \, \rm{afschuiving}} + \tau_{\rm{t.g.v.} \, \rm{wringing}} \right)}dA = 0$ is niet gegarandeerd dat er geen afschuiving- of schuifspanningen aanwezig zijn in de doorsnede: we kunnen enkel zeggen dat de som van alle rekken niet voor een rotatie zorgt en dat resultante van alle spanningen ten gevolge van afschuiving en wringing nul is.
+Hoewel geldt dat $... \cdot \gamma + ... \cdot \chi =  0$ en daarmee ook dat $ \int_A{\left( \tau_{\rm{t.g.v.} \, \rm{afschuiving}} + \tau_{\rm{t.g.v.} \, \rm{wringing}} \right)}dA = 0$ is niet gegarandeerd dat er geen afschuiving- of schuifspanningen aanwezig zijn in de doorsnede: we kunnen enkel zeggen dat de som van alle rekken niet voor verwringing zorgt en dat resultante van alle spanningen ten gevolge van afschuiving en wringing nul is.
 
 ::::
 
