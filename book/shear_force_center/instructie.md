@@ -229,7 +229,7 @@ Hoewel we enkel experimenteel weten dat er een punt is waar een dwarskracht enke
 
 ::::
 
-Hoewel geldt dat $... \cdot \gamma + ... \cdot \chi =  0$ en daarmee ook dat $ \int_A{\left( \tau_{\rm{t.g.v.} \, \rm{afschuiving}} + \tau_{\rm{t.g.v.} \, \rm{wringing}} \right)}dA = 0$ is niet gegarandeerd dat er geen afschuiving- of schuifspanningen aanwezig zijn in de doorsnede: we kunnen enkel zeggen dat de som van alle rekken niet voor verwringing zorgt en dat resultante van alle spanningen ten gevolge van afschuiving en wringing nul is.
+We kunnen echter niet garanderen dat er geen afschuiving- of schuifspanningen ten gevolge van afschuiving of verwringing aanwezig zijn in de doorsnede.
 
 ::::::
 :::::::
