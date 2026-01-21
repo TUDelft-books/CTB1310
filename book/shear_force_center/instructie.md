@@ -12,6 +12,8 @@ Tot nu toe hebben we enkel gerekend aan buigende momenten. Echter, op en in somm
 Voorbeeld van een doorsnede die wordt belast met een wringend moment $M_{\rm{t}}$ en daardoor verwringt.
 ```
 
+## Model locatie dwarskrachtencentrum
+
 Bij buiging hebben we het normaalkrachtencentrum gezien: het punt in de doorsnede waaromheen de momenten worden berekend en waarbij een normaalkracht geen kromming veroorzaakt. Op eenzelfde manier is er ook een dwarskrachtencentrum: het punt in de doorsnede waaromheen de wringende momenten worden berekend en waarbij een dwarskracht niet voor verwringing zorgt. Echter is er een gesloten afleiding voor de locatie van het dwarskrachtencentrum niet mogelijk zoals bij het normaalkrachtencentrum. We zullen bekijken waarom dat zo is en hoe we de locatie van het dwarskrachtencentrum dan wel kunnen bepalen op basis van experimentele data en aannames.
 
 :::::{grid} 1 2 2 2
@@ -148,81 +150,245 @@ Voorbeeld van een doorsnede die belast wordt met enkel een dwarskracht en waarbi
 ::::
 :::::
 
-:::::{grid} 1 2 2 2
+:::::::{grid} 1 2 2 2
 :gutter: 1 1 1 2
 
-::::{grid-item-card} Normaalkrachtencentrum als resultante normaalspanningen
+::::::{grid-item-card} Normaalkrachtencentrum als resultante normaalspanningen
 :columns: 12 12 4 4
 
-Bij een belasting in het normaalkrachtencentrum is er dus enkel rek en geen buiging. De ligging van het normaalkrachtencentrum nu gecontroleerd worden door deze gelijk te stellen aan het aangrijpingspunt van de resultante van de normaalspanningen.
+Bij een belasting in het normaalkrachtencentrum is er dus enkel rek en geen buiging. De ligging van het normaalkrachtencentrum nu gecontroleerd worden door deze gelijk te stellen aan het aangrijpingspunt van de resultante ({numref}`fig:normal_force_center_force`) van de normaalspanningen ({numref}`fig:normal_force_center_stresses`).
 
+::::{grid} 2 2 2 2
+:class-container: center-grid
 
-```{figure} ./instructie_data/NC.svg
+:::{grid-item}
+:columns: auto
+
+```{figure} ./instructie_data/NC_2.svg
 :align: center
+:name: fig:normal_force_center_force
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/shear_force_center_2
 
-Links een verdeling van normaalspanningen ten gevolge van rek, rechts de resultante van deze normaalspanningen die aangrijpt in het normaalkrachtencentrum.
+&nbsp;
 ```
+
+:::
+
+:::{grid-item}
+:columns: auto
+
+```{figure} ./instructie_data/NC_1.svg
+:align: center
+:name: fig:normal_force_center_stresses
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/shear_force_center_2
+
+&nbsp;
+```
+
+:::
+
+::::
 
 In dit geval zijn er geen buigspanningen.
 
-::::
+::::::
 
-::::{grid-item-card} Dwarskrachtencentrum als resultante schuifspanningen
+::::::{grid-item-card} Dwarskrachtencentrum als resultante schuifspanningen
 :columns: 12 12 8 8
 
-Hoewel we enkel experimenteel weten dat er een punt is waar een dwarskracht enkel voor buiging zorgt, kunnen we de ligging van het dwarskrachtencentrum wel vinden door deze gelijk te stellen aan het aangrijpingspunt van de resultante van de schuifspanningen ten gevolge van enkel buiging.
+Hoewel we enkel experimenteel weten dat er een punt is waar een dwarskracht enkel voor buiging zorgt, kunnen we de ligging van het dwarskrachtencentrum wel vinden door deze gelijk te stellen aan het aangrijpingspunt van de resultante ({numref}`fig:shear_center_force`) van de schuifspanningen ({numref}`fig:shear_center_stresses`) ten gevolge van enkel buiging.
 
-```{figure} ./instructie_data/DC.svg
+::::{grid} 2 2 2 2
+:class-container: center-grid
+
+:::{grid-item}
+:columns: auto
+
+```{figure} ./instructie_data/DC_2.svg
 :align: center
+:name: fig:shear_center_force
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/shear_force_center_2
 
-Links een verdeling van schuifspanningen ten gevolge van buiging, rechts de resultante van deze schuifspanningen die aangrijpt in het dwarskrachtencentrum.
+&nbsp;
 ```
+
+:::
+
+:::{grid-item}
+:columns: auto
+
+```{figure} ./instructie_data/DC_1.svg
+:align: center
+:name: fig:shear_center_stresses
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/shear_force_center_2
+
+&nbsp;
+```
+
+:::
+
+::::
 
 Hoewel geldt dat $... \cdot \gamma + ... \cdot \chi =  0$ en daarmee ook dat $ \int_A{\left( \tau_{\rm{t.g.v.} \, \rm{afschuiving}} + \tau_{\rm{t.g.v.} \, \rm{wringing}} \right)}dA = 0$ is niet gegarandeerd dat er geen afschuiving- of schuifspanningen aanwezig zijn in de doorsnede: we kunnen enkel zeggen dat de som van alle rekken niet voor verwringing zorgt en dat resultante van alle spanningen ten gevolge van afschuiving en wringing nul is.
 
-::::
-
-:::::
+::::::
+:::::::
 
 ## Implicaties model dwarskrachtencentrum
 
-We hebben gevonden dat we het dwarskrachtencentrum kunnen vinden door de locatie te vinden van de resultante van de schuifspanningen. Voor volledig symmetrische doorsnedes betekent dit dat het dwarskrachtencentrum in het midden ligt, ook al is het niet mogelijk om de schuifspanning te bepalen
+### Volledige symmetrische doorsnedes
+We hebben gevonden dat we het dwarskrachtencentrum kunnen vinden door de locatie te vinden van de resultante van de schuifspanningen. Voor volledig symmetrische doorsnedes betekent dit dat het dwarskrachtencentrum in het midden ligt, ook al is het niet mogelijk om de schuifspanning te bepalen.
 
-```{figure} ./instructie_data/DC_rond.svg
+::::::{prf:example}
+:nonumber: true
+
+Voor de volgende twee doorsnedes is dat het geval:
+
+::::{grid} 2 2 2 2
+:class-container: center-grid
+
+:::{grid-item}
+:columns: auto
+
+```{figure} ./instructie_data/DC_rond_1.svg
 :align: center
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/shear_force_center_2
 
-Voor deze twee volledig symmetrische doorsnedes ligt het dwarskrachtencentrum in het midden.
+&nbsp;
 ```
+
+:::
+
+:::{grid-item}
+:columns: auto
+
+```{figure} ./instructie_data/DC_rond_2.svg
+:align: center
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/shear_force_center_2
+
+&nbsp;
+```
+
+:::
+::::
+
+::::::
+
+### Gedeeltelijk symmetrische doorsnedes
 
 Voor doorsnedes die slechts in één richting symmetrisch is ligt het dwarskrachtencentrum op de symmetrieas. Voor de andere richting moet de locatie bepaald worden door de resultante van de schuifspanningen in die richting te bepalen. Het snijpunt van de symmetrieas en de werklijn van de resultante is dan het dwarskrachtencentrum.
 
-```{figure} ./instructie_data/DC_symmetrie.svg
+::::::{prf:example}
+:nonumber: true
+
+De volgende twee doorsnedes zijn symmtrisch in de $z$-richting, het dwarskrachtencentrum ligt dan op de symmetrieas.
+
+::::{grid} 2 2 2 2
+:class-container: center-grid
+
+:::{grid-item}
+:columns: auto
+
+```{figure} ./instructie_data/DC_symmetrie_1.svg
 :align: center
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/shear_force_center_2
 
-Deze twee doorsnedes zijn symmtrisch in één richting, het dwarskrachtencentrum ligt dan op de symmetrieas.
+&nbsp;
 ```
+
+:::
+
+:::{grid-item}
+:columns: auto
+
+```{figure} ./instructie_data/DC_symmetrie_2.svg
+:align: center
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/shear_force_center_2
+
+&nbsp;
+```
+
+:::
+::::
+
+::::::
+
+### Schuifspanningsmodel niet geldig
 
 Het berekenen van de resultante van de schuifspanningen ten gevolge van buiging kan enkel gedaan worden voor simpele symmetrische dikwandige of dunwandige doorsneden waarbij de schuifspanningen benaderd kunnen worden met het model afgeleid in de vorige lessen.
 
-```{figure} ./instructie_data/DC_niet.svg
+::::::{prf:example}
+:nonumber: true
+
+Voor de volgende doorsnedes is ons schuifspanningsmodel maar beperkt geldig, dus kunnen we de locatie van het dwarskrachtencentrum niet exact bepalen. Echter geldt vanwege symmetrie nog wel dat het dwarskrachtencentrum ergens op de symmetrieas ligt.
+
+::::{grid} 2 2 2 2
+:class-container: center-grid
+
+:::{grid-item}
+:columns: auto
+
+```{figure} ./instructie_data/DC_niet_1.svg
 :align: center
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/shear_force_center_2
 
-In dezelfde twee doorsnedes is ons schuifspanningsmodel niet overal geldig, dus kunnen we de locatie van het dwarskrachtencentrum niet exact bepalen.
+&nbsp;
 ```
 
-Voor simpele dunwandige doorsnedes bestaand uit slechts twee randen kan het dwarskrachtencentrum direct gevonden worden omdat de resultante van de schuifspanningen dan altijd aangrijpt in het verbindingspunt van de twee randen.
+:::
 
-```{figure} ./instructie_data/dunwandig_DC.svg
+:::{grid-item}
+:columns: auto
+
+```{figure} ./instructie_data/DC_niet_2.svg
 :align: center
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/shear_force_center_2
 
-Voor deze dunwandige varianten is het dwarskrachtencentrum direct te vinden.
+&nbsp;
 ```
+
+:::
+::::
+
+::::::
+
+### Dunwandige doorsnedes met twee rechte randen
+Voor simpele dunwandige doorsnedes bestaand uit slechts twee rechte randen kan het dwarskrachtencentrum direct gevonden worden omdat de resultante van de schuifspanningen dan altijd aangrijpt in het verbindingspunt van de twee randen.
+
+::::::{prf:example}
+:nonumber: true
+
+Voor de twee doorsnedes hieronder geldt dat het dwarskrachtencentrum direct gevonden kan worden.
+
+::::{grid} 2 2 2 2
+:class-container: center-grid
+
+:::{grid-item}
+:columns: auto
+
+```{figure} ./instructie_data/dunwandig_DC_1.svg
+:align: center
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/shear_force_center_2
+
+&nbsp;
+```
+
+:::
+
+:::{grid-item}
+:columns: auto
+
+```{figure} ./instructie_data/dunwandig_DC_2.svg
+:align: center
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/shear_force_center_2
+
+&nbsp;
+```
+
+:::
+::::
+
+::::::
 
 Daarmee kunnen we de volgende aanpak beschrijven voor het bepalen van het dwarskrachtencentrum:
 
@@ -246,12 +412,32 @@ Het bepalen van het dwarskrachtencentrum wordt getoond in het volgende voorbeeld
 
 Gegevens is de volgende constructie en doorsnede:
 
-```{figure} ./instructie_data/voorbeeld.svg
+::::{grid} 2 2 2 2
+:class-container: center-grid
+
+:::{grid-item}
+:columns: auto
+
+```{figure} ./instructie_data/constructie.svg
 :align: center
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/shear_force_center_2
 
 &nbsp;
 ```
+:::
+
+:::{grid-item}
+:columns: auto
+
+```{figure} ./instructie_data/doorsnede.svg
+:align: center
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/shear_force_center_2
+
+&nbsp;
+```
+:::
+
+::::
 
 De doorsnede is symmetrisch in de $y$-richting, maar niet in de $z$-richting. We weten daarmee dat het dwarskrachtencentrum op de verticale symmetrieas ligt:
 
@@ -259,7 +445,7 @@ De doorsnede is symmetrisch in de $y$-richting, maar niet in de $z$-richting. We
 :align: center
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/shear_force_center_2
 
-Verticale symmetrieas van de doorsnede.
+&nbsp;
 ```
 
 Om de ligging op de symmetrieas te bepalen moeten we de schuifspanningen ten gevolge van kromming in de $y$-richting bepalen. De grootte van de kromming is niet relevant omdat we enkel de werklijn van de resultante zoeken. In ons schuifspanningsmodel kunnen we dus een willekeurige waarde kiezen voor de dwarskracht in de $y$-richting. We kiezen hiervoor een waarde van $128 \, \rm{kN}$, enkel omdat deze waarde op mooie gehele waardes uitkomt. Over het algemeen weet je dat niet bij een berekening.
