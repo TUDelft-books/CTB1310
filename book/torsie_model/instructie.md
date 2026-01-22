@@ -167,7 +167,7 @@ $$
 ```
 
 $$
-I_{\rm{p}} = 2 \pi R^3 t
+I_{\rm{p}} = 2 \cdot \pi \cdot R^3 \cdot t
 $$
 
 ```{figure-end}
@@ -292,7 +292,97 @@ Voor de volledige afleiding wordt verwezen naar hoofdstuk 6.3.2 en 6.3.3 van het
 
 ## Voorbeeld
 
-voorbeeld https://collegeramavideoportal.tudelft.nl/catalogue/ctb1310/presentation/27d1cdefc7cd4e94ad010c251f61a0041d?academicYear=2021-2022-ctb1310 met gesloten en open cirkel
+Het bepalen van de schuifspanningen ten gevolge van wringing wordt getoond in het volgende voorbeeld.
+
+::::::{prf:example}
+:nonumber: true
+
+Gegevens is de volgende constructie en doorsnede:
+
+::::{grid} 2 2 2 2
+:class-container: center-grid
+
+:::{grid-item}
+:columns: auto
+
+```{figure} ./instructie_data/Constructie.svg
+:align: center
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/torsion_models
+:number:
+```
+:::
+
+:::{grid-item}
+:columns: auto
+
+```{figure} ./instructie_data/doorsnede_1.svg
+:align: center
+:name: fig:doorsnede_1
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/torsion_models
+:number:
+```
+:::
+
+:::{grid-item}
+:columns: auto
+
+```{figure} ./instructie_data/doorsnede_2.svg
+:align: center
+:name: fig:doorsnede_2
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/torsion_models
+:number:
+```
+:::
+
+::::
+
+Gevraagd is de spanningsverdeling in kolom $\rm{AB}$ in de gesloten doorsnede ({numref}`fig:doorsnede_1`) en in de open doorsnede ({numref}`fig:doorsnede_2`).
+
+Allereerst bepalen we het wringend moment in de doorsnede:
+
+```{figure-start} ./instructie_data/FBD_1.svg
+:align: center
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/torsion_models
+:number:
+```
+
+
+$$
+\begin{align*}
+\sum T_{\rm{AB}} &= 0 \\
+M_{\rm{t}}^{\rm{AB}} - 0.648 \cdot \pi \cdot 4 \cdot 2 &= 0 \\
+M_{\rm{t}}^{\rm{AB}} &= 5.184 \cdot \pi \ \rm{kNm} \left( \twoheadleftarrow \mid \twoheadrightarrow \right)
+\end{align*} 
+$$
+
+```{figure-end}
+```
+
+Dit is een positief wringend moment, dus op onze doorsnede zal deze van $y$ naar $z$ draaien.
+
+We hebben een ronde ring in de gesloten doorsnede ({numref}`fig:doorsnede_1`), dus we kunnen het overeenkomende model gebruiken. Het polair traagheidsmoment is:
+
+$$
+I_{\rm{p}} = 2 \cdot \pi \cdot R^3 \cdot t = 2 \pi \cdot 90^3 \cdot 8 = 11.664 \cdot \pi \cdot 10^6 \ \rm{mm^4}
+$$
+
+De schuifspanningen zijn dan:
+
+$$
+\tau = \cfrac{M_t \cdot r}{I_{\rm{p}}} = \cfrac{5.184 \cdot \pi \cdot 10^6 \cdot 90}{11.664 \cdot \pi \cdot 10^6} = 40 \, \rm{MPa}
+$$
+
+Dat geeft de volgende spanningen:
+
+```{figure} ./instructie_data/spanningen_2.svg
+:align: center
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/torsion_models
+:number:
+```
+
+De andere doorsnede is een open dunwandige doorsnede ({numref}`fig:doorsnede_2`), dus daarvoor gebruiken we een ander model.
+
+::::::
 
 ## Meer voorbeelden
 In hoofdstuk 6 van het boek Mechanica, spanningen, vervormingen en verplaatsingen {cite:p}`Hartsuijker2013` worden meer voorbeelden gegeven van het bepalen van schuifspanningen in verschillende situaties. Negeer voorbeeld ...
