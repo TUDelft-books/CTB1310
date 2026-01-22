@@ -27,8 +27,7 @@ Over het algemeen zorgt een belasting in de $x$-richting naast extensie, met rek
 ```{figure} ./instructie_data/rek.svg
 :align: center
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/shear_force_center_2
-
-&nbsp;
+:number:
 ```
 
 Ook voor buiging, met op infinitesimaal niveau kromming $\kappa$ en buigspanningen $\sigma$:
@@ -36,8 +35,7 @@ Ook voor buiging, met op infinitesimaal niveau kromming $\kappa$ en buigspanning
 ```{figure} ./instructie_data/kromming.svg
 :align: center
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/shear_force_center_2
-
-&nbsp;
+:number:
 ```
 
 
@@ -51,8 +49,7 @@ Over het algemeen zorgt een belasting in de z- of y-richting naast afschuiving, 
 ```{figure} ./instructie_data/gamma_z.svg
 :align: center
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/shear_force_center_2
-
-&nbsp;
+:number:
 ```
 
 Ook voor verwringing, $\chi$, en schuifspanningen $\tau$. Deze rekken en spanningen zijn echter meestal niet verwaarloosbaar:
@@ -60,8 +57,7 @@ Ook voor verwringing, $\chi$, en schuifspanningen $\tau$. Deze rekken en spannin
 ```{figure} ./instructie_data/gamma_t.svg
 :align: center
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/shear_force_center_2
-
-&nbsp;
+:number:
 ```
 
 Daarnaast hebben we ook nog de schuifspanningen $\tau$ ten gevolge van buiging en de kromming $\kappa$ van opeenvolgende doorsnedes zoals we die al kennen uit de vorige lessen:
@@ -69,8 +65,7 @@ Daarnaast hebben we ook nog de schuifspanningen $\tau$ ten gevolge van buiging e
 ```{figure} ./instructie_data/kromming_tau.svg
 :align: center
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/shear_force_center_2
-
-&nbsp;
+:number:
 ```
 
 Uit experimenten zijn de de draaiing van een doorsnede en buiging duidelijk zichtbaar:
@@ -168,8 +163,7 @@ Bij een belasting in het normaalkrachtencentrum is er dus enkel rek en geen buig
 :align: center
 :name: fig:normal_force_center_force
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/shear_force_center_2
-
-&nbsp;
+:number:
 ```
 
 :::
@@ -181,8 +175,7 @@ Bij een belasting in het normaalkrachtencentrum is er dus enkel rek en geen buig
 :align: center
 :name: fig:normal_force_center_stresses
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/shear_force_center_2
-
-&nbsp;
+:number:
 ```
 
 :::
@@ -208,8 +201,7 @@ Hoewel we enkel experimenteel weten dat er een punt is waar een dwarskracht enke
 :align: center
 :name: fig:shear_center_force
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/shear_force_center_2
-
-&nbsp;
+:number:
 ```
 
 :::
@@ -221,8 +213,7 @@ Hoewel we enkel experimenteel weten dat er een punt is waar een dwarskracht enke
 :align: center
 :name: fig:shear_center_stresses
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/shear_force_center_2
-
-&nbsp;
+:number:
 ```
 
 :::
@@ -253,8 +244,7 @@ Voor de volgende twee doorsnedes is dat het geval:
 ```{figure} ./instructie_data/DC_rond_1.svg
 :align: center
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/shear_force_center_2
-
-&nbsp;
+:number:
 ```
 
 :::
@@ -265,8 +255,7 @@ Voor de volgende twee doorsnedes is dat het geval:
 ```{figure} ./instructie_data/DC_rond_2.svg
 :align: center
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/shear_force_center_2
-
-&nbsp;
+:number:
 ```
 
 :::
@@ -292,8 +281,7 @@ De volgende twee doorsnedes zijn symmtrisch in de $z$-richting, het dwarskrachte
 ```{figure} ./instructie_data/DC_symmetrie_1.svg
 :align: center
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/shear_force_center_2
-
-&nbsp;
+:number:
 ```
 
 :::
@@ -304,8 +292,7 @@ De volgende twee doorsnedes zijn symmtrisch in de $z$-richting, het dwarskrachte
 ```{figure} ./instructie_data/DC_symmetrie_2.svg
 :align: center
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/shear_force_center_2
-
-&nbsp;
+:number:
 ```
 
 :::
@@ -331,8 +318,7 @@ Voor de volgende doorsnedes is ons schuifspanningsmodel maar beperkt geldig, dus
 ```{figure} ./instructie_data/DC_niet_1.svg
 :align: center
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/shear_force_center_2
-
-&nbsp;
+:number:
 ```
 
 :::
@@ -343,8 +329,7 @@ Voor de volgende doorsnedes is ons schuifspanningsmodel maar beperkt geldig, dus
 ```{figure} ./instructie_data/DC_niet_2.svg
 :align: center
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/shear_force_center_2
-
-&nbsp;
+:number:
 ```
 
 :::
@@ -369,8 +354,7 @@ Voor de twee doorsnedes hieronder geldt dat het dwarskrachtencentrum direct gevo
 ```{figure} ./instructie_data/dunwandig_DC_1.svg
 :align: center
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/shear_force_center_2
-
-&nbsp;
+:number:
 ```
 
 :::
@@ -381,8 +365,7 @@ Voor de twee doorsnedes hieronder geldt dat het dwarskrachtencentrum direct gevo
 ```{figure} ./instructie_data/dunwandig_DC_2.svg
 :align: center
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/shear_force_center_2
-
-&nbsp;
+:number:
 ```
 
 :::
@@ -421,8 +404,7 @@ Gegevens is de volgende constructie en doorsnede:
 ```{figure} ./instructie_data/constructie.svg
 :align: center
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/shear_force_center_2
-
-&nbsp;
+:number:
 ```
 :::
 
@@ -432,8 +414,7 @@ Gegevens is de volgende constructie en doorsnede:
 ```{figure} ./instructie_data/doorsnede.svg
 :align: center
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/shear_force_center_2
-
-&nbsp;
+:number:
 ```
 :::
 
@@ -444,8 +425,7 @@ De doorsnede is symmetrisch in de $y$-richting, maar niet in de $z$-richting. We
 ```{figure} ./instructie_data/voorbeeld_symmetrie.svg
 :align: center
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/shear_force_center_2
-
-&nbsp;
+:number:
 ```
 
 Om de ligging op de symmetrieas te bepalen moeten we de schuifspanningen ten gevolge van kromming in de $y$-richting bepalen. De grootte van de kromming is niet relevant omdat we enkel de werklijn van de resultante zoeken. In ons schuifspanningsmodel kunnen we dus een willekeurige waarde kiezen voor de dwarskracht in de $y$-richting. We kiezen hiervoor een waarde van $128 \, \rm{kN}$, enkel omdat deze waarde op mooie gehele waardes uitkomt. Over het algemeen weet je dat niet bij een berekening.
@@ -461,8 +441,7 @@ Als we een dwarskracht in de $y$-richting op deze doorsnede aannemen kunnen we z
 ```{figure} ./instructie_data/voorbeeld_verloop.svg
 :align: center
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/shear_force_center_2
-
-&nbsp;
+:number:
 ```
 
 Om de daadwerkelijke waardes te berekenen hebben we in ieder geval het traagheidsmoment $I_{yy}$ nodig. De hoogte van het zwaartepunt in de $z$-richting hebben we daarvoor niet nodig.
@@ -485,8 +464,7 @@ Beginnend met de schuifspanning op het afschuifvlak net boven de aansluiting van
 ```{figure} ./instructie_data/S1.svg
 :align: center
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/shear_force_center_2
-
-&nbsp;  
+:number:  
 ```
 
 $$
@@ -501,8 +479,7 @@ Vervolgens de schuifspanning op het afschuifvlak net onder de aansluiting van he
 ```{figure} ./instructie_data/S2.svg
 :align: center
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/shear_force_center_2
-
-&nbsp;  
+:number:  
 ```
 
 $$
@@ -517,8 +494,7 @@ Vervolgens de schuifspanning op het afschuifvlak net links van de aansluiting va
 ```{figure} ./instructie_data/S3.svg
 :align: center
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/shear_force_center_2
-
-&nbsp;  
+:number:  
 ```
 
 $$
@@ -533,8 +509,7 @@ En tot slot de schuifspanning op het afschuifvlak ter breedte van het normaalkra
 ```{figure} ./instructie_data/S4.svg
 :align: center
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/shear_force_center_2
-
-&nbsp;  
+:number:  
 ```
 
 $$
@@ -549,8 +524,7 @@ Dit geeft het volgende schuifspanningsverloop:
 ```{figure} ./instructie_data/conclusie.svg
 :align: center
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/shear_dunwandig
-
-&nbsp;
+:number:
 ```
 
 Om de locatie van het dwarskrachtencentrum te bepalen moeten we nu de werklijn van de resultante van deze schuifspanningen bepalen. Daarvoor kunnen we eerst de resultante kracht op elk deel van de doorsnede bepalen:
@@ -558,8 +532,7 @@ Om de locatie van het dwarskrachtencentrum te bepalen moeten we nu de werklijn v
 ```{figure} ./instructie_data/resultantes.svg
 :align: center
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/shear_dunwandig
-
-&nbsp;
+:number:
 ```
 
 Beginnend met $F_1$, de kracht op het bovenste deel van de flens is:
@@ -579,8 +552,7 @@ Vervolgens $F_3$, de kracht op het linker deel van het lijf is. Deze kan bepaald
 ```{figure} ./instructie_data/parabool.svg
 :align: center
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/shear_dunwandig
-
-&nbsp;
+:number:
 ```
 
 $$
@@ -596,8 +568,7 @@ Vervolgens kan de werklijn van de resultante gevonden worden. De totale kracht i
 ```{figure} ./instructie_data/werklijn_onb.svg
 :align: center
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/shear_dunwandig
-
-&nbsp;
+:number:
 ```
 
 $$
@@ -613,8 +584,7 @@ Dus de horizontale werklijn van de resultante van de schuifspanningen grijpt $45
 ```{figure} ./instructie_data/werklijn_bek.svg
 :align: center
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/shear_dunwandig
-
-&nbsp;
+:number:
 ```
 
 Daarmee kan de locatie van het dwarskrachtencentrum worden bepaald door het snijpunt van deze werklijn met de symmetrieas te bepalen:
@@ -622,8 +592,7 @@ Daarmee kan de locatie van het dwarskrachtencentrum worden bepaald door het snij
 ```{figure} ./instructie_data/DC_oplossing.svg
 :align: center
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/shear_dunwandig
-
-&nbsp;
+:number:
 ```
 
 ::::::

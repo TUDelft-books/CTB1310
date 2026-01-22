@@ -34,8 +34,7 @@ Gegeven is de volgende constructie en doorsnede:
 ```{figure} ./instructie_data/oefening.svg
 :align: center
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/shear_dunwandig
-
-&nbsp;
+:number:
 ```
 
 Gevraagd is het schuifspanningsverloop op een negatieve snede.
@@ -52,8 +51,7 @@ Zonder een berekening te maken kunnen we al wat zeggen over de schuifspanningen 
 ```{figure} ./instructie_data/verloop.svg
 :align: center
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/shear_dunwandig
-
-&nbsp;
+:number:
 ```
 
 Om de daadwerkelijke waardes te berekenen beginnen we met het bepalen van de doorsnedegrootheden, startend met het oppervlakte $A$.

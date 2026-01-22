@@ -5,8 +5,7 @@ Gegeven is de volgende doorsnede:
 ```{figure} ./lesoefening2_data/voorbeeld.svg
 :align: center
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/shear_3
-
-&nbsp;
+:number:
 ```
 
 Verder is gegeven dat voor een segment van een ring geldt:
@@ -42,8 +41,7 @@ Gegeven zijn een aantal mogelijke punten waarop de schuifspanning kan worden bep
 ```{figure} ./lesoefening2_data/punten.svg
 :align: center
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/shear_3
-
-&nbsp;
+:number:
 ```
 
 Je mag er vanuit gaan dat $R \gg b$ voor alle relevante afschuifvlakken.
@@ -72,8 +70,7 @@ Gegeven zijn vier mogelijke schuifspanningsverdelingen.
 ```{figure} ./lesoefening2_data/verloop.svg
 :align: center
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/shear_3
-
-&nbsp;
+:number:
 ```
 
 ```{h5p} https://tudelft.h5p.com/content/1292778326294019037/embed

@@ -5,8 +5,7 @@ Tot nu toe hebben we enkel gerekend aan normaalspanningen, en enkel door buiging
 ```{figure} ./instructie_data/stacked.svg
 :align: center
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/shear_rect
-
-&nbsp;
+:number:
 ```
 
 ## Model
@@ -58,8 +57,7 @@ Nu stellen we een vrijlichaamsschema op met spanningen voor een deel van de door
 ```{figure} ./instructie_data/deltaxA.svg
 :align: center
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/shear_rect
-
-&nbsp;
+:number:
 ```
 
 Op dit afschuivend deel werken dezelfde spanningen als op de hele doorsnede, met daarnaast op het doorgesneden vlak geen normaalspanning maar wel een mogelijk schuifspanning.
@@ -67,8 +65,7 @@ Op dit afschuivend deel werken dezelfde spanningen als op de hele doorsnede, met
 ```{figure} ./instructie_data/spanningen_afschuivend.svg
 :align: center
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/shear_rect
-
-&nbsp;
+:number:
 ```
 
 Door het evenwicht in de langsrichting op te stellen, kunnen we de schuifspanning bepalen:
@@ -134,8 +131,7 @@ We kunnen ook de schuifspanning op de linker en rechter doorsnede vinden. Dit ku
 ```{figure} ./instructie_data/blokje.svg
 :align: center
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/shear_rect
-
-&nbsp;
+:number:
 ```
 
 $$
@@ -153,8 +149,7 @@ Dat betekent dus dat de schuifspanningen op de linker en rechter doorsnede ter h
 ```{figure} ./instructie_data/conclusie_afschuivend.svg
 :align: center
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/shear_rect
-
-&nbsp;
+:number:
 ```
 
 ### Implicaties model schuifspanningen
@@ -175,8 +170,7 @@ Daarnaast is voor de vorm van het schuifspanningsverloop in de doorsnede af te l
 ```{figure} ./instructie_data/parabolisch.svg
 :align: center
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/shear_rect
-
-&nbsp;
+:number:
 ```
 
 ::::::{admonition} Volledige afleiding
@@ -202,8 +196,7 @@ Daarnaast leidt de relatie $\sigma_{zx} = \sigma_{xz}$ ook tot de conclusie dat 
 ```{figure} ./instructie_data/randen.svg
 :align: center
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/shear_rect
-
-&nbsp;
+:number:
 ```
 
 Tot slot kunnen we de formule simplificeren door het teken direct te relateren aan de richting van de snedekracht. De resultante van de schuifspanning werkt namelijk altijd in de richting van de snedekracht. We kunnen daarmee de formule herschrijven naar: $\tau_{\rm{gem}}  = \cfrac{\left|  V_{z} \, S_{z}^{\rm{a}}  \right|}{b \, I_{zz}} $.
@@ -241,8 +234,7 @@ Het bepalen van schuifspanningen voor een rechthoekige doorsnede wordt gedemonst
 ```{figure} ./instructie_data/voorbeeld.svg
 :align: center
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/shear_rect
-
-&nbsp;
+:number:
 ```
 
 Gevraagd is het schuifspanningsverloop op een positieve snede in $\rm{D}$.
@@ -252,8 +244,7 @@ Allereerst bepalen we de dwarskracht in doorsnede $\rm{D}$. Daarvoor bepalen we 
 ```{figure} ./instructie_data/oplegreacties.svg
 :align: center
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/shear_rect
-
-&nbsp;
+:number:
 ```
 
 $$
@@ -265,8 +256,7 @@ Daarmee kunnen we de dwarskracht in $\rm{D}$ bepalen op een positieve snede:
 ```{figure} ./instructie_data/FBD_D.svg
 :align: center
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/shear_rect
-
-&nbsp;
+:number:
 ```
 
 $$
@@ -278,8 +268,7 @@ Nu kunnen we de schuifspanningen bepalen op karakteristieke afschuivende delen i
 ```{figure} ./instructie_data/afschuivend_deel.svg
 :align: center
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/shear_rect
-
-&nbsp;
+:number:
 ```
 
 Het statisch moment van dit afschuivende deel is:

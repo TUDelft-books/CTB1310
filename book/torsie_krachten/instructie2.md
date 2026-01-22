@@ -32,8 +32,8 @@ Het bepalen van de wringende momentenlijn wordt getoond op onderstaande voorbeel
 ---
 align: center
 source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/torsie
+number:
 ---
-&nbsp;
 ```
 
 Voor deze constructie wordt gevraagd naar de wringende momentenlijn.
@@ -97,8 +97,8 @@ Er kan ook een snede in zowel $\rm{E}$ als $\rm{G}$ in zodat we het vrijlichaams
 ---
 align: center
 source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/torsie
+number:
 ---
-&nbsp;
 ```
 
 Voor dit vrijlichaamsschema zouden eerst nog de snedekrachten in $\rm{G}$ aan de kant van $\rm{EG}$ moeten worden berekend. Deze volgen uit het vrijlichaamsschema in {numref}`FBD_GH` met een actie-reactie relatie: het buigende moment op $\rm{GH}$ heeft een even groot tegengesteld wringend moment tot gevolg op $\rm{EG}$, het wringend moment op $\rm{GH}$ van $0$ leidt tot een buigende moment op $\rm{EG}$ van $0$, en de dwarskracht omhoog  op $\rm{GH}$ leidt tot een dwarskracht omlaag op $\rm{EG}$

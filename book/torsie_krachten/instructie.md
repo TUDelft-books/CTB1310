@@ -59,8 +59,8 @@ Net als bij de andere snedekrachtenlijnen (momentenlijn, dwarskrachtenlijn, norm
 ---
 align: center
 source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/torsie
+number:
 ---
-&nbsp;
 ```
 
 Net als bij de buigende momentenlijn kunnen we een aantal eigenschappen van de wringende momentenlijn vinden:

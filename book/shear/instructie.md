@@ -135,8 +135,7 @@ Het bepalen van de schuifspanningen voor een niet-rechthoekige doorsnede wordt g
 ```{figure} ./instructie_data/voorbeeld.svg
 :align: center
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/shear
-
-&nbsp;
+:number:
 ```
 
 Gevraagd is de absolute waarde van schuifspanningen ergens in de doorsnede bij $\rm{A}$.
@@ -155,8 +154,7 @@ We kunnen de schuifspanningen dus alleen bepalen in het diagonale gedeelte en da
 ```{figure} ./instructie_data/snede.svg
 :align: center
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/shear
-
-&nbsp;
+:number:
 ```
 
 Nu moeten we eerst de doorsnedegrootheden worden bepaald, beginnend met het oppervlakte $A$.
@@ -164,8 +162,7 @@ Nu moeten we eerst de doorsnedegrootheden worden bepaald, beginnend met het oppe
 ```{figure} ./instructie_data/A.svg
 :align: center
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/shear
-
-&nbsp;
+:number:
 ```
 
 $$

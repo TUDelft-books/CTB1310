@@ -14,8 +14,7 @@ Gegeven is de volgende doorsnede:
 ```{figure} ./lesoefening_data/doorsnede.svg
 :align: center
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/shear_force_center
-
-&nbsp;
+:number:
 ```
 
 Gevraagd is de ligging van het dwarskrachtencentrum.
@@ -155,8 +154,7 @@ Bepaal de absolute waarde van de schuifspanningen op de aangegeven snedevlakken 
 ```{figure} ./lesoefening_data/ABCDE.svg
 :align: center
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/shear_force_center
-
-&nbsp;
+:number:
 ```
 
 ```{h5p} https://tudelft.h5p.com/content/1292802740309219657/embed

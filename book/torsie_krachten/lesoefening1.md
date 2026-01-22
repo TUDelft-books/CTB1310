@@ -15,8 +15,8 @@ Gegeven is de volgende constructie:
 ---
 align: center
 source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/torsie2
+number:
 ---
-&nbsp;
 ```
 
 Waarvan je de wringende momentenlijn moet bepalen.
@@ -30,8 +30,8 @@ Gegeven zijn vier 3D-weergaves van de constructie
 ---
 align: center
 source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/torsie2
+number:
 ---
-&nbsp;
 ```
 
 ```{h5p} https://tudelft.h5p.com/content/1292760346691162017/embed
@@ -67,8 +67,8 @@ Gegeven zijn vier 2D-weergaves van de constructie
 ---
 align: center
 source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/torsie2
+number:
 ---
-&nbsp;
 ```
 
 ```{h5p} https://tudelft.h5p.com/content/1292760349282191447/embed
@@ -135,8 +135,8 @@ Het wringend moment tussen $\rm{D}$ en $\rm{DE}$ is nul. $\rm{E}$ is een vrij ui
 ---
 align: center
 source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/torsie2
+number:
 ---
-&nbsp;
 ```
 $$
 \begin{align*}
@@ -151,8 +151,8 @@ Een vergelijkbare snede kan worden gemaakt om het wringend moment te vinden in d
 ---
 align: center
 source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/torsie2
+number:
 ---
-&nbsp;
 ```
 $$
 \begin{align*}
@@ -168,8 +168,8 @@ Het wringend moment in $\rm{AB}$ kan worden gevonden met de volgende snede:
 ---
 align: center
 source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/torsie2
+number:
 ---
-&nbsp;
 ```
 
 $$
@@ -184,8 +184,8 @@ $$
 ---
 align: center
 source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/torsie2
+number:
 ---
-&nbsp;
 ```
 
 ::::

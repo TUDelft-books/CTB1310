@@ -26,8 +26,7 @@ De doorsnedes blijven vlak en loodrecht op ‘vezels’ staan, waarmee de vorm v
 :align: center
 :scale: 100
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/torsion_models
-
-&nbsp;
+:number:
 ```
 
 :::
@@ -38,8 +37,7 @@ De doorsnedes blijven vlak en loodrecht op ‘vezels’ staan, waarmee de vorm v
 :align: center
 :scale: 100
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/torsion_models
-
-&nbsp;
+:number:
 ```
 :::
 ::::
@@ -66,8 +64,7 @@ De doorsnedes blijven vlak en radiale lijnen blijven recht, waarmee de cirkelvor
 :align: center
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/torsion_models
 :name: assump_torsion
-
-&nbsp;
+:number:
 ```
 
 
@@ -79,8 +76,7 @@ De doorsnedes blijven vlak en radiale lijnen blijven recht, waarmee de cirkelvor
 :align: center
 :scale: 100
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/torsion_models
-
-&nbsp;
+:number:
 ```
 :::
 ::::
@@ -97,8 +93,7 @@ Zoals te zien is in {numref}`assump_torsion`, zorgt het wringend moment voor een
 ```{figure} ./instructie_data/spanningen.svg
 :align: center
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/torsion_models
-
-&nbsp;
+:number:
 ```
 
 
@@ -133,8 +128,7 @@ Het polair traagheidsmoment voor verschillende doorsnedes is hieronder getoond:
 ```{figure-start} ./instructie_data/schijf.svg
 :align: center
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/torsion_models
-
-&nbsp;
+:number:
 ```
 $$
 I_{\rm{p}} = \cfrac{\pi \cdot R^4}{2}
@@ -151,8 +145,7 @@ $$
 ```{figure-start} ./instructie_data/dikwandig_ring.svg
 :align: center
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/torsion_models
-
-&nbsp;
+:number:
 ```
 
 $$
@@ -170,8 +163,7 @@ $$
 ```{figure-start} ./instructie_data/dunwandig_ring.svg
 :align: center
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/torsion_models
-
-&nbsp;
+:number:
 ```
 
 $$
@@ -212,8 +204,7 @@ Om een functie te bepalen voor de schuifspanningen bekijken we een willekeurige 
 ```{figure} ./instructie_data/dunwandige_doorsnede.svg
 :align: center
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/torsion_models
-
-&nbsp;
+:number:
 ```
 
 Als we een snede maken in deze doorsnede, worden ook de schuifspanningen in de $x$-richting zichtbaar, die gelijk zijn aan de schuifspanningen in de wandrichting ter plekke van het afschuifvlak:
@@ -221,8 +212,7 @@ Als we een snede maken in deze doorsnede, worden ook de schuifspanningen in de $
 ```{figure} ./instructie_data/afschuifvlak.svg
 :align: center
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/torsion_models
-
-&nbsp;
+:number:
 ```
 
 Krachtenevenwicht in de $x$-richting geeft:
@@ -260,39 +250,38 @@ De meest simpele open doorsnede, een strip, kan geen wringend weerstaan als de s
 
 ```{figure} ./instructie_data/simpel.svg
 :align: center
-:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/shear_rect
-
-&nbsp;
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/torsion_models
+:number:
 ```
 
 Er wordt daarom een lineair toenemende schuifspanning aangenomen vanuit het midden van de wand naar de buitenkant. Dit lineaire verband is een versimpeling en in werkelijkheid is het spanningsverloop complexer. Zeker in de buurt van overgangen en hoeken schiet dit model tekort.
 
 ```{figure} ./instructie_data/I-balk.svg
 :align: center
-:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/shear_rect
-
-&nbsp;
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/torsion_models
+:number:
 ```
 
-De open doorsnede modelleren vervolgens als een verzamling van dunwandige niet-ronde gesloten doorsnedes.
+De open doorsnede modelleren vervolgens als een verzameling van dunwandige niet-ronde gesloten doorsnedes. Hier worden dus ook de spanningen in de overgangen en hoeken gemodelleerd hoewel ons model daar niet accuraat is. Het foutief meenemen van die spanningen heeft daarmee ook een kleine invloed op de spanningen waar ons lineaire verband wel geldig is.
 
 ```{figure} ./instructie_data/dunwandig_open_gesloten.svg
 :align: center
-:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/shear_rect
-
-&nbsp;
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/torsion_models
+:number:
 ```
 
 Door deze individuele bijdrages te integreren over de halve wanddikte komen we tot de volgende formule voor de schuifspanningen in open dunwandige doorsnedes:
 
 $$
-\tau \left(e_{\rm{m}}\right) = \cfrac{M_t \cdot e_{\rm{m}}}{\sum\limits_{i}{\frac{1}{3} \cdot h_i \cdot t_i^3}}
+\tau \left(e_{\rm{m}}\right) = \cfrac{M_t \cdot e_{\rm{m}}}{\frac{1}{2}\sum\limits_{i}{\frac{1}{3} \cdot h_i \cdot t_i^3}}
 $$
 
 Met:
 - $e_{\rm{m}}$ de afstand van het midden van de wand tot het punt waar de schuifspanning wordt berekend
-- $h_i$ de hoogte/lengte van een recht wandsegment $i$
+- $h_i$ de hoogte/lengte van een wandsegment $i$
 - $t_i$ de wanddikte van een recht wandsegment $i$
+
+De 'arm' in orde grootte $e_{\rm{m}}$ van de schuifspanningen in deze open dunwandige is vele malen kleiner dan de 'arm' in gesloten doorsnedes in ordegrootte $h$. Hierdoor zouden de spanningen veel groter moeten zijn om hetzelfde wringend moment te kunnen weerstaan. In de praktijk betekent dit dat open dunwandige doorsnedes veel minder goed in staat zijn om wringing te weerstaan dan gesloten dunwandige doorsnedes.
 
 ::::::{admonition} Volledige afleiding
 :class: notation, dropdown
@@ -302,6 +291,8 @@ Voor de volledige afleiding wordt verwezen naar hoofdstuk 6.3.2 en 6.3.3 van het
 ::::::
 
 ## Voorbeeld
+
+voorbeeld https://collegeramavideoportal.tudelft.nl/catalogue/ctb1310/presentation/27d1cdefc7cd4e94ad010c251f61a0041d?academicYear=2021-2022-ctb1310 met gesloten en open cirkel
 
 ## Meer voorbeelden
 In hoofdstuk 6 van het boek Mechanica, spanningen, vervormingen en verplaatsingen {cite:p}`Hartsuijker2013` worden meer voorbeelden gegeven van het bepalen van schuifspanningen in verschillende situaties. Negeer voorbeeld ...
