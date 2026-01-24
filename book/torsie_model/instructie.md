@@ -273,13 +273,14 @@ De open doorsnede modelleren vervolgens als een verzameling van dunwandige niet-
 Door deze individuele bijdrages te integreren over de halve wanddikte komen we tot de volgende formule voor de schuifspanningen in open dunwandige doorsnedes:
 
 $$
-\tau \left(e_{\rm{m}}\right) = \cfrac{M_t \cdot e_{\rm{m}}}{\frac{1}{2}\sum\limits_{i}{\frac{1}{3} \cdot h_i \cdot t_i^3}}
+\tau \left(e_{\rm{m}}\right) = \cfrac{M_t \cdot e_{\rm{m}}}{\frac{1}{2} \cdot I_{\rm{t}}}
 $$
 
 Met:
 - $e_{\rm{m}}$ de afstand van het midden van de wand tot het punt waar de schuifspanning wordt berekend
-- $h_i$ de hoogte/lengte van een wandsegment $i$
-- $t_i$ de wanddikte van een recht wandsegment $i$
+- $I_t$ het torsietraagheidsmoment: $\sum\limits_{i}{\frac{1}{3} \cdot h_i \cdot t_i^3}$
+    - $h_i$ de hoogte/lengte van een wandsegment $i$
+    - $t_i$ de wanddikte van een wandsegment $i$
 
 De 'arm' in orde grootte $e_{\rm{m}}$ van de schuifspanningen in deze open dunwandige is vele malen kleiner dan de 'arm' in gesloten doorsnedes in ordegrootte $h$. Hierdoor zouden de spanningen veel groter moeten zijn om hetzelfde wringend moment te kunnen weerstaan. In de praktijk betekent dit dat open dunwandige doorsnedes veel minder goed in staat zijn om wringing te weerstaan dan gesloten dunwandige doorsnedes.
 
@@ -340,12 +341,13 @@ Gevraagd is de spanningsverdeling in kolom $\rm{AB}$ in de gesloten doorsnede ({
 
 Allereerst bepalen we het wringend moment in de doorsnede:
 
-```{figure-start} ./instructie_data/FBD_1.svg
+```{figure} ./instructie_data/FBD_1.svg
 :align: center
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/torsion_models
 :number:
 ```
 
+Evenwicht rondom as $\rm{AB}$ geeft:
 
 $$
 \begin{align*}
@@ -355,10 +357,7 @@ M_{\rm{t}}^{\rm{AB}} &= 5.184 \cdot \pi \ \rm{kNm} \left( \twoheadleftarrow \mid
 \end{align*} 
 $$
 
-```{figure-end}
-```
-
-Dit is een positief wringend moment, dus op onze doorsnede zal deze van $y$ naar $z$ draaien.
+Dit is een positief wringend moment, dus op onze positieve doorsnede zal deze van $y$ naar $z$ draaien.
 
 We hebben een ronde ring in de gesloten doorsnede ({numref}`fig:doorsnede_1`), dus we kunnen het overeenkomende model gebruiken. Het polair traagheidsmoment is:
 
@@ -380,16 +379,28 @@ Dat geeft de volgende spanningen:
 :number:
 ```
 
-De andere doorsnede is een open dunwandige doorsnede ({numref}`fig:doorsnede_2`), dus daarvoor gebruiken we een ander model.
+De andere doorsnede is een open dunwandige doorsnede ({numref}`fig:doorsnede_2`), dus daarvoor gebruiken we een ander model. Het torsietraagheidsmoment is:
+
+$$
+I_{\rm{t}} = \frac{1}{3} \cdot h \cdot t ^3 = \frac{1}{3} \cdot \pi \cdot 180 \cdot 8^3 = 30720 \cdot \pi \, \rm{mm}^4
+$$
+
+De schuifspanningen zijn $0$ middenin de wand van de doorsnede en nemen lineair toe naar buiten, de maximale schuifspanningen wordt dan:
+
+$$
+\tau = \cfrac{M_{\rm{t}} \cdot e_{\rm{m}}}{\frac{1}{2}\cdot I_{\rm{t}}} = \cfrac{5.184 \cdot \pi \cdot 10^6 \cdot 4}{\frac{1}{2} \cdot 30720 \cdot \pi} = 1350 \, \rm{MPa}
+$$
+
+Deze spanning is vele malen hoger en waarschijnlijk kan deze doorsnede deze spanning niet weerstaan. De vervormingen zullen waarschijnlijk ook vele malen groter zijn, hoewel we dat hier niet hebben berekend.
 
 ::::::
 
 ## Meer voorbeelden
-In hoofdstuk 6 van het boek Mechanica, spanningen, vervormingen en verplaatsingen {cite:p}`Hartsuijker2013` worden meer voorbeelden gegeven van het bepalen van schuifspanningen in verschillende situaties. Negeer voorbeeld ...
+In hoofdstuk 6.4 van het boek Mechanica, spanningen, vervormingen en verplaatsingen {cite:p}`Hartsuijker2013` worden meer voorbeelden gegeven van het bepalen van schuifspanningen in verschillende situaties. Negeer vraag d van voorbeeld 2 en b en c van voorbeeld 4. Voorbeeld 5, 6 en 8 worden in de volgende les behandeld.
 
 % ## Instructies in collegevorm
 %
 % Dit onderwerp is [les ...](...) gepresenteerd in collegevorm tot ....
 
 ## Oefeningen
-Opgaves ... in hoofdstuk 6 van het boek Mechanica, spanningen, vervormingen en verplaatsingen {cite:p}`Hartsuijker2013`. Antwoorden zijn [hier](https://icozct.tudelft.nl/TUD_CT/boekantwoorden/vol2/Chapter5/) beschikbaar.
+Opgaves 6.3 - 6.9a, 6.10a, 6.11a - 6.11b, 6.12, 6.13a, 6.14 - 6.21 in hoofdstuk 6 van het boek Mechanica, spanningen, vervormingen en verplaatsingen {cite:p}`Hartsuijker2013`. Antwoorden zijn [hier](https://icozct.tudelft.nl/TUD_CT/boekantwoorden/vol2/Chapter5/) beschikbaar.
