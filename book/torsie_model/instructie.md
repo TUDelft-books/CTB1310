@@ -298,7 +298,7 @@ Het bepalen van de schuifspanningen ten gevolge van wringing wordt getoond in he
 ::::::{prf:example}
 :nonumber: true
 
-Gegevens is de volgende constructie en doorsnede:
+Gegevens is de volgende constructie en twee dunwandige doorsnede:
 
 ::::{grid} 2 2 2 2
 :class-container: center-grid
@@ -306,11 +306,20 @@ Gegevens is de volgende constructie en doorsnede:
 :::{grid-item}
 :columns: auto
 
-```{figure} ./instructie_data/Constructie.svg
+```{figure-start} ./instructie_data/Constructie.svg
 :align: center
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/torsion_models
 :number:
 ```
+
+
+De uitwendige krachten en  
+oplegreacties grijpen aan  
+in het dwarskrachtencentrum.
+
+```{figure-end}
+```
+
 :::
 
 :::{grid-item}
@@ -359,7 +368,7 @@ $$
 
 Dit is een positief wringend moment, dus op onze positieve doorsnede zal deze van $y$ naar $z$ draaien.
 
-We hebben een ronde ring in de gesloten doorsnede ({numref}`fig:doorsnede_1`), dus we kunnen het overeenkomende model gebruiken. Het polair traagheidsmoment is:
+We hebben een ronde ring in de gesloten doorsnede ({numref}`fig:doorsnede_1`), dus we kunnen het overeenkomende model gebruiken. Als we de doorsnede dunwandig behandlen, is het polair traagheidsmoment:
 
 $$
 I_{\rm{p}} = 2 \cdot \pi \cdot R^3 \cdot t = 2 \pi \cdot 90^3 \cdot 8 = 11.664 \cdot \pi \cdot 10^6 \ \rm{mm^4}
@@ -379,7 +388,7 @@ Dat geeft de volgende spanningen:
 :number:
 ```
 
-De andere doorsnede is een open dunwandige doorsnede ({numref}`fig:doorsnede_2`), dus daarvoor gebruiken we een ander model. Het torsietraagheidsmoment is:
+De andere doorsnede is een open dunwandige doorsnede ({numref}`fig:doorsnede_2`), dus daarvoor gebruiken we een ander model. We hebben geen model om deze doorsnede dikwandig te behandelen. Het torsietraagheidsmoment is:
 
 $$
 I_{\rm{t}} = \frac{1}{3} \cdot h \cdot t ^3 = \frac{1}{3} \cdot \pi \cdot 180 \cdot 8^3 = 30720 \cdot \pi \, \rm{mm}^4
