@@ -50,6 +50,25 @@ Waarvoor de wringspanningen gevraagd zijn net rechts van $\rm{D}$.
 :::::{exercise}
 :nonumber: true
 
+```{h5p} https://tudelft.h5p.com/content/1292807871152412697/embed
+```
+
+:::::
+
+% solution_start
+
+::::{admonition} Oplossing
+:class: solution, dropdown
+
+...
+
+::::
+
+% solution_end
+
+:::::{exercise}
+:nonumber: true
+
 Bepaal de oplegreacties.
 
 ```{h5p} https://tudelft.h5p.com/content/1292807709202966287/embed

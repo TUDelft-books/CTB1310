@@ -310,6 +310,23 @@ Voor de volledige afleiding wordt verwezen naar hoofdstuk 6.3.2 en 6.3.3 van het
 
 ::::::
 
+## Stappenplan
+
+Daarmee kunnen we de volgende aanpak beschrijven voor het bepalen van het schuifspanningsverloop in een doorsnede ten gevolge van wringing:
+
+::::::{prf:algorithm} Bepalen schuifspanningsverloop in een doorsnede ten gevolge van wringing
+:nonumber: true
+
+1. Bereken het inwendig wringend moment $M_t$ in de doorsnede.
+2. Kies het juiste model voor de doorsnede:
+    - Ronde massieve doorsnede of ring: gebruik $\tau \left(r\right)= \cfrac{M_t \cdot r}{I_{\rm{p}}}$
+    - Dunwandige niet-ronde gesloten doorsnede: gebruik $\tau = \cfrac{M_t}{2 \cdot A_{\rm{m}} \cdot t}$
+    - Open dunwandige doorsnede: gebruik $\tau \left(e_{\rm{m}}\right) = \cfrac{M_t \cdot e_{\rm{m}}}{\frac{1}{2} \cdot I_{\rm{t}}}$
+3. Leid het teken af van de schuifspanningen af aan de hand van de richting van het wringend moment.
+4. Teken het schuifspanningsprofiel op de doorsnede.
+
+::::::
+
 ## Voorbeeld
 
 Het bepalen van de schuifspanningen ten gevolge van wringing wordt getoond in het volgende voorbeeld.

@@ -254,7 +254,7 @@ Hieronder is een voorbeeld getoond van een stuk balk met dwarskrachten en een ve
 
 Daarmee kunnen we de volgende aanpak beschrijven voor het bepalen van het schuifspanningsverloop in een doorsnede:
 
-::::::{prf:algorithm} Bepalen schuifspanningsverloop in een doorsnede
+::::::{prf:algorithm} Bepalen schuifspanningsverloop in een doorsnede ten gevolge van buiging
 :nonumber: true
 
 1. Bereken de snedekracht $V_z$ in de doorsnede.

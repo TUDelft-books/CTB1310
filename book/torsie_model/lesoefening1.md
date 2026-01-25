@@ -52,6 +52,27 @@ Waarvoor de wringspanningen gevraagd zijn.
 
 Bepaal de oplegreacties.
 
+```{h5p} https://tudelft.h5p.com/content/1292807870685629167/embed
+```
+
+:::::
+
+% solution_start
+
+::::{admonition} Oplossing
+:class: solution, dropdown
+
+...
+
+::::
+
+% solution_end
+
+:::::{exercise}
+:nonumber: true
+
+Bepaal de oplegreacties.
+
 ```{h5p} https://tudelft.h5p.com/content/1292807667750446727/embed
 ```
 
