@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Gegenereerd door Microsoft Visio, SVG Export richting_2.svg Pagina-1 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="2.24925in" height="2.64296in"
+		viewBox="0 0 161.946 190.293" xml:space="preserve" color-interpolation-filters="sRGB" class="st4">
+	<v:documentProperties v:langID="1043" v:metric="true" v:viewMarkup="false"/>
+
+	<style type="text/css">
+	<![CDATA[
+		.st1 {stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:6}
+		.st2 {marker-start:url(#mrkr5-12);stroke:#31859b;stroke-linecap:round;stroke-linejoin:round;stroke-width:2}
+		.st3 {fill:#31859b;fill-opacity:1;stroke:#31859b;stroke-opacity:1;stroke-width:0.4424778761062}
+		.st4 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<defs id="Markers">
+		<g id="lend5">
+			<path d="M 2 1 L 0 0 L 1.98117 -0.993387 C 1.67173 -0.364515 1.67301 0.372641 1.98465 1.00043 " style="stroke:none"/>
+		</g>
+		<marker id="mrkr5-12" class="st3" v:arrowType="5" v:arrowSize="2" v:setback="3.775" refX="3.775" orient="auto"
+				markerUnits="strokeWidth" overflow="visible">
+			<use xlink:href="#lend5" transform="scale(2.26) "/>
+		</marker>
+	</defs>
+	<g v:mID="0" v:index="1" v:groupContext="foregroundPage">
+		<title>Pagina-1</title>
+		<v:pageProperties v:drawingScale="0.0393701" v:pageScale="0.0393701" v:drawingUnits="24" v:shadowOffsetX="8.50394"
+				v:shadowOffsetY="-8.50394"/>
+		<g id="shape21-1" v:mID="21" v:groupContext="shape" transform="translate(214.573,24.2803) rotate(90)">
+			<title>Blad.21</title>
+			<path d="M0 190.29 L141.73 190.29" class="st1"/>
+		</g>
+		<g id="shape79-4" v:mID="79" v:groupContext="shape" transform="translate(24.2802,-166.013)">
+			<title>Blad.79</title>
+			<path d="M0 190.29 L113.39 190.29" class="st1"/>
+		</g>
+		<g id="shape81-7" v:mID="81" v:groupContext="shape" transform="translate(-180.186,91.3669) rotate(-90)">
+			<title>reactiekracht (scharnier/inwendig).81</title>
+			<path d="M7.55 190.29 L7.91 190.29 L31.18 190.29" class="st2"/>
+		</g>
+		<g id="shape82-13" v:mID="82" v:groupContext="shape" transform="translate(-180.186,52.6267) rotate(-90)">
+			<title>reactiekracht (scharnier/inwendig).82</title>
+			<path d="M7.55 190.29 L7.91 190.29 L28.35 190.29" class="st2"/>
+		</g>
+		<g id="shape85-18" v:mID="85" v:groupContext="shape" transform="translate(342.132,24.2803) rotate(90)">
+			<title>reactiekracht (scharnier/inwendig).85</title>
+			<path d="M7.55 190.29 L7.91 190.29 L14.17 190.29" class="st2"/>
+		</g>
+		<g id="shape86-23" v:mID="86" v:groupContext="shape" transform="translate(342.132,55.4614) rotate(90)">
+			<title>reactiekracht (scharnier/inwendig).86</title>
+			<path d="M7.55 190.29 L7.91 190.29 L11.34 190.29" class="st2"/>
+		</g>
+		<g id="shape90-28" v:mID="90" v:groupContext="shape" transform="translate(327.959,24.2803) rotate(90)">
+			<title>Blad.90</title>
+			<path d="M0 190.29 L42.52 190.29" class="st1"/>
+		</g>
+		<g id="shape91-31" v:mID="91" v:groupContext="shape" transform="translate(327.959,123.493) rotate(90)">
+			<title>Blad.91</title>
+			<path d="M0 190.29 L42.52 190.29" class="st1"/>
+		</g>
+		<g id="shape92-34" v:mID="92" v:groupContext="shape" transform="translate(24.2803,-24.2803)">
+			<title>Blad.92</title>
+			<path d="M0 190.29 L113.39 190.29" class="st1"/>
+		</g>
+		<g id="shape93-37" v:mID="93" v:groupContext="shape" transform="translate(120.658,-180.186)">
+			<title>reactiekracht (scharnier/inwendig).93</title>
+			<path d="M7.55 190.29 L7.91 190.29 L17.01 190.29" class="st2"/>
+		</g>
+		<g id="shape94-42" v:mID="94" v:groupContext="shape" transform="translate(91.3669,-180.186)">
+			<title>reactiekracht (scharnier/inwendig).94</title>
+			<path d="M7.55 190.29 L7.91 190.29 L19.84 190.29" class="st2"/>
+		</g>
+		<g id="shape95-47" v:mID="95" v:groupContext="shape" transform="translate(59.2409,-180.186)">
+			<title>reactiekracht (scharnier/inwendig).95</title>
+			<path d="M7.55 190.29 L7.91 190.29 L22.68 190.29" class="st2"/>
+		</g>
+		<g id="shape96-52" v:mID="96" v:groupContext="shape" transform="translate(24.2802,-180.186)">
+			<title>reactiekracht (scharnier/inwendig).96</title>
+			<path d="M7.55 190.29 L7.91 190.29 L25.51 190.29" class="st2"/>
+		</g>
+		<g id="shape97-57" v:mID="97" v:groupContext="shape" transform="translate(-180.186,130.107) rotate(-90)">
+			<title>reactiekracht (scharnier/inwendig).97</title>
+			<path d="M7.55 190.29 L7.91 190.29 L31.18 190.29" class="st2"/>
+		</g>
+		<g id="shape98-62" v:mID="98" v:groupContext="shape" transform="translate(-180.186,166.013) rotate(-90)">
+			<title>reactiekracht (scharnier/inwendig).98</title>
+			<path d="M7.55 190.29 L7.91 190.29 L28.35 190.29" class="st2"/>
+		</g>
+		<g id="shape99-67" v:mID="99" v:groupContext="shape" transform="translate(342.132,40.5795) rotate(90)">
+			<title>reactiekracht (scharnier/inwendig).99</title>
+			<path d="M7.55 190.29 L7.91 190.29 L12.76 190.29" class="st2"/>
+		</g>
+		<g id="shape100-72" v:mID="100" v:groupContext="shape" transform="translate(41.2881,370.479) rotate(180)">
+			<title>reactiekracht (scharnier/inwendig).100</title>
+			<path d="M7.55 190.29 L7.91 190.29 L17.01 190.29" class="st2"/>
+		</g>
+		<g id="shape101-77" v:mID="101" v:groupContext="shape" transform="translate(70.5795,370.479) rotate(180)">
+			<title>reactiekracht (scharnier/inwendig).101</title>
+			<path d="M7.55 190.29 L7.91 190.29 L19.84 190.29" class="st2"/>
+		</g>
+		<g id="shape102-82" v:mID="102" v:groupContext="shape" transform="translate(102.705,370.479) rotate(180)">
+			<title>reactiekracht (scharnier/inwendig).102</title>
+			<path d="M7.55 190.29 L7.91 190.29 L22.68 190.29" class="st2"/>
+		</g>
+		<g id="shape103-87" v:mID="103" v:groupContext="shape" transform="translate(137.666,370.479) rotate(180)">
+			<title>reactiekracht (scharnier/inwendig).103</title>
+			<path d="M7.55 190.29 L7.91 190.29 L25.51 190.29" class="st2"/>
+		</g>
+		<g id="shape104-92" v:mID="104" v:groupContext="shape" transform="translate(342.132,123.493) rotate(90)">
+			<title>reactiekracht (scharnier/inwendig).104</title>
+			<path d="M7.55 190.29 L7.91 190.29 L14.17 190.29" class="st2"/>
+		</g>
+		<g id="shape105-97" v:mID="105" v:groupContext="shape" transform="translate(342.132,154.674) rotate(90)">
+			<title>reactiekracht (scharnier/inwendig).105</title>
+			<path d="M7.55 190.29 L7.91 190.29 L11.34 190.29" class="st2"/>
+		</g>
+		<g id="shape106-102" v:mID="106" v:groupContext="shape" transform="translate(342.132,139.792) rotate(90)">
+			<title>reactiekracht (scharnier/inwendig).106</title>
+			<path d="M7.55 190.29 L7.91 190.29 L12.76 190.29" class="st2"/>
+		</g>
+	</g>
+</svg>
