@@ -45,6 +45,8 @@ parts:
   - file: torsie_shear/les.md
     sections:
     - file: torsie_shear/instructie.md
+    - file: torsie_shear/lesoefening.md
+    - file: torsie_shear/lesoefening2.md
 # END REMOVE-FROM-RELEASE
 - caption: Diverse
   chapters:

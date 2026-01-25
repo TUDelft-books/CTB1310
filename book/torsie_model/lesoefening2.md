@@ -11,7 +11,7 @@ Deze oefening is gebaseerd op [deze oefening uit het online boek van het vak CTS
 
 Gegeven is de volgende constructie en doorsnede. Het is een versimpeld model van de [Prinses Amaliabrug, een fietsbrug in Dordrecht](https://www.ad.nl/dordrecht/zes-tips-om-het-hoofd-koel-te-houden~a2c4481b5/).
 
-::::{grid} 2 2 2 2
+::::{grid} 2
 :class-container: center-grid
 
 :::{grid-item}
@@ -45,7 +45,7 @@ Doorsnede in $\rm{D}$
 
 ::::
 
-Waarvoor de wringspanningen gevraagd zijn net rechts van $\rm{D}$.
+Waarvoor de wringspanningen ten gevolge van verwringing gevraagd zijn net rechts van $\rm{D}$.
 
 :::::{exercise}
 :nonumber: true
