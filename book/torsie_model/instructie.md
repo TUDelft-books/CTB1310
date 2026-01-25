@@ -8,6 +8,7 @@ Het spanningsverloop ten gevolge van een wringend moment is over het algemeen er
 
 :::::::{prf:assumption}
 :nonumber: true
+:label: assump_torsion_model_1
 
 Voor de afleiding van spanningen in ronde massieve doorsnedes en ringen maken we vergelijkbare aannames als bij de afleiding van buigspanningen:
 
@@ -206,6 +207,8 @@ Voor niet-ronde doorsnedes hebben we een andere aanpak nodig. De aannames van vl
 
 :::::::{prf:assumption}
 :nonumber: true
+:label: assump_torsion_model_2
+
 We nemen voor dit model aan dat dat de schuifspanningen constant zijn over de wanddikte vanwege de dunwandigheid.
 :::::::
 
@@ -270,6 +273,7 @@ De meest simpele open doorsnede, een strip, kan geen wringend weerstaan als de s
 
 :::::::{prf:assumption}
 :nonumber: true
+:label: assump_torsion_model_3
 
 Er wordt daarom een lineair toenemende schuifspanning aangenomen vanuit het midden van de wand naar de buitenkant. Dit lineaire verband is een versimpeling en in werkelijkheid is het spanningsverloop complexer. Zeker in de buurt van overgangen en hoeken schiet dit model tekort.
 
@@ -291,6 +295,7 @@ De open doorsnede modelleren vervolgens als een verzameling van dunwandige niet-
 
 :::::::{prf:assumption}
 :nonumber: true
+:label: assump_torsion_model_4
 
 Hier worden dus ook de spanningen in de overgangen en hoeken gemodelleerd hoewel ons model daar niet accuraat is. Het foutief meenemen van die spanningen heeft daarmee ook een kleine invloed op de spanningen waar ons lineaire verband wel geldig is. Er wordt aangenomen dat dat effect kleins is.
 

@@ -116,8 +116,7 @@ Bepaal de doorsnedegrootheden
 
 Stel je wilt de formule getoond in {numref}`cirkelsegment` zelf afleiden in het $y,z$-assenstelsel van de doorsnede.
 
-::::{prf:example}
-:nonumber: true
+::::{hint}
 
 Voorbeeld van een hoek van $-\cfrac{\pi}{4}$.
 
