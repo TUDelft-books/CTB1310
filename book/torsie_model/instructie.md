@@ -281,13 +281,20 @@ Er wordt daarom een lineair toenemende schuifspanning aangenomen vanuit het midd
 
 :::::::
 
-De open doorsnede modelleren vervolgens als een verzameling van dunwandige niet-ronde gesloten doorsnedes. Hier worden dus ook de spanningen in de overgangen en hoeken gemodelleerd hoewel ons model daar niet accuraat is. Het foutief meenemen van die spanningen heeft daarmee ook een kleine invloed op de spanningen waar ons lineaire verband wel geldig is.
+De open doorsnede modelleren vervolgens als een verzameling van dunwandige niet-ronde gesloten doorsnedes. Hieronder is één zo'n dunwandige niet-ronde gesloten doorsnede getoond: 
 
 ```{figure} ./instructie_data/dunwandig_open_gesloten.svg
 :align: center
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/torsion_models
 :number:
 ```
+
+:::::::{prf:assumption}
+:nonumber: true
+
+Hier worden dus ook de spanningen in de overgangen en hoeken gemodelleerd hoewel ons model daar niet accuraat is. Het foutief meenemen van die spanningen heeft daarmee ook een kleine invloed op de spanningen waar ons lineaire verband wel geldig is. Er wordt aangenomen dat dat effect kleins is.
+
+:::::::
 
 Door deze individuele bijdrages te integreren over de halve wanddikte komen we tot de volgende formule voor de schuifspanningen in open dunwandige doorsnedes:
 
@@ -435,6 +442,14 @@ De schuifspanningen zijn $0$ middenin de wand van de doorsnede en nemen lineair 
 $$
 \tau = \cfrac{M_{\rm{t}} \cdot e_{\rm{m}}}{\frac{1}{2}\cdot I_{\rm{t}}} = \cfrac{5.184 \cdot \pi \cdot 10^6 \cdot 4}{\frac{1}{2} \cdot 30720 \cdot \pi} = 1350 \, \rm{MPa}
 $$
+
+Dit geeft het volgende schuifspanningsprofiel (met de dikte van de wand uitvergroot weergegeven):
+
+```{figure} ./instructie_data/torsiespanning_2.svg
+:align: center
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/torsion_models
+:number:
+```
 
 Deze spanning is vele malen hoger en waarschijnlijk kan deze doorsnede deze spanning niet weerstaan. De vervormingen zullen waarschijnlijk ook vele malen groter zijn, hoewel we dat hier niet hebben berekend.
 

@@ -234,7 +234,7 @@ De richting van het wringend moment is van $y$ naar $z$ op onze positieve snede.
 :number:
 ```
 
-De maximale schuifspanning is dus te vinden ter hoogte van het normaalkrachtencentrum aan de positieve $y$-kant van de doorsnede. Daar werken de schuifspanningen ten gevolge van buiging en wringing in dezelfde richting en zijn ze dus op te tellen: $\tau \approx 11 + 20 = 31 \, \rm{MPa}$. Deze werkt naar schuinbeneden:
+De maximale schuifspanning is dus te vinden ter hoogte van het normaalkrachtencentrum aan de positieve $y$-kant van de doorsnede. Over de gehele dikte van de wand (loogrecht op de rand) is de schuifspanning daar maximaal. Daar werken de schuifspanningen ten gevolge van buiging en wringing in dezelfde richting en zijn ze dus op te tellen: $\tau \approx 11 + 20 \approx 31 \, \rm{MPa}$. Deze werkt naar schuinbeneden:
 
 ```{figure} instructie_data/som.svg
 :align: center
