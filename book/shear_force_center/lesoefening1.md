@@ -51,72 +51,84 @@ Gegeven zijn 6 mogelijke werklijnen/assen waarop het dwarskrachtencentrum kan li
 :::{grid-item}
 :columns: auto
 
-```{figure} ./lesoefening_data/optie_1.svg
+```{figure-start} ./lesoefening_data/optie_1.svg
 :align: center
 :scale: 75
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/shear_force_center
-
+:number:
+```
 Optie 1
+```{figure-end}
 ```
 :::
 
 :::{grid-item}
 :columns: auto
 
-```{figure} ./lesoefening_data/optie_2.svg
+```{figure-start} ./lesoefening_data/optie_2.svg
 :align: center
 :scale: 75
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/shear_force_center
-
+:number:
+```
 Optie 2
+```{figure-end}
 ```
 :::
 
 :::{grid-item}
 :columns: auto
 
-```{figure} ./lesoefening_data/optie_3.svg
+```{figure-start} ./lesoefening_data/optie_3.svg
 :align: center
 :scale: 75
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/shear_force_center
-
+:number:
+```
 Optie 3
+```{figure-end}
 ```
 :::
 
 :::{grid-item}
 :columns: auto
 
-```{figure} ./lesoefening_data/optie_4.svg
+```{figure-start} ./lesoefening_data/optie_4.svg
 :align: center
 :scale: 75
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/shear_force_center
-
+:number:
+```
 Optie 4
+```{figure-end}
 ```
 :::
 
 :::{grid-item}
 :columns: auto
 
-```{figure} ./lesoefening_data/optie_5.svg
+```{figure-start} ./lesoefening_data/optie_5.svg
 :align: center
 :scale: 75
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/shear_force_center
-
+:number:
+```
 Optie 5
+```{figure-end}
 ```
 :::
 
 :::{grid-item}
 :columns: auto
 
-```{figure} ./lesoefening_data/optie_6.svg
+```{figure-start} ./lesoefening_data/optie_6.svg
 :align: center
 :scale: 75
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/shear_force_center
-
+:number:
+```
 Optie 6
+```{figure-end}
 ```
 :::
 

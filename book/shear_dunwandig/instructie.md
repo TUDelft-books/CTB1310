@@ -6,13 +6,18 @@ De vorige keer hebben we gekeken naar [schuifspanningen in dikwandige doorsnedes
 
 Voor dunwandige doorsneden geldt dat de wanddikte klein is ten opzichte van de andere afmetingen van de doorsnede. Dit heeft tot gevolg dat overal wordt voldaan aan de voorwaarde $h \gg b$ en $R \gg b$ en lopen de schuifspanningen altijd evenwijdig aan de wand. Daarmee kunnen we ook in een knooppunt waar meerdere constructiedelen bij elkaar komen de schuifspanningen berekenen, in tegenstelling tot dikwandige doorsnedes. Dus kan de schuifspanning in de gehele doorsnede worden bepaald.
 
+:::::{prf:example}
+:nonumber: true
+
+Hieronder zijn twee voorbeelden getoond van dunwandige doorsneden waar de schuifspanningen overal kunnen worden bepaald.
+
 ::::{grid} 2
 :class-container: center-grid
 
 :::{grid-item}
 :columns: auto
 
-```{figure-start} ./instructie_data/overal_1.svg
+```{figure} ./instructie_data/overal_1.svg
 :align: center
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/shear_dunwandig
 :number:
@@ -25,15 +30,12 @@ worden bepaald terwijl bij een
 dikwandige doorsnede hier complexe  
 spanningsverdelingen optreden.
 
-```{figure-end}
-```
-
 :::
 
 :::{grid-item}
 :columns: auto
 
-```{figure-start} ./instructie_data/overal_2.svg
+```{figure} ./instructie_data/overal_2.svg
 :align: center
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/shear_dunwandig
 :number:
@@ -45,14 +47,19 @@ terwijl bij een dikwandige
 doorsnede hier complexe  
 spanningsverdelingen optreden.
 
-```{figure-end}
-```
 
 :::
 
 ::::
 
-Omdat we nu de schuifspanning in de volledige continue doorsnede kunnen bepalen met ons schuifspanningsmodel kunnen we de schuifspanning zien als een 'stroom' van de dwarskracht door de doorsnede. Aangezien de dwarskracht de resultante is van de schuifspanningen kan de richting van de schuifspanning in elk van de doorsnededelen worden afgeleid zonder een berekening te maken.
+:::::
+
+Omdat we nu de schuifspanning in de volledige continue doorsnede kunnen bepalen met ons schuifspanningsmodel kunnen we de schuifspanning zien als een 'stroom' van de dwarskracht door de doorsnede. Aangezien de dwarskracht de resultante is van de schuifspanningen kan de richting van de schuifspanning in elk van de doorsnededelen worden afgeleid zonder een berekening te maken. Daarvoor is het over het algemeen van belang dat de richting van de maximale schuifspanning overeenkomt met de richting van de dwarskracht.
+
+:::::{prf:example}
+:nonumber: true
+
+Hieronder zijn twee voorbeelden getoond waarin de richting van de schuifspanningen kan worden afgeleid uit de richting van de dwarskracht.
 
 ::::{grid} 2
 :class-container: center-grid
@@ -60,7 +67,7 @@ Omdat we nu de schuifspanning in de volledige continue doorsnede kunnen bepalen 
 :::{grid-item}
 :columns: auto
 
-```{figure-start} ./instructie_data/richting_1.svg
+```{figure} ./instructie_data/richting_1.svg
 :align: center
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/shear_dunwandig
 :number:
@@ -74,15 +81,12 @@ de schuifspanningen in de bovenste
 flenzen naar binnen en in de  
 onderste flenzen naar buiten lopen.
 
-```{figure-end}
-```
-
 :::
 
 :::{grid-item}
 :columns: auto
 
-```{figure-start} ./instructie_data/richting_2.svg
+```{figure} ./instructie_data/richting_2.svg
 :align: center
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/shear_dunwandig
 :number:
@@ -98,12 +102,11 @@ schuifspanningen in de flenzen en in
 het rechter lijf volgt dan uit de  
 stroming van de schuifspanning.
 
-```{figure-end}
-```
-
 :::
 
 ::::
+
+:::::
 
 ## Voorbeeld
 

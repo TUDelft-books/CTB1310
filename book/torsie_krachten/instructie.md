@@ -15,25 +15,39 @@ In de vorige les zijn wringende momenten al kort geïntroduceerd om het dwarskra
 
 ## Uitwendige momenten
 
-De verschillende uitwendige momenten kunnen we zowel in 3D als 2D bekijken. De afspraak is dat een positief moment loopt van $x$ naar $y$, van $y$ naar $z$ en van $z$ naar $x$.
+De verschillende uitwendige momenten kunnen we zowel in 3D als 2D bekijken. De afspraak is dat een positief moment loopt van $x$ naar $y$, van $y$ naar $z$ en van $z$ naar $x$. In 2D gaven we momenten vaak aan met een gekromde pijl, echter is dat in 3D niet altijd helemaal duidelijk.
+
+:::::{prf:example}
+:nonumber: true
+
+In het volgende figuur zijn de positieve richtingen van de uitwendige momenten in 3D en 2D weergegeven met gekromde pijlen.
 
 ```{figure} ./instructie_data/moment_curved.svg
 ---
 align: center
 source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/torsie
+number:
 ---
-Uitwendige momenten in 3D en 2D met gekromde pijlen in de positieve richtingen
 ```
 
+:::::
+
 Omdat het zeker in 3D lastig is om de verschillende momenten te onderscheiden, worden deze vaak of in 2D getekend, of met pijlen met een dubbele pijlpunt aangegeven. De pijl geeft de as aan waarom het moment draait, waarbij de richting van de pijl met de rechterhandregel de richting van de draaiing aangeeft.
+
+:::::{prf:example}
+:nonumber: true
+
+In het volgende figuur zijn de positieve richtingen van de uitwendige momenten in 3D en 2D weergegeven met pijlen met dubbele pijlpunt.
 
 ```{figure} ./instructie_data/moment_pijl.svg
 ---
 align: center
 source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/torsie
+number:
 ---
-Uitwendige momenten in 3D met pijlen met dubbele pijlpunt in de positieve richtingen
 ```
+
+:::::
 
 Verdeelde wringende momenten zijn ook mogelijk.
 
@@ -43,13 +57,20 @@ Inwendige momenten kunnen we op dezelfde manier onderscheiden als uitwendige mom
 - De buigende momenten $M_y$ en $M_z$ zijn positief als ze zorgen voor trek aan de positieve kant van de $y$- of $z$-as.
 - Het wringende moment $M_{\rm{t}}$ is positief als het op een positieve $x$-vlak van $y$ naar $z$ draait. Op een negative $x$-vlak draait het torderend moment dan van $z$ naar $y$.
 
+:::::{prf:example}
+:nonumber: true
+
+In het volgende figuur zijn de positieve richtingen van de inwendige wringende momenten in 3D en 2D weergegeven met gekromde pijlen.
+
 ```{figure} ./instructie_data/inwendige_moment.svg
 ---
 align: center
 source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/torsie
+number:
 ---
-Inwendige wringende momenten in de positieve richtingen met gekromde pijlen of pijlen met dubbele pijlpunt
 ```
+
+:::::
 
 ### Wringende momentenlijn
 
@@ -74,14 +95,14 @@ Net zoals bij krachten en momenten voor buiging, kunnen we ook voor wringende mo
 
 ## Differentiaalvergelijking voor wringing
 
-Net als bij de differentiaalvergelijkingen voor buiging kan de differentiaalvergelijking voor wringing worden afgeleid door te kijken naar een klein element van lengte $\Delta x$.
+Net als bij de differentiaalvergelijkingen voor buiging kan de differentiaalvergelijking voor wringing worden afgeleid door te kijken naar het vrijlichaamsschema van een klein element van infinitesimale lengte $\Delta x$ belast met wringende momenten:
 
 ```{figure} ./instructie_data/deltax.svg
 ---
 align: center
 source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/torsie
+number:
 ---
-Vrijlichaamsschema van een infinitesimaal element met wringende momenten
 ```
 
 Evenwicht rondom de as van het element geeft:

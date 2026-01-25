@@ -24,8 +24,8 @@ Deze wringende momentenlijn was al gevonden:
 ---
 align: center
 source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/torsie
+number:
 ---
-Deel van de wringende momentenlijn
 ```
 
 Waarvan je de rest van de wringende momentenlijn gaat bepalen.

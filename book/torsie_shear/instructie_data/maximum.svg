@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Gegenereerd door Microsoft Visio, SVG Export maximum.svg Pagina-1 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="1.57893in" height="2.05184in"
+		viewBox="0 0 113.683 147.732" xml:space="preserve" color-interpolation-filters="sRGB" class="st5">
+	<v:documentProperties v:langID="1043" v:metric="true" v:viewMarkup="false"/>
+
+	<style type="text/css">
+	<![CDATA[
+		.st1 {stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:6}
+		.st2 {fill:none;stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
+		.st3 {fill:#000000;font-family:Times New Roman;font-size:1.00001em}
+		.st4 {stroke:#31859b;stroke-linecap:round;stroke-linejoin:round;stroke-width:2.25}
+		.st5 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<g v:mID="0" v:index="1" v:groupContext="foregroundPage">
+		<title>Pagina-1</title>
+		<v:pageProperties v:drawingScale="0.0393701" v:pageScale="0.0393701" v:drawingUnits="24" v:shadowOffsetX="8.50394"
+				v:shadowOffsetY="-8.50394"/>
+		<g id="shape762-1" v:mID="762" v:groupContext="shape" transform="translate(3,-144.732)">
+			<title>Blad.762</title>
+			<path d="M0 147.73 L85.04 147.73" class="st1"/>
+		</g>
+		<g id="shape763-4" v:mID="763" v:groupContext="shape" transform="translate(193.252,3) rotate(90)">
+			<title>Blad.763</title>
+			<path d="M0 147.73 L141.73 147.73" class="st1"/>
+		</g>
+		<g id="shape764-7" v:mID="764" v:groupContext="shape" transform="translate(3,-3)">
+			<title>Blad.764</title>
+			<path d="M0 147.73 L85.04 147.73" class="st1"/>
+		</g>
+		<g id="shape776-10" v:mID="776" v:groupContext="shape" transform="translate(56.6151,-66.7796)">
+			<title>Maatlijn.776</title>
+			<desc>maximum</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="28.3465" cy="140.646" width="56.7" height="14.1732"/>
+			<rect x="0" y="133.559" width="56.6929" height="14.1732" class="st2"/>
+			<text x="4.02" y="144.25" class="st3" v:langID="1043"><v:paragraph v:horizAlign="1"/><v:tabList/>maximum</text>		</g>
+		<g id="shape777-13" v:mID="777" v:groupContext="shape" transform="translate(-54.934,178.329) rotate(-135)">
+			<title>Blad.777</title>
+			<path d="M0 147.73 L5.67 147.73" class="st4"/>
+		</g>
+		<g id="shape778-16" v:mID="778" v:groupContext="shape" transform="translate(-54.934,-30.5964) rotate(-45)">
+			<title>Blad.778</title>
+			<path d="M0 147.73 L5.67 147.73" class="st4"/>
+		</g>
+		<g id="shape779-19" v:mID="779" v:groupContext="shape" transform="translate(-58.9428,-26.5876) rotate(-45)">
+			<title>Blad.779</title>
+			<path d="M0 147.73 L5.67 147.73" class="st4"/>
+		</g>
+		<g id="shape780-22" v:mID="780" v:groupContext="shape" transform="translate(-50.9252,182.337) rotate(-135)">
+			<title>Blad.780</title>
+			<path d="M0 147.73 L5.67 147.73" class="st4"/>
+		</g>
+	</g>
+</svg>

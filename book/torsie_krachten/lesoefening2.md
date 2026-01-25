@@ -9,14 +9,13 @@ Deze oefening is gebaseerd op [deze oefening uit het online boek van het vak CT1
 
 # Begeleide oefening 3
 
-Gegeven is de volgende constructie:
+Gegeven is de volgende constructie en een willekeurige doorsnede met bekend dwarskrachtencentrum.:
 
 ```{figure} ./lesoefening2_data/constructie.svg
 ---
 align: center
 source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/torsie2
----
-Constructie en willekeurige doorsnede met bekend dwarskrachtencentrum
+number:
 ```
 
 Waarvan je de wringende momentenlijn moet bepalen.

@@ -2,24 +2,30 @@
 
 Tot nu toe hebben we enkel gerekend aan buigende momenten. Echter, op en in sommige constructies komen ook wringende momenten voor. Waar buigende momenten om de lokale $y$- of $z$-as werken en zorgen voor verplaatsingen in de $z$ ($M_z$) en $y$ ($M_y$) richting, werken wringende momenten om de $x$-as van de doorsnede en zorgen voor rotaties om de $x$-as ($M_{\rm{t}}$, met de $\rm{t}$ van 'torsion'). Deze rotaties om de $x$-as noemen we verwringing.
 
+:::::{prf:example}
+:nonumber: true
+
+In onderstaande figuur is een voorbeeld gegeven van een doorsnede die wordt belast met een wringend moment $M_{\rm{t}}$ en daardoor verwringt.
+
 ```{figure} ./instructie_data/torsion.png
 :align: center
 :bib: shear_force_center
 :show: author, license, copyright, source, date
 :placement: caption
 :name: torsional_displacement
-
-Voorbeeld van een doorsnede die wordt belast met een wringend moment $M_{\rm{t}}$ en daardoor verwringt.
+:number:
 ```
+
+:::::
 
 ## Model locatie dwarskrachtencentrum
 
 Bij buiging hebben we het normaalkrachtencentrum gezien: het punt in de doorsnede waaromheen de momenten worden berekend en waarbij een normaalkracht geen kromming veroorzaakt. Op eenzelfde manier is er ook een dwarskrachtencentrum: het punt in de doorsnede waaromheen de wringende momenten worden berekend en waarbij een dwarskracht niet voor verwringing zorgt. Echter is er een gesloten afleiding voor de locatie van het dwarskrachtencentrum niet mogelijk zoals bij het normaalkrachtencentrum. We zullen bekijken waarom dat zo is en hoe we de locatie van het dwarskrachtencentrum dan wel kunnen bepalen op basis van experimentele data en aannames.
 
-:::::{grid} 1 2 2 2
+::::::{grid} 1 2 2 2
 :gutter: 1 1 1 2
 
-::::{grid-item-card} Vervormingen door belasting in $x$-richting
+:::::{grid-item-card} Vervormingen door belasting in $x$-richting
 :columns: 12 12 4 4
 
 Over het algemeen zorgt een belasting in de $x$-richting naast extensie, met rek $\varepsilon$ en normaalspanningen $\sigma$:
@@ -39,9 +45,9 @@ Ook voor buiging, met op infinitesimaal niveau kromming $\kappa$ en buigspanning
 ```
 
 
-::::
+:::::
 
-::::{grid-item-card} Vervormingen door belasting in $z$-richting
+:::::{grid-item-card} Vervormingen door belasting in $z$-richting
 :columns: 12 12 8 8
 
 Over het algemeen zorgt een belasting in de z- of y-richting naast afschuiving, met afschuifrekken $\gamma$ en schuifspanningen $\tau$ (die we beide over het algemeen verwaarlozen):
@@ -68,7 +74,12 @@ Daarnaast hebben we ook nog de schuifspanningen $\tau$ ten gevolge van buiging e
 :number:
 ```
 
-Uit experimenten zijn de de draaiing van een doorsnede en buiging duidelijk zichtbaar:
+Uit experimenten zijn de de draaiing van een doorsnede en buiging duidelijk zichtbaar.
+
+::::{prf:example}
+:nonumber: true
+
+In onderstaande figuur is een voorbeeld getoond van een doorsnede die belast wordt in de $z$-richting waarbij zowel buiging als verwringing van de doorsnede optreedt.
 
 ```{figure} ./instructie_data/C5-A2a-1-300x258.jpeg
 :align: center
@@ -76,18 +87,18 @@ Uit experimenten zijn de de draaiing van een doorsnede en buiging duidelijk zich
 :show: author, license, copyright, source, date
 :placement: caption
 :name: shear_center_fig_1
-
-Voorbeeld van een doorsnede die belast wordt in de $z$-richting waarbij zowel buiging als verwringing van de doorsnede optreedt.
+:number:
 ```
 
-
 ::::
-:::::
 
-:::::{grid} 1 2 2 2
+:::::
+::::::
+
+::::::{grid} 1 2 2 2
 :gutter: 1 1 1 2
 
-::::{grid-item-card} Normaalkrachtencentrum volgt uit constitutieve relaties
+:::::{grid-item-card} Normaalkrachtencentrum volgt uit constitutieve relaties
 :columns: 12 12 4 4
 
 Om de plek van het normaalkrachtencentrum te vinden kunnen we de relatie tussen normaalkracht, moment, rek en kromming uitdrukken voor een willekeurige referentiepunt. Dat geeft onder andere $N = EA \epsilon + ES_z \kappa_z$:
@@ -95,8 +106,7 @@ Om de plek van het normaalkrachtencentrum te vinden kunnen we de relatie tussen 
 ```{figure} ./instructie_data/N_willekeurig.svg
 :align: center
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/shear_force_center_2
-
-$N$ en $M_z$ als functie van $\epsilon$ en $\kappa_z$ voor een willekeurig referentiepunt.
+:number:
 ```
 
 Als we als referentiepunt voor deze relatie het normaalkrachtencentrum nemen is deze per definitie $S_z = 0$, dus zorgt een normaalkracht inderdaad enkel voor rek en niet voor kromming:
@@ -104,13 +114,12 @@ Als we als referentiepunt voor deze relatie het normaalkrachtencentrum nemen is 
 ```{figure} ./instructie_data/N_NC.svg
 :align: center
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/shear_force_center_2
-
-$N$ en $M_z$ als functie van $\epsilon$ en $\kappa_z$ voor het normaalkrachtencentrum.
+:number:
 ```
 
-::::
+:::::
 
-::::{grid-item-card} Dwarskrachtencentrum volgt **niet** uit constitutieve relaties
+:::::{grid-item-card} Dwarskrachtencentrum volgt **niet** uit constitutieve relaties
 :columns: 12 12 8 8
 
 Een zelfde aanpak zouden we kunnen proberen voor om een relatie te vinden tussen dwarskracht, wringend moment, afschuifrekken, verwringing en kromming voor een willekeurig referentiepunt. Echter, er is geen algemene vergelijking om dit verband te vinden. Als de vergelijkingen er zou zijn zou die de vorm hebben: $V = \underbrace{... \cdot \gamma}_{\rm{verwaarloosd}} + ... \cdot \chi + ... \cdot \kappa_z$.
@@ -118,18 +127,23 @@ Een zelfde aanpak zouden we kunnen proberen voor om een relatie te vinden tussen
 ```{figure} ./instructie_data/V_willekeurig.svg
 :align: center
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/shear_force_center_2
-
-$V$ en $M_{\rm{t}}$ als functie van $\gamma$, $\chi$ en $\kappa_z$ voor een willekeurig referentiepunt.
+:number:
 ```
 
-Als we dezelfde logica zouden toepassen zou het dwarskrachtencentrum het punt zijn waar alleen de term met de kromming overblijft, oftewel: $V = \underbrace{... \cdot \gamma + ... \cdot \chi}_{\rm{=} \, 0} + ... \cdot \kappa_z$. Uit experimenten blijkt dat er een punt is waar dit geldt, maar er is geen algemene afleiding mogelijk zoals bij het normaalkrachtencentrum en dus ook geen formule voor het bepalen van de locatie van het dwarskrachtencentrum:
+Als we dezelfde logica zouden toepassen zou het dwarskrachtencentrum het punt zijn waar alleen de term met de kromming overblijft, oftewel: $V = \underbrace{... \cdot \gamma + ... \cdot \chi}_{\rm{=} \, 0} + ... \cdot \kappa_z$.
 
 ```{figure} ./instructie_data/V_DC.svg
 :align: center
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/shear_force_center_2
-
-$V$ en $M_{\rm{t}}$ als functie van $\chi$ en $\kappa_z$ voor het dwarskrachtencentrum.
+:number:
 ```
+
+Uit experimenten blijkt dat er een punt is waar dit geldt, maar er is geen algemene afleiding mogelijk zoals bij het normaalkrachtencentrum en dus ook geen formule voor het bepalen van de locatie van het dwarskrachtencentrum.
+
+::::{prf:example}
+:nonumber: true
+
+Hieronder is een voorbeeld getoond van een doorsnede die belast wordt met enkel een dwarskracht en waarbij enkel buiging optreedt en geen verwringing.
 
 ```{figure} ./instructie_data/C5-A2b-300x262.jpeg
 :align: center
@@ -137,13 +151,12 @@ $V$ en $M_{\rm{t}}$ als functie van $\chi$ en $\kappa_z$ voor het dwarskrachtenc
 :show: author, license, copyright, source, date
 :placement: caption
 :name: shear_center_fig_2
-
-Voorbeeld van een doorsnede die belast wordt met enkel een dwarskracht en waarbij enkel buiging optreedt en geen verwringing.
+:number:
 ```
-
-
 ::::
+
 :::::
+::::::
 
 :::::::{grid} 1 2 2 2
 :gutter: 1 1 1 2
