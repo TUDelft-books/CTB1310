@@ -6,6 +6,9 @@ Het spanningsverloop ten gevolge van een wringend moment is over het algemeen er
 
 ## Model ronde massieve doorsnedes en ringen
 
+:::::::{prf:assumption}
+:nonumber: true
+
 Voor de afleiding van spanningen in ronde massieve doorsnedes en ringen maken we vergelijkbare aannames als bij de afleiding van buigspanningen:
 
 ::::::{grid} 1 2 2 2
@@ -87,6 +90,8 @@ Schuifspanningen en -rekken hebben een lineair verband ($\tau = G \gamma$), waar
 :::::
 
 ::::::
+
+:::::::
 
 Zoals te zien is in {numref}`assump_torsion`, zorgt het wringend moment voor een rotatie van de doorsnede. De cirkelvormige 'vezels' schuiven dus in radiale richting steeds meer af in een lineair verband. Dit zorgt voor een lineair verloop van schuifrekken en schuifspanningen.
 
@@ -197,7 +202,14 @@ Op vergelijkbare wijze kan het polaire traagheidsmoment voor andere dikwandige e
 
 ## Model dunwandige niet-ronde gesloten doorsnedes
 
-Voor niet-ronde doorsnedes is bovenstaande aanpak niet geldig, omdat de aannames van vlakke doorsnedes en rechte radiale lijnen niet meer gelden. Echter kunnen we aannemen dat dat de schuifspanningen constant zijn over de wanddikte vanwege de dunwandigheid. Voor een gesloten doorsnede moet daarnaast de richtingen van de schuifspanningen overeenkomen met het wringend moment.
+Voor niet-ronde doorsnedes hebben we een andere aanpak nodig. De aannames van vlakke doorsnedes en rechte radiale lijnen zijn namelijk niet meer geldig. 
+
+:::::::{prf:assumption}
+:nonumber: true
+We nemen voor dit model aan dat dat de schuifspanningen constant zijn over de wanddikte vanwege de dunwandigheid.
+:::::::
+
+Daarnaast moet voor een gesloten doorsnede gelden dat de richtingen van de schuifspanningen overeenkomen met het wringend moment.
 
 Om een functie te bepalen voor de schuifspanningen bekijken we een willekeurige dunwandige niet-ronde gesloten doorsnede:
 
@@ -244,7 +256,9 @@ Voor de volledige afleiding wordt verwezen naar hoofdstuk 6.3.1 van het boek Mec
 
 ## Model open dunwandige doorsnedes
 
-Tot slot bekijken we open dunwandige doorsnedes. Ook hier is de aanname van vlakke doorsnedes en rechte radiale lijnen niet meer geldig. Daarnaast kunnen we ook niet meer aannemen dat de schuifspanningen constant zijn over de wanddikte, omdat de doorsnede anders geen wringing kan weerstaan.
+Tot slot bekijken we open dunwandige doorsnedes.
+
+Ook hier is de aanname van vlakke doorsnedes en rechte radiale lijnen niet meer geldig. Daarnaast kunnen we ook niet meer aannemen dat de schuifspanningen constant zijn over de wanddikte, omdat de doorsnede anders geen wringing kan weerstaan.
 
 De meest simpele open doorsnede, een strip, kan geen wringend weerstaan als de schuifspanningen constant zijn over de wanddikte omdat de schuifspanningen allemaal in dezelfde richting lopen.
 
@@ -254,6 +268,9 @@ De meest simpele open doorsnede, een strip, kan geen wringend weerstaan als de s
 :number:
 ```
 
+:::::::{prf:assumption}
+:nonumber: true
+
 Er wordt daarom een lineair toenemende schuifspanning aangenomen vanuit het midden van de wand naar de buitenkant. Dit lineaire verband is een versimpeling en in werkelijkheid is het spanningsverloop complexer. Zeker in de buurt van overgangen en hoeken schiet dit model tekort.
 
 ```{figure} ./instructie_data/I-balk.svg
@@ -261,6 +278,8 @@ Er wordt daarom een lineair toenemende schuifspanning aangenomen vanuit het midd
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/torsion_models
 :number:
 ```
+
+:::::::
 
 De open doorsnede modelleren vervolgens als een verzameling van dunwandige niet-ronde gesloten doorsnedes. Hier worden dus ook de spanningen in de overgangen en hoeken gemodelleerd hoewel ons model daar niet accuraat is. Het foutief meenemen van die spanningen heeft daarmee ook een kleine invloed op de spanningen waar ons lineaire verband wel geldig is.
 
