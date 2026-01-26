@@ -3,7 +3,7 @@
 <!-- Gegenereerd door Microsoft Visio, SVG Export doorsnede_2.svg Pagina-1 -->
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
 		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="4.81357in" height="2.83117in"
-		viewBox="0 0 346.577 203.844" xml:space="preserve" color-interpolation-filters="sRGB" class="st18">
+		viewBox="0 0 346.577 203.844" xml:space="preserve" color-interpolation-filters="sRGB" class="st19">
 	<v:documentProperties v:langID="1043" v:metric="true" v:viewMarkup="false"/>
 
 	<style type="text/css">
@@ -25,7 +25,8 @@
 		.st15 {stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
 		.st16 {stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:2.25}
 		.st17 {fill:none;stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.24}
-		.st18 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+		.st18 {stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.5}
+		.st19 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
 	]]>
 	</style>
 
@@ -169,31 +170,31 @@
 			<switch>
 				<foreignObject x="0" y="186.865" width="37.9843" height="16.9795"
 						requiredExtensions="http://schemas.microsoft.com/visio/2003/SVGExtensions/">
-					<v:foreignData v:orgSize="2468" clip="rect(0 0 0 0)" v:data="data:metafile;base64,eNrtVc1vE1cQn3m7Toid1g6hNA
-								GUblFDKlRIcKW2opXA+AMjahISl49DMMZsqaXYjuK0aU5dpB4qEJgbf0C5V7300HIIUk+oB84ccusFVS0qPiBo4/5m963zsI
-								oqpB559uz7zby3M/Pm4y0T0QJIgSxQGrSdNsdHEaLTWHSyhRwR060Bon2Q99Ozw4PgA5vobyYa42fX8j/309S8TTmxBSPnQE
-								czx9LY5onR33+64Mq+nCUWYMD6lsXCVf/tiHjHrBGrTqfjo/08qmUxFe4bVI5as2NAe/riNEiF8vJnxdVFaJ+irVq6gzqigh
-								Lg14B+BHnw/D5MbIHsieo6riCmfRzo3qbmeYAFDas8H9Bona9pNE2Puuiekvj8FWjCM9DDWn+EwgAFcgWfiN6yYtTHZ/hD/K
-								7zD/wb56BH6Cw94bN0k9f5a9AEf8KDXGHTtwGxpAIv1/gg7QJ6qryNwMoN1n4kitWa23ROuCvObKNWrtMGzj7yx7D1y1h05X
-								DXH4tewZyMhh4mk07tLj+g88jM1TC2nFpcbBZyaWTxV8iEMm6zeqnuzFWqbr3ivuMcq1f2U4Sp387MFYrvIzSnq/XUwsKRcr
-								NaSTcuujPlS26ThiK9bg1Zc6u1C40FLKUbny9V3SVZpCG7UHSyXy4vlZHMLW9OZluZydRMOxE/WkrN/PnGGPBr8RS1s+3xdu
-								tICSgRT8vUyrb3lvLtli85jPmrPEBqbylTyrbln4oPMpLCCgNxYqTKAo/DRxn8N0mwUSlOH1MM61FFlx3wl2s4eVRHJerXVh
-								DunlrSsbXJqIyuNKIzltB9ddtfhzu751abyy5MTPCVmNj5fvLTbULCP348bAXv9/l6HiJzltY7JN2gvZB+kGp/F/S6VEsPv1
-								XvFb9HNZYW2a7xqD5hwujpUMcaDDvwdg/wLq2jZ6hxQ/9O/d4AmHnQe5o/AJw3+GvA6wb/CHiaNvl7KuAnQCP6/grtySO0qQ
-								yMWHin5D7SMZFYjUnPaP5Fus8804jGYi4830GJDRZnMS9yYMvbkHtnc9zgrseJIlWpRi41yaETmFcwz1IDsjLV6eX4r3HxC7
-								/Uu7mWeBdFrmvANr5tEvbvTl4/dGe6dcjsw497dHb0ED1J/Bxk4y5efgD+PAVGwrq3/8Wn0BfbqNPIc/aIPKyVPl1D5jf2ti
-								5w/06gVdTJMqqk9jLx/0OtSLzfNuomlCP+3vhmb3tTGscNOb6U3nHjbowYutjAysC2gc394ser+j4irVPwPysi5D8="/>
+					<v:foreignData v:orgSize="2468" clip="rect(0 0 0 0)" v:data="data:metafile;base64,eNrtVU1sE1cQnnm7DomdYocASl
+								oKS0UIQoWAD21FKxHjH4xaQ5SYvwMY19lSS7EdxWnTSK26SByqojSol/ZeDr32wgFxyBkhwbmH9MQFVWpFfIhoFfPN7lvnYY
+								FQpR55yfh9M+/tzPdm5u0yEc1AFMSCjEN20Ob4KEJ0HotOtpAjYrrVR3QI9i30/PBg+MAmimPvAX5+7edoL41ftyknsRDkMu
+								Rk5lQa2zwJ+vU3067sy1kSAQGsX1gi3PCfjgg7Zo1YtdttHx3mYW2LqXBfv3LUih0D2t8Tp34qlOc/Ly7OwvsR2qatb1JbXF
+								AC+grQHYgH5r8jRC9sT1WHuIKZDnHge7u6xH0saFDl+ahGq7yk0Rla66CHSvLzb+AJv4Ef1v4jFCYosCtwItpnxaiHL/CH+P
+								uBb/OfnIMfkYv0lC/ST7zK1yGjfJb7ucImtz6JpAKWK3yMdgH9o7yNIMpN1jwSxWrNbTqn3QVnslEr12kDZx/6a9C6vzu6MN
+								7hY9EbmJPRkGEy6dTu8WO6gsrcCHPLqdnZZiGXRhUfwSaScZvVq3VnqlJ16xX3XedUvXKYIkxb7MxUofg+UnO+Wk/NzJwoN6
+								uVdGPanShfdZs0EOmmNWBNLdY+bcxgKd34Yq7qzskiDdiFopP9an6ujGL27h3LLmfGUhOtRPxkKTXxZM9u4B3xFLWyrZHW8o
+								kSUCKelmk52zpYyreWfcs45m/zAKmDpUwp25L/VLyfURRWGMgTo1QWdBw+ytC/S0KNSnP6mGJYjyq65kC/VsPJozorUb+3gn
+								R39ZLOrU1GZ3SsEV2xhL5Xd/110HlnarE57yLEKH8fkzi/jX22XUT09fVBK3i+x/fzNypnab8Dchs0C7kP0u1HITulW7r0bX
+								qv8B7WWK7ITo2H9QkTxp0OfawgsAO2+4F3aR9dQ40Y/t/Sz/VBuQR5L+QCnDf0JeBVQ18DPkOb+kMV6KOQIf3+CuPJTxhTGR
+								i58M5hzuucSK7elhur9f9y+8wzDWks4cLzHZPcYHES8ywHsbwNee9sjpvcYZwoUpVq5FKTHDqNeQHzJDVgK1OdXo9Xjekv/V
+								bv1FryXRT7C75tkvYHPy4d//WPpePmPfyky2dbD/GTxJ+DatzDw4+hX6HAadj39gs4hVxso08jL9kj9rBXenQPmd/Yu7rB/X
+								cCLaJP5tEltdeF/x96RfJ9wOib0I78eyObd9s7onHcsONL6X1svBsjhi82sDKwbWBzv/DYKt9w7Suh8TO5iONA"/>
 				</foreignObject>
-				<svg viewBox="0 0 50.546 22.62" enable-background="new" color-interpolation-filters="sRGB" clip="rect(0 0 0 0)"
+				<svg viewBox="0 0 48.82 21.855" enable-background="new" color-interpolation-filters="sRGB" clip="rect(0 0 0 0)"
 						height="16.9795" overflow="hidden" preserveAspectRatio="none" width="37.9843" x="0" y="186.865">
-					<g transform="matrix(0.041941, 0, 0, 0.042279, 0, 0)">
-						<g stroke-width="23.796" stroke="#000000" stroke-miterlimit="10" fill="none">
+					<g transform="matrix(0.040296, 0, 0, 0.040441, 0, 0)">
+						<g stroke-width="23.922" stroke="#000000" stroke-miterlimit="10" fill="none">
 							<path fill="none" d="M265,349 L305,328 L397,478 L499,79 L720,79"/>
 						</g>
-						<g fill-rule="evenodd" stroke-width="23.796" stroke="none" fill="#000000">
+						<g fill-rule="evenodd" stroke-width="23.922" stroke="none" fill="#000000">
 							<polygon points="262,344 315,315 398,438 492,70 720,70 720,89 506,89 407,478 388,478 295,341 268,355"/>
 						</g>
-						<g fill-rule="evenodd" stroke-width="23.796" stroke="#000000" stroke-miterlimit="10" fill="#000000">
+						<g fill-rule="evenodd" stroke-width="23.922" stroke="#000000" stroke-miterlimit="10" fill="#000000">
 							<g font-family="&#39;Times New Roman&#39;,roman,serif" font-style="normal" font-weight="400"
 									font-size="384">
 								<text stroke="none" fill="#000000" x="0,458,692,788,1556" y="0" transform="translate(58,448)"
@@ -201,7 +202,7 @@
 							</g>
 						</g>
 					</g>
-					<mask id="mfid2" fill-rule="evenodd" fill="white" stroke="none"/>
+					<mask id="mfid1" fill-rule="evenodd" fill="white" stroke="none"/>
 				</svg>
 			</switch>
 			<rect v:rectContext="foreign" x="0" y="186.865" width="37.9843" height="16.9795" class="st7"/>
@@ -344,5 +345,17 @@
 			<v:textRect cx="7.08661" cy="196.758" width="14.18" height="14.1732"/>
 			<rect x="0" y="189.671" width="14.1732" height="14.1732" class="st17"/>
 			<text x="4" y="200.36" class="st12" v:langID="1043"><v:paragraph v:horizAlign="1"/><v:tabList/>E</text>		</g>
+		<g id="shape389-175" v:mID="389" v:groupContext="shape" transform="translate(164.784,-180.237)">
+			<title>Blad.389</title>
+			<path d="M0 203.84 L4.25 203.84" class="st18"/>
+		</g>
+		<g id="shape390-178" v:mID="390" v:groupContext="shape" transform="translate(185.47,-192.281)">
+			<title>Blad.390</title>
+			<path d="M0 203.84 L4.25 203.84" class="st18"/>
+		</g>
+		<g id="shape391-181" v:mID="391" v:groupContext="shape" transform="translate(135.902,-191.423)">
+			<title>Blad.391</title>
+			<path d="M0 203.84 L4.25 203.84" class="st18"/>
+		</g>
 	</g>
 </svg>

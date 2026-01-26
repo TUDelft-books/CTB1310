@@ -48,4 +48,56 @@ De oplegreactie bij $B$ grijpt aan in zowel $y=-2 \,\rm{m}$ als $y=+2 \,\rm{m}$.
 
 Dit is dezelfde constructie en doorsnede als in [de vorige les](../torsie_model/lesoefening2.md). Ditmaal zijn echter niet alleen schuifspanningen gevraagd ten gevolge van de verwringing, maar nu de totale schuifspanning en normaalspanning in punt $\rm{E}$ in de doorsnede net rechts van $\rm{D}$.
 
-https://oit.tudelft.nl/CT1000/2025/week_14/session_3/intro.html nu met V erbij
+Kijk terug naar je uitwerking van [de vorige les](../torsie_model/lesoefening2.md), een deel van de waardes zijn relevant voor de vragen van vandaag
+
+:::::{exercise}
+:nonumber: true
+
+Gegeven is dat het oppervlakte en statisch moment ten opzichte van de $\bar z$-as van de boven- en zijkanten van de doorsnede  gelijk is aan $4 \cdot 0.01 + 2 \cdot 0.25 \cdot 0.01 = 0.045 \, \rm{m}^2 $ en $4 \cdot 0.01 \cdot 1.75 + 2 \cdot 0.25 \cdot 0.01 \cdot \left(1.75 + \cfrac{0.25}{2}\right) = 0.079375 \rm{m^3}$, respectievelijk.
+
+Bepaal het zwaartepunt van de gehele doorsnede, maar gebruik van $S_{\bar z} = \int\limits_A z \, dA$ en $A = \int\limits_A dA$. De volgende vragen zijn er om je op weg te helpen.
+
+```{h5p} https://tudelft.h5p.com/content/1292808600979606797/embed
+```
+
+:::::
+
+:::::{exercise}
+:nonumber: true
+
+Op eenzelfde manier is $I_{zz}$ te berekenen.
+
+```{h5p} https://tudelft.h5p.com/content/1292808647660137747/embed
+```
+
+:::::
+
+:::::{exercise}
+:nonumber: true
+
+Bepaal de normaalspanning in punt $\rm{E}$ net rechts van $\rm{D}$.
+
+```{h5p} https://tudelft.h5p.com/content/1292808652061755197/embed
+```
+
+:::::
+
+:::::{exercise}
+:nonumber: true
+
+Bepaal de schuifspanning in punt $\rm{E}$ net rechts van $\rm{D}$ ten gevolge van de dwarskracht.
+
+```{h5p} https://tudelft.h5p.com/content/1292808655867105037/embed
+```
+
+:::::
+
+:::::{exercise}
+:nonumber: true
+
+Bepaal de totale schuifspanning in punt $\rm{E}$ net rechts van $\rm{D}$ ten gevolge van de kromming en verwringing.
+
+```{h5p} https://tudelft.h5p.com/content/1292808657783449747/embed
+```
+
+:::::
