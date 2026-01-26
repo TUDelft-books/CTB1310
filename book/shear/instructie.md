@@ -221,8 +221,7 @@ $$
 A = 280 \cdot 140 \cdot \cfrac{1}{2} - 200 \cdot 100 \cfrac{1}{2} = 9600 \, \rm{mm^2}
 $$
 
-Vervolgens kunnen we het zwaartepunt/normaalkrachtencentrum bepalen. Daarvoor verdelen we de constructie in parallellogrammen en driehoeken, elk met een eigen zwaartepunt ($
-rm{C}$)
+Vervolgens kunnen we het zwaartepunt/normaalkrachtencentrum bepalen. Daarvoor verdelen we de constructie in parallellogrammen en driehoeken, elk met een eigen zwaartepunt ($\rm{C}$)
 
 ```{figure} ./instructie_data/statisch_moment.svg
 :align: center
