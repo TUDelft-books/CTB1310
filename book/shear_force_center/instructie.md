@@ -243,6 +243,8 @@ We kunnen echter niet garanderen dat er geen afschuiving- of schuifspanningen te
 ### Volledige symmetrische doorsnedes
 We hebben gevonden dat we het dwarskrachtencentrum kunnen vinden door de locatie te vinden van de resultante van de schuifspanningen. Voor volledig symmetrische doorsnedes betekent dit dat het dwarskrachtencentrum in het midden ligt, ook al is het niet mogelijk om de schuifspanning te bepalen.
 
+Deze volledige symmetrische doorsnedes zijn de enige doorsnedes waarbij het dwarskrachtencentrum op dezelfde plek ligt als het normaalkrachtencentrum.
+
 ::::::{prf:example}
 :nonumber: true
 
