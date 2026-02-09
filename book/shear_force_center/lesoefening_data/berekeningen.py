@@ -18,7 +18,7 @@ print("NC =", (sym.nsimplify(yc), sym.nsimplify(zc)), "mm")
 
 Izz = (b * t**3) / 12*2 + b * t * (zc)**2 * 2 + (t * 2 * h**3) / 12
 
-Iyy = (t * b**3) / 12 *2 + t * b * (b - yc)**2 *2 + (h * (2 *t)**3) / 12
+Iyy = ((t * b**3) / 12 + t * b * (0.5*b - yc)**2) *2 + (h * (2 *t)**3) / 12 + h * t*2 * yc**2
 
 print("Izz =", sym.nsimplify(Izz), "mm^4")
 print("Iyy =", sym.nsimplify(Iyy), "mm^4 approx", Iyy.evalf(), "mm^4")
