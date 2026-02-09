@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Gegenereerd door Microsoft Visio, SVG Export overal_2.svg Pagina-1 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="2.56947in" height="2.37262in"
+		viewBox="0 0 185.002 170.829" xml:space="preserve" color-interpolation-filters="sRGB" class="st3">
+	<v:documentProperties v:langID="1043" v:metric="true" v:viewMarkup="false"/>
+
+	<style type="text/css">
+	<![CDATA[
+		.st1 {stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:6}
+		.st2 {stroke:#31859b;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
+		.st3 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<g v:mID="0" v:index="1" v:groupContext="foregroundPage">
+		<title>Pagina-1</title>
+		<v:pageProperties v:drawingScale="0.0393701" v:pageScale="0.0393701" v:drawingUnits="24" v:shadowOffsetX="8.50394"
+				v:shadowOffsetY="-8.50394"/>
+		<g id="shape50-1" v:mID="50" v:groupContext="shape" transform="translate(213.723,14.5483) rotate(90)">
+			<title>Blad.50</title>
+			<path d="M0 170.83 L141.73 170.83" class="st1"/>
+		</g>
+		<g id="shape51-4" v:mID="51" v:groupContext="shape" transform="translate(312.936,14.5483) rotate(90)">
+			<title>Blad.51</title>
+			<path d="M0 170.83 L141.73 170.83" class="st1"/>
+		</g>
+		<g id="shape52-7" v:mID="52" v:groupContext="shape" transform="translate(42.8947,-156.281)">
+			<title>Blad.52</title>
+			<path d="M0 170.83 L99.21 170.83" class="st1"/>
+		</g>
+		<g id="shape53-10" v:mID="53" v:groupContext="shape" transform="translate(42.8947,-14.5482)">
+			<title>Blad.53</title>
+			<path d="M0 170.83 L99.21 170.83" class="st1"/>
+		</g>
+		<g id="shape65-13" v:mID="65" v:groupContext="shape" transform="translate(142.107,-85.4144)">
+			<title>Blad.65</title>
+			<path d="M0 99.96 L28.35 99.96 C32.6 108.47 42.52 142.48 42.52 170.83" class="st2"/>
+		</g>
+		<g id="shape66-16" v:mID="66" v:groupContext="shape" transform="translate(142.107,256.243) scale(1,-1)">
+			<title>Blad.66</title>
+			<path d="M0 99.96 L28.35 99.96 C32.6 108.47 42.52 142.48 42.52 170.83" class="st2"/>
+		</g>
+		<g id="shape67-19" v:mID="67" v:groupContext="shape" transform="translate(42.8947,256.243) rotate(180)">
+			<title>Blad.67</title>
+			<path d="M0 99.96 L28.35 99.96 C32.6 108.47 42.52 142.48 42.52 170.83" class="st2"/>
+		</g>
+		<g id="shape68-22" v:mID="68" v:groupContext="shape" transform="translate(42.8947,-85.4144) scale(-1,1)">
+			<title>Blad.68</title>
+			<path d="M0 99.96 L28.35 99.96 C32.6 108.47 42.52 142.48 42.52 170.83" class="st2"/>
+		</g>
+		<g id="shape69-25" v:mID="69" v:groupContext="shape" transform="translate(92.501,-156.281)">
+			<title>Blad.69</title>
+			<path d="M49.61 170.83 L49.61 156.66 L0 170.83" class="st2"/>
+		</g>
+		<g id="shape71-28" v:mID="71" v:groupContext="shape" transform="translate(92.501,-156.281) scale(-1,1)">
+			<title>Blad.71</title>
+			<path d="M49.61 170.83 L49.61 156.66 L0 170.83" class="st2"/>
+		</g>
+		<g id="shape76-31" v:mID="76" v:groupContext="shape" transform="translate(92.501,327.109) rotate(180)">
+			<title>Blad.76</title>
+			<path d="M49.61 170.83 L49.61 156.66 L0 170.83" class="st2"/>
+		</g>
+		<g id="shape77-34" v:mID="77" v:groupContext="shape" transform="translate(92.501,327.109) scale(1,-1)">
+			<title>Blad.77</title>
+			<path d="M49.61 170.83 L49.61 156.66 L0 170.83" class="st2"/>
+		</g>
+	</g>
+</svg>

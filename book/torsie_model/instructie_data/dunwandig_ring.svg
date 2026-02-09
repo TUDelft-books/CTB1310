@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Gegenereerd door Microsoft Visio, SVG Export dunwandig_ring.svg Pagina-1 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="1.46129in" height="1.48025in"
+		viewBox="0 0 105.213 106.578" xml:space="preserve" color-interpolation-filters="sRGB" class="st8">
+	<v:documentProperties v:langID="1043" v:metric="true" v:viewMarkup="false"/>
+
+	<style type="text/css">
+	<![CDATA[
+		.st1 {fill:#ffffff;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:6}
+		.st2 {marker-end:url(#mrkr5-9);stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
+		.st3 {fill:#000000;fill-opacity:1;stroke:#000000;stroke-opacity:1;stroke-width:0.22935779816514}
+		.st4 {marker-start:url(#mrkr4-16);stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.25}
+		.st5 {fill:#000000;fill-opacity:1;stroke:#000000;stroke-opacity:1;stroke-width:0.14792899408284}
+		.st6 {fill:none;stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
+		.st7 {fill:#000000;font-family:Times New Roman;font-size:1.00001em;font-style:italic}
+		.st8 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<defs id="Markers">
+		<g id="lend5">
+			<path d="M 2 1 L 0 0 L 1.98117 -0.993387 C 1.67173 -0.364515 1.67301 0.372641 1.98465 1.00043 " style="stroke:none"/>
+		</g>
+		<marker id="mrkr5-9" class="st3" v:arrowType="5" v:arrowSize="2" v:setback="7.63" refX="-7.63" orient="auto"
+				markerUnits="strokeWidth" overflow="visible">
+			<use xlink:href="#lend5" transform="scale(-4.36,-4.36) "/>
+		</marker>
+		<g id="lend4">
+			<path d="M 2 1 L 0 0 L 2 -1 L 2 1 " style="stroke:none"/>
+		</g>
+		<marker id="mrkr4-16" class="st5" v:arrowType="4" v:arrowSize="0" v:setback="12.08" refX="12.08" orient="auto"
+				markerUnits="strokeWidth" overflow="visible">
+			<use xlink:href="#lend4" transform="scale(6.76) "/>
+		</marker>
+	</defs>
+	<g v:mID="0" v:index="1" v:groupContext="foregroundPage">
+		<title>Pagina-1</title>
+		<v:pageProperties v:drawingScale="0.0393701" v:pageScale="0.0393701" v:drawingUnits="24" v:shadowOffsetX="8.50394"
+				v:shadowOffsetY="-8.50394"/>
+		<g id="shape320-1" v:mID="320" v:groupContext="shape" transform="translate(3,-3)">
+			<title>Blad.320</title>
+			<ellipse cx="49.6063" cy="56.9717" rx="49.6063" ry="49.6063" class="st1"/>
+		</g>
+		<g id="shape324-3" v:mID="324" v:groupContext="shape" transform="translate(-22.7557,-21.3903) rotate(-45)">
+			<title>Blad.324</title>
+			<path d="M0 106.58 L43.88 106.58" class="st2"/>
+		</g>
+		<g id="group325-10" transform="translate(-48.0661,-46.2308) rotate(-45)" v:mID="325" v:groupContext="group">
+			<title>Dikte dunwandige doorsnede</title>
+			<g id="shape326-11" v:mID="326" v:groupContext="shape" transform="translate(-106.578,89.5701) rotate(-90)">
+				<title>Blad.326</title>
+				<path d="M3.02 106.58 L3.38 106.58 L11.34 106.58" class="st4"/>
+			</g>
+			<g id="shape327-17" v:mID="327" v:groupContext="shape" transform="translate(106.578,95.2394) rotate(90)">
+				<title>Blad.327</title>
+				<path d="M3.02 106.58 L3.38 106.58 L11.34 106.58" class="st4"/>
+			</g>
+		</g>
+		<g id="shape332-22" v:mID="332" v:groupContext="shape" transform="translate(59.6929,-77.4467)">
+			<title>Blad.332</title>
+			<desc>R</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="7.08661" cy="103.743" width="14.18" height="5.66929"/>
+			<rect x="0" y="100.909" width="14.1732" height="5.66929" class="st6"/>
+			<text x="4" y="107.34" class="st7" v:langID="1043"><v:paragraph v:horizAlign="1"/><v:tabList/>R</text>		</g>
+		<g id="shape333-25" v:mID="333" v:groupContext="shape" transform="translate(10.0866,-96.5433)">
+			<title>Blad.333</title>
+			<desc>t</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="7.08661" cy="103.743" width="14.18" height="5.66929"/>
+			<rect x="0" y="100.909" width="14.1732" height="5.66929" class="st6"/>
+			<text x="5.42" y="107.34" class="st7" v:langID="1043"><v:paragraph v:horizAlign="1"/><v:tabList/>t</text>		</g>
+		<g id="group348-28" transform="translate(24.2599,-23.9764)" v:mID="348" v:groupContext="group">
+			<title>y,z-assenstelsel.348</title>
+			<g id="group349-29" transform="translate(28.3465,-9.9476E-14)" v:mID="349" v:groupContext="group">
+				<title>z-as.13611</title>
+				<g id="shape350-30" v:mID="350" v:groupContext="shape" transform="translate(106.578,78.2316) rotate(90)">
+					<title>Blad.350</title>
+					<path d="M0 106.58 L22.62 106.58" class="st2"/>
+				</g>
+				<g id="shape351-35" v:mID="351" v:groupContext="shape">
+					<title>Blad.351</title>
+					<desc>z</desc>
+					<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+					<v:textRect cx="7.08661" cy="103.743" width="14.18" height="5.66929"/>
+					<rect x="0" y="100.909" width="14.1732" height="5.66929" class="st6"/>
+					<text x="4.75" y="107.34" class="st7" v:langID="1043"><v:paragraph v:horizAlign="1"/><v:tabList/>z</text>				</g>
+			</g>
+			<g id="group352-38" transform="translate(106.578,78.2316) rotate(90)" v:mID="352" v:groupContext="group">
+				<title>z-as.13614</title>
+				<g id="shape353-39" v:mID="353" v:groupContext="shape" transform="translate(106.578,78.2316) rotate(90)">
+					<title>Blad.353</title>
+					<path d="M0 106.58 L22.62 106.58" class="st2"/>
+				</g>
+				<g id="shape354-44" v:mID="354" v:groupContext="shape" transform="translate(-92.4048,106.578) rotate(-90)">
+					<title>Blad.354</title>
+					<desc>y</desc>
+					<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+					<v:textRect cx="7.08661" cy="99.4914" width="14.18" height="14.1732"/>
+					<rect x="0" y="92.4048" width="14.1732" height="14.1732" class="st6"/>
+					<text x="4.42" y="103.09" class="st7" v:langID="1043"><v:paragraph v:horizAlign="1"/><v:tabList/>y</text>				</g>
+			</g>
+		</g>
+	</g>
+</svg>

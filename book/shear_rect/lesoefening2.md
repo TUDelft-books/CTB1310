@@ -5,8 +5,7 @@ Gegeven is de volgende constructie
 ```{figure} ./lesoefening2/constructie.svg
 :align: center
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/shear_rect_oef
-
-Voorbeeldconstructie
+:number:
 ```
 
 :::::{exercise}

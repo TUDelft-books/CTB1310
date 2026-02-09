@@ -9,14 +9,13 @@ Deze oefening is gebaseerd op [deze oefening uit het online boek van het vak CT1
 
 # Begeleide oefening 3
 
-Gegeven is de volgende constructie:
+Gegeven is de volgende constructie en een willekeurige doorsnede met bekend dwarskrachtencentrum.:
 
 ```{figure} ./lesoefening2_data/constructie.svg
 ---
 align: center
 source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/torsie2
----
-Constructie en willekeurige doorsnede met bekend dwarskrachtencentrum
+number:
 ```
 
 Waarvan je de wringende momentenlijn moet bepalen.
@@ -30,6 +29,7 @@ Gegeven zijn drie 2D-weergaves van de constructie
 ---
 align: center
 source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/torsie2
+number:
 ---
 ```
 
@@ -98,8 +98,8 @@ Het wringend moment halverwege $\rm{C}$ en $\rm{B}$:
 ---
 align: center
 source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/torsie2
+number:
 ---
-Snede AB halverwege
 ```
 $$
 \begin{align*}
@@ -115,8 +115,8 @@ Het wringend moment net links van $\rm{B}$:
 ---
 align: center
 source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/torsie2
+number:
 ---
-Snede links B
 ```
 $$
 \begin{align*}
@@ -132,8 +132,8 @@ Het wringend moment net rechts van $\rm{B}$:
 ---
 align: center
 source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/torsie2
+number:
 ---
-Snede rechts B
 ```
 $$
 \begin{align*}
@@ -149,8 +149,8 @@ Het wringend moment halverwege $\rm{B}$ en $\rm{A}$:
 ---
 align: center
 source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/torsie2
+number:
 ---
-Snede halverwege A en B
 ```
 $$
 \begin{align*}
@@ -166,8 +166,8 @@ Het wringend moment in $\rm{A}$:
 ---
 align: center
 source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/torsie2
+number:
 ---
-Schematisering voor wringend moment A
 ```
 $$
 \begin{align*}
@@ -182,8 +182,8 @@ De wringende momentenlijn ziet er dan als volgt uit:
 ---
 align: center
 source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/torsie2
+number:
 ---
-Wringend momentenlijn
 ```
 
 ::::
