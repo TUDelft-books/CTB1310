@@ -263,9 +263,17 @@ Tot slot bekijken we open dunwandige doorsnedes.
 
 Ook hier is de aanname van vlakke doorsnedes en rechte radiale lijnen niet meer geldig. Daarnaast kunnen we ook niet meer aannemen dat de schuifspanningen constant zijn over de wanddikte, omdat de doorsnede anders geen wringing kan weerstaan.
 
-De meest simpele open doorsnede, een strip, kan geen wringend weerstaan als de schuifspanningen constant zijn over de wanddikte omdat de schuifspanningen allemaal in dezelfde richting lopen.
+De meest simpele open doorsnede, een strip, kan geen wringend moment weerstaan als de schuifspanningen constant zijn over de wanddikte omdat de schuifspanningen allemaal in dezelfde richting lopen.
 
 ```{figure} ./instructie_data/simpel.svg
+:align: center
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/torsion_models
+:number:
+```
+
+Complexere open dunwandige doorsnedes zijn er natuurlijk ook, welke kunnen worden gezien als een combinatie van wandsegmenten en dus ook geen resultant wringed moment kunnen opleveren. Bijvoorbeeld een I-ligger kan worden gezien als een combinatie van drie wandsegmenten: twee flenzen en het lijf:
+
+```{figure} ./instructie_data/dunwandig_i.svg
 :align: center
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/torsion_models
 :number:
@@ -275,7 +283,9 @@ De meest simpele open doorsnede, een strip, kan geen wringend weerstaan als de s
 :nonumber: true
 :label: assump_torsion_model_3
 
-Er wordt daarom een lineair toenemende schuifspanning aangenomen vanuit het midden van de wand naar de buitenkant. Dit lineaire verband is een versimpeling en in werkelijkheid is het spanningsverloop complexer. Zeker in de buurt van overgangen en hoeken schiet dit model tekort.
+Omdat een constant schuifspanningsprofiel geen wringend moment kan opnemen wordt er een lineair toenemende schuifspanning aangenomen vanuit het midden van de wand naar de buitenkant. Deze spanningen lopen als het ware rond in de doorsnede en kunnen dus wel een resulterend wringend moment veroorzaken.
+
+Dit lineaire verband is een versimpeling en in werkelijkheid is het spanningsverloop complexer. Zeker in de buurt van overgangen en hoeken schiet dit model tekort. Voor dunwandige doorsnedes zijn deze invloeden beperkt. Dit model is daarom alleen geschikt voor dunwandige doorsnedes, ook al wordt deze hieronder getoond als dikwandige doorsnede om het spanningsverloop duidelijk te maken.
 
 ```{figure} ./instructie_data/I-balk.svg
 :align: center
@@ -285,7 +295,7 @@ Er wordt daarom een lineair toenemende schuifspanning aangenomen vanuit het midd
 
 :::::::
 
-De open doorsnede modelleren vervolgens als een verzameling van dunwandige niet-ronde gesloten doorsnedes. Hieronder is één zo'n dunwandige niet-ronde gesloten doorsnede getoond: 
+De open doorsnede modelleren we vervolgens als een verzameling van dunwandige niet-ronde gesloten doorsnedes waarin voor elke gesloten doorsnede de schuifspanning constant is over de hele doorsnede. Dit is toegestaan volgens onze voorgaande aanname van een lineaire spanningsverdeling als de gesloten dunwandige doorsnedes overal dezelfde afstand $e_{\rm{m}}$ hebben. Hieronder zijn twee van dergelijke dunwandige niet-ronde gesloten doorsnede getoond met $e_1$ en $e_2$:
 
 ```{figure} ./instructie_data/dunwandig_open_gesloten.svg
 :align: center
@@ -297,11 +307,11 @@ De open doorsnede modelleren vervolgens als een verzameling van dunwandige niet-
 :nonumber: true
 :label: assump_torsion_model_4
 
-Hier worden dus ook de spanningen in de overgangen en hoeken gemodelleerd hoewel ons model daar niet accuraat is. Het foutief meenemen van die spanningen heeft daarmee ook een kleine invloed op de spanningen waar ons lineaire verband wel geldig is. Er wordt aangenomen dat dat effect kleins is.
+Hier worden dus ook de spanningen in de overgangen en hoeken gemodelleerd hoewel ons model daar niet accuraat is. Het foutief meenemen van die spanningen heeft daarmee ook een kleine invloed op de spanningen waar ons lineaire verband wel geldig is. Er wordt aangenomen dat dat effect klein is omdat voor dunwandige doorsnedes dat invloed van overgangen en hoeken klein is.
 
 :::::::
 
-Door deze individuele bijdrages te integreren over de halve wanddikte komen we tot de volgende formule voor de schuifspanningen in open dunwandige doorsnedes:
+Nu kunnen we voor elke van deze dunwandige gesloten doorsnedes het voorgaande model toepassen en deze individuele bijdrages te integreren over de halve wanddikte. Dit geeft de volgende formule voor de schuifspanningen in open dunwandige doorsnedes:
 
 $$
 \tau \left(e_{\rm{m}}\right) = \cfrac{M_t \cdot e_{\rm{m}}}{\frac{1}{2} \cdot I_{\rm{t}}}
@@ -312,6 +322,27 @@ Met:
 - $I_t$ het torsietraagheidsmoment: $\sum\limits_{i}{\frac{1}{3} \cdot h_i \cdot t_i^3}$
     - $h_i$ de hoogte/lengte van een wandsegment $i$
     - $t_i$ de wanddikte van een wandsegment $i$
+
+:::::{prf:example}
+:nonumber: true
+
+Voor de drie wandsegmenten van een I-ligger zijn de hoogtes en diktes van de wandsegmenten hieronder getoond:
+
+```{figure} ./instructie_data/hent.svg
+:align: center
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/torsion_models
+:number:
+```
+
+De theorie en formule voor het wringtraagheidsmoment werkt ook voor gekromde wandsegmenten:
+
+```{figure} ./instructie_data/rond.svg
+:align: center
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/torsion_models
+:number:
+```
+
+:::::
 
 De 'arm' in orde grootte $e_{\rm{m}}$ van de schuifspanningen in deze open dunwandige is vele malen kleiner dan de 'arm' in gesloten doorsnedes in ordegrootte $h$. Hierdoor zouden de spanningen veel groter moeten zijn om hetzelfde wringend moment te kunnen weerstaan. In de praktijk betekent dit dat open dunwandige doorsnedes veel minder goed in staat zijn om wringing te weerstaan dan gesloten dunwandige doorsnedes.
 
@@ -384,12 +415,19 @@ in het dwarskrachtencentrum.
 :::{grid-item}
 :columns: auto
 
-```{figure} ./instructie_data/doorsnede_2.svg
+```{figure-start} ./instructie_data/doorsnede_2.svg
 :align: center
 :name: fig:doorsnede_2
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/torsion_models
 :number:
 ```
+
+Infinitesimaal smalle  
+snede in lengterichting
+
+```{figure-end}
+```
+
 :::
 
 ::::

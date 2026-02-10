@@ -53,9 +53,9 @@ Kijk terug naar je uitwerking van [de vorige les](../torsie_model/lesoefening2.m
 :::::{exercise}
 :nonumber: true
 
-Gegeven is dat het oppervlakte en statisch moment ten opzichte van de $\bar z$-as van de boven- en zijkanten van de doorsnede  gelijk is aan $4 \cdot 0.01 + 2 \cdot 0.25 \cdot 0.01 = 0.045 \, \rm{m}^2 $ en $4 \cdot 0.01 \cdot 1.75 + 2 \cdot 0.25 \cdot 0.01 \cdot \left(1.75 + \cfrac{0.25}{2}\right) = 0.079375 \rm{m^3}$, respectievelijk.
+Gegeven is dat het oppervlakte en statisch moment ten opzichte van de $\bar y$-as van de boven- en zijkanten van de doorsnede  gelijk is aan $4 \cdot 0.01 + 2 \cdot 0.25 \cdot 0.01 = 0.045 \, \rm{m}^2 $ en $4 \cdot 0.01 \cdot 1.75 + 2 \cdot 0.25 \cdot 0.01 \cdot \left(1.75 + \cfrac{0.25}{2}\right) = 0.079375 \rm{m^3}$, respectievelijk.
 
-Bepaal het zwaartepunt van de gehele doorsnede, maar gebruik van $S_{\bar z} = \int\limits_A z \, dA$ en $A = \int\limits_A dA$. De volgende vragen zijn er om je op weg te helpen.
+Om het zwaartepunt van de gehele doorsnede te bepalen is ook het zwaartepunt van het gekromde gedeelte nodig ten opzichte van de $\bar y$-as. Maak daarvoor gebruik van $S_{\bar z} = \int\limits_A z \, dA$ en $A = \int\limits_A dA$. De volgende vragen zijn er om je op weg te helpen.
 
 ```{h5p} https://tudelft.h5p.com/content/1292808600979606797/embed
 ```

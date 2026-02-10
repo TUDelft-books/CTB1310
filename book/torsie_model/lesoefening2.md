@@ -39,6 +39,7 @@ De oplegreactie bij $B$ grijpt aan in zowel $y=-2 \,\rm{m}$ als $y=+2 \,\rm{m}$.
 ```{figure} ./lesoefening2_data/doorsnede.svg
 :align: center
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/failure_criteria
+:number:
 ```
 :::
 
@@ -64,6 +65,53 @@ Waarvoor de wringspanningen ten gevolge van verwringing gevraagd zijn net rechts
 ::::
 
 % solution_end
+
+:::::{exercise}
+:nonumber: true
+
+Gegeven zijn twee 3D-weergaves van de constructie
+
+::::{grid} 2 2 2 2
+:class-container: center-grid
+
+:::{grid-item}
+:columns: auto
+
+```{figure-start} ./lesoefening2_data/optie1.svg
+:align: center
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/failure_criteria
+:number:
+```
+
+Optie 1
+
+```{figure-end}
+```
+
+:::
+
+:::{grid-item}
+:columns: auto
+
+```{figure-start} ./lesoefening2_data/optie2.svg
+:align: center
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/failure_criteria
+:number:
+```
+
+Optie 2
+
+```{figure-end}
+```
+
+:::
+
+::::
+
+```{h5p} https://tudelft.h5p.com/content/1292821619216463787/embed
+```
+
+:::::
 
 :::::{exercise}
 :nonumber: true

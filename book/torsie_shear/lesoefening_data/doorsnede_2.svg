@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<!-- Gegenereerd door Microsoft Visio, SVG Export doorsnede_2.svg Pagina-1 -->
+<!-- Gegenereerd door Microsoft Visio, SVG Export doorsnede2.svg Pagina-1 -->
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
 		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="4.81357in" height="2.83117in"
-		viewBox="0 0 346.577 203.844" xml:space="preserve" color-interpolation-filters="sRGB" class="st19">
+		viewBox="0 0 346.577 203.844" xml:space="preserve" color-interpolation-filters="sRGB" class="st20">
 	<v:documentProperties v:langID="1043" v:metric="true" v:viewMarkup="false"/>
 
 	<style type="text/css">
@@ -26,7 +26,8 @@
 		.st16 {stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:2.25}
 		.st17 {fill:none;stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.24}
 		.st18 {stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.5}
-		.st19 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+		.st19 {stroke:#000000;stroke-dasharray:5.25,3.75;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
+		.st20 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
 	]]>
 	</style>
 
@@ -202,7 +203,7 @@
 							</g>
 						</g>
 					</g>
-					<mask id="mfid1" fill-rule="evenodd" fill="white" stroke="none"/>
+					<mask id="mfid2" fill-rule="evenodd" fill="white" stroke="none"/>
 				</svg>
 			</switch>
 			<rect v:rectContext="foreign" x="0" y="186.865" width="37.9843" height="16.9795" class="st7"/>
@@ -356,6 +357,18 @@
 		<g id="shape391-181" v:mID="391" v:groupContext="shape" transform="translate(135.902,-191.423)">
 			<title>Blad.391</title>
 			<path d="M0 203.84 L4.25 203.84" class="st18"/>
+		</g>
+		<g id="shape469-184" v:mID="469" v:groupContext="shape" transform="translate(45.7294,-83.4312)">
+			<title>Blad.469</title>
+			<path d="M226.49 203.84 L113.39 90.18 L0 203.56" class="st19"/>
+		</g>
+		<g id="shape470-187" v:mID="470" v:groupContext="shape" transform="translate(293.617,-125.255) rotate(45.1429)">
+			<title>Blad.470</title>
+			<path d="M0 203.84 L14.17 203.84" class="st15"/>
+		</g>
+		<g id="shape471-190" v:mID="471" v:groupContext="shape" transform="translate(313.277,162.69) rotate(135)">
+			<title>Blad.471</title>
+			<path d="M0 203.84 L14.17 203.84" class="st15"/>
 		</g>
 	</g>
 </svg>
