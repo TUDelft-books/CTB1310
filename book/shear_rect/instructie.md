@@ -148,7 +148,7 @@ Tijdens de afleiding van de formules voor normaalspanningen werden daarnaast nog
 
 ::::::
 
-Nu stellen we een vrijlichaamsschema op met spanningen voor een deel van de doorsnede, het zogenaamde afschuivend deel. Hiervoor snijden we de doorsnede door in de lengterichting $x$. Dit afschuivend deel heeft breedte $b \left(z\right)$ en lengte $\Delta x$. $A^{\rm{a}}$ is het oppervlakte van de linker en rechter doorsnede, $A^{\parallel}$ is het oppervlakte van de onderste doorsnede. Hieruit volgt dan hoogte van dit vrijlichaamsschema van $\cfrac{A^{\rm{a}}}{b}$. De spanningen op dit afschuivend deel kan ook worden aangegeven in het vrijlichaamsschema. Op de onderste doorsnede werkt mogelijk een schuifspanning, maar geen normaalspanningen:
+Nu stellen we een vrijlichaamsschema op met spanningen voor een deel van de doorsnede, het zogenaamde afschuivend deel. Hiervoor snijden we de doorsnede door in de lengterichting $x$. Dit afschuivend deel heeft breedte $b \left(z\right)$ en lengte $\Delta x$. $A^{\rm{a}}$ is het oppervlakte van de linker en rechter doorsnede, $A^{\parallel}$ is het oppervlakte van de onderste doorsnede. De spanningen op dit afschuivend deel kan ook worden aangegeven in het vrijlichaamsschema. Op de onderste doorsnede werkt mogelijk een schuifspanning, maar geen normaalspanningen:
 
 ::::{grid} 3
 :class-container: center-grid
