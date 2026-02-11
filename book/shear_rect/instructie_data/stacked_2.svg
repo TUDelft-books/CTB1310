@@ -1,0 +1,119 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" xml:space="preserve" color-interpolation-filters="sRGB" class="st4" viewBox="263.79 693.35 185.56 105.97">
+	<v:documentProperties v:langID="1043" v:metric="true" v:viewMarkup="false"/>
+
+	<style type="text/css">
+	<![CDATA[
+		.st1 {fill:#a5a5a5;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
+		.st2 {marker-start:url(#mrkr5-10);stroke:#31859b;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
+		.st3 {fill:#31859b;fill-opacity:1;stroke:#31859b;stroke-opacity:1;stroke-width:0.34246575342466}
+		.st4 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<defs id="Markers">
+		<g id="lend5">
+			<path d="M 2 1 L 0 0 L 1.98117 -0.993387 C 1.67173 -0.364515 1.67301 0.372641 1.98465 1.00043 " style="stroke:none"/>
+		</g>
+		<marker id="mrkr5-10" class="st3" v:arrowType="5" v:arrowSize="0" v:setback="4.63" refX="4.63" orient="auto" markerUnits="strokeWidth" overflow="visible">
+			<use xlink:href="#lend5" transform="scale(2.92) "/>
+		</marker>
+	</defs>
+	<g v:mID="0" v:index="1" v:groupContext="foregroundPage">
+		<title>Pagina-1</title>
+		<v:pageProperties v:drawingScale="0.0393701" v:pageScale="0.0393701" v:drawingUnits="24" v:shadowOffsetX="8.50394" v:shadowOffsetY="-8.50394"/>
+		<g id="shape50-1" v:mID="50" v:groupContext="shape" transform="translate(797.542,60.544) rotate(89)">
+			<title>Cirkelboog.50</title>
+			<v:userDefs>
+				<v:ud v:nameU="CtrlAng1" v:prompt="" v:val="VT0(5.4977871437822):32"/>
+				<v:ud v:nameU="CtrlAng2" v:prompt="" v:val="VT0(0.78539816339745):32"/>
+				<v:ud v:nameU="InnerDist" v:prompt="" v:val="VT0(0.38384205901575):24"/>
+				<v:ud v:nameU="MidAngle" v:prompt="" v:val="VT0(6.2831853071796):32"/>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+				<v:ud v:nameU="CtrlAng1" v:prompt="" v:val="VT0(6.0203510834012):32"/>
+				<v:ud v:nameU="CtrlAng2" v:prompt="" v:val="VT0(0.22805647591538):32"/>
+				<v:ud v:nameU="InnerDist" v:prompt="" v:val="VT0(5.2551348861344):24"/>
+				<v:ud v:nameU="MidAngle" v:prompt="" v:val="VT0(6.2657964332481):32"/>
+			</v:userDefs>
+			<path d="M716 545.34 L689.21 538.14 A350.626 350.626 -180 0 0 692.17 367.77 L719.2 361.49 A378.37 378.37 0 0 1 716 545.34        Z" class="st1"/>
+		</g>
+		<g id="shape51-3" v:mID="51" v:groupContext="shape" transform="translate(797.542,-1.6826) rotate(89)">
+			<title>Cirkelboog.51</title>
+			<v:userDefs>
+				<v:ud v:nameU="CtrlAng1" v:prompt="" v:val="VT0(5.4977871437822):32"/>
+				<v:ud v:nameU="CtrlAng2" v:prompt="" v:val="VT0(0.78539816339745):32"/>
+				<v:ud v:nameU="InnerDist" v:prompt="" v:val="VT0(0.38384205901575):24"/>
+				<v:ud v:nameU="MidAngle" v:prompt="" v:val="VT0(6.2831853071796):32"/>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+				<v:ud v:nameU="CtrlAng1" v:prompt="" v:val="VT0(6.0203510834012):32"/>
+				<v:ud v:nameU="CtrlAng2" v:prompt="" v:val="VT0(0.22805647591538):32"/>
+				<v:ud v:nameU="InnerDist" v:prompt="" v:val="VT0(5.2631664396866):24"/>
+				<v:ud v:nameU="MidAngle" v:prompt="" v:val="VT0(6.2657964332481):32"/>
+			</v:userDefs>
+			<path d="M716.56 545.49 L689.21 538.14 A350.626 350.626 -180 0 0 692.17 367.77 L719.76 361.36 A378.948 378.948 0 0 1        716.56 545.49 Z" class="st1"/>
+		</g>
+		<g id="shape52-5" v:mID="52" v:groupContext="shape" transform="translate(457.549,-21.0462) rotate(13.3956)">
+			<title>Spanning</title>
+			<path d="M3.47 797.66 L3.83 797.66 L20.75 797.66" class="st2"/>
+		</g>
+		<g id="shape53-11" v:mID="53" v:groupContext="shape" transform="translate(394.75,-31.2009) rotate(6.61525)">
+			<title>Spanning.53</title>
+			<path d="M3.47 797.66 L3.83 797.66 L15.77 797.66" class="st2"/>
+		</g>
+		<g id="shape54-16" v:mID="54" v:groupContext="shape" transform="translate(385.435,-31.4247) rotate(4.30663)">
+			<title>Spanning.54</title>
+			<path d="M3.47 797.66 L3.83 797.66 L11.32 797.66" class="st2"/>
+		</g>
+		<g id="shape55-21" v:mID="55" v:groupContext="shape" transform="translate(372.777,-31.6864) rotate(2.17224)">
+			<title>Spanning.55</title>
+			<path d="M3.47 797.66 L3.83 797.66 L7.48 797.66" class="st2"/>
+		</g>
+		<g id="shape56-26" v:mID="56" v:groupContext="shape" transform="translate(256.269,-21.3297) rotate(-13.3956) scale(-1,1)">
+			<title>Spanning.56</title>
+			<path d="M3.47 797.66 L3.83 797.66 L20.75 797.66" class="st2"/>
+		</g>
+		<g id="shape57-31" v:mID="57" v:groupContext="shape" transform="translate(319.068,-31.4843) rotate(-6.61525) scale(-1,1)">
+			<title>Spanning.57</title>
+			<path d="M3.47 797.66 L3.83 797.66 L15.77 797.66" class="st2"/>
+		</g>
+		<g id="shape58-36" v:mID="58" v:groupContext="shape" transform="translate(328.383,-31.7081) rotate(-4.30663) scale(-1,1)">
+			<title>Spanning.58</title>
+			<path d="M3.47 797.66 L3.83 797.66 L11.32 797.66" class="st2"/>
+		</g>
+		<g id="shape59-41" v:mID="59" v:groupContext="shape" transform="translate(341.041,-31.9698) rotate(-2.17224) scale(-1,1)">
+			<title>Spanning.59</title>
+			<path d="M3.47 797.66 L3.83 797.66 L7.48 797.66" class="st2"/>
+		</g>
+		<g id="shape63-46" v:mID="63" v:groupContext="shape" transform="translate(108.139,1510.74) rotate(-166.604)">
+			<title>Spanning.63</title>
+			<path d="M3.47 797.66 L3.83 797.66 L20.75 797.66" class="st2"/>
+		</g>
+		<g id="shape64-51" v:mID="64" v:groupContext="shape" transform="translate(226.626,1530.38) rotate(-173.385)">
+			<title>Spanning.64</title>
+			<path d="M3.47 797.66 L3.83 797.66 L15.77 797.66" class="st2"/>
+		</g>
+		<g id="shape65-56" v:mID="65" v:groupContext="shape" transform="translate(276.927,1535.3) rotate(-175.693)">
+			<title>Spanning.65</title>
+			<path d="M3.47 797.66 L3.83 797.66 L11.32 797.66" class="st2"/>
+		</g>
+		<g id="shape66-61" v:mID="66" v:groupContext="shape" transform="translate(319.781,1537.83) rotate(-177.828)">
+			<title>Spanning.66</title>
+			<path d="M3.47 797.66 L3.83 797.66 L7.48 797.66" class="st2"/>
+		</g>
+		<g id="shape68-66" v:mID="68" v:groupContext="shape" transform="translate(605.679,1510.74) rotate(-13.3956) scale(1,-1)">
+			<title>Spanning.68</title>
+			<path d="M3.47 797.66 L3.83 797.66 L20.75 797.66" class="st2"/>
+		</g>
+		<g id="shape69-71" v:mID="69" v:groupContext="shape" transform="translate(487.192,1530.38) rotate(-6.61525) scale(1,-1)">
+			<title>Spanning.69</title>
+			<path d="M3.47 797.66 L3.83 797.66 L15.77 797.66" class="st2"/>
+		</g>
+		<g id="shape70-76" v:mID="70" v:groupContext="shape" transform="translate(436.891,1535.3) rotate(-4.30663) scale(1,-1)">
+			<title>Spanning.70</title>
+			<path d="M3.47 797.66 L3.83 797.66 L11.32 797.66" class="st2"/>
+		</g>
+		<g id="shape71-81" v:mID="71" v:groupContext="shape" transform="translate(394.037,1537.83) rotate(-2.17224) scale(1,-1)">
+			<title>Spanning.71</title>
+			<path d="M3.47 797.66 L3.83 797.66 L7.48 797.66" class="st2"/>
+		</g>
+	</g>
+</svg>
