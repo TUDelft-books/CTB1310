@@ -414,7 +414,7 @@ In onderstaande twee doorsnedes is in het eerste figuur het afschuivend deel loo
 
 :::::
 
-Tot slot kunnen we de formule simplificeren door het teken direct te relateren aan de richting van de snedekracht. De resultante van de schuifspanning werkt namelijk altijd in de richting van de snedekracht. We kunnen daarmee de formule herschrijven naar: $\tau_{\rm{gem}}  = \cfrac{\left|  V_{z} \, S_{z}^{\rm{a}}  \right|}{b \, I_{zz}} $.
+Tot slot kunnen we de formule simplificeren door het teken direct te relateren aan de richting van de snedekracht. De resultante van de schuifspanning werkt namelijk altijd in de richting van de snedekracht. We kunnen daarmee de formule herschrijven naar: $ \left| \tau_{\rm{gem}} \right|  = \cfrac{\left|  V_{z} \, S_{z}^{\rm{a}}  \right|}{b \, I_{zz}} $.
 
 :::::{prf:example}
 :nonumber: true
@@ -434,7 +434,7 @@ Daarmee kunnen we de volgende aanpak beschrijven voor het bepalen van het schuif
 :nonumber: true
 
 1. Bereken de snedekracht $V_z$ in de doorsnede.
-2. Neem een aantal karakteristieke afschuivend delen waarin de schuifspanningen constant zijn en bepaal de schuifspanningen op deze delen. Het afschuivende deel door het normaalkrachtencentrum geeft de maximale schuifspanning. Leid het teken af van de schuifspanningen af aan de hand van de richting van de snedekracht. De schuifspanningen kunnen berekend worden met $\tau_{\rm{gem}}  = \cfrac{ \left| V_{z} \, S_{z}^{\rm{a}} \right|}{b  \, I_{zz}}$. Hierin is:
+2. Neem een aantal karakteristieke afschuivend delen waarin de schuifspanningen constant zijn en bepaal de schuifspanningen op deze delen. Het afschuivende deel door het normaalkrachtencentrum geeft de maximale schuifspanning. Leid het teken af van de schuifspanningen af aan de hand van de richting van de snedekracht. De schuifspanningen kunnen berekend worden met $ \left| \tau_{\rm{gem}} \right|  = \cfrac{ \left| V_{z} \, S_{z}^{\rm{a}} \right|}{b  \, I_{zz}}$. Hierin is:
     - $\tau_{\rm{gem}} $: de gemiddelde schuifspanning op het afschuivend oppervlakte van het afschuivende gedeelte op een hoogte $z$ én in de doorsnede op dezelfde hoogte $z$.
     - $V_{z}$: de snedekracht in de $z$-richting.
     - $S_{z}^{\rm{a}}$: het statisch moment van het afschuivende deel van de doorsnede ten opzichte van de $y$-as.
@@ -515,7 +515,7 @@ Daarmee kunnen we de maximale schuifspanning bepalen:
 
 $$
 \begin{align*}
-\tau_{\rm{max}} &= \cfrac{\left|V_{z} \, S_{z}^{\rm{a}}\right|}{b \, I_{zz}} \\
+\left| \tau_{\rm{max}} \right| &= \cfrac{\left|V_{z} \, S_{z}^{\rm{a}}\right|}{b \, I_{zz}} \\
 &= \cfrac{\left| 30000 \, \cdot -506250 \right|}{125 \cdot 60750000} \\
 &= 2 \, \rm{MPa}
 \end{align*}
