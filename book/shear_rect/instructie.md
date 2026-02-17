@@ -5,7 +5,7 @@ Tot nu toe hebben we enkel gerekend aan normaalspanningen, en enkel door buiging
 ::::::{prf:example}
 :nonumber: true
 
-Dit is voor te stellen door twee op elkaar liggende balken te beschouwen die doorbuigen. Als je deze twee balken aan elkaar zou willen lijmen zodat deze werken als één balk zouden schuifspanningen nodig zijn die de vervormingen door buiging enigszins tegengaan:
+Dit is voor te stellen door twee op elkaar liggende balken te beschouwen die doorbuigen. Als je deze twee balken aan elkaar zou willen lijmen zodat deze werken als één balk, zouden schuifspanningen nodig zijn die de vervormingen door buiging enigszins tegengaan:
 
 ::::{grid} 2
 :class-container: center-grid
@@ -40,7 +40,7 @@ Dit is voor te stellen door twee op elkaar liggende balken te beschouwen die doo
 
 ## Model
 
-### Evenwicht afschuivend deel
+### Evenwicht afschuivende deel
 Voor het bepalen van schuifspanningen kijken we naar het evenwicht van een infinitesimaal (oneindig kleine afmetingen) stukje van een balk als lijn van lengte $\Delta x$ met daarop snedekrachten $V_z$ en $M_z$. Het moment op de rechter doorsnede is $\Delta M$ groter dan dat op de linker doorsnede.
 
 ```{figure} ./instructie_data/beam_section.svg
@@ -142,13 +142,13 @@ De aannames die we hebben gebruikt voor normaalspanningen zijn dus nog steeds ge
 - Normaalspanningen en -rekken hebben een lineair verband, waarmee de vorm van het spanningsverloop gelijk is aan die van het rekverloop.
 
 Tijdens de afleiding van de formules voor normaalspanningen werden daarnaast nog een aantal aannames gedaan. Aangezien we door gaan bouwen op hetzelfde model, zullen deze aannames ook gelden voor schuifspanningen:
-- Het assenstelsel grijpt aan in het normaalkrachtencentrum van de doorsnede. Hierdoor vervallen de statisch momenten $S_y$ en $S_z$ in de vergelijkingen.
+- Het assenstelsel grijpt aan in het normaalkrachtencentrum van de doorsnede. Hierdoor vervallen de statische momenten $S_y$ en $S_z$ in de vergelijkingen.
 - De doorsnede is symmetrisch in de $y$- en/of $z$-richting / krachten grijpen aan in de hoofdassen van de doorsnede. Hierdoor vervallen de termen met $I_{yz}$ en zijn spanniningen in de $y$- en $z$-richting onafhankelijk van elkaar.
 - De doorsnede heeft een homogene verdeling van rekstijfheid $E$, waarmee de locatie van het normaalkrachtencentrum en traagheidsmomenten onafhankelijk van de rekstijfheid bepaald kunnen worden en de rekverdeling gelijk is van vorm aan de spanningsverdeling.
 
 ::::::
 
-Nu stellen we een vrijlichaamsschema op met spanningen voor een deel van de doorsnede, het zogenaamde afschuivend deel. Hiervoor snijden we de doorsnede door in de lengterichting $x$. Dit afschuivend deel heeft breedte $b \left(z\right)$ en lengte $\Delta x$. $A^{\rm{a}}$ is het oppervlakte van de linker en rechter doorsnede, $A^{\parallel}$ is het oppervlakte van de onderste doorsnede. De spanningen op dit afschuivend deel kan ook worden aangegeven in het vrijlichaamsschema. Op de onderste doorsnede werkt mogelijk een schuifspanning, maar geen normaalspanningen:
+Nu stellen we een vrijlichaamsschema op met spanningen voor een deel van de doorsnede, het zogenaamde afschuivende deel. Hiervoor snijden we de doorsnede door in de lengterichting $x$. Dit afschuivende deel heeft breedte $b \left(z\right)$ en lengte $\Delta x$. $A^{\rm{a}}$ is de oppervlakte van de linker en rechter doorsnede, $A^{\parallel}$ is de oppervlakte van de onderste doorsnede. De spanningen op dit afschuivende deel kunnen ook worden aangegeven in het vrijlichaamsschema. Op de onderste doorsnede werkt mogelijk een schuifspanning, maar geen normaalspanningen:
 
 ::::{grid} 3
 :class-container: center-grid
@@ -184,17 +184,17 @@ Nu stellen we een vrijlichaamsschema op met spanningen voor een deel van de door
 
 ::::
 
-Door het evenwicht in de langsrichting op te stellen (zonder de lichtblauwe spanningen $\tau \left(y,z\right)$), kunnen we de gemiddelde schuifspanning bepalen op het afschuivend oppervlakte:
+Door het evenwicht in de langsrichting op te stellen (zonder de lichtblauwe spanningen $\tau \left(y,z\right)$), kunnen we de gemiddelde schuifspanning bepalen op het afschuivende oppervlakte:
 
 $$
 \sum F_x = 0 \to \tau_{\rm{gem}} = -\cfrac{V_{z} \, S_{z}^{\rm{a}} }{b \, I_{zz}}
 $$
 
 Met:
-- $\tau_{\rm{gem}} $: de gemiddelde schuifspanning op het afschuivend oppervlakte van het afschuivende gedeelte op een hoogte $z$.
+- $\tau_{\rm{gem}} $: de gemiddelde schuifspanning op het afschuivende oppervlakte van het afschuivende gedeelte op een hoogte $z$.
 - $V_{z}$: de snedekracht in de $z$-richting
 - $S_{z}^{\rm{a}}$: het statisch moment van het afschuivende deel van de doorsnede ten opzichte van de $y$-as
-- $b$: de totale breedte van de afschuivende vlak.
+- $b$: de totale breedte van het afschuivende vlak.
 - $I_{zz}$: het traagheidsmoment van de volledige doorsnede in de $z$-richting
 
 ::::::{admonition} Volledige afleiding
@@ -220,7 +220,7 @@ $$
 :nonumber: true
 ::::::::
 
-Om het evenwicht op te stellen kunnen we alleen de resulterende schuifkracht bepalen, de verdeling is daarmee onbekend. We kunnen daarmee alleen maar de gemiddelde schuifspanning bepalen. Voor afschuivende vlakken blijkt deze gemiddelde schuifspanning terecht als de breedte van het deel van de doorsnede waar de schuifspanningen worden bepaald veel kleiner is dan de hoogte deze doorsnede.
+Om het evenwicht op te stellen kunnen we alleen de resulterende schuifkracht bepalen, de verdeling is daarmee onbekend. We kunnen daarmee alleen maar de gemiddelde schuifspanning bepalen. Voor afschuivende vlakken blijkt deze gemiddelde schuifspanning terecht, als de breedte van het deel van de doorsnede waar de schuifspanningen worden bepaald veel kleiner is dan de hoogte deze doorsnede.
 
 :::::::{grid} 1 2 2 2
 :gutter: 1 1 1 2
@@ -238,7 +238,7 @@ Voor de volgende doorsnede is de hoogte veel groter dan de breedte:
 
 :::
 
-In dit geval schuifspanning op het afschuivend vlak constant en dus gelijk aan de gemiddelde schuifspanning:
+In dit geval is de schuifspanning op het afschuivende vlak constant en dus gelijk aan de gemiddelde schuifspanning:
 
 ```{figure} ./instructie_data/hgroterdanb_spanningen.svg
 :align: center
@@ -261,7 +261,7 @@ Voor de volgende doorsnede is de hoogte niet veel groter dan de breedte:
 
 :::
 
-In dit geval zijn de schuifspanningen op het afschuivend vlak niet constant en dus niet gelijk aan de gemiddelde schuifspanning.
+In dit geval zijn de schuifspanningen op het afschuivende vlak niet constant en dus niet gelijk aan de gemiddelde schuifspanning.
 
 ```{figure} ./instructie_data/hnietgroterdanb_spanningen.svg
 :align: center
@@ -285,7 +285,7 @@ We gaan in deze berekeningen uit van dezelfde doorsnede (en dus ook dezelfde doo
 :::::{prf:example}
 :nonumber: true
 
-Hieronder is een voorbeeld getoond van een niet-prismatisch balk (hier met afwijkende $I_{zz}$ en $A^{\rm{a}}$ in de linker en rechter doorsnede). Hiervoor is de formule voor schuifspanningen niet geldig.
+Hieronder is een voorbeeld getoond van een niet-prismatische balk (hier met afwijkende $I_{zz}$ en $A^{\rm{a}}$ in de linker en rechter doorsnede). Hiervoor is de formule voor schuifspanningen niet geldig.
 
 ```{figure} ./instructie_data/prismatisch.svg
 :align: center
@@ -299,7 +299,7 @@ Hieronder is een voorbeeld getoond van een niet-prismatisch balk (hier met afwij
 
 ### Evenwicht infinitesimaal blokje
 
-De formule die we net hebben afgeleid gaf de gemiddelde schuifspanningen op het afschuivend oppervlakte. We kunnen ook de schuifspanning op de linker en rechter doorsnede vinden ter hoogte van het afschuivend oppervlakte. Dit kunnen we doen door het momentenevenwicht van de schuifspanningen te bekijken op een infinitesimaal (oneindig kleine afmetingen) blokje rondom hoekpunt $\rm{A}$. De schuifspanningen zijn beschreven met index-notatie, waarbij de eerste index de normaalrichting van het vlakje aangeeft waar de spanning op werkt en de tweede index de richting van de werklijn van de spanning. Het blokje heeft een dikte $\Delta y$
+De formule die we net hebben afgeleid gaf de gemiddelde schuifspanningen op het afschuivende oppervlakte. We kunnen ook de schuifspanning op de linker en rechter doorsnede vinden ter hoogte van het afschuivende oppervlakte. Dit kunnen we doen door het momentenevenwicht van de schuifspanningen te bekijken op een infinitesimaal (oneindig kleine afmetingen) blokje rondom hoekpunt $\rm{A}$. De schuifspanningen zijn beschreven met index-notatie, waarbij de eerste index de normaalrichting van het vlakje aangeeft waar de spanning op werkt en de tweede index de richting van de werklijn van de spanning. Het blokje heeft een dikte $\Delta y$
 
 ```{figure} ./instructie_data/blokje.svg
 :align: center
@@ -368,7 +368,7 @@ Daarnaast leidt de relatie $\sigma_{zx} = \sigma_{xz}$ ook tot de conclusie dat 
 :::::{prf:example}
 :nonumber: true
 
-In onderstaande voorbeeld is voor een rechthoekige doorsnede het de nulspanning $\sigma_{zx}$ expliciet aangegeven, waarmee ook de spanning in het doorsnedevlak $\sigma_{xz}$ nul is.
+In het onderstaande voorbeeld is voor een rechthoekige doorsnede de nulspanning $\sigma_{zx}$ expliciet aangegeven, waarmee ook de spanning in het doorsnedevlak $\sigma_{xz}$ nul is.
 
 ```{figure} ./instructie_data/randen.svg
 :align: center
@@ -378,12 +378,12 @@ In onderstaande voorbeeld is voor een rechthoekige doorsnede het de nulspanning 
 
 :::::
 
-Daarnaast geldt dat, vanwege de aanname dat de schuifspanning gemiddeld verdeeld is over de langsrichting van het afschuivende deel van de doorsnede, dat de formule alleen een geldig antwoord geeft als een afschuivend deel wordt genomen waarin de schuifspanning daadwerkelijk constant is. We moeten het snedevlak daarom altijd loodrecht op de randen van de doorsnede nemen.
+Daarnaast geldt dat, vanwege de aanname dat de schuifspanning gemiddeld verdeeld is over de langsrichting van het afschuivende deel van de doorsnede, de formule alleen een geldig antwoord geeft als een afschuivend deel wordt genomen waarin de schuifspanning daadwerkelijk constant is. We moeten het snedevlak daarom altijd loodrecht op de randen van de doorsnede nemen.
 
 :::::{prf:example}
 :nonumber: true
 
-In onderstaande twee doorsnedes is in het eerste figuur het afschuivend deel loodrecht op de randen van de doorsnede genomen, waardoor de schuifspanning constant is over het afschuivend oppervlaktevlak. In het tweede geval is het afschuivend deel niet loodrecht op de randen van de doorsnede genomen, waardoor de schuifspanning niet constant is over het afschuivend oppervlaktevlak.
+In onderstaande twee doorsnedes is in het eerste figuur het afschuivende deel loodrecht op de randen van de doorsnede genomen, waardoor de schuifspanning constant is over het afschuivende oppervlaktevlak. In het tweede geval is het afschuivende deel niet loodrecht op de randen van de doorsnede genomen, waardoor de schuifspanning niet constant is over het afschuivende oppervlaktevlak.
 
 ::::{grid} 2
 :class-container: center-grid
@@ -434,11 +434,11 @@ Daarmee kunnen we de volgende aanpak beschrijven voor het bepalen van het schuif
 :nonumber: true
 
 1. Bereken de snedekracht $V_z$ in de doorsnede.
-2. Neem een aantal karakteristieke afschuivend delen waarin de schuifspanningen constant zijn en bepaal de schuifspanningen op deze delen. Het afschuivende deel door het normaalkrachtencentrum geeft de maximale schuifspanning. Leid het teken af van de schuifspanningen af aan de hand van de richting van de snedekracht. De schuifspanningen kunnen berekend worden met $ \left| \tau_{\rm{gem}} \right|  = \cfrac{ \left| V_{z} \, S_{z}^{\rm{a}} \right|}{b  \, I_{zz}}$. Hierin is:
-    - $\tau_{\rm{gem}} $: de gemiddelde schuifspanning op het afschuivend oppervlakte van het afschuivende gedeelte op een hoogte $z$ én in de doorsnede op dezelfde hoogte $z$.
+2. Neem een aantal karakteristieke afschuivende delen waarin de schuifspanningen constant zijn en bepaal de schuifspanningen op deze delen. Het afschuivende deel door het normaalkrachtencentrum geeft de maximale schuifspanning. Leid het teken van de schuifspanningen af aan de hand van de richting van de snedekracht. De schuifspanningen kunnen berekend worden met $ \left| \tau_{\rm{gem}} \right|  = \cfrac{ \left| V_{z} \, S_{z}^{\rm{a}} \right|}{b  \, I_{zz}}$. Hierin is:
+    - $\tau_{\rm{gem}} $: de gemiddelde schuifspanning op het afschuivende oppervlakte van het afschuivende gedeelte op een hoogte $z$ én in de doorsnede op dezelfde hoogte $z$.
     - $V_{z}$: de snedekracht in de $z$-richting.
     - $S_{z}^{\rm{a}}$: het statisch moment van het afschuivende deel van de doorsnede ten opzichte van de $y$-as.
-    - $b$: de totale breedte van de afschuivende vlak.
+    - $b$: de totale breedte van het afschuivende vlak.
     - $I_{zz}$: het traagheidsmoment van de volledige doorsnede in de $z$-richting.
 3. Teken het schuifspanningsprofiel op de doorsnede. Voor een rechthoekige doorsnede verloopt dit parabolisch.
 
@@ -446,7 +446,7 @@ Daarmee kunnen we de volgende aanpak beschrijven voor het bepalen van het schuif
 
 ## Voorbeeld
 
-Het bepalen van schuifspanningen voor een rechthoekige doorsnede wordt gedemonstreerd op onderstaande voorbeeld.
+Het bepalen van schuifspanningen voor een rechthoekige doorsnede wordt gedemonstreerd op het onderstaande voorbeeld.
 
 ::::::{prf:example}
 :nonumber: true
