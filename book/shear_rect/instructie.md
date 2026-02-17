@@ -531,7 +531,7 @@ Schuifspanningsverloop op positieve snede in $\rm{D}$.
 ```
 
 ## Alternatieve afleiding
-In hoofdstuk 5.1 en 5.3 van het boek Mechanica, spanningen, vervormingen en verplaatsingen {cite:p}`Hartsuijker2013` wordt een alternatief model afgeleid gegeven voor het bepalen van schuifspanningen.
+In hoofdstuk 5.1 en 5.3 van het boek Mechanica, spanningen, vervormingen en verplaatsingen {cite:p}`Hartsuijker2013` wordt hetzelfde model op een alternatieve manier afgeleid.
 
 ## Meer voorbeelden
 In hoofdstuk 5.2 en 5.4.1 van het boek Mechanica, spanningen, vervormingen en verplaatsingen {cite:p}`Hartsuijker2013` worden meer voorbeelden gegeven van het bepalen van schuifspanningen in verschillende situaties. Negeer voorbeeld 5.2.2 - 5.2.4 en voorbeeld 2 in 5.4.1.
