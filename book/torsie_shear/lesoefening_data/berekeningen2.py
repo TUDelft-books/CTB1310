@@ -35,42 +35,44 @@ Izz = b * t**3 /12 + b * t * (sym.nsimplify(1.75) - zc_tot)**2 + \
        Izz + A * (zc - zc_tot)**2
 print('Izz_tot=',sym.simplify(Izz),'approx=',Izz.evalf())
 
-a = (zc_tot - 2)
+a = (2-zc_tot)
 print(a.evalf())
 
 import numpy as np
 
-Bv = (12.5*40*20-14.32*15)/25
+Bv = (12.5*40*5-14.32*10)/25
 print('Bv=',Bv)
-V_D = 12.5 * 25 - 14.32 - Bv
+V_D = 12.5 * 15 - Bv
 print('V_D=',V_D)
-Mb = 12.5*15*7.5
-print('Mb=',Mb)
-print('MCA=',12.5*7.5**2/2)
-Mc = 12.5*25*12.5-Bv*10
-print('Mc=',Mc)
-print('MAC=',12.5*20*10-Bv*5)
-print('MDB=',Mc/2-1/8*12.5*15**2)
+Md = -12.5*15*7.5 + Bv*15
+print('Md=',Md)
+#print('MCA=',12.5*7.5**2/2)
+#Mc = 12.5*25*12.5-Bv*10
+#print('Mc=',Mc)
+#print('MAC=',12.5*20*10-Bv*5)
+#print('MDB=',Mc/2-1/8*12.5*15**2)
 
-Mtb = Bv*2
-Mtc = Mtb+14.32*2
-print(Mtb,Mtc)
+Mtd = V_D*2
+#Mtc = Mtd+14.32*2
+print(Mtd)
 
 t = 0.01
 
 Am = np.pi*(2 * np.sqrt(2))**2 / 4 - 2 * np.sqrt(2)*2 * np.sqrt(2)*0.5+0.25*4
-tau = Mtc / (2*Am*t*1000)
+tau = Mtd / (2*Am*t*1000) #in dit punt E zal het omlaag zijn bij een positieve snede, dus -
 print('Am=',Am,', tau=',tau)
 
-sigma = Mc * a / Izz * 10000
+sigma = Md * a / Izz *1000  
 
 print('sigma=',sigma.evalf())
 
-Sz = 4 * t * (1.75 - zc_tot) + 0.25 * t * 2 * (1.75 + 0.025/2 - zc_tot)
-print('Sz=',Sz.evalf())
+Sz = 4 * t * (1.75 - zc_tot) + 0.25 * t * 2 * (1.75 + 0.25/2 - zc_tot)
+print('Sz=',Sz.evalf()) #bij omhoog positief is dit inderdaad een min getal. Als we definitie wijzigen dan is het plus
 
 tau2 = V_D * 1000 * Sz / Izz / (t * 2)
 print('tau2=',tau2.evalf())
 
-tau_tot = tau + tau2/1e6
+tau_tot = tau + tau2/1e6 #bij een negatieve wringing is dit dus ook anders
 print('tau_tot=',tau_tot.evalf())
+
+
