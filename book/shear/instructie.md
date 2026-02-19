@@ -73,11 +73,11 @@ Links de schuifspanningen volgens ons model met horizontale afschuifvlakken, rec
 
 :::::
 
-Daarmee kunnen we de schuifspanningsformule voor dikwandige doorsneden dus alleen toepassen op afschuivende vlakken die:
+Daarmee kunnen we de schuifspanningsformule voor dikwandige doorsneden dus alleen toepassen op afschuivende vlakken:
 
-- Door delen waar de breedte veel kleiner is dan de hoogte
-- Ver af liggen van overgangen in breedte van de doorsnede
-- Waarvan de vrije randen niet loodrecht op de afschuifvlakken lopen.
+- die door delen gaan waar de breedte veel kleiner is dan de hoogte
+- die ver af liggen van overgangen in breedte van de doorsnede
+- waarvan de vrije randen loodrecht op de afschuifvlakken lopen.
 
 Als niet aan deze voorwaarden wordt voldaan zou wel een totale kracht kunnen worden gevonden die moet worden overgedragen in het afschuivend vlak, maar de verdeling van de schuifspanningen in dat vlak kan niet worden bepaald met de schuifspanningsformule.
 
