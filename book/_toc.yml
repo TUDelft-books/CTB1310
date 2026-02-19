@@ -15,12 +15,12 @@ parts:
     - file: shear_rect/instructie.md
     - file: shear_rect/lesoefening1.md
     - file: shear_rect/lesoefening2.md
-# START REMOVE-FROM-RELEASE
   - file: shear/les.md
     sections:
     - file: shear/instructie.md
     - file: shear/lesoefening1.md
     - file: shear/lesoefening2.md
+# START REMOVE-FROM-RELEASE
   - file: shear_dunwandig/les.md
     sections:
     - file: shear_dunwandig/instructie.md

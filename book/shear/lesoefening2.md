@@ -166,7 +166,7 @@ Bepaal de maximale schuifspanning
 :::::{exercise}
 :nonumber: true
 
-Waar is de schuifspanning de helft van de maximale waarde uitgedrukt als hoek van het afschuifvlak $\varphi$ tov het assenstelsel tussen $-\cfrac{\pi}{2}$ en $0$ ten opzichte van de $y$-as.?
+Waar is de schuifspanning de helft van de maximale waarde uitgedrukt als hoek van het afschuifvlak $\varphi$ tov het assenstelsel tussen $-\cfrac{\pi}{2}$ en $0$ ten opzichte van de $y$-as?
 
 ```{h5p} https://tudelft.h5p.com/content/1292778358149562237/embed
 ```
