@@ -47,6 +47,8 @@ sphinx:                                              # Options passed on to the 
     git_show_all_authors: true
     git_author_aliases:
       ioskam: Iris Oskam
+    git_author_exclude:
+      - 'github-actions[bot]'
     metadata_figure_settings:
       source:
         warn_missing: true
