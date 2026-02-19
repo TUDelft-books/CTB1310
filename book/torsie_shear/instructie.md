@@ -252,4 +252,4 @@ In hoofdstuk 6.4 van het boek Mechanica, spanningen, vervormingen en verplaatsin
 % Dit onderwerp is [les ...](...) gepresenteerd in collegevorm tot ....
 
 ## Oefeningen
-Opgaves 6.22 - 6.28, 6.31 - 6.34 in hoofdstuk 6 van het boek Mechanica, spanningen, vervormingen en verplaatsingen {cite:p}`Hartsuijker2013`. Antwoorden zijn [hier](https://icozct.tudelft.nl/TUD_CT/boekantwoorden/vol2/Chapter5/) beschikbaar.
+[Opgaves 6.22 - 6.28, 6.31 - 6.34 in hoofdstuk 6 van het boek Mechanica, spanningen, vervormingen en verplaatsingen](https://icozct.tudelft.nl/TUD_CT/boekantwoorden/files/TM2vraagstukkenbundel.pdf) {cite:p}`Hartsuijker2013`. Antwoorden zijn [hier](https://icozct.tudelft.nl/TUD_CT/boekantwoorden/vol2/Chapter5/) beschikbaar.

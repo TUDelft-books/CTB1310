@@ -272,4 +272,4 @@ In hoofdstuk 5.4.2 en 5.4.3 van het boek Mechanica, spanningen, vervormingen en 
 % Dit onderwerp is [les ...](...) gepresenteerd in collegevorm tot ....
 
 ## Oefeningen
-Opgaves 5.33 - 5.46 in hoofdstuk 5 van het boek Mechanica, spanningen, vervormingen en verplaatsingen {cite:p}`Hartsuijker2013`. Antwoorden zijn [hier](https://icozct.tudelft.nl/TUD_CT/boekantwoorden/vol2/Chapter5/) beschikbaar.
+[Opgaves 5.33 - 5.46 in hoofdstuk 5 van het boek Mechanica, spanningen, vervormingen en verplaatsingen](https://icozct.tudelft.nl/TUD_CT/boekantwoorden/files/TM2vraagstukkenbundel.pdf) {cite:p}`Hartsuijker2013`. Antwoorden zijn [hier](https://icozct.tudelft.nl/TUD_CT/boekantwoorden/vol2/Chapter5/) beschikbaar.

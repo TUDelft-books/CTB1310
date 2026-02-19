@@ -536,9 +536,8 @@ In hoofdstuk 5.1 en 5.3 van het boek Mechanica, spanningen, vervormingen en verp
 ## Meer voorbeelden
 In hoofdstuk 5.2 en 5.4.1 van het boek Mechanica, spanningen, vervormingen en verplaatsingen {cite:p}`Hartsuijker2013` worden meer voorbeelden gegeven van het bepalen van schuifspanningen in verschillende situaties. Negeer voorbeeld 5.2.2 - 5.2.4 en voorbeeld 2 in 5.4.1.
 
-% ## Instructies in collegevorm
-%
-% Dit onderwerp is [les ...](...) gepresenteerd in collegevorm tot ....
+## Instructies in collegevorm
+Dit onderwerp is [in les 1](https://collegeramavideoportal.tudelft.nl/catalogue/ctb1310/presentation/fbe7781344b34221a1071809b9c061771d?academicYear=2025-2026-ctb1310) gepresenteerd in collegevorm van 3:40 tot 50:40.
 
 ## Oefeningen
-Opgaves 5.2b, 5.3, 5.13 - 5.28, 5.69 en 5.71 in hoofdstuk 5 van het boek Mechanica, spanningen, vervormingen en verplaatsingen {cite:p}`Hartsuijker2013`. Antwoorden zijn [hier](https://icozct.tudelft.nl/TUD_CT/boekantwoorden/vol2/Chapter5/) beschikbaar.
+[Opgaves 5.2b, 5.3, 5.13 - 5.28, 5.69 en 5.71 in hoofdstuk 5 van het boek Mechanica, spanningen, vervormingen en verplaatsingen](https://icozct.tudelft.nl/TUD_CT/boekantwoorden/files/TM2vraagstukkenbundel.pdf) {cite:p}`Hartsuijker2013`. Antwoorden zijn [hier](https://icozct.tudelft.nl/TUD_CT/boekantwoorden/vol2/Chapter5/) beschikbaar.
