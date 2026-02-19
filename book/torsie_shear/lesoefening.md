@@ -65,7 +65,8 @@ Om het zwaartepunt van de gehele doorsnede te bepalen is ook het zwaartepunt van
 :::::{exercise}
 :nonumber: true
 
-Op eenzelfde manier is $I_{zz}$ te berekenen.
+Op eenzelfde manier is $I_{zz}$ te berekenen voor het gekromde gedeelte. Ten opzichte van het zwaartepunt van de gehele doorsnede zoals bepaald in de vorige opgave geeft dat: $I_{zz}^{\rm{gekromde} \, \rm{gedeelte}} = 98.63\,\mathrm{dm}^4$. Bepaal $I_{zz}$ van de gehele doorsnede.
+
 
 ```{h5p} https://tudelft.h5p.com/content/1292808647660137747/embed
 ```
