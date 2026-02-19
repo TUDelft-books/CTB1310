@@ -65,7 +65,11 @@ Bepaal het zwaartepunt van de gehele doorsnede, maar gebruik van $S_{\bar z} = \
 :::::{exercise}
 :nonumber: true
 
-Op eenzelfde manier is $I_{zz}$ te berekenen.
+Op eenzelfde manier is $I_{zz}$ te berekenen. $I_{zz}$ van enkel het gekromde gedeelte ten opzichte van $\bar{z}_{\mathrm{N.C.}}$ is gegeven:
+$$
+I_{zz}^{\text{gekromde gedeelte}} = 98.63\,\mathrm{dm}^4
+$$
+
 
 ```{h5p} https://tudelft.h5p.com/content/1292808647660137747/embed
 ```
