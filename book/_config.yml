@@ -49,6 +49,7 @@ sphinx:                                              # Options passed on to the 
       ioskam: Iris Oskam
     git_author_exclude:
       - 'github-actions[bot]'
+      - 'Lanliss'
     metadata_figure_settings:
       source:
         warn_missing: true
