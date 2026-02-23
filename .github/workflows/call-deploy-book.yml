@@ -187,9 +187,9 @@ jobs:
               f.write(content)
           "
             
-            # Stage and commit the config update
+            # Create second commit for config update
             git add book/_config.yml
-            git commit --amend --no-edit
+            git commit -m "Update git_exclude_commits with cleaning commit hash"
           } || echo "No changes to commit"
           
           git push origin 2025-draft
