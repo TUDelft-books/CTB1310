@@ -13,6 +13,7 @@ In onderstaande figuur is een voorbeeld gegeven van een doorsnede die wordt bela
 :show: author, license, copyright, source, date
 :placement: caption
 :name: torsional_displacement
+:class: dark-light
 :number:
 ```
 
@@ -87,6 +88,7 @@ In onderstaande figuur is een voorbeeld getoond van een doorsnede die belast wor
 :show: author, license, copyright, source, date
 :placement: caption
 :name: shear_center_fig_1
+:class: dark-light
 :number:
 ```
 
@@ -151,6 +153,7 @@ Hieronder is een voorbeeld getoond van een doorsnede die belast wordt met enkel 
 :show: author, license, copyright, source, date
 :placement: caption
 :name: shear_center_fig_2
+:class: dark-light
 :number:
 ```
 ::::
