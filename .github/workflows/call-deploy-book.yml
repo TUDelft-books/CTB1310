@@ -164,7 +164,7 @@ jobs:
           
           # Commit and capture hash if there are staged changes
           git commit -m "Generate assignment version" && {
-            COMMIT_HASH=$(git rev-parse --short HEAD)
+            COMMIT_HASH=$(git rev-parse HEAD)
             echo "Captured commit hash: $COMMIT_HASH"
             
             # Update _config.yml with git_exclude_commits
