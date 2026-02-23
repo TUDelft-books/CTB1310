@@ -60,7 +60,7 @@ Bepaal de doorsnedegrootheden
 :::::{exercise}
 :nonumber: true
 
-Bepaal de gemiddelde schuifspanning op het horizontale afschuifvlak op $\bar{z} = 250 \, \rm{mm}$ voor een negatieve snede.
+Bepaal de gemiddelde schuifspanning op het horizontale afschuifvlak op $\bar{z} = 250 \, \rm{mm}$ voor een negatieve snede in $\rm{C}$.
 
 ```{h5p} https://tudelft.h5p.com/content/1292775934968650997/embed
 ```
