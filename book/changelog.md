@@ -1,5 +1,10 @@
 # Changelog 🔖
 
+## 2026-23-02: v2025.3.0
+- Toegevoegd [](./shear_dunwandig/les.md)
+- Toegevoegd collegeramaopname aan [20 februari: Schuifspanningen door buiging in dikwandige doorsnedes - Instructie](./shear/instructie.md)
+- Toegevoegd extra collegeramaopname aan [17 februari: Schuifspanningen door buiging in rechthoekige doorsnedes - Instructie](./shear_rect/instructie.md)
+
 ## 2026-19-02: v2025.2.1
 - Toegevoegd collegerama opname aan [17 februari: Schuifspanningen door buiging in rechthoekige doorsnedes - Instructie](./shear_rect/instructie.md)
 - Toegevoegd linkje naar PDF opgaves waar verwezen wordt naar opgaves in het boek.
