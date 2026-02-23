@@ -50,6 +50,7 @@ sphinx:                                              # Options passed on to the 
     git_author_exclude:
       - 'github-actions[bot]'
       - 'Lanliss'
+    git_exclude_commits: []
     metadata_figure_settings:
       source:
         warn_missing: true
