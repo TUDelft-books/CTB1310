@@ -64,7 +64,7 @@ Bepaal de doorsnedegrootheden
 :::::{exercise}
 :nonumber: true
 
-Bepaal de normaalspanning en schuifspanning op een positieve snede in staaf $\rm{CD}$ net links van $\rm{D}$ in punt $\rm{E}$. Geef een positief antwoord voor een trekspanning en een positief antwoord voor een schuifspanning die omhoog wijst.
+Bepaal de normaalspanning en schuifspanning op een positieve snede in staaf $\rm{CD}$ net links van $\rm{D}$ in punt $\rm{E}$. Geef een positief antwoord voor een trekspanning en een positief antwoord voor een schuifspanning die omlaag wijst.
 
 ```{h5p} https://tudelft.h5p.com/content/1292779206036944887/embed
 ```
