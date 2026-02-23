@@ -188,7 +188,7 @@ jobs:
 
             with open('book/_config.yml', 'w') as f:
                 f.write(content)
-            EOF
+EOF
             
             # Stage and commit the config update
             git add book/_config.yml
