@@ -154,6 +154,10 @@ jobs:
           git push origin --delete 2025-draft 2>/dev/null || true
           git push origin --delete 2025 2>/dev/null || true
           
+          # Delete local branches to start fresh (ignore errors if they don't exist)
+          git branch -D 2025-draft 2>/dev/null || true
+          git branch -D 2025 2>/dev/null || true
+          
           # Create fresh 2025-draft from cleaned 2025-teacher
           git checkout -b 2025-draft origin/2025-teacher
           git add .
@@ -168,22 +172,22 @@ jobs:
             
             # Update _config.yml with git_exclude_commits
             python -c "
-            import re
-            with open('book/_config.yml', 'r') as f:
-                content = f.read()
+import re
+with open('book/_config.yml', 'r') as f:
+    content = f.read()
 
-            commit_hash = '$COMMIT_HASH'
+commit_hash = '$COMMIT_HASH'
 
-            # Append hash to git_exclude_commits list
-            content = re.sub(
-                r'(git_exclude_commits:)(\s*)(\[.*?\])',
-                f\"git_exclude_commits: [{repr(commit_hash)}]\",
-                content,
-                flags=re.DOTALL
-            )
+# Append hash to git_exclude_commits list
+content = re.sub(
+    r'(git_exclude_commits:)(\s*)(\[.*?\])',
+    f\"git_exclude_commits: [{repr(commit_hash)}]\",
+    content,
+    flags=re.DOTALL
+)
 
-            with open('book/_config.yml', 'w') as f:
-                f.write(content)
+with open('book/_config.yml', 'w') as f:
+    f.write(content)
             "
             
             # Stage and commit the config update
