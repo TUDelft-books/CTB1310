@@ -162,38 +162,35 @@ jobs:
           git checkout -b 2025-draft origin/2025-teacher
           git add .
           
-          # Commit only if there are staged changes; avoid failing when clean
-          if git diff --cached --quiet; then
-            echo "No changes to commit"
-          else
-            git commit -m "Generate assignment version"
+          # Commit and capture hash if there are staged changes
+          git commit -m "Generate assignment version" && {
             COMMIT_HASH=$(git rev-parse --short HEAD)
             echo "Captured commit hash: $COMMIT_HASH"
             
             # Update _config.yml with git_exclude_commits
             python -c "
-            import re
-            with open('book/_config.yml', 'r') as f:
-                content = f.read()
+          import re
+          with open('book/_config.yml', 'r') as f:
+              content = f.read()
 
-            commit_hash = '$COMMIT_HASH'
+          commit_hash = '$COMMIT_HASH'
 
-            # Append hash to git_exclude_commits list
-            content = re.sub(
-                r'(git_exclude_commits:)(\s*)(\[.*?\])',
-                f\"git_exclude_commits: [{repr(commit_hash)}]\",
-                content,
-                flags=re.DOTALL
-            )
+          # Append hash to git_exclude_commits list
+          content = re.sub(
+              r'(git_exclude_commits:)(\s*)(\[.*?\])',
+              f\"git_exclude_commits: [{repr(commit_hash)}]\",
+              content,
+              flags=re.DOTALL
+          )
 
-            with open('book/_config.yml', 'w') as f:
-                f.write(content)
-            "
+          with open('book/_config.yml', 'w') as f:
+              f.write(content)
+          "
             
             # Stage and commit the config update
             git add book/_config.yml
             git commit --amend --no-edit
-          fi
+          } || echo "No changes to commit"
           
           git push origin 2025-draft
           
