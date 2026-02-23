@@ -171,7 +171,7 @@ jobs:
             echo "Captured commit hash: $COMMIT_HASH"
             
             # Update _config.yml with git_exclude_commits
-            python <<- 'EOF'
+            python -c "
             import re
             with open('book/_config.yml', 'r') as f:
                 content = f.read()
@@ -181,14 +181,14 @@ jobs:
             # Append hash to git_exclude_commits list
             content = re.sub(
                 r'(git_exclude_commits:)(\s*)(\[.*?\])',
-                f"git_exclude_commits: [{repr(commit_hash)}]",
+                f\"git_exclude_commits: [{repr(commit_hash)}]\",
                 content,
                 flags=re.DOTALL
             )
 
             with open('book/_config.yml', 'w') as f:
                 f.write(content)
-EOF
+            "
             
             # Stage and commit the config update
             git add book/_config.yml
