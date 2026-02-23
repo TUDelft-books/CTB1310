@@ -101,14 +101,14 @@
 			<v:textRect cx="7.08661" cy="156.656" width="14.18" height="14.1732"/>
 			<rect x="0" y="149.569" width="14.1732" height="14.1732" class="st6"/>
 			<text x="4.42" y="160.26" class="st7" v:langID="1043"><v:paragraph v:horizAlign="1"/><v:tabList/>x</text>		</g>
-		<g id="shape1382-39" v:mID="1382" v:groupContext="shape" transform="translate(116.312,-99.5876)">
+		<g id="shape1382-39" v:mID="1382" v:groupContext="shape" transform="translate(129.351,-96.753)">
 			<title>Blad.1382</title>
-			<desc>Mt = χ</desc>
+			<desc>Mt = ...·χ</desc>
 			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
 			<v:textRect cx="28.3465" cy="155.238" width="56.7" height="17.0079"/>
 			<rect x="0" y="146.734" width="56.6929" height="17.0079" class="st6"/>
-			<text x="12.58" y="158.84" class="st7" v:langID="1043"><v:paragraph v:horizAlign="1"/><v:tabList/>M<tspan dy="-0.279em"
-						class="st8" v:baseFontSize="12">t</tspan><tspan dy="0.181em" class="st9"> </tspan>= χ  </text>		</g>
+			<text x="6.58" y="158.84" class="st7" v:langID="1043"><v:paragraph v:horizAlign="1"/><v:tabList/>M<tspan dy="-0.279em"
+						class="st8" v:baseFontSize="12">t</tspan><tspan dy="0.181em" class="st9"> </tspan>= ...·χ  </text>		</g>
 		<g id="shape1383-44" v:mID="1383" v:groupContext="shape" transform="translate(119.512,-37.2254)">
 			<title>Blad.1383</title>
 			<desc>V = ...·κz</desc>
