@@ -393,7 +393,7 @@ Voor de twee doorsnedes hieronder geldt dat het dwarskrachtencentrum direct gevo
 
 Daarmee kunnen we de volgende aanpak beschrijven voor het bepalen van het dwarskrachtencentrum:
 
-::::::{prf:algorithm} Bepalen schuifspanningsverloop in een doorsnede
+::::::{prf:algorithm} Dwarskrachtencentrum
 :nonumber: true
 :label: alg:dc
 
