@@ -11,11 +11,16 @@ Deze oefening is gebaseerd op [deze oefening uit het online boek van het vak CT1
 
 Gegeven is de volgende constructie en een willekeurige doorsnede met bekend dwarskrachtencentrum.:
 
-```{figure} ./lesoefening2_data/constructie.svg
+```{figure-start} ./lesoefening2_data/constructie.svg
 ---
 align: center
 source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/torsie2
 number:
+```
+
+Verdeelde belasting grijpt aan op $y=0$
+
+```{figure-end}
 ```
 
 Waarvan je de wringende momentenlijn moet bepalen.
