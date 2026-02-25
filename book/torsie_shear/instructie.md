@@ -78,7 +78,7 @@ Dit voorbeeld is gebaseerd op [deze oefening uit het online boek van het vak CTS
 ::::::{prf:example}
 :nonumber: true
 
-Gegevens is de volgende constructie en twee dunwandige doorsnede:
+Gegevens is de volgende constructie en dunwandige doorsnede:
 
 ::::{grid} 2 2 2 2
 :class-container: center-grid
