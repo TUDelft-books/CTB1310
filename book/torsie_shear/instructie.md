@@ -117,7 +117,7 @@ De doorsnede mag als dunwandig beschouwd worden.
 
 ::::
 
-Waarvoor de maximale schuifspanningen ten gevolge van buiging en wringing gevraagd zijn.
+Waarvoor de maximale schuifspanningen ten gevolge van buiging en wringing gevraagd zijn op een positieve doorsnede, inclusief de plek van die spanningen.
 
 De maximale schuifspanning is daar waar zowel de dwarskracht als het wringend moment maximaal zijn. Dat is in het gehele gedeelte $\rm{AB}$. Het buiging moment neemt in dat gedeelte wel toe, maar dat is niet van invloed op de schuifspanningen.
 
