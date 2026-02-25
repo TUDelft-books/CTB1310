@@ -1,5 +1,8 @@
 # Changelog 🔖
 
+## 2026-25-02: v2025.5.0
+- Toegevoegd [](./torsie_krachten/les.md)
+
 ## 2026-24-02: v2025.4.1
 - Toegevoegd collegeramaopname aan [24 februari: Dwarskrachtencentrum - Instructie](./shear_force_center/instructie.md)
 

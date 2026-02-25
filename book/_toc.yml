@@ -29,7 +29,6 @@ parts:
     sections:
     - file: shear_force_center/instructie.md
     - file: shear_force_center/lesoefening1.md
-# START REMOVE-FROM-RELEASE
   - file: torsie_krachten/les.md
     sections:
     - file: torsie_krachten/instructie.md
@@ -37,6 +36,7 @@ parts:
     - file: torsie_krachten/lesoefening0.md
     - file: torsie_krachten/lesoefening1.md
     - file: torsie_krachten/lesoefening2.md
+# START REMOVE-FROM-RELEASE
   - file: torsie_model/les.md
     sections:
     - file: torsie_model/instructie.md
