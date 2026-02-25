@@ -89,7 +89,7 @@ Bepaal de normaalspanning in punt $\rm{E}$ net rechts van $\rm{D}$.
 :::::{exercise}
 :nonumber: true
 
-Bepaal de schuifspanning in punt $\rm{E}$ net rechts van $\rm{D}$ ten gevolge van de dwarskracht.
+Bepaal de schuifspanning op een positieve doorsnede in punt $\rm{E}$ net rechts van $\rm{D}$ ten gevolge van de dwarskracht.
 
 ```{h5p} https://tudelft.h5p.com/content/1292808655867105037/embed
 ```
@@ -99,7 +99,7 @@ Bepaal de schuifspanning in punt $\rm{E}$ net rechts van $\rm{D}$ ten gevolge va
 :::::{exercise}
 :nonumber: true
 
-Bepaal de totale schuifspanning in punt $\rm{E}$ net rechts van $\rm{D}$ ten gevolge van de kromming en verwringing.
+Bepaal de totale schuifspanning op een positieve doorsnede in punt $\rm{E}$ net rechts van $\rm{D}$ ten gevolge van de kromming en verwringing.
 
 ```{h5p} https://tudelft.h5p.com/content/1292808657783449747/embed
 ```
