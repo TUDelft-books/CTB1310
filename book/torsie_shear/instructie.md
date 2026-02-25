@@ -58,7 +58,7 @@ Voor het I-profiel is de maximale schuifspanning ten gevolge van wringing ter ho
 :::::
 
 :::{caution}
-Merk op dat we de schuifspanningen ten gevolge van afschuiving verwaarlozen en dat we de schuifspanningen ten gevolge van verwringing enkel bepalen ten opzichte van het dwarskrachtencentrum. Echter is met onze huidige modelling niet vast te stellen of we deze schuifspanningen inderdaad mogen negeren
+Merk op dat we de schuifspanningen ten gevolge van afschuiving verwaarlozen en dat we de schuifspanningen ten gevolge van verwringing enkel bepalen ten opzichte van het dwarskrachtencentrum. Echter is met onze huidige modellering niet vast te stellen of we deze schuifspanningen inderdaad mogen negeren
 :::
 
 ## Voorbeeld
