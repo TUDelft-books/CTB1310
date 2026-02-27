@@ -23,6 +23,8 @@ Net zoals bij krachten en momenten voor buiging, kunnen we ook voor wringende mo
 
 ::::::
 
+## Voorbeeld
+
 Het bepalen van de wringende momentenlijn wordt getoond op onderstaande voorbeeld.
 
 ::::::{prf:example}
