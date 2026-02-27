@@ -43,8 +43,6 @@ number:
 
 :::::
 
-% solution_start
-
 ::::{admonition} Oplossing
 :class: solution, dropdown
 
@@ -53,8 +51,6 @@ Optie 3 is correct:
 De verdeelde belasting werkt naast het dwarskrachtencentrum, dus dit veroorzaakt een wringend moment van $z$ naar $y$. De rechterhandregel geeft dan een vectorpijl in de negatieve $x$-richting.
 
 ::::
-
-% solution_end
 
 :::::{exercise}
 :nonumber: true
@@ -65,9 +61,6 @@ Wat weet je over de vorm van de wringende momentenlijn.
 ```
 
 :::::
-
-
-% solution_start
 
 ::::{admonition} Oplossing
 :class: solution, dropdown
@@ -80,8 +73,6 @@ Rondom de punten $\rm{A}$ en $\rm{B}$, het wringende moment maakt *een sprong*: 
 
 ::::
 
-% solution_end
-
 :::::{exercise}
 :nonumber: true
 
@@ -91,8 +82,6 @@ Bepaal de wringend momentenlijn.
 ```
 
 :::::
-
-% solution_start
 
 ::::{admonition} Oplossing
 :class: solution, dropdown
@@ -192,5 +181,3 @@ number:
 ```
 
 ::::
-
-% solution_end

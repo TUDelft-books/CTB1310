@@ -1,5 +1,9 @@
 # Changelog 🔖
 
+## 2026-27-02: v2025.6.0
+- Toegevoegd collegeramaopname aan [27 februari: Wringend moment - Instructie](./torsie_krachten/lesoefening1.md)
+- Toegevoegd uitwerkingen aan begeleide oefeningen van [27 februari: Wringend moment](./torsie_krachten/les.md)
+
 ## 2026-25-02: v2025.5.0
 - Toegevoegd [](./torsie_krachten/les.md)
 

@@ -40,8 +40,6 @@ Bepaal de wringend momentenlijn.
 
 :::::
 
-% solution_start
-
 ::::{admonition} Oplossing
 :class: solution, dropdown
 
@@ -58,8 +56,8 @@ De snedekrachten die gelijk zijn aan $0$ zijn weggelaten.
 $$
 \begin{align*}
 \sum T_{\rm{BC}} &= 0 \\
-M_{\rm{t}}^{\rm{BC}} + 10 \cdot 3 + 3 \cdot 2 \cdot 1 + \frac{1}{2} \cdot 6 \cdot 2 \cdot \frac{1}{3}&= 0 \\
-M_{\rm{t}}^{\rm{BC}} &= -38 \ \rm{kNm} \left( \twoheadrightarrow \mid \twoheadleftarrow \right)
+M_{\rm{t}}^{\rm{BC}} + 10 \cdot 3 + 3 \cdot 2 \cdot 1 + \frac{1}{2} \cdot 6 \cdot 2 \cdot \frac{2}{3}&= 0 \\
+M_{\rm{t}}^{\rm{BC}} &= -40 \ \rm{kNm} \left( \twoheadrightarrow \mid \twoheadleftarrow \right)
 \end{align*} 
 $$
 
@@ -92,5 +90,3 @@ number:
 ```
 
 ::::
-
-% solution_end
