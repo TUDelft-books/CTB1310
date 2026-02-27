@@ -36,12 +36,12 @@ parts:
     - file: torsie_krachten/lesoefening0.md
     - file: torsie_krachten/lesoefening1.md
     - file: torsie_krachten/lesoefening2.md
-# START REMOVE-FROM-RELEASE
   - file: torsie_model/les.md
     sections:
     - file: torsie_model/instructie.md
     - file: torsie_model/lesoefening1.md
     - file: torsie_model/lesoefening2.md
+# START REMOVE-FROM-RELEASE
   - file: torsie_shear/les.md
     sections:
     - file: torsie_shear/instructie.md
