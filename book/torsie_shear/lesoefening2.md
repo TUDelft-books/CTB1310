@@ -94,7 +94,7 @@ Bepaal de spanningen daar waar de totale schuifspanning maximaal is.
 :::::{exercise}
 :nonumber: true
 
-Waar zijn de schuifspanningen maximaal?
+Waar zijn de schuifspanningen maximaal voor een negatieve doorsnde?
 
 ```{figure} ./lesoefening2_data/opties.svg
 :align: center

@@ -377,7 +377,7 @@ Het bepalen van de schuifspanningen ten gevolge van wringing wordt getoond in he
 ::::::{prf:example}
 :nonumber: true
 
-Gegevens is de volgende constructie en twee dunwandige doorsnede:
+Gegevens is de volgende constructie en twee dunwandige doorsnedes:
 
 ::::{grid} 2 2 2 2
 :class-container: center-grid

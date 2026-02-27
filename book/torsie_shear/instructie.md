@@ -58,7 +58,7 @@ Voor het I-profiel is de maximale schuifspanning ten gevolge van wringing ter ho
 :::::
 
 :::{caution}
-Merk op dat we de schuifspanningen ten gevolge van afschuiving verwaarlozen en dat we de schuifspanningen ten gevolge van verwringing enkel bepalen ten opzichte van het dwarskrachtencentrum. Echter is met onze huidige modelling niet vast te stellen of we deze schuifspanningen inderdaad mogen negeren
+Merk op dat we de schuifspanningen ten gevolge van afschuiving verwaarlozen en dat we de schuifspanningen ten gevolge van verwringing enkel bepalen ten opzichte van het dwarskrachtencentrum. Echter is met onze huidige modellering niet vast te stellen of we deze schuifspanningen inderdaad mogen negeren
 :::
 
 ## Voorbeeld
@@ -78,7 +78,7 @@ Dit voorbeeld is gebaseerd op [deze oefening uit het online boek van het vak CTS
 ::::::{prf:example}
 :nonumber: true
 
-Gegevens is de volgende constructie en twee dunwandige doorsnede:
+Gegevens is de volgende constructie en dunwandige doorsnede:
 
 ::::{grid} 2 2 2 2
 :class-container: center-grid
@@ -117,7 +117,7 @@ De doorsnede mag als dunwandig beschouwd worden.
 
 ::::
 
-Waarvoor de maximale schuifspanningen ten gevolge van buiging en wringing gevraagd zijn.
+Waarvoor de maximale schuifspanningen ten gevolge van buiging en wringing gevraagd zijn op een positieve doorsnede, inclusief de plek van die spanningen.
 
 De maximale schuifspanning is daar waar zowel de dwarskracht als het wringend moment maximaal zijn. Dat is in het gehele gedeelte $\rm{AB}$. Het buiging moment neemt in dat gedeelte wel toe, maar dat is niet van invloed op de schuifspanningen.
 
