@@ -1,5 +1,8 @@
 # Changelog 🔖
 
+## 2026-03-04: v2025.9.0
+- Toegevoegd collegeramaopname aan [3 maart: Combinatie schuifspanningen door buiging en wringing - Instructie](./torsie_shear/instructie.md)
+
 ## 2026-03-02: v2025.8.0
 - Toegevoegd [](./torsie_shear/)
 - Toegevoegd collegeramaopname aan [2 maart: Schuifspanningen door wringing - Instructie](./torsie_model/instructie.md)
