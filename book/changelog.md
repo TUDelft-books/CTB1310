@@ -4,11 +4,11 @@
 - Toegevoegd collegeramaopname aan [3 maart: Combinatie schuifspanningen door buiging en wringing - Instructie](./torsie_shear/instructie.md)
 
 ## 2026-03-02: v2025.8.0
-- Toegevoegd [](./torsie_shear/)
+- Toegevoegd [](./torsie_shear/les.md)
 - Toegevoegd collegeramaopname aan [2 maart: Schuifspanningen door wringing - Instructie](./torsie_model/instructie.md)
 
 ## 2026-02-27: v2025.7.0
-- Toegevoegd [](./torsie_model/)
+- Toegevoegd [](./torsie_model/les.md)
 
 ## 2026-02-27: v2025.6.0
 - Toegevoegd collegeramaopname aan [27 februari: Wringend moment - Instructie](./torsie_krachten/lesoefening1.md)
