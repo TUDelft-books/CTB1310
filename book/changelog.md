@@ -1,5 +1,8 @@
 # Changelog 🔖
 
+## 2026-03-10: v2025.10.0
+- Toegevoegd [](./toz/toz.md)
+
 ## 2026-03-04: v2025.9.0
 - Toegevoegd collegeramaopname aan [3 maart: Combinatie schuifspanningen door buiging en wringing - Instructie](./torsie_shear/instructie.md)
 
