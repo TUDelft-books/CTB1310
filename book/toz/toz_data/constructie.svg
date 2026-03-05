@@ -129,11 +129,11 @@
 		</g>
 		<g id="shape18-47" v:mID="18" v:groupContext="shape" transform="translate(11.7136,-92.3513)">
 			<title>A.18</title>
-			<desc>576 N/m</desc>
+			<desc>15024 N/m</desc>
 			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
 			<v:textRect cx="85.0394" cy="99.5579" width="170.08" height="14.1732"/>
 			<rect x="0" y="92.4713" width="170.079" height="14.1732" class="st4"/>
-			<text x="63.87" y="103.16" class="st5" v:langID="1043"><v:paragraph v:horizAlign="1"/><v:tabList/>576 N/m</text>		</g>
+			<text x="57.87" y="103.16" class="st5" v:langID="1043"><v:paragraph v:horizAlign="1"/><v:tabList/>15024 N/m</text>		</g>
 		<g id="shape19-50" v:mID="19" v:groupContext="shape" transform="translate(118.358,14.2932) rotate(90)">
 			<title>Kracht.19</title>
 			<path d="M0 106.64 L23.73 106.64" class="st6"/>
@@ -162,7 +162,7 @@
 			<title>Kracht.25</title>
 			<path d="M0 106.64 L23.73 106.64" class="st6"/>
 		</g>
-		<g id="shape26-84" v:mID="26" v:groupContext="shape" transform="translate(224.312,149.284) rotate(180)">
+		<g id="shape26-84" v:mID="26" v:groupContext="shape" transform="translate(181.792,-64.0049)">
 			<title>Wringend moment</title>
 			<path d="M17.72 106.64 L18.08 106.64 L42.52 106.64" class="st9"/>
 		</g>

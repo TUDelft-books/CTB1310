@@ -13,7 +13,7 @@ NC = b * t * b / 2 / A
 
 print('NC =', NC)
 
-Izz = b*t**3/12 + h*t**3 / 12
+Izz = b*t**3/12 + t*h**3 / 12
 print('Izz =', Izz)
 
 It = b * t**3 / 3 + h * t**3 / 3
@@ -24,10 +24,10 @@ L = sym.symbols('L')
 
 q_random = 2
 
-q = sym.nsimplify(19.2*5*3*q_random / 1000)
+q = sym.nsimplify(3756*q_random / 500)
 print('q =', q, 'approx', q.evalf())
 
-L = sym.nsimplify(2000)
+L = sym.nsimplify(3000)
 
 q_random_2 = 3 #3
 
@@ -50,6 +50,8 @@ V = q * L
 print('V=',V,'approx',V.evalf())
 
 S_z = h / 2 * t * h / 4
+
+print('S_z =', S_z, 'approx', S_z.evalf())
 
 tau_shear = V * S_z / Izz / t
 

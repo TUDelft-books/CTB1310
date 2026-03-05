@@ -88,22 +88,22 @@
 		</g>
 		<g id="shape598-4" v:mID="598" v:groupContext="shape" transform="translate(63.8996,-103.84)">
 			<title>A.598</title>
-			<desc>43.2 Nm/m</desc>
+			<desc>1126.8 Nm/m</desc>
 			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
 			<v:textRect cx="42.5197" cy="111.046" width="85.04" height="14.1732"/>
 			<rect x="0" y="103.96" width="85.0393" height="14.1732" class="st2"/>
-			<text x="15.19" y="114.65" class="st3" v:langID="1043"><v:paragraph v:horizAlign="1"/><v:tabList/>43.2 Nm/m</text>		</g>
+			<text x="9.19" y="114.65" class="st3" v:langID="1043"><v:paragraph v:horizAlign="1"/><v:tabList/>1126.8 Nm/m</text>		</g>
 		<g id="shape615-7" v:mID="615" v:groupContext="shape" transform="translate(63.8996,-61.3199) rotate(9.89571E-06)">
 			<title>Ligger, 2 pt.615</title>
 			<path d="M0 118.13 L85.04 118.13" class="st4"/>
 		</g>
 		<g id="shape616-10" v:mID="616" v:groupContext="shape" transform="translate(148.939,-82.5797)">
 			<title>A.616</title>
-			<desc>576 N/m</desc>
+			<desc>15024 N/m</desc>
 			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
-			<v:textRect cx="28.3465" cy="111.046" width="56.7" height="14.1732"/>
-			<rect x="0" y="103.96" width="56.6929" height="14.1732" class="st2"/>
-			<text x="7.18" y="114.65" class="st3" v:langID="1043"><v:paragraph v:horizAlign="1"/><v:tabList/>576 N/m</text>		</g>
+			<v:textRect cx="38.2677" cy="111.046" width="76.54" height="14.1732"/>
+			<rect x="0" y="103.96" width="76.5354" height="14.1732" class="st2"/>
+			<text x="11.1" y="114.65" class="st3" v:langID="1043"><v:paragraph v:horizAlign="1"/><v:tabList/>15024 N/m</text>		</g>
 		<g id="shape618-13" v:mID="618" v:groupContext="shape" transform="translate(63.8995,-61.3199)">
 			<title>Blad.618</title>
 			<path d="M-0 118.13 L0 89.79 L85.04 89.79" class="st1"/>
