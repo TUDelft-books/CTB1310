@@ -50,6 +50,7 @@ parts:
   - file: sympy/les.md
     sections:
     - file: sympy/instructie.ipynb
+    - file: sympy/lesoefening1.ipynb
 # START REMOVE-FROM-RELEASE
 # END REMOVE-FROM-RELEASE
 - caption: Diverse
