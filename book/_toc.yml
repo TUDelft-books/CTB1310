@@ -47,6 +47,9 @@ parts:
     - file: torsie_shear/lesoefening.md
     - file: torsie_shear/lesoefening2.md
   - file: toz/toz.md
+  - file: sympy/les.md
+    sections:
+    - file: sympy/instructie.ipynb
 # START REMOVE-FROM-RELEASE
 # END REMOVE-FROM-RELEASE
 - caption: Diverse
