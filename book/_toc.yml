@@ -53,6 +53,9 @@ parts:
     - file: sympy/instructie.ipynb
     - file: sympy/lesoefening1.ipynb
     - file: sympy/lesoefening2.ipynb
+  - file: sympy_COZ/les.md
+    sections:
+    - file: sympy_COZ/opgave1.ipynb
 # END REMOVE-FROM-RELEASE
 - caption: Diverse
   chapters:
