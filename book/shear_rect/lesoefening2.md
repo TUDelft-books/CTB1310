@@ -25,7 +25,7 @@ Wat is de dwarskracht net rechts van $\rm{B}$?
 
 Vrijlichaamsschema van deel BC. Verticaal evenwicht geeft:
 $$ \sum F_ {\rm{v}} = - V_{\rm{B}} + 2 \cdot 2 = 0 $$
-$$ V_{\rm{B}} = 4 \rm{kN} \left(⎽|⎺\right) $$ 
+$$ V_{\rm{B}} = 4 \rm{kN} \left(⎺|⎽\right) $$ 
 
 ```{figure} ./lesoefening2/Dwarskracht_B.svg
 :align: center
@@ -50,6 +50,9 @@ Bepaal de maximale schuifspanning op een negatieve doorsnede net rechts van $\rm
 
 % solution_start
 
+::::{admonition} Oplossing
+:class: solution, dropdown
+
 ```{figure} ./lesoefening2/afschuivend_deel_B.svg
 :align: center
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/shear_rect_oef
@@ -61,7 +64,7 @@ Het statisch moment van dit afschuivende deel is:
 $$
 \begin{align*}
 S_{z}^{\rm{a}} &= A_{\rm{afschuivend} \, \rm{deel}} \, z_{\rm{N.C.} \longleftrightarrow \rm{zwaartepunt} \, \rm{afschuivend} \, \rm{deel} } \\
-&= \left( 125 \cdot 100 \cdot 2\right) \cdot -\cfrac{125}{2}\\
+&= \left( 125 \cdot 100 \right) \cdot -\cfrac{125}{2}\\
 &= -781250 \, \rm{mm^3}
 \end{align*}
 $$
@@ -87,20 +90,6 @@ $$
 $$
 
 De dwarskracht op deze snede is omhoog, dus zal de schuifspanning ook omhoog zijn. 
-
-::::{admonition} Oplossing
-:class: solution, dropdown
-
-Het profiel veranderd niet in de balk, de z-locatie van de maximale schuifspanning zal altijd ter hoogte van $\rm{N.C.}$ zijn. De dwarskracht is de enige parameter die veranderd over de lengte van de constructie, dus waar deze het grootst is zal de schuifspanning maximaal zijn. 
-
-Evenwicht geeft de volgende dwarskrachtenlijn:
-```{figure} ./lesoefening2/dwarskrachtenlijn.svg
-:align: center
-:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/shear_rect_oef
-:number:
-```
-
-Dit betekend dat de absolute schuifspanning maximaal is op een positieve en negatieve snede net links van B.
 ...
 
 ::::
@@ -120,15 +109,16 @@ Dit betekend dat de absolute schuifspanning maximaal is op een positieve en nega
 ::::{admonition} Oplossing
 :class: solution, dropdown
 
-De eerder berekende $S_{z}^{\rm{a}}$ en $I_{zz}$ kunnen worden gebruikt om de absolute maximale schuifspanning te vinden in de constructie. De schuifspanning is maximaal in de constructie net links van B, waar de dwarskracht maximaal is. 
+Het profiel veranderd niet in de balk, de z-locatie van de maximale schuifspanning zal altijd ter hoogte van $\rm{N.C.}$ zijn. De dwarskracht is de enige parameter voor de schuifspanning die veranderd over de lengte van de constructie, dus waar deze het grootst is zal de absolute schuifspanning maximaal zijn. 
 
-$$
-\begin{align*}
-\left| \tau_{\rm{max}} \right| &= \cfrac{\left|V_{z} \, S_{z}^{\rm{a}}\right|}{b \, I_{zz}} \\
-&= \cfrac{\left| 5800 \, \cdot -781250 \right|}{100 \cdot 130208333.3} \\
-&\approx 0.35 \, \rm{MPa}
-\end{align*}
-$$
+Evenwicht geeft de volgende dwarskrachtenlijn:
+```{figure} ./lesoefening2/dwarskrachtenlijn.svg
+:align: center
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/shear_rect_oef
+:number:
+```
+
+Dit betekend dat de absolute schuifspanning maximaal is op een positieve en negatieve snede net links van B.
 ...
 
 ::::
@@ -150,6 +140,15 @@ Bepaal de maximale absolute schuifspanning
 ::::{admonition} Oplossing
 :class: solution, dropdown
 
+De eerder berekende $S_{z}^{\rm{a}}$ en $I_{zz}$ kunnen worden gebruikt om de absolute maximale schuifspanning te vinden in de constructie. De schuifspanning is maximaal in de constructie net links van B, waar de dwarskracht maximaal is. 
+
+$$
+\begin{align*}
+\left| \tau_{\rm{max}} \right| &= \cfrac{\left|V_{z} \, S_{z}^{\rm{a}}\right|}{b \, I_{zz}} \\
+&= \cfrac{\left| 5800 \, \cdot -781250 \right|}{100 \cdot 130208333.3} \\
+&\approx 0.35 \, \rm{MPa}
+\end{align*}
+$$
 
 ...
 
