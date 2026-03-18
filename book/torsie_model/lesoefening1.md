@@ -59,7 +59,7 @@ Bepaal de oplegreacties.
 
 % solution_start
 
-::::{admonition} Oplossing
+::::{admonition} Uitwerking
 :class: solution, dropdown
 
 ...
@@ -80,7 +80,7 @@ Bepaal de oplegreacties.
 
 % solution_start
 
-::::{admonition} Oplossing
+::::{admonition} Uitwerking
 :class: solution, dropdown
 
 ...
@@ -99,7 +99,7 @@ Bepaal de oplegreacties.
 
 % solution_start
 
-::::{admonition} Oplossing
+::::{admonition} Uitwerking
 :class: solution, dropdown
 
 ...
@@ -120,7 +120,7 @@ Bereken de doorsnede als een ring, wat is het polair traagheidsmoment en de schu
 
 % solution_start
 
-::::{admonition} Oplossing
+::::{admonition} Uitwerking
 :class: solution, dropdown
 
 ...
@@ -142,7 +142,7 @@ Bereken de doorsnede als een dunwandige niet-ronde gesloten doorsnede (ook als i
 
 % solution_start
 
-::::{admonition} Oplossing
+::::{admonition} Uitwerking
 :class: solution, dropdown
 
 ...

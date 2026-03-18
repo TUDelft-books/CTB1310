@@ -1,5 +1,8 @@
 # Changelog 🔖
 
+## 2026-03-18: v2025.11.0
+- Toegevoegd uitwerkingen aan begeleide oefeningen van [17 februari: Schuifspanningen door buiging in rechthoekige doorsnedes - Oefening 2](./shear_rect/lesoefening2.md)
+
 ## 2026-03-10: v2025.10.0
 - Toegevoegd [](./toz/toz.md)
 

@@ -40,7 +40,7 @@ Bepaal de wringend momentenlijn.
 
 :::::
 
-::::{admonition} Oplossing
+::::{admonition} Uitwerking
 :class: solution, dropdown
 
 Het wringend moment in deel $\rm{BC}$:

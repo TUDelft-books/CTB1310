@@ -43,7 +43,7 @@ number:
 
 :::::
 
-::::{admonition} Oplossing
+::::{admonition} Uitwerking
 :class: solution, dropdown
 
 Optie 3 is correct:
@@ -62,7 +62,7 @@ Wat weet je over de vorm van de wringende momentenlijn.
 
 :::::
 
-::::{admonition} Oplossing
+::::{admonition} Uitwerking
 :class: solution, dropdown
 
 De wringende momentenlijn verloopt tussen de punten $\rm{A}$ en $\rm{B}$, $\rm{B}$ en $\rm{C}$ *linear*: de constante verdeelde belasting treedt op naast het dwarskrachtencentrum, dus dat zorgt voor een lineair verlopende wringende momentenlijn.
@@ -83,7 +83,7 @@ Bepaal de wringend momentenlijn.
 
 :::::
 
-::::{admonition} Oplossing
+::::{admonition} Uitwerking
 :class: solution, dropdown
 
 Het wringend moment halverwege $\rm{C}$ en $\rm{B}$:
