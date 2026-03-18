@@ -20,7 +20,7 @@ Wat zijn de schuifspanningen op een aantal andere punten?
 
 % solution_start
 
-::::{admonition} Oplossing
+::::{admonition} Uitwerking
 :class: solution, dropdown
 
 ...

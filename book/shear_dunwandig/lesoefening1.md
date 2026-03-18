@@ -31,7 +31,7 @@ Bepaal de snedekrachten in staaf $\rm{CD}$ net links van $\rm{D}$ volgens het as
 
 % solution_start
 
-::::{admonition} Oplossing
+::::{admonition} Uitwerking
 :class: solution, dropdown
 
 ...
@@ -52,7 +52,7 @@ Bepaal de doorsnedegrootheden
 
 % solution_start
 
-::::{admonition} Oplossing
+::::{admonition} Uitwerking
 :class: solution, dropdown
 
 ...
@@ -73,7 +73,7 @@ Bepaal de normaalspanning en schuifspanning op een positieve snede in staaf $\rm
 
 % solution_start
 
-::::{admonition} Oplossing
+::::{admonition} Uitwerking
 :class: solution, dropdown
 
 ...

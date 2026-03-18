@@ -31,7 +31,7 @@ Bepaal de doorsnedegrootheden.
 
 % solution_start
 
-::::{admonition} Oplossing
+::::{admonition} Uitwerking
 :class: solution, dropdown
 
 ...
@@ -142,7 +142,7 @@ Optie 6
 
 % solution_start
 
-::::{admonition} Oplossing
+::::{admonition} Uitwerking
 :class: solution, dropdown
 
 ...
@@ -161,7 +161,7 @@ Optie 6
 
 % solution_start
 
-::::{admonition} Oplossing
+::::{admonition} Uitwerking
 :class: solution, dropdown
 
 ...
@@ -188,7 +188,7 @@ Bepaal de absolute waarde van de schuifspanningen op de aangegeven snedevlakken 
 
 % solution_start
 
-::::{admonition} Oplossing
+::::{admonition} Uitwerking
 :class: solution, dropdown
 
 ...
@@ -209,7 +209,7 @@ Bepaal de absolute waarde van de resultante krachten van de schuifspanningen in 
 
 % solution_start
 
-::::{admonition} Oplossing
+::::{admonition} Uitwerking
 :class: solution, dropdown
 
 ...
@@ -230,7 +230,7 @@ Bepaal de locatie van het dwarskrachtencentrum.
 
 % solution_start
 
-::::{admonition} Oplossing
+::::{admonition} Uitwerking
 :class: solution, dropdown
 
 ...

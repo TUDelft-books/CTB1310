@@ -37,7 +37,7 @@ Gegeven zijn zes mogelijke schuifspanningsverdelingen.
 
 % solution_start
 
-::::{admonition} Oplossing
+::::{admonition} Uitwerking
 :class: solution, dropdown
 
 ...
@@ -58,7 +58,7 @@ Bepaal de doorsnedegrootheden
 
 % solution_start
 
-::::{admonition} Oplossing
+::::{admonition} Uitwerking
 :class: solution, dropdown
 
 ...
@@ -79,7 +79,7 @@ Bepaal de maximale schuifspanning in de bovenflens, onderflens en het lijf.
 
 % solution_start
 
-::::{admonition} Oplossing
+::::{admonition} Uitwerking
 :class: solution, dropdown
 
 ...

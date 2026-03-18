@@ -18,9 +18,7 @@ Wat is de dwarskracht net rechts van $\rm{B}$?
 
 :::::
 
-% solution_start
-
-::::{admonition} Oplossing
+::::{admonition} Uitwerking
 :class: solution, dropdown
 
 Er kan een snede net rechts van $\rm{B}$ worden gemaakt:
@@ -43,8 +41,6 @@ $$
 
 ::::
 
-% solution_end
-
 :::::{exercise}
 :nonumber: true
 
@@ -55,9 +51,7 @@ Bepaal de maximale schuifspanning op een negatieve doorsnede net rechts van $\rm
 
 :::::
 
-% solution_start
-
-::::{admonition} Oplossing
+::::{admonition} Uitwerking
 :class: solution, dropdown
 
 De maximale schuifspanning vindt plaats ter hoogte van het normaalkrachtencentrum. Dat geeft dit afschuivende deel:
@@ -102,8 +96,6 @@ De dwarskracht op deze negatieve snede is omhoog, dus zal de schuifspanning ook 
 
 ::::
 
-% solution_end
-
 :::::{exercise}
 :nonumber: true
 
@@ -112,9 +104,7 @@ De dwarskracht op deze negatieve snede is omhoog, dus zal de schuifspanning ook 
 
 :::::
 
-% solution_start
-
-::::{admonition} Oplossing
+::::{admonition} Uitwerking
 :class: solution, dropdown
 
 De dwarskracht is de enige parameter voor de schuifspanning die verandert over de lengte van de constructie, dus waar deze het grootst is zal de absolute schuifspanning maximaal zijn. 
@@ -130,9 +120,6 @@ Evenwicht geeft de volgende dwarskrachtenlijn:
 Dus de absolute schuifspanning is maximaal op een positieve en negatieve snede net links van B.
 
 ::::
-
-% solution_end
-
 :::::{exercise}
 :nonumber: true
 
@@ -143,9 +130,7 @@ Bepaal de maximale absolute schuifspanning
 
 :::::
 
-% solution_start
-
-::::{admonition} Oplossing
+::::{admonition} Uitwerking
 :class: solution, dropdown
 
 De eerder berekende $S_{z}^{\rm{a}}$ en $I_{zz}$ kunnen worden gebruikt om de absolute maximale schuifspanning te vinden in de constructie.
@@ -159,5 +144,3 @@ $$
 $$
 
 ::::
-
-% solution_end
