@@ -117,7 +117,7 @@ Evenwicht geeft de volgende dwarskrachtenlijn:
 :number:
 ```
 
-Dus de absolute schuifspanning is maximaal op een positieve en negatieve snede net links van B.
+Dus de absolute schuifspanning is maximaal op een positieve en negatieve snede net links van $\rm{B}$.
 
 ::::
 :::::{exercise}
