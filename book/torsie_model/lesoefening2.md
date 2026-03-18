@@ -57,7 +57,7 @@ Waarvoor de wringspanningen ten gevolge van verwringing gevraagd zijn net rechts
 
 % solution_start
 
-::::{admonition} Oplossing
+::::{admonition} Uitwerking
 :class: solution, dropdown
 
 ...
@@ -125,7 +125,7 @@ Bepaal de oplegreacties.
 
 % solution_start
 
-::::{admonition} Oplossing
+::::{admonition} Uitwerking
 :class: solution, dropdown
 
 ...
@@ -146,7 +146,7 @@ Bepaal de snedekrachten.
 
 % solution_start
 
-::::{admonition} Oplossing
+::::{admonition} Uitwerking
 :class: solution, dropdown
 
 ...
@@ -163,7 +163,7 @@ Bepaal de snedekrachten.
 
 % solution_start
 
-::::{admonition} Oplossing
+::::{admonition} Uitwerking
 :class: solution, dropdown
 
 ...
@@ -182,7 +182,7 @@ Bepaal de snedekrachten.
 
 % solution_start
 
-::::{admonition} Oplossing
+::::{admonition} Uitwerking
 :class: solution, dropdown
 
 ...
