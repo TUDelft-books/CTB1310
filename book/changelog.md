@@ -1,5 +1,9 @@
 # Changelog 🔖
 
+## 2026-03-18: v2025.13.0
+- Toegevoegd [](./sympy_COZ/opgave3.ipynb)
+- Toegevoegd [](./sympy_COZ/opgave4.ipynb)
+
 ## 2026-03-18: v2025.12.0
 - Toegevoegd [](./sympy/les.md)
 - Toegevoegd [](./sympy_COZ/les.md)
