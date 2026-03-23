@@ -1,5 +1,8 @@
 # Changelog 🔖
 
+## 2026-03-23: v2025.14.0
+- Toegevoegd uitwerkingen aan begeleide oefeningen van [23 maart: Differentiaalvergelijkingen met SymPy](./sympy/les.md)
+
 ## 2026-03-18: v2025.13.0
 - Toegevoegd [](./sympy_COZ/opgave3.ipynb)
 - Toegevoegd [](./sympy_COZ/opgave4.ipynb)
