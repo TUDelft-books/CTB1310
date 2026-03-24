@@ -282,7 +282,7 @@ Het resultaat is dus een evenredig verdeelde schuifspanning op ons schuifvlak. D
 In voorbeeld 2 van hoofdstuk 5.4 van het boek Mechanica, spanningen, vervormingen en verplaatsingen {cite:p}`Hartsuijker2013` komt een deel van de conclusies van dit hoofdstuk ook aan bod.
 
 ## Instructies in collegevorm
-Dit onderwerp is [in les 6](https://collegeramavideoportal.tudelft.nl/catalogue/ctb1310/presentation/94a991fe09a14cdeb279a3323725287c1d?academicYear=2025-2026-ctb1310) gepresenteerd in collegevorm van 14:00 tot 51:40.
+Dit onderwerp is [in les 6](https://collegerama.tudelft.nl/Mediasite/Channel/public-ctb1310/watch/94a991fe09a14cdeb279a3323725287c1d) gepresenteerd in collegevorm van 14:00 tot 51:40.
 
 ## Oefeningen
 [Opgaves 5.7, 5.8, 5.29, 5.30, 5.32a-b in hoofdstuk 5 van het boek Mechanica, spanningen, vervormingen en verplaatsingen](https://icozct.tudelft.nl/TUD_CT/boekantwoorden/files/TM2vraagstukkenbundel.pdf) {cite:p}`Hartsuijker2013`. Antwoorden zijn [hier](https://icozct.tudelft.nl/TUD_CT/boekantwoorden/vol2/Chapter5/) beschikbaar.

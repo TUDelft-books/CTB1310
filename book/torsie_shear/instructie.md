@@ -248,7 +248,7 @@ De maximale schuifspanning is dus te vinden ter hoogte van het normaalkrachtence
 In hoofdstuk 6.4 van het boek Mechanica, spanningen, vervormingen en verplaatsingen {cite:p}`Hartsuijker2013` worden meer voorbeelden gegeven van het bepalen van schuifspanningen in verschillende situaties: Voorbeeld 5, 6 en 8.
 
 ## Instructies in collegevorm
-Dit onderwerp is [in les 11](https://collegeramavideoportal.tudelft.nl/catalogue/ctb1310/presentation/0e6b6d69aebc4c61887b5b2aaca496b11d?academicYear=2025-2026-ctb1310) gepresenteerd in collegevorm van 8:50 tot 44:15
+Dit onderwerp is [in les 11](https://collegerama.tudelft.nl/Mediasite/Channel/public-ctb1310/watch/0e6b6d69aebc4c61887b5b2aaca496b11d) gepresenteerd in collegevorm van 8:50 tot 44:15
 
 ## Oefeningen
 [Opgaves 6.22 - 6.28, 6.31 - 6.34 in hoofdstuk 6 van het boek Mechanica, spanningen, vervormingen en verplaatsingen](https://icozct.tudelft.nl/TUD_CT/boekantwoorden/files/TM2vraagstukkenbundel.pdf) {cite:p}`Hartsuijker2013`. Antwoorden zijn [hier](https://icozct.tudelft.nl/TUD_CT/boekantwoorden/vol2/Chapter5/) beschikbaar.
