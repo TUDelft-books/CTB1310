@@ -13,6 +13,7 @@ Gegeven is de volgende constructie en doorsnede:
 
 ```{figure} ./lesoefening1_data/constructie.svg
 :align: center
+:class: sticky-margin
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/continuum
 :number:
 ```

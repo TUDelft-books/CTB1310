@@ -187,6 +187,7 @@ Het bepalen van de schuifspanningen voor een niet-rechthoekige doorsnede wordt g
 
 ```{figure} ./instructie_data/voorbeeld.svg
 :align: center
+:class: sticky-margin
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/shear
 :number:
 ```
@@ -277,6 +278,9 @@ Het resultaat is dus een evenredig verdeelde schuifspanning op ons schuifvlak. D
 
 
 ::::::
+
+```{hide-sticky-margin}
+```
 
 ## Alternatieve uitleg en voorbeeld
 In voorbeeld 2 van hoofdstuk 5.4 van het boek Mechanica, spanningen, vervormingen en verplaatsingen {cite:p}`Hartsuijker2013` komt een deel van de conclusies van dit hoofdstuk ook aan bod.

@@ -88,6 +88,7 @@ Gegevens is de volgende constructie en dunwandige doorsnede:
 
 ```{figure-start} ./instructie_data/constructie.svg
 :align: center
+:class: sticky-margin
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/exam_continuum
 :number:
 ```
@@ -105,6 +106,7 @@ aan in het normaal- en dwarskrachtencentrum.
 
 ```{figure-start} ./instructie_data/doorsnede.svg
 :align: center
+:class: sticky-margin
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/exam_continuum
 :number:
 ```
@@ -243,6 +245,9 @@ De maximale schuifspanning is dus te vinden ter hoogte van het normaalkrachtence
 ```
 
 ::::::
+
+```{hide-sticky-margin}
+```
 
 ## Meer voorbeelden
 In hoofdstuk 6.4 van het boek Mechanica, spanningen, vervormingen en verplaatsingen {cite:p}`Hartsuijker2013` worden meer voorbeelden gegeven van het bepalen van schuifspanningen in verschillende situaties: Voorbeeld 5, 6 en 8.

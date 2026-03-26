@@ -431,6 +431,7 @@ Gegevens is de volgende constructie en doorsnede:
 
 ```{figure} ./instructie_data/doorsnede.svg
 :align: center
+:class: sticky-margin
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/shear_force_center_2
 :number:
 ```
@@ -614,6 +615,9 @@ Daarmee kan de locatie van het dwarskrachtencentrum worden bepaald door het snij
 ```
 
 ::::::
+
+```{hide-sticky-margin}
+```
 
 ## Alternatieve afleiding
 In hoofdstuk 5.5 van het boek Mechanica, spanningen, vervormingen en verplaatsingen {cite:p}`Hartsuijker2013` wordt er gesproken over 'geen torsie'. Dit moet geïnterpreteerd worden als geen draaiing van de doorsnede. Het betekent niet dat er geen torsieafschuifrek is. Later wordt ook gesteld dat er enkel spanningen ten gevolge van buiging optreden als de dwarskracht in het dwarskrachtencentrum aangrijpt, dat kan niet zomaar gesteld worden zoals hierboven beschreven.

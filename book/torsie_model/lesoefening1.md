@@ -19,6 +19,7 @@ Gegeven is de volgende constructie en doorsnede
 
 ```{figure-start} ./lesoefening1_data/constructie.svg
 :align: center
+:class: sticky-margin
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/torsion_stress_2
 :number:
 ```
@@ -37,6 +38,7 @@ in het dwarskrachtencentrum.
 
 ```{figure} ./lesoefening1_data/doorsnede.svg
 :align: center
+:class: sticky-margin
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/torsion_stress_2
 
 Doorsnede net rechts van $\rm{A}$

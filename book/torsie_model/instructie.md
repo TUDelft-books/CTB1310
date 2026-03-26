@@ -387,6 +387,7 @@ Gegevens is de volgende constructie en twee dunwandige doorsnedes:
 
 ```{figure-start} ./instructie_data/Constructie.svg
 :align: center
+:class: sticky-margin
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/torsion_models
 :number:
 ```
@@ -406,6 +407,7 @@ in het dwarskrachtencentrum.
 
 ```{figure} ./instructie_data/doorsnede_1.svg
 :align: center
+:class: sticky-margin
 :name: fig:doorsnede_1
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/torsion_models
 :number:
@@ -417,6 +419,7 @@ in het dwarskrachtencentrum.
 
 ```{figure-start} ./instructie_data/doorsnede_2.svg
 :align: center
+:class: sticky-margin
 :name: fig:doorsnede_2
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/torsion_models
 :number:
@@ -497,6 +500,9 @@ Dit geeft het volgende schuifspanningsprofiel (met de dikte van de wand uitvergr
 Deze spanning is vele malen hoger en waarschijnlijk kan deze doorsnede deze spanning niet weerstaan. De vervormingen zullen waarschijnlijk ook vele malen groter zijn, hoewel we dat hier niet hebben berekend.
 
 ::::::
+
+```{hide-sticky-margin}
+```
 
 ## Meer voorbeelden
 In hoofdstuk 6.4 van het boek Mechanica, spanningen, vervormingen en verplaatsingen {cite:p}`Hartsuijker2013` worden meer voorbeelden gegeven van het bepalen van schuifspanningen in verschillende situaties. Negeer vraag d van voorbeeld 2 en b en c van voorbeeld 4. Voorbeeld 5, 6 en 8 worden in de volgende les behandeld.

@@ -125,6 +125,7 @@ Gegeven is de volgende constructie en doorsnede:
 
 ```{figure-start} ./instructie_data/constructie.svg
 :align: center
+:class: sticky-margin
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/shear_dunwandig
 :number:
 ```
@@ -139,6 +140,7 @@ Gegeven is de volgende constructie en doorsnede:
 
 ```{figure-start} ./instructie_data/doorsnede.svg
 :align: center
+:class: sticky-margin
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/shear_dunwandig
 :number:
 ```
@@ -263,6 +265,9 @@ Schuifspanningsverloop
 ```
 
 ::::::
+
+```{hide-sticky-margin}
+```
 
 ## Meer voorbeelden
 In hoofdstuk 5.4.2 en 5.4.3 van het boek Mechanica, spanningen, vervormingen en verplaatsingen {cite:p}`Hartsuijker2013` worden meer voorbeelden gegeven van het bepalen van schuifspanningen in verschillende situaties.

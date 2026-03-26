@@ -4,6 +4,7 @@ Gegeven is de volgende constructie en doorsnede:
 
 ```{figure} ./lesoefening1_data/voorbeeld.svg
 :align: center
+:class: sticky-margin
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/shear_2
 :number:
 ```

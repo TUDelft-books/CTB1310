@@ -9,6 +9,7 @@ Gegeven is de volgende constructie en doorsnede
 :columns: auto
 
 ```{figure-start} ./toz_data/constructie.svg
+:class: sticky-margin
 :align: center
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/TOZ_schuifspanningen
 :number:

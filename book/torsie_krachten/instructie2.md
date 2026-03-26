@@ -33,6 +33,7 @@ Het bepalen van de wringende momentenlijn wordt getoond op onderstaande voorbeel
 ```{figure} ./instructie2_data/torsielijn.svg
 ---
 align: center
+class: sticky-margin
 source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/torsie
 number:
 ---
@@ -181,6 +182,9 @@ number:
 De rest van deze momentenlijn volgt in [](./lesoefening0.md).
 
 ::::::
+
+```{hide-sticky-margin}
+```
 
 ## Meer voorbeelden
 In hoofdstuk 6.4 van het boek Mechanica, spanningen, vervormingen en verplaatsingen {cite:p}`Hartsuijker2013` worden ook wringende momenten uitgerekend in voorbeeld 1 - 5. Negeer de berekeningen van stijfheden, spanningen en verplaatsingen.
