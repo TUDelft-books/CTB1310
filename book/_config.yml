@@ -56,8 +56,8 @@ sphinx:                                              # Options passed on to the 
         warn_missing: true
   extra_extensions:                                  # Gives you a starter package of extensions to use in your book
     - teachbooks_favourites
-    - sphinx_tudelft_theme
     - sphinx_apa_references
+    - sphinx_tudelft_theme
 
 teachbooks:
   attribution_color: attributiongrey

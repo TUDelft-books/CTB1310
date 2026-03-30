@@ -19,6 +19,7 @@ Gegeven is de volgende constructie en doorsnede.
 
 ```{figure-start} ./lesoefening2_data/constructie.svg
 :align: center
+:class: sticky-margin
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/torsion_stress
 :number:
 ```
@@ -36,6 +37,7 @@ grijpen aan in het midden van de doorsnede.
 
 ```{figure} lesoefening2_data/doorsnede.svg
 :align: center
+:class: sticky-margin
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/torsion_stress
 :number:
 ```

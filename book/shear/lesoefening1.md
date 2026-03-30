@@ -4,6 +4,7 @@ Gegeven is de volgende constructie en doorsnede:
 
 ```{figure} ./lesoefening1_data/voorbeeld.svg
 :align: center
+:class: sticky-margin
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/shear_2
 :number:
 ```
@@ -26,7 +27,7 @@ Gegeven zijn een aantal mogelijke punten waarop de schuifspanning kan worden bep
 
 % solution_start
 
-::::{admonition} Oplossing
+::::{admonition} Uitwerking
 :class: solution, dropdown
 
 ...
@@ -48,7 +49,7 @@ Bepaal de doorsnedegrootheden
 
 % solution_start
 
-::::{admonition} Oplossing
+::::{admonition} Uitwerking
 :class: solution, dropdown
 
 ...
@@ -69,7 +70,7 @@ Bepaal de gemiddelde schuifspanning op het horizontale afschuifvlak op $\bar{z} 
 
 % solution_start
 
-::::{admonition} Oplossing
+::::{admonition} Uitwerking
 :class: solution, dropdown
 
 ...

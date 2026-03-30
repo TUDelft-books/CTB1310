@@ -4,6 +4,7 @@ In [](./instructie.md) is het schuifspanningsverloop op een positieve snede in d
 
 ```{figure} ./instructie_data/voorbeeld.svg
 :align: center
+:class: sticky-margin
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/shear_rect
 :number:
 ```
@@ -20,7 +21,7 @@ Wat zijn de schuifspanningen op een aantal andere punten?
 
 % solution_start
 
-::::{admonition} Oplossing
+::::{admonition} Uitwerking
 :class: solution, dropdown
 
 ...

@@ -387,6 +387,7 @@ Gegevens is de volgende constructie en twee dunwandige doorsnedes:
 
 ```{figure-start} ./instructie_data/Constructie.svg
 :align: center
+:class: sticky-margin
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/torsion_models
 :number:
 ```
@@ -406,6 +407,7 @@ in het dwarskrachtencentrum.
 
 ```{figure} ./instructie_data/doorsnede_1.svg
 :align: center
+:class: sticky-margin
 :name: fig:doorsnede_1
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/torsion_models
 :number:
@@ -417,6 +419,7 @@ in het dwarskrachtencentrum.
 
 ```{figure-start} ./instructie_data/doorsnede_2.svg
 :align: center
+:class: sticky-margin
 :name: fig:doorsnede_2
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/torsion_models
 :number:
@@ -498,11 +501,14 @@ Deze spanning is vele malen hoger en waarschijnlijk kan deze doorsnede deze span
 
 ::::::
 
+```{hide-sticky-margin}
+```
+
 ## Meer voorbeelden
 In hoofdstuk 6.4 van het boek Mechanica, spanningen, vervormingen en verplaatsingen {cite:p}`Hartsuijker2013` worden meer voorbeelden gegeven van het bepalen van schuifspanningen in verschillende situaties. Negeer vraag d van voorbeeld 2 en b en c van voorbeeld 4. Voorbeeld 5, 6 en 8 worden in de volgende les behandeld.
 
 ## Instructies in collegevorm
-Dit onderwerp is [in les 10](https://collegeramavideoportal.tudelft.nl/catalogue/ctb1310/presentation/5e023361d22448879680afcaf5b210831d?academicYear=2025-2026-ctb1310) gepresenteerd in collegevorm van 7:00 tot 1:01:10
+Dit onderwerp is [in les 10](https://collegerama.tudelft.nl/Mediasite/Channel/public-ctb1310/watch/5e023361d22448879680afcaf5b210831d) gepresenteerd in collegevorm van 7:00 tot 1:01:10
 
 ## Oefeningen
 [Opgaves 6.3 - 6.9a, 6.10a, 6.11a - 6.11b, 6.12, 6.13a, 6.14 - 6.21 in hoofdstuk 6 van het boek Mechanica, spanningen, vervormingen en verplaatsingen](https://icozct.tudelft.nl/TUD_CT/boekantwoorden/files/TM2vraagstukkenbundel.pdf) {cite:p}`Hartsuijker2013`. Antwoorden zijn [hier](https://icozct.tudelft.nl/TUD_CT/boekantwoorden/vol2/Chapter5/) beschikbaar.

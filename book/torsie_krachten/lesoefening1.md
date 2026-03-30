@@ -14,6 +14,7 @@ Gegeven is de volgende constructie:
 ```{figure} ./lesoefening_data/constructie.svg
 ---
 align: center
+class: sticky-margin
 source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/torsie2
 number:
 ---
@@ -39,7 +40,7 @@ number:
 
 :::::
 
-::::{admonition} Oplossing
+::::{admonition} Uitwerking
 :class: solution, dropdown
 
 Optie 1 is correct:
@@ -72,7 +73,7 @@ number:
 
 :::::
 
-::::{admonition} Oplossing
+::::{admonition} Uitwerking
 :class: solution, dropdown
 
 Optie 1 is correct:
@@ -91,7 +92,7 @@ Wat weet je over de vorm van de wringende momentenlijn.
 
 :::::
 
-::::{admonition} Oplossing
+::::{admonition} Uitwerking
 :class: solution, dropdown
 
 De wringende momentenlijn verloopt tussen de punten $\rm{A}$ en $\rm{B}$, $\rm{B}$ en $\rm{C}$, etc *constant*: de verdeelde belasting treedt op in het dwarskrachtencentrum, dus er is geen verdeelde belasting die zorgt voor wringende momenten.
@@ -112,7 +113,7 @@ Bepaal de wringend momentenlijn.
 
 :::::
 
-::::{admonition} Oplossing
+::::{admonition} Uitwerking
 :class: solution, dropdown
 
 Het wringend moment tussen $\rm{D}$ en $\rm{DE}$ is nul. $\rm{E}$ is een vrij uiteinde en op deel $\rm{DE}$ werkt geen wringend moment. Het wringend moment voor het deel $\rm{CD}$ is te bepalen met de volgende snede:

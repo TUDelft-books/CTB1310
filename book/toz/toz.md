@@ -9,6 +9,7 @@ Gegeven is de volgende constructie en doorsnede
 :columns: auto
 
 ```{figure-start} ./toz_data/constructie.svg
+:class: sticky-margin
 :align: center
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/TOZ_schuifspanningen
 :number:
@@ -52,7 +53,7 @@ Wat is de locatie van het normaalkrachtencentrum in $y$-richting?
 
 :::::
 
-::::{admonition} Oplossing
+::::{admonition} Uitwerking
 :class: solution, dropdown
 
 In de $y$-richting kan de locatie gevonden worden ten opzichte van de rechter wand:
@@ -77,7 +78,7 @@ De volgende vraag gaat over de absolute waarde van de maximale spanning in doors
 
 :::::
 
-::::{admonition} Oplossing
+::::{admonition} Uitwerking
 :class: solution, dropdown
 
 De schuifspanning kan bepaald worden met het afschuivende gedeelte van de helft van de verticale wand:
@@ -101,7 +102,7 @@ Wat is de absolute waarde van de maximale spanning in doorsnede $\rm{B}$ ten gev
 
 :::::
 
-::::{admonition} Oplossing
+::::{admonition} Uitwerking
 :class: solution, dropdown
 
 De maximale schuifspanning bevindt zich ter hoogte van het normaalkrachtencentrum in de verticale wanden:
@@ -147,7 +148,7 @@ Wat is/zijn de richting(en) van de maximale schuifspanning ten gevolge van allee
 
 :::::
 
-::::{admonition} Oplossing
+::::{admonition} Uitwerking
 :class: solution, dropdown
 
 De dwarskracht werkt op een negatieve doorsnede omhoog, dus op een positieve doorsnede omlaag. Voor de eerder afgeleide spanningsverdeling moet de maximale schuifspanning dan ook naar beneden lopen
@@ -217,7 +218,7 @@ Optie 3
 
 :::::
 
-::::{admonition} Oplossing
+::::{admonition} Uitwerking
 :class: solution, dropdown
 
 Het dwarskrachtencentrum ligt op het kruispunt van de wanden ($y = - \bar y_{\rm{N.C.}}$). De verdeelde belasting grijpt aan in het normaalkrachtencentrum wat daarom voor wringing van $y$ naar $z$ zorgt, dus de dubbele vectorpijl naar rechts.
@@ -244,7 +245,7 @@ Wat is het wringend moment in $\rm{B}$?
 
 :::::
 
-::::{admonition} Oplossing
+::::{admonition} Uitwerking
 :class: solution, dropdown
 
 Het verdeelde wringend moment is $15024 \cdot \bar y_{\rm{N.C.}} = 15024 \cdot 0.075 = 1126.8 \, \rm{Nm/m}$
@@ -280,7 +281,7 @@ Welk model heb je nodig om de schuifspanningen ten gevolge van wringing te berek
 
 :::::
 
-::::{admonition} Oplossing
+::::{admonition} Uitwerking
 :class: solution, dropdown
 
 Het gaat om een open, dunwandige doorsnede, dus de derde formule is van toepassing: $\tau  = \cfrac{{{M_t} \cdot {e_m}}}{{\tfrac{1}{2} \cdot \sum\limits_i {\tfrac{1}{3} \cdot {h_i} \cdot t_i^3} }} $
@@ -296,7 +297,7 @@ Wat is de absolute waarde van de maximale spanning in doorsnede $\rm{B}$ ten gev
 
 :::::
 
-::::{admonition} Oplossing
+::::{admonition} Uitwerking
 :class: solution, dropdown
 
 De doorsnede is een open, dunwandige doorsnede. De maximale spanning bevindt zich dus aan de buitenrand van de wanden: $e_m = \frac{1}{2} \cdot 12 = 6 \, \rm{mm}$
@@ -316,7 +317,7 @@ Wat is/zijn de richting(en) van de schuifspanning ten gevolge van alleen wringin
 
 :::::
 
-::::{admonition} Oplossing
+::::{admonition} Uitwerking
 :class: solution, dropdown
 
 Op een negatieve doorsnede werkt een negatief wringend moment, dus van $y$ naar $z$. Op een positieve doorsnede werkt dan ook een negatief wringend moment, van $z$ naar $y$. Deze werkt op alle uiterste randen van de wanden dus zowel omhoog, omlaag, naar links als naar rechts.

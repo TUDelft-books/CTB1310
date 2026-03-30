@@ -13,6 +13,7 @@ Gegeven is de volgende constructie en doorsnede:
 
 ```{figure} ./lesoefening2_data/constructie.svg
 :align: center
+:class: sticky-margin
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/shear_stresses
 :number:
 ```
@@ -37,7 +38,7 @@ Gegeven zijn zes mogelijke schuifspanningsverdelingen.
 
 % solution_start
 
-::::{admonition} Oplossing
+::::{admonition} Uitwerking
 :class: solution, dropdown
 
 Variant 6 is correct. De dwarskracht werkt in z-richting, dus linear schuifsspanning verloop in y-richting en parabolisch in z-richting. $S_{z}^{\rm{a}}$ is nul voor een snede bij $y=0$ onderin en boven het profiel. De schuifspanning is maximaal ter hoogte van $\rm{N.C.}$
@@ -58,7 +59,7 @@ Bepaal de doorsnedegrootheden
 
 % solution_start
 
-::::{admonition} Oplossing
+::::{admonition} Uitwerking
 :class: solution, dropdown
 
 Voor de $I_{zz}$ berekening zijn de schuine delen berekend als trapezium. De lengte in $y$-richting voor de berekening van het eigen traagheidsmoment is dan $7 \cdot \sqrt{10}/3$, zoals wordt uitgelegd met de onderstaande afbeelding:
@@ -95,7 +96,7 @@ Bepaal de maximale schuifspanning in de bovenflens, onderflens en het lijf.
 
 % solution_start
 
-::::{admonition} Oplossing
+::::{admonition} Uitwerking
 :class: solution, dropdown
 
 Voor de bovenflens geldt:

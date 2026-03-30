@@ -20,6 +20,7 @@ Gegeven is de volgende constructie en doorsnede in $\rm{D}$. Het is een versimpe
 
 ```{figure-start} ../torsie_model/lesoefening2_data/constructie.svg
 :align: center
+:class: sticky-margin
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/failure_criteria
 :number:
 ```
@@ -39,6 +40,7 @@ De oplegreactie bij $B$ grijpt aan in zowel $y=-2 \,\rm{m}$ als $y=+2 \,\rm{m}$.
 
 ```{figure} lesoefening_data/doorsnede_2.svg
 :align: center
+:class: sticky-margin
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/failure_criteria
 :number:
 ```

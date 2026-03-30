@@ -4,6 +4,7 @@ Gegeven is de volgende doorsnede:
 
 ```{figure} ./lesoefening2_data/voorbeeld.svg
 :align: center
+:class: sticky-margin
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/shear_3
 :number:
 ```
@@ -54,7 +55,7 @@ Je mag er vanuit gaan dat $R \gg b$ voor alle relevante afschuifvlakken.
 
 % solution_start
 
-::::{admonition} Oplossing
+::::{admonition} Uitwerking
 :class: solution, dropdown
 
 ...
@@ -81,7 +82,7 @@ Gegeven zijn vier mogelijke schuifspanningsverdelingen.
 
 % solution_start
 
-::::{admonition} Oplossing
+::::{admonition} Uitwerking
 :class: solution, dropdown
 
 ...
@@ -102,7 +103,7 @@ Bepaal de doorsnedegrootheden
 
 % solution_start
 
-::::{admonition} Oplossing
+::::{admonition} Uitwerking
 :class: solution, dropdown
 
 ...
@@ -133,7 +134,7 @@ Voorbeeld van een hoek van $-\cfrac{\pi}{4}$.
 
 :::::
 
-::::{admonition} Oplossing
+::::{admonition} Uitwerking
 :class: solution, dropdown
 
 ...
@@ -154,7 +155,7 @@ Bepaal de maximale schuifspanning
 
 % solution_start
 
-::::{admonition} Oplossing
+::::{admonition} Uitwerking
 :class: solution, dropdown
 
 ...
@@ -175,7 +176,7 @@ Waar is de schuifspanning de helft van de maximale waarde uitgedrukt als hoek va
 
 % solution_start
 
-::::{admonition} Oplossing
+::::{admonition} Uitwerking
 :class: solution, dropdown
 
 ...
