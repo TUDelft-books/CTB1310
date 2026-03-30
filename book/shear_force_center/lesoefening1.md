@@ -13,6 +13,7 @@ Gegeven is de volgende doorsnede:
 
 ```{figure} ./lesoefening_data/doorsnede.svg
 :align: center
+:class: sticky-margin
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/shear_force_center
 :number:
 ```

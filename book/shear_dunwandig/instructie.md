@@ -125,6 +125,7 @@ Gegeven is de volgende constructie en doorsnede:
 
 ```{figure-start} ./instructie_data/constructie.svg
 :align: center
+:class: sticky-margin
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/shear_dunwandig
 :number:
 ```
@@ -139,6 +140,7 @@ Gegeven is de volgende constructie en doorsnede:
 
 ```{figure-start} ./instructie_data/doorsnede.svg
 :align: center
+:class: sticky-margin
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/shear_dunwandig
 :number:
 ```
@@ -264,11 +266,14 @@ Schuifspanningsverloop
 
 ::::::
 
+```{hide-sticky-margin}
+```
+
 ## Meer voorbeelden
 In hoofdstuk 5.4.2 en 5.4.3 van het boek Mechanica, spanningen, vervormingen en verplaatsingen {cite:p}`Hartsuijker2013` worden meer voorbeelden gegeven van het bepalen van schuifspanningen in verschillende situaties.
 
 ## Instructies in collegevorm
-Dit onderwerp is [in les 7](https://collegeramavideoportal.tudelft.nl/catalogue/ctb1310/presentation/a7b001c63c244295b23a03f6ebf77b2e1d?academicYear=2025-2026-ctb1310) gepresenteerd in collegevorm van 16:40 tot 53:50.
+Dit onderwerp is [in les 7](https://collegerama.tudelft.nl/Mediasite/Channel/public-ctb1310/watch/a7b001c63c244295b23a03f6ebf77b2e1d) gepresenteerd in collegevorm van 16:40 tot 53:50.
 
 ## Oefeningen
 [Opgaves 5.33 - 5.46 in hoofdstuk 5 van het boek Mechanica, spanningen, vervormingen en verplaatsingen](https://icozct.tudelft.nl/TUD_CT/boekantwoorden/files/TM2vraagstukkenbundel.pdf) {cite:p}`Hartsuijker2013`. Antwoorden zijn [hier](https://icozct.tudelft.nl/TUD_CT/boekantwoorden/vol2/Chapter5/) beschikbaar.

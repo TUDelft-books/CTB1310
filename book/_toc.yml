@@ -56,6 +56,8 @@ parts:
     sections:
     - file: sympy_COZ/opgave1.ipynb
     - file: sympy_COZ/opgave2.ipynb
+    - file: sympy_COZ/opgave3.ipynb
+    - file: sympy_COZ/opgave4.ipynb
   - file: toz_3/toz.ipynb
 # START REMOVE-FROM-RELEASE
 # END REMOVE-FROM-RELEASE

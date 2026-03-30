@@ -431,6 +431,7 @@ Gegevens is de volgende constructie en doorsnede:
 
 ```{figure} ./instructie_data/doorsnede.svg
 :align: center
+:class: sticky-margin
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/shear_force_center_2
 :number:
 ```
@@ -615,6 +616,9 @@ Daarmee kan de locatie van het dwarskrachtencentrum worden bepaald door het snij
 
 ::::::
 
+```{hide-sticky-margin}
+```
+
 ## Alternatieve afleiding
 In hoofdstuk 5.5 van het boek Mechanica, spanningen, vervormingen en verplaatsingen {cite:p}`Hartsuijker2013` wordt er gesproken over 'geen torsie'. Dit moet geïnterpreteerd worden als geen draaiing van de doorsnede. Het betekent niet dat er geen torsieafschuifrek is. Later wordt ook gesteld dat er enkel spanningen ten gevolge van buiging optreden als de dwarskracht in het dwarskrachtencentrum aangrijpt, dat kan niet zomaar gesteld worden zoals hierboven beschreven.
 
@@ -622,7 +626,7 @@ In hoofdstuk 5.5 van het boek Mechanica, spanningen, vervormingen en verplaatsin
 In hoofdstuk 5.5 van het boek Mechanica, spanningen, vervormingen en verplaatsingen {cite:p}`Hartsuijker2013` worden meer voorbeelden gegeven van het bepalen van het dwarskrachtencentrum.
 
 ## Instructies in collegevorm
-Dit onderwerp is [in les 8](https://collegeramavideoportal.tudelft.nl/catalogue/ctb1310/presentation/197a0582e28f4491b77d90db256fde721d?academicYear=2025-2026-ctb1310) gepresenteerd in collegevorm van 8:50 tot 58:00.
+Dit onderwerp is [in les 8](https://collegerama.tudelft.nl/Mediasite/Channel/public-ctb1310/watch/197a0582e28f4491b77d90db256fde721d) gepresenteerd in collegevorm van 8:50 tot 58:00.
 
 ## Oefeningen
 [Opgaves 5.49 - 5.54 in hoofdstuk 5 van het boek Mechanica, spanningen, vervormingen en verplaatsingen](https://icozct.tudelft.nl/TUD_CT/boekantwoorden/files/TM2vraagstukkenbundel.pdf) {cite:p}`Hartsuijker2013`. Antwoorden zijn [hier](https://icozct.tudelft.nl/TUD_CT/boekantwoorden/vol2/Chapter5/) beschikbaar.
