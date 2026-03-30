@@ -19,8 +19,6 @@ Wat zijn de schuifspanningen op een aantal andere punten?
 
 :::::
 
-% solution_start
-
 ::::{admonition} Oplossing
 :class: solution, dropdown
 
@@ -45,7 +43,7 @@ $$
 \sum F_{\rm{v}} = 0 \to V_{\rm{D}} = 30 \, \rm{kN} \left(⎽|⎺\right)
 $$
 
-Nu kunnen we de schuifspanningen bepalen op karakteristieke afschuivende delen in de doorsnede. Het punt van de doorsnede waarop we de schuifspanning moeten bepalen heeft de coordinaten: $\rm{y}= 15, \rm{z} = -45$. 
+Nu kunnen we de schuifspanningen bepalen op karakteristieke afschuivende delen in de doorsnede. Het punt van de doorsnede waarop we de schuifspanning moeten bepalen heeft de coordinaten: $\rm{y}= 15, \rm{z} = -45$.
 
 Het statisch moment van dit afschuivende deel is:
 
@@ -124,5 +122,3 @@ $$
 Aangezien de dwarskracht naar beneden wijst in de positieve doorsnede is de richting van de schuifspanning ook naar beneden.
 
 ::::
-
-% solution_end
