@@ -58,7 +58,6 @@ sphinx:                                              # Options passed on to the 
     - teachbooks_favourites
     - sphinx_apa_references
     - sphinx_tudelft_theme
-    - sphinx_sticky_margin
 
 teachbooks:
   attribution_color: attributiongrey

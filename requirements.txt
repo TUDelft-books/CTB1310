@@ -5,5 +5,3 @@ git+https://github.com/TeachBooks/TeachBooks-Favourites@all_authors
 
 sphinx-tudelft-theme
 sphinx-apa-references
-
-git+https://github.com/TeachBooks/Sphinx-Sticky-Margin@first-steps #BUMP
