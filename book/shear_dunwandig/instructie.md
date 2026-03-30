@@ -6,21 +6,107 @@ De vorige keer hebben we gekeken naar [schuifspanningen in dikwandige doorsnedes
 
 Voor dunwandige doorsneden geldt dat de wanddikte klein is ten opzichte van de andere afmetingen van de doorsnede. Dit heeft tot gevolg dat overal wordt voldaan aan de voorwaarde $h \gg b$ en $R \gg b$ en lopen de schuifspanningen altijd evenwijdig aan de wand. Daarmee kunnen we ook in een knooppunt waar meerdere constructiedelen bij elkaar komen de schuifspanningen berekenen, in tegenstelling tot dikwandige doorsnedes. Dus kan de schuifspanning in de gehele doorsnede worden bepaald.
 
-```{figure} ./instructie_data/overal.svg
+:::::{prf:example}
+:nonumber: true
+
+Hieronder zijn twee voorbeelden getoond van dunwandige doorsneden waar de schuifspanningen overal kunnen worden bepaald.
+
+::::{grid} 2
+:class-container: center-grid
+
+:::{grid-item}
+:columns: auto
+
+```{figure} ./instructie_data/overal_1.svg
 :align: center
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/shear_dunwandig
-
-Schuifspanningen kunnen voor dunwandige doorsneden in de gehele doorsnede worden bepaald.
+:number:
 ```
 
-Omdat we nu de schuifspanning in de volledige continue doorsnede kunnen bepalen met ons schuifspanningsmodel kunnen we de schuifspanning zien als een 'stroom' van de dwarskracht door de doorsnede. Aangezien de dwarskracht de resultante is van de schuifspanningen kan de richting van de schuifspanning in elk van de doorsnededelen worden afgeleid.
+Ook in de uiteindes van de flenzen  
+en in de knooppunten tussen flens  
+en lijf kunnen schuifspanningen  
+worden bepaald terwijl bij een  
+dikwandige doorsnede hier complexe  
+spanningsverdelingen optreden.
 
-```{figure} ./instructie_data/richting.svg
+:::
+
+:::{grid-item}
+:columns: auto
+
+```{figure} ./instructie_data/overal_2.svg
 :align: center
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/shear_dunwandig
-
-De richting van de schuifspanning volgt uit de stroom van de dwarskracht die voor de resultante dwarskracht zorgt. Plaatjes uitgaande van dwarskracht naar beneden op doorsnede.
+:number:
 ```
+
+Ook in de de hoekpunten kunnen de  
+schuifspanningen worden bepaald  
+terwijl bij een dikwandige  
+doorsnede hier complexe  
+spanningsverdelingen optreden.
+
+
+:::
+
+::::
+
+:::::
+
+Omdat we nu de schuifspanning in de volledige continue doorsnede kunnen bepalen met ons schuifspanningsmodel kunnen we de schuifspanning zien als een 'stroom' van de dwarskracht door de doorsnede. Aangezien de dwarskracht de resultante is van de schuifspanningen kan de richting van de schuifspanning in elk van de doorsnededelen worden afgeleid zonder een berekening te maken. Daarvoor is het over het algemeen van belang dat de richting van de maximale schuifspanning overeenkomt met de richting van de dwarskracht.
+
+:::::{prf:example}
+:nonumber: true
+
+Hieronder zijn twee voorbeelden getoond waarin de richting van de schuifspanningen kan worden afgeleid uit de richting van de dwarskracht.
+
+::::{grid} 2
+:class-container: center-grid
+
+:::{grid-item}
+:columns: auto
+
+```{figure} ./instructie_data/richting_1.svg
+:align: center
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/shear_dunwandig
+:number:
+```
+
+In het lijf moet de schuifspanning  
+naar beneden lopen als er een  
+dwarskracht omlaag werkt. Om een  
+symmetrisch stroom te krijgen moet  
+de schuifspanningen in de bovenste  
+flenzen naar binnen en in de  
+onderste flenzen naar buiten lopen.
+
+:::
+
+:::{grid-item}
+:columns: auto
+
+```{figure} ./instructie_data/richting_2.svg
+:align: center
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/shear_dunwandig
+:number:
+```
+
+In het linker lijf kan de grootste  
+verticale kracht optreden (ter hoogte  
+van het normaalkrachtencentrum), dus  
+bij een dwarskracht omlaag moet de  
+schuifspanning in dat lijf naar  
+beneden lopen. De richting van de  
+schuifspanningen in de flenzen en in  
+het rechter lijf volgt dan uit de  
+stroming van de schuifspanning.
+
+:::
+
+::::
+
+:::::
 
 ## Voorbeeld
 
@@ -31,20 +117,50 @@ Het bepalen van de schuifspanningen voor een dunwandige doorsnede wordt getoond 
 
 Gegeven is de volgende constructie en doorsnede:
 
-```{figure} ./instructie_data/oefening.svg
-:align: center
-:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/shear_dunwandig
+::::{grid} 2
+:class-container: center-grid
 
-Doorsnede en constructie
+:::{grid-item}
+:columns: auto
+
+```{figure-start} ./instructie_data/constructie.svg
+:align: center
+:class: sticky-margin
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/shear_dunwandig
+:number:
 ```
+
+```{figure-end}
+```
+
+:::
+
+:::{grid-item}
+:columns: auto
+
+```{figure-start} ./instructie_data/doorsnede.svg
+:align: center
+:class: sticky-margin
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/shear_dunwandig
+:number:
+```
+
+De doorsnede mag als dunwandig worden beschouwd.
+
+```{figure-end}
+```
+
+:::
+
+::::
 
 Gevraagd is het schuifspanningsverloop op een negatieve snede.
 
 Zonder een berekening te maken kunnen we al wat zeggen over de schuifspanningen in de verschillende delen van de doorsnede:
 - Vanwege symmetrie moet de schuifspanning middenin de flens gelijk zijn aan $0$.
 - Dat geldt ook voor de vrije uiteindes van zowel de flens als het lijf.
-- De horizontale flens zal een horizontaal verloop van de schuifspanning hebben
-- Het verticale lijf zal een verticaal verloop van de schuifspanning hebben.
+- De horizontale flens zal een lineair verloop van de schuifspanning hebben in de horizontale richting.
+- Het verticale lijf zal een parabolisch verloop van de schuifspanning hebben in de verticale richting.
 - Het maximum van de schuifspanning zit ter hoogte van het normaalkrachtencentrum omdat daar het statisch moment van het afschuivend gedeelte het grootst is.
 - De dwarskracht met vervormingsteken ⎽|⎺ zorgt voor een dwarskracht omhoog op een negatieve snede.
 - Vanwege de stroming van de schuifstroom zal de schuifspanning vanuit in het lijf vanuit de flenzen naar buiten en binnen stromen en afnemen.
@@ -52,8 +168,7 @@ Zonder een berekening te maken kunnen we al wat zeggen over de schuifspanningen 
 ```{figure} ./instructie_data/verloop.svg
 :align: center
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/shear_dunwandig
-
-Verloop van schuifspanningen volgens het schuifspanningsmodel zonder berekeningen te maken.
+:number:
 ```
 
 Om de daadwerkelijke waardes te berekenen beginnen we met het bepalen van de doorsnedegrootheden, startend met het oppervlakte $A$.
@@ -151,12 +266,14 @@ Schuifspanningsverloop
 
 ::::::
 
+```{hide-sticky-margin}
+```
+
 ## Meer voorbeelden
 In hoofdstuk 5.4.2 en 5.4.3 van het boek Mechanica, spanningen, vervormingen en verplaatsingen {cite:p}`Hartsuijker2013` worden meer voorbeelden gegeven van het bepalen van schuifspanningen in verschillende situaties.
 
-% ## Instructies in collegevorm
-%
-% Dit onderwerp is [les ...](...) gepresenteerd in collegevorm tot ....
+## Instructies in collegevorm
+Dit onderwerp is [in les 7](https://collegerama.tudelft.nl/Mediasite/Channel/public-ctb1310/watch/a7b001c63c244295b23a03f6ebf77b2e1d) gepresenteerd in collegevorm van 16:40 tot 53:50.
 
 ## Oefeningen
-Opgaves 5.33 - 5.46 in hoofdstuk 5 van het boek Mechanica, spanningen, vervormingen en verplaatsingen {cite:p}`Hartsuijker2013`. Antwoorden zijn [hier](https://icozct.tudelft.nl/TUD_CT/boekantwoorden/vol2/Chapter5/) beschikbaar.
+[Opgaves 5.33 - 5.46 in hoofdstuk 5 van het boek Mechanica, spanningen, vervormingen en verplaatsingen](https://icozct.tudelft.nl/TUD_CT/boekantwoorden/files/TM2vraagstukkenbundel.pdf) {cite:p}`Hartsuijker2013`. Antwoorden zijn [hier](https://icozct.tudelft.nl/TUD_CT/boekantwoorden/vol2/Chapter5/) beschikbaar.

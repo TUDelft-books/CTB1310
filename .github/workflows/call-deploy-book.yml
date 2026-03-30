@@ -27,13 +27,13 @@ jobs:
 
     steps:
       - name: Checkout code
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
         with:
           fetch-depth: 0
           token: ${{ secrets.ACTIONS_DEPLOY_KEY }}
 
       - name: Set up Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v6
         with:
           python-version: '3.12'
       
@@ -145,26 +145,58 @@ jobs:
                           nbformat.write(notebook, f)
           "
 
-      - name: Commit and push changes assignment version
+      - name: Delete old branches and recreate from cleaned source
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git checkout -b 2025-draft
-          git merge origin/2025-teacher
+          
+          # Delete remote branches to start fresh (ignore errors if they don't exist)
+          git push origin --delete 2025-draft 2>/dev/null || true
+          git push origin --delete 2025 2>/dev/null || true
+          
+          # Delete local branches to start fresh (ignore errors if they don't exist)
+          git branch -D 2025-draft 2>/dev/null || true
+          git branch -D 2025 2>/dev/null || true
+          
+          # Create fresh 2025-draft from cleaned 2025-teacher
+          git checkout -b 2025-draft origin/2025-teacher
           git add .
-          # Commit only if there are staged changes; avoid failing when clean
-          if git diff --cached --quiet; then
-            echo "No changes to commit"
-          else
-            git commit -m "Generate assignment version"
-          fi
-          git push origin 2025-draft --force
-      
-      - name: Merge 2025-draft into 2025
-        run: |
-          git checkout 2025
-          git merge origin/2025-draft --no-ff -m "Auto-merge 2025-draft into 2025"
-          git push origin 2025 --force
+          
+          # Commit and capture hash if there are staged changes
+          git commit -m "Generate assignment version" && {
+            COMMIT_HASH=$(git rev-parse HEAD)
+            echo "Captured commit hash: $COMMIT_HASH"
+            
+            # Update _config.yml with git_exclude_commits
+            python -c "
+          import re
+          with open('book/_config.yml', 'r') as f:
+              content = f.read()
+
+          commit_hash = '$COMMIT_HASH'
+
+          # Append hash to git_exclude_commits list
+          content = re.sub(
+              r'(git_exclude_commits:)(\s*)(\[.*?\])',
+              f\"git_exclude_commits: [{repr(commit_hash)}]\",
+              content,
+              flags=re.DOTALL
+          )
+
+          with open('book/_config.yml', 'w') as f:
+              f.write(content)
+          "
+            
+            # Create second commit for config update
+            git add book/_config.yml
+            git commit -m "Update git_exclude_commits with cleaning commit hash"
+          } || echo "No changes to commit"
+          
+          git push origin 2025-draft
+          
+          # Create fresh 2025 branch from clean 2025-draft
+          git checkout -b 2025 2025-draft
+          git push origin 2025
 
   call-workflow:
     needs: generate-student-version

@@ -1,0 +1,4 @@
+.sd-container-fluid.center-grid .sd-row {
+  justify-content: center;  /* center items horizontally */
+  align-items: center;      /* center items vertically */
+}

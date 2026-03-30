@@ -9,14 +9,19 @@ Deze oefening is gebaseerd op [deze oefening uit het online boek van het vak CT1
 
 # Begeleide oefening 3
 
-Gegeven is de volgende constructie:
+Gegeven is de volgende constructie en een willekeurige doorsnede met bekend dwarskrachtencentrum.:
 
-```{figure} ./lesoefening2_data/constructie.svg
+```{figure-start} ./lesoefening2_data/constructie.svg
 ---
 align: center
+class: sticky-margin
 source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/torsie2
----
-Constructie en willekeurige doorsnede met bekend dwarskrachtencentrum
+number:
+```
+
+Verdeelde belasting grijpt aan op $y=0$
+
+```{figure-end}
 ```
 
 Waarvan je de wringende momentenlijn moet bepalen.
@@ -30,6 +35,7 @@ Gegeven zijn drie 2D-weergaves van de constructie
 ---
 align: center
 source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/torsie2
+number:
 ---
 ```
 
@@ -38,9 +44,7 @@ source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tre
 
 :::::
 
-% solution_start
-
-::::{admonition} Oplossing
+::::{admonition} Uitwerking
 :class: solution, dropdown
 
 Optie 3 is correct:
@@ -48,8 +52,6 @@ Optie 3 is correct:
 De verdeelde belasting werkt naast het dwarskrachtencentrum, dus dit veroorzaakt een wringend moment van $z$ naar $y$. De rechterhandregel geeft dan een vectorpijl in de negatieve $x$-richting.
 
 ::::
-
-% solution_end
 
 :::::{exercise}
 :nonumber: true
@@ -61,10 +63,7 @@ Wat weet je over de vorm van de wringende momentenlijn.
 
 :::::
 
-
-% solution_start
-
-::::{admonition} Oplossing
+::::{admonition} Uitwerking
 :class: solution, dropdown
 
 De wringende momentenlijn verloopt tussen de punten $\rm{A}$ en $\rm{B}$, $\rm{B}$ en $\rm{C}$ *linear*: de constante verdeelde belasting treedt op naast het dwarskrachtencentrum, dus dat zorgt voor een lineair verlopende wringende momentenlijn.
@@ -74,8 +73,6 @@ In $\rm{C}$ het wringend moment is gelijk aan *een nog onbekende waarde*: dit ui
 Rondom de punten $\rm{A}$ en $\rm{B}$, het wringende moment maakt *een sprong*: de uitwendige geconcentreerde wringende momenten zorgen voor een uitwendig wringend moment, wat een sprong veroorzaakt inde wringende momentenlijn.
 
 ::::
-
-% solution_end
 
 :::::{exercise}
 :nonumber: true
@@ -87,9 +84,7 @@ Bepaal de wringend momentenlijn.
 
 :::::
 
-% solution_start
-
-::::{admonition} Oplossing
+::::{admonition} Uitwerking
 :class: solution, dropdown
 
 Het wringend moment halverwege $\rm{C}$ en $\rm{B}$:
@@ -98,8 +93,8 @@ Het wringend moment halverwege $\rm{C}$ en $\rm{B}$:
 ---
 align: center
 source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/torsie2
+number:
 ---
-Snede AB halverwege
 ```
 $$
 \begin{align*}
@@ -115,8 +110,8 @@ Het wringend moment net links van $\rm{B}$:
 ---
 align: center
 source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/torsie2
+number:
 ---
-Snede links B
 ```
 $$
 \begin{align*}
@@ -132,8 +127,8 @@ Het wringend moment net rechts van $\rm{B}$:
 ---
 align: center
 source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/torsie2
+number:
 ---
-Snede rechts B
 ```
 $$
 \begin{align*}
@@ -149,8 +144,8 @@ Het wringend moment halverwege $\rm{B}$ en $\rm{A}$:
 ---
 align: center
 source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/torsie2
+number:
 ---
-Snede halverwege A en B
 ```
 $$
 \begin{align*}
@@ -166,8 +161,8 @@ Het wringend moment in $\rm{A}$:
 ---
 align: center
 source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/torsie2
+number:
 ---
-Schematisering voor wringend moment A
 ```
 $$
 \begin{align*}
@@ -182,10 +177,8 @@ De wringende momentenlijn ziet er dan als volgt uit:
 ---
 align: center
 source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/torsie2
+number:
 ---
-Wringend momentenlijn
 ```
 
 ::::
-
-% solution_end
