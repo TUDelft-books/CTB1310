@@ -14,6 +14,7 @@ In [](./instructie2.md) is een deel van de wringende momentenlijn bepaald voor d
 ```{figure} ./instructie2_data/torsielijn.svg
 ---
 align: center
+class: sticky-margin
 source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/torsie
 number:
 ---
@@ -40,7 +41,7 @@ Bepaal de wringend momentenlijn.
 
 :::::
 
-::::{admonition} Oplossing
+::::{admonition} Uitwerking
 :class: solution, dropdown
 
 Het wringend moment in deel $\rm{BC}$:

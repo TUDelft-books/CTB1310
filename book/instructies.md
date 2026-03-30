@@ -10,7 +10,7 @@ Dit boek verwijst naar relevante delen van andere literatuur voor extra voorbeel
 - Mechanica: Spanningen, vervormingen en verplaatsingen {cite:ts}`Hartsuijker2013`. Onder andere verkrijg bij [<img height="12px" src="./figures/logo-boom.svg" alt="Boom" class="no-zoomies">](https://www.boomhogeronderwijs.nl/product/100-9056_Mechanica-Spanningen-vervormingen-verplaatsingen-3e-druk).
   - Opgaves uit dit boek zijn [hier](https://icozct.tudelft.nl/TUD_CT/boekantwoorden/files/TM2vraagstukkenbundel.pdf) te vinden.
   - Dit boek is ook in het Engels beschikbaar: Engineering Mechanics: Volume 2: Stresses, strains and displacements, door {cite:ts}`Hartsuijker2007`. EBook gratis beschikbaar via TU Delft bij [<img height="20px" src="./figures/springer-logo.svg" alt="Springer" class="no-zoomies">](https://link.springer.com/book/10.1007/978-1-4020-5763-2).
-%- Opnames van colleges (publiek/open beschikbaar) voor het onderwerp statisch onbepaalde constructies: https://collegerama.tudelft.nl/Mediasite/Channel/public-ceg-ctb2210
+- Opnames van colleges (publiek/open beschikbaar) voor het onderwerp schuifspanningen en sympy: https://collegerama.tudelft.nl/Mediasite/Channel/public-ctb1310/
 
 ## Interactieve functies 🧩
 Dit TeachBook bevat interactieve functies!

@@ -19,6 +19,7 @@ Gegeven is de volgende constructie en doorsnede in $\rm{D}$. Het is een versimpe
 
 ```{figure-start} ./lesoefening2_data/constructie.svg
 :align: center
+:class: sticky-margin
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/failure_criteria
 :number:
 ```
@@ -38,6 +39,7 @@ De oplegreactie bij $B$ grijpt aan in zowel $y=-2 \,\rm{m}$ als $y=+2 \,\rm{m}$.
 
 ```{figure} ./lesoefening2_data/doorsnede.svg
 :align: center
+:class: sticky-margin
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/failure_criteria
 :number:
 ```
@@ -57,7 +59,7 @@ Waarvoor de wringspanningen ten gevolge van verwringing gevraagd zijn net rechts
 
 % solution_start
 
-::::{admonition} Oplossing
+::::{admonition} Uitwerking
 :class: solution, dropdown
 
 ...
@@ -125,7 +127,7 @@ Bepaal de oplegreacties.
 
 % solution_start
 
-::::{admonition} Oplossing
+::::{admonition} Uitwerking
 :class: solution, dropdown
 
 ...
@@ -146,7 +148,7 @@ Bepaal de snedekrachten.
 
 % solution_start
 
-::::{admonition} Oplossing
+::::{admonition} Uitwerking
 :class: solution, dropdown
 
 ...
@@ -163,7 +165,7 @@ Bepaal de snedekrachten.
 
 % solution_start
 
-::::{admonition} Oplossing
+::::{admonition} Uitwerking
 :class: solution, dropdown
 
 ...
@@ -182,7 +184,7 @@ Bepaal de snedekrachten.
 
 % solution_start
 
-::::{admonition} Oplossing
+::::{admonition} Uitwerking
 :class: solution, dropdown
 
 ...

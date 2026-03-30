@@ -13,6 +13,7 @@ Gegeven is de volgende constructie en doorsnede:
 
 ```{figure} ./lesoefening2_data/constructie.svg
 :align: center
+:class: sticky-margin
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/shear_stresses
 :number:
 ```
@@ -37,7 +38,7 @@ Gegeven zijn zes mogelijke schuifspanningsverdelingen.
 
 % solution_start
 
-::::{admonition} Oplossing
+::::{admonition} Uitwerking
 :class: solution, dropdown
 
 ...
@@ -58,7 +59,7 @@ Bepaal de doorsnedegrootheden
 
 % solution_start
 
-::::{admonition} Oplossing
+::::{admonition} Uitwerking
 :class: solution, dropdown
 
 ...
@@ -79,7 +80,7 @@ Bepaal de maximale schuifspanning in de bovenflens, onderflens en het lijf.
 
 % solution_start
 
-::::{admonition} Oplossing
+::::{admonition} Uitwerking
 :class: solution, dropdown
 
 ...

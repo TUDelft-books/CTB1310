@@ -13,6 +13,7 @@ Gegeven is de volgende constructie en doorsnede:
 
 ```{figure} ./lesoefening1_data/constructie.svg
 :align: center
+:class: sticky-margin
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/continuum
 :number:
 ```
@@ -31,7 +32,7 @@ Bepaal de snedekrachten in staaf $\rm{CD}$ net links van $\rm{D}$ volgens het as
 
 % solution_start
 
-::::{admonition} Oplossing
+::::{admonition} Uitwerking
 :class: solution, dropdown
 
 Som van de momenten om punt A geeft:
@@ -78,7 +79,7 @@ Bepaal de doorsnedegrootheden
 
 % solution_start
 
-::::{admonition} Oplossing
+::::{admonition} Uitwerking
 :class: solution, dropdown
 
 $$
@@ -109,7 +110,7 @@ Bepaal de normaalspanning en schuifspanning op een positieve snede in staaf $\rm
 
 % solution_start
 
-::::{admonition} Oplossing
+::::{admonition} Uitwerking
 :class: solution, dropdown
 
 $$

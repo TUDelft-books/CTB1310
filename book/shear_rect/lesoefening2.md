@@ -4,6 +4,7 @@ Gegeven is de volgende constructie
 
 ```{figure} ./lesoefening2/constructie.svg
 :align: center
+:class: sticky-margin
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/shear_rect_oef
 :number:
 ```
@@ -18,25 +19,28 @@ Wat is de dwarskracht net rechts van $\rm{B}$?
 
 :::::
 
-% solution_start
-
-::::{admonition} Oplossing
+::::{admonition} Uitwerking
 :class: solution, dropdown
 
-Vrijlichaamsschema van deel BC. Verticaal evenwicht geeft:
-$$ \sum F_ {\rm{v}} = - V_{\rm{B}} + 2 \cdot 2 = 0 $$
-$$ V_{\rm{B}} = 4 \rm{kN} \left(⎺|⎽\right) $$ 
+Er kan een snede net rechts van $\rm{B}$ worden gemaakt:
 
 ```{figure} ./lesoefening2/Dwarskracht_B.svg
 :align: center
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/shear_rect_oef
 :number:
 ```
-...
+
+Verticaal evenwicht geeft:
+
+$$
+\begin{align*}
+\sum F_ {\rm{v}} &= 0 \\
+- V_{\rm{B}} + 2 \cdot 2 &= 0 \\
+V_{\rm{B}} &= 4 \, \rm{kN} \left(⎺|⎽\right) 
+\end{align*}
+$$
 
 ::::
-
-% solution_end
 
 :::::{exercise}
 :nonumber: true
@@ -48,10 +52,10 @@ Bepaal de maximale schuifspanning op een negatieve doorsnede net rechts van $\rm
 
 :::::
 
-% solution_start
-
-::::{admonition} Oplossing
+::::{admonition} Uitwerking
 :class: solution, dropdown
+
+De maximale schuifspanning vindt plaats ter hoogte van het normaalkrachtencentrum. Dat geeft dit afschuivende deel:
 
 ```{figure} ./lesoefening2/afschuivend_deel_B.svg
 :align: center
@@ -89,12 +93,9 @@ $$
 \end{align*}
 $$
 
-De dwarskracht op deze snede is omhoog, dus zal de schuifspanning ook omhoog zijn. 
-...
+De dwarskracht op deze negatieve snede is omhoog, dus zal de schuifspanning ook omhoog zijn. 
 
 ::::
-
-% solution_end
 
 :::::{exercise}
 :nonumber: true
@@ -104,27 +105,22 @@ De dwarskracht op deze snede is omhoog, dus zal de schuifspanning ook omhoog zij
 
 :::::
 
-% solution_start
-
-::::{admonition} Oplossing
+::::{admonition} Uitwerking
 :class: solution, dropdown
 
-Het profiel veranderd niet in de balk, de z-locatie van de maximale schuifspanning zal altijd ter hoogte van $\rm{N.C.}$ zijn. De dwarskracht is de enige parameter voor de schuifspanning die veranderd over de lengte van de constructie, dus waar deze het grootst is zal de absolute schuifspanning maximaal zijn. 
+De dwarskracht is de enige parameter voor de schuifspanning die verandert over de lengte van de constructie, dus waar deze het grootst is zal de absolute schuifspanning maximaal zijn. 
 
 Evenwicht geeft de volgende dwarskrachtenlijn:
+
 ```{figure} ./lesoefening2/dwarskrachtenlijn.svg
 :align: center
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/shear_rect_oef
 :number:
 ```
 
-Dit betekend dat de absolute schuifspanning maximaal is op een positieve en negatieve snede net links van B.
-...
+Dus de absolute schuifspanning is maximaal op een positieve en negatieve snede net links van $\rm{B}$.
 
 ::::
-
-% solution_end
-
 :::::{exercise}
 :nonumber: true
 
@@ -135,12 +131,10 @@ Bepaal de maximale absolute schuifspanning
 
 :::::
 
-% solution_start
-
-::::{admonition} Oplossing
+::::{admonition} Uitwerking
 :class: solution, dropdown
 
-De eerder berekende $S_{z}^{\rm{a}}$ en $I_{zz}$ kunnen worden gebruikt om de absolute maximale schuifspanning te vinden in de constructie. De schuifspanning is maximaal in de constructie net links van B, waar de dwarskracht maximaal is. 
+De eerder berekende $S_{z}^{\rm{a}}$ en $I_{zz}$ kunnen worden gebruikt om de absolute maximale schuifspanning te vinden in de constructie.
 
 $$
 \begin{align*}
@@ -150,8 +144,4 @@ $$
 \end{align*}
 $$
 
-...
-
 ::::
-
-% solution_end

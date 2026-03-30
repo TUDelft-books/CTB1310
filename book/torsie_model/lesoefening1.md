@@ -19,6 +19,7 @@ Gegeven is de volgende constructie en doorsnede
 
 ```{figure-start} ./lesoefening1_data/constructie.svg
 :align: center
+:class: sticky-margin
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/torsion_stress_2
 :number:
 ```
@@ -37,6 +38,7 @@ in het dwarskrachtencentrum.
 
 ```{figure} ./lesoefening1_data/doorsnede.svg
 :align: center
+:class: sticky-margin
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/torsion_stress_2
 
 Doorsnede net rechts van $\rm{A}$
@@ -59,7 +61,7 @@ Bepaal de oplegreacties.
 
 % solution_start
 
-::::{admonition} Oplossing
+::::{admonition} Uitwerking
 :class: solution, dropdown
 
 ...
@@ -80,7 +82,7 @@ Bepaal de oplegreacties.
 
 % solution_start
 
-::::{admonition} Oplossing
+::::{admonition} Uitwerking
 :class: solution, dropdown
 
 ...
@@ -99,7 +101,7 @@ Bepaal de oplegreacties.
 
 % solution_start
 
-::::{admonition} Oplossing
+::::{admonition} Uitwerking
 :class: solution, dropdown
 
 ...
@@ -120,7 +122,7 @@ Bereken de doorsnede als een ring, wat is het polair traagheidsmoment en de schu
 
 % solution_start
 
-::::{admonition} Oplossing
+::::{admonition} Uitwerking
 :class: solution, dropdown
 
 ...
@@ -142,7 +144,7 @@ Bereken de doorsnede als een dunwandige niet-ronde gesloten doorsnede (ook als i
 
 % solution_start
 
-::::{admonition} Oplossing
+::::{admonition} Uitwerking
 :class: solution, dropdown
 
 ...

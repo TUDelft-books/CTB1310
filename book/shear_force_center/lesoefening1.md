@@ -13,6 +13,7 @@ Gegeven is de volgende doorsnede:
 
 ```{figure} ./lesoefening_data/doorsnede.svg
 :align: center
+:class: sticky-margin
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/shear_force_center
 :number:
 ```
@@ -31,7 +32,7 @@ Bepaal de doorsnedegrootheden.
 
 % solution_start
 
-::::{admonition} Oplossing
+::::{admonition} Uitwerking
 :class: solution, dropdown
 
 ...
@@ -142,7 +143,7 @@ Optie 6
 
 % solution_start
 
-::::{admonition} Oplossing
+::::{admonition} Uitwerking
 :class: solution, dropdown
 
 ...
@@ -161,7 +162,7 @@ Optie 6
 
 % solution_start
 
-::::{admonition} Oplossing
+::::{admonition} Uitwerking
 :class: solution, dropdown
 
 ...
@@ -188,7 +189,7 @@ Bepaal de absolute waarde van de schuifspanningen op de aangegeven snedevlakken 
 
 % solution_start
 
-::::{admonition} Oplossing
+::::{admonition} Uitwerking
 :class: solution, dropdown
 
 ...
@@ -209,7 +210,7 @@ Bepaal de absolute waarde van de resultante krachten van de schuifspanningen in 
 
 % solution_start
 
-::::{admonition} Oplossing
+::::{admonition} Uitwerking
 :class: solution, dropdown
 
 ...
@@ -230,7 +231,7 @@ Bepaal de locatie van het dwarskrachtencentrum.
 
 % solution_start
 
-::::{admonition} Oplossing
+::::{admonition} Uitwerking
 :class: solution, dropdown
 
 ...

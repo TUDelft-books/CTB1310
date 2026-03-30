@@ -1,5 +1,22 @@
 # Changelog 🔖
 
+## 2026-03-30: v2025.15.0
+- Toegevoegd uitwerkingen aan [Deadline 29 maart: COZ 7 Deel differentiaalvergelijkingen met SymPy](./sympy_COZ/les.md)
+
+## 2026-03-23: v2025.14.0
+- Toegevoegd uitwerkingen aan begeleide oefeningen van [23 maart: Differentiaalvergelijkingen met SymPy](./sympy/les.md)
+
+## 2026-03-18: v2025.13.0
+- Toegevoegd [](./sympy_COZ/opgave3.ipynb)
+- Toegevoegd [](./sympy_COZ/opgave4.ipynb)
+
+## 2026-03-18: v2025.12.0
+- Toegevoegd [](./sympy/les.md)
+- Toegevoegd [](./sympy_COZ/les.md)
+
+## 2026-03-18: v2025.11.0
+- Toegevoegd uitwerkingen aan begeleide oefeningen van [17 februari: Schuifspanningen door buiging in rechthoekige doorsnedes - Oefening 2](./shear_rect/lesoefening2.md)
+
 ## 2026-03-10: v2025.10.0
 - Toegevoegd [](./toz/toz.md)
 
