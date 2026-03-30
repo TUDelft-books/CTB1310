@@ -1,5 +1,8 @@
 # Changelog 🔖
 
+## 2026-03-30: v2025.15.0
+- Toegevoegd uitwerkingen aan [Deadline 29 maart: COZ 7 Deel differentiaalvergelijkingen met SymPy](./sympy_COZ/les.md)
+
 ## 2026-03-23: v2025.14.0
 - Toegevoegd uitwerkingen aan begeleide oefeningen van [23 maart: Differentiaalvergelijkingen met SymPy](./sympy/les.md)
 
