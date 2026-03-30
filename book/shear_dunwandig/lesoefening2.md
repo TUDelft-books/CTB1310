@@ -41,7 +41,7 @@ Gegeven zijn zes mogelijke schuifspanningsverdelingen.
 ::::{admonition} Uitwerking
 :class: solution, dropdown
 
-...
+Variant 6 is correct. De dwarskracht werkt in z-richting, dus linear schuifsspanning verloop in y-richting en parabolisch in z-richting. $S_{z}^{\rm{a}}$ is nul voor een snede bij $y=0$ onderin en boven het profiel. De schuifspanning is maximaal ter hoogte van $\rm{N.C.}$
 
 ::::
 
@@ -62,8 +62,24 @@ Bepaal de doorsnedegrootheden
 ::::{admonition} Uitwerking
 :class: solution, dropdown
 
-...
+Voor de $I_{zz}$ berekening zijn de schuine delen berekend als trapezium. De lengte in $y$-richting voor de berekening van het eigen traagheidsmoment is dan $7 \cdot \sqrt{10}/3$, zoals wordt uitgelegd met de onderstaande afbeelding:
 
+```{figure} ./lesoefening2_data/Dikte_uitleg.svg
+:align: center
+:width: 50%
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/shear_stresses
+:number:
+```
+
+De doorsnedegrootheden zijn als volgt berekend:
+
+$$
+\begin{align*}
+A &= 100 \cdot 7 + 300 \cdot 7 + 2 \cdot \left(100 \cdot \sqrt{10} \cdot 7 \right) \approx 7227 \ \rm{mm}^2 \\
+\bar{z}_{\rm{N.C.}} &= \frac{100 \cdot 7 \cdot 300 + 2 \cdot \left(100 \cdot \sqrt{10} \cdot 7 \cdot 150 \right)}{7227} \approx 121 \ \rm{mm}\\
+I_{zz} &= \frac{300 \cdot 7^3}{12} + 300 \cdot 7 \cdot 121^2 + 2 \cdot \left( \frac{7 \cdot \sqrt{10}/3 \cdot 300^3}{12} + 7 \cdot \sqrt{300^2 + 100^2} \cdot (150 - 121)^2 \right) + \frac{100 \cdot 7^3}{12} + 100 \cdot 7 \cdot (300 - 121)^2 \approx 901 \cdot 10^5 \ \rm{mm}^4
+\end{align*}
+$$
 ::::
 
 % solution_end
@@ -83,7 +99,32 @@ Bepaal de maximale schuifspanning in de bovenflens, onderflens en het lijf.
 ::::{admonition} Uitwerking
 :class: solution, dropdown
 
-...
+Voor de bovenflens geldt:
+
+$$
+\begin{align*}
+\left| S_{z,\rm{bovenflens}}^{\rm{a}} \right| &= 7 \cdot 300 \cdot 121^2 = 254100 \ \text{mm}^3 \approx 251 \, \rm{cm}^3 \\
+\left| \tau_{\rm{bovenflens}} \right| &= \frac{200000 \cdot 254100}{(7 \cdot 2)\cdot 901 \cdot 10^5} \approx 40 \, \rm{MPa}
+\end{align*}
+$$
+
+Voor de onderflens geldt:
+
+$$
+\begin{align*}
+\left| S_{z,\rm{onderflens}}^{\rm{a}} \right| &= 7 \cdot 300 \cdot 121^2 = 125300 \ \text{mm}^3  \approx 125 \, \rm{cm}^3 \\
+\left| \tau_{\rm{onderflens}} \right| &= \frac{200000 \cdot 125300}{(7 \cdot 2)\cdot 901 \cdot 10^5} \approx 20 \, \rm{MPa}
+\end{align*}
+$$
+
+Voor het lijf geldt:
+
+$$
+\begin{align*}
+\left| S_{z,\rm{lijf}}^{\rm{a}} \right| &= \left| S_{z,\rm{bovenflens}}^{\rm{a}} \right| + 2 \cdot (7 \cdot \sqrt{10}/3 \cdot 121 \cdot 121/2) \approx 362131 \ \text{mm}^3 \approx 362 \, \rm{cm}^3 \\
+\left| \tau_{\rm{lijf}} \right| &= \frac{200000 \cdot 362131}{(7 \cdot 2)\cdot 901 \cdot 10^5} \approx 57 \, \rm{MPa}
+\end{align*}
+$$
 
 ::::
 
