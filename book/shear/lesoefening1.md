@@ -4,9 +4,9 @@ Gegeven is de volgende constructie en doorsnede:
 
 ```{figure} ./lesoefening1_data/voorbeeld.svg
 :align: center
+:class: sticky-margin
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/shear_2
-
-Voorbeeldconstructie
+:number:
 ```
 
 :::::{exercise}
@@ -17,8 +17,7 @@ Gegeven zijn een aantal mogelijke punten waarop de schuifspanning kan worden bep
 ```{figure} ./lesoefening1_data/punten.svg
 :align: center
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/shear_2
-
-Aantal mogelijke punten voor het bepalen van de schuifspanning.
+:number:
 ```
 
 ```{h5p} https://tudelft.h5p.com/content/1292775862047125807/embed
@@ -28,7 +27,7 @@ Aantal mogelijke punten voor het bepalen van de schuifspanning.
 
 % solution_start
 
-::::{admonition} Oplossing
+::::{admonition} Uitwerking
 :class: solution, dropdown
 
 ...
@@ -48,7 +47,7 @@ Bepaal de doorsnedegrootheden
 
 :::::
 
-::::{admonition} Oplossing
+::::{admonition} Uitwerking
 :class: solution, dropdown
 
 Om de oppervlakte van de doorsnede te bepalen knippen we doorsnede in verschillende stukjes op:
@@ -95,7 +94,7 @@ $$
 :::::{exercise}
 :nonumber: true
 
-Bepaal de gemiddelde schuifspanning op het horizontale afschuifvlak op $\bar{z} = 250 \, \rm{mm}$ voor een negatieve snede.
+Bepaal de gemiddelde schuifspanning op het horizontale afschuifvlak op $\bar{z} = 250 \, \rm{mm}$ voor een negatieve snede in $\rm{C}$.
 
 ```{h5p} https://tudelft.h5p.com/content/1292775934968650997/embed
 ```
@@ -104,7 +103,7 @@ Bepaal de gemiddelde schuifspanning op het horizontale afschuifvlak op $\bar{z} 
 
 % solution_start
 
-::::{admonition} Oplossing
+::::{admonition} Uitwerking
 :class: solution, dropdown
 
 ...

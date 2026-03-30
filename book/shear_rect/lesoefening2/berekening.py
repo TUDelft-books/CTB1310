@@ -4,7 +4,7 @@ import numpy as np
 q = sym.symbols('q')
 L1, L2, L3 = sym.symbols('L1 L2 L3')
 
-q = sym.nsimplify(20000)
+q = sym.nsimplify(2000)
 L3 = sym.nsimplify(2)
 L2 = sym.nsimplify(5)
 
@@ -12,7 +12,7 @@ VB = q * L3
 
 h, b = sym.symbols('h b')
 
-b = sym.nsimplify(0.010)
+b = sym.nsimplify(0.10)
 h = sym.nsimplify(0.250)
 
 #b = sym.nsimplify(0.125)

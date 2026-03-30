@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Gegenereerd door Microsoft Visio, SVG Export wringing.svg Pagina-1 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="3.43353in" height="3.87578in"
+		viewBox="0 0 247.214 279.056" xml:space="preserve" color-interpolation-filters="sRGB" class="st12">
+	<v:documentProperties v:langID="1043" v:metric="true" v:viewMarkup="false"/>
+
+	<style type="text/css">
+	<![CDATA[
+		.st1 {fill:#d8d8d8;stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
+		.st2 {fill:#bfbfbf;stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
+		.st3 {fill:#f2f2f2;stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
+		.st4 {stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:6}
+		.st5 {stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
+		.st6 {stroke:#31859b;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
+		.st7 {marker-end:url(#mrkr5-36);stroke:#31859b;stroke-linecap:round;stroke-linejoin:round;stroke-width:2}
+		.st8 {fill:#31859b;fill-opacity:1;stroke:#31859b;stroke-opacity:1;stroke-width:0.4424778761062}
+		.st9 {marker-start:url(#mrkr5-52);stroke:#31859b;stroke-linecap:round;stroke-linejoin:round;stroke-width:2}
+		.st10 {fill:none;stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
+		.st11 {fill:#000000;font-family:Times New Roman;font-size:1.00001em}
+		.st12 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<defs id="Markers">
+		<g id="lend5">
+			<path d="M 2 1 L 0 0 L 1.98117 -0.993387 C 1.67173 -0.364515 1.67301 0.372641 1.98465 1.00043 " style="stroke:none"/>
+		</g>
+		<marker id="mrkr5-36" class="st8" v:arrowType="5" v:arrowSize="2" v:setback="3.955" refX="-3.955" orient="auto"
+				markerUnits="strokeWidth" overflow="visible">
+			<use xlink:href="#lend5" transform="scale(-2.26,-2.26) "/>
+		</marker>
+		<marker id="mrkr5-52" class="st8" v:arrowType="5" v:arrowSize="2" v:setback="3.775" refX="3.775" orient="auto"
+				markerUnits="strokeWidth" overflow="visible">
+			<use xlink:href="#lend5" transform="scale(2.26) "/>
+		</marker>
+	</defs>
+	<g v:mID="0" v:index="1" v:groupContext="foregroundPage">
+		<title>Pagina-1</title>
+		<v:pageProperties v:drawingScale="0.0393701" v:pageScale="0.0393701" v:drawingUnits="24" v:shadowOffsetX="8.50394"
+				v:shadowOffsetY="-8.50394"/>
+		<g id="shape3931-1" v:mID="3931" v:groupContext="shape" transform="translate(63.7596,-42.8947)">
+			<title>Blad.3931</title>
+			<path d="M0 245.04 C63.38 43.27 -0 245.04 63.38 43.27 L108.74 77.29 L45.35 279.06 L0 245.04 Z" class="st1"/>
+		</g>
+		<g id="shape3932-3" v:mID="3932" v:groupContext="shape" transform="translate(0.375,-42.8947)">
+			<title>Blad.3932</title>
+			<path d="M63.38 245.04 L108.74 279.06 L45.35 140.67 L0 106.65 C63.38 245.04 -0 106.65 63.38 245.04 Z" class="st2"/>
+		</g>
+		<g id="shape3933-5" v:mID="3933" v:groupContext="shape" transform="translate(0.375,-181.281)">
+			<title>Gesloten dunwandige doorsnede 3D.3933</title>
+			<path d="M172.12 215.67 L126.77 181.66 C-0 245.04 126.77 181.66 0 245.04 L45.35 279.06 L172.12 215.67 Z" class="st3"/>
+		</g>
+		<g id="shape3934-7" v:mID="3934" v:groupContext="shape" transform="translate(-15.6839,-183.513) rotate(-26.5651)">
+			<title>Blad.3934</title>
+			<path d="M0 279.06 L70.87 279.06" class="st4"/>
+		</g>
+		<g id="shape3935-10" v:mID="3935" v:groupContext="shape" transform="translate(-79.0685,-151.82) rotate(-26.5651)">
+			<title>Blad.3935</title>
+			<path d="M0 279.06 L70.87 279.06" class="st4"/>
+		</g>
+		<g id="shape3936-13" v:mID="3936" v:groupContext="shape" transform="translate(-144.596,352.368) rotate(-114.609)">
+			<title>Blad.3936</title>
+			<path d="M0 279.06 L152.21 279.06" class="st4"/>
+		</g>
+		<g id="shape3937-16" v:mID="3937" v:groupContext="shape" transform="translate(-157.115,152.528) rotate(-72.5603)">
+			<title>Blad.3937</title>
+			<path d="M0 279.06 L211.49 279.06" class="st4"/>
+		</g>
+		<g id="shape3941-19" v:mID="3941" v:groupContext="shape" transform="translate(297.296,283.986) rotate(153.435)">
+			<title>Blad.3941</title>
+			<path d="M0 279.06 L70.87 279.06" class="st5"/>
+		</g>
+		<g id="shape3942-22" v:mID="3942" v:groupContext="shape" transform="translate(-56.3914,-134.812) rotate(-26.5651)">
+			<title>Blad.3942</title>
+			<path d="M0 279.06 L141.73 279.06" class="st6"/>
+		</g>
+		<g id="shape3943-25" v:mID="3943" v:groupContext="shape" transform="translate(213.163,-125.47) rotate(36.8699)">
+			<title>Blad.3943</title>
+			<path d="M0 279.06 L28.35 279.06" class="st6"/>
+		</g>
+		<g id="shape3945-28" v:mID="3945" v:groupContext="shape" transform="translate(339.932,-188.854) rotate(36.8699)">
+			<title>Blad.3945</title>
+			<path d="M0 279.06 L28.35 279.06" class="st6"/>
+		</g>
+		<g id="shape3957-31" v:mID="3957" v:groupContext="shape" transform="translate(195.545,334.862) rotate(153.435)">
+			<title>reactiekracht (scharnier/inwendig).3957</title>
+			<path d="M0 279.06 L20.44 279.06" class="st7"/>
+		</g>
+		<g id="shape3958-37" v:mID="3958" v:groupContext="shape" transform="translate(297.296,283.986) rotate(153.435)">
+			<title>reactiekracht (scharnier/inwendig).3958</title>
+			<path d="M0 279.06 L20.44 279.06" class="st7"/>
+		</g>
+		<g id="shape3959-42" v:mID="3959" v:groupContext="shape" transform="translate(229.462,317.904) rotate(153.435)">
+			<title>reactiekracht (scharnier/inwendig).3959</title>
+			<path d="M0 279.06 L20.44 279.06" class="st7"/>
+		</g>
+		<g id="shape3960-47" v:mID="3960" v:groupContext="shape" transform="translate(438.728,118.024) rotate(107.44)">
+			<title>reactiekracht (scharnier/inwendig).3960</title>
+			<path d="M7.55 279.06 L7.91 279.06 L28.35 279.06" class="st9"/>
+		</g>
+		<g id="shape3961-53" v:mID="3961" v:groupContext="shape" transform="translate(425.005,161.706) rotate(107.44)">
+			<title>reactiekracht (scharnier/inwendig).3961</title>
+			<path d="M7.55 279.06 L7.91 279.06 L28.35 279.06" class="st9"/>
+		</g>
+		<g id="shape3962-58" v:mID="3962" v:groupContext="shape" transform="translate(383.839,292.752) rotate(107.44)">
+			<title>reactiekracht (scharnier/inwendig).3962</title>
+			<path d="M7.55 279.06 L7.91 279.06 L28.35 279.06" class="st9"/>
+		</g>
+		<g id="shape3963-63" v:mID="3963" v:groupContext="shape" transform="translate(397.561,249.07) rotate(107.44)">
+			<title>reactiekracht (scharnier/inwendig).3963</title>
+			<path d="M7.55 279.06 L7.91 279.06 L28.35 279.06" class="st9"/>
+		</g>
+		<g id="shape3964-68" v:mID="3964" v:groupContext="shape" transform="translate(411.283,205.388) rotate(107.44)">
+			<title>reactiekracht (scharnier/inwendig).3964</title>
+			<path d="M7.55 279.06 L7.91 279.06 L28.35 279.06" class="st9"/>
+		</g>
+		<g id="shape3965-73" v:mID="3965" v:groupContext="shape" transform="translate(299.439,-18.4304) rotate(65.391)">
+			<title>reactiekracht (scharnier/inwendig).3965</title>
+			<path d="M0 279.06 L20.44 279.06" class="st7"/>
+		</g>
+		<g id="shape3966-78" v:mID="3966" v:groupContext="shape" transform="translate(351.02,94.1843) rotate(65.391)">
+			<title>reactiekracht (scharnier/inwendig).3966</title>
+			<path d="M0 279.06 L20.44 279.06" class="st7"/>
+		</g>
+		<g id="shape3967-83" v:mID="3967" v:groupContext="shape" transform="translate(312.334,9.72325) rotate(65.391)">
+			<title>reactiekracht (scharnier/inwendig).3967</title>
+			<path d="M0 279.06 L20.44 279.06" class="st7"/>
+		</g>
+		<g id="shape3968-88" v:mID="3968" v:groupContext="shape" transform="translate(325.229,37.8769) rotate(65.391)">
+			<title>reactiekracht (scharnier/inwendig).3968</title>
+			<path d="M0 279.06 L20.44 279.06" class="st7"/>
+		</g>
+		<g id="shape3969-93" v:mID="3969" v:groupContext="shape" transform="translate(338.125,66.0306) rotate(65.391)">
+			<title>reactiekracht (scharnier/inwendig).3969</title>
+			<path d="M0 279.06 L20.44 279.06" class="st7"/>
+		</g>
+		<g id="shape3978-98" v:mID="3978" v:groupContext="shape" transform="translate(71.2809,-184.985) rotate(-27.0433)">
+			<title>Blad.3978</title>
+			<desc>20 MPa</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="27.3288" cy="271.97" width="54.66" height="14.1732"/>
+			<rect x="0" y="264.883" width="54.6576" height="14.1732" class="st10"/>
+			<text x="8.49" y="275.57" class="st11" v:langID="1043"><v:paragraph v:horizAlign="1"/><v:tabList/>20 MPa</text>		</g>
+		<g id="shape3980-101" v:mID="3980" v:groupContext="shape" transform="translate(276.548,12.9166) rotate(36.8699)">
+			<title>Blad.3980</title>
+			<path d="M0 279.06 L28.35 279.06" class="st6"/>
+		</g>
+		<g id="shape3981-104" v:mID="3981" v:groupContext="shape" transform="translate(-134.438,169.536) rotate(-72.5603)">
+			<title>Blad.3981</title>
+			<path d="M0 279.06 L211.49 279.06" class="st6"/>
+		</g>
+		<g id="shape3982-107" v:mID="3982" v:groupContext="shape" transform="translate(-121.919,369.375) rotate(-114.609)">
+			<title>Blad.3982</title>
+			<path d="M0 279.06 L152.21 279.06" class="st6"/>
+		</g>
+		<g id="shape3983-110" v:mID="3983" v:groupContext="shape" transform="translate(263.379,300.945) rotate(153.435)">
+			<title>reactiekracht (scharnier/inwendig).3983</title>
+			<path d="M0 279.06 L20.44 279.06" class="st7"/>
+		</g>
+		<g id="shape3984-115" v:mID="3984" v:groupContext="shape" transform="translate(-12.1912,30.1361) rotate(-27.0433)">
+			<title>Blad.3984</title>
+			<desc>20 MPa</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="27.3288" cy="271.97" width="54.66" height="14.1732"/>
+			<rect x="0" y="264.883" width="54.6576" height="14.1732" class="st10"/>
+			<text x="8.49" y="275.57" class="st11" v:langID="1043"><v:paragraph v:horizAlign="1"/><v:tabList/>20 MPa</text>		</g>
+		<g id="shape3986-118" v:mID="3986" v:groupContext="shape" transform="translate(-66.4444,-130.815) rotate(-27.0433)">
+			<title>Blad.3986</title>
+			<desc>20 MPa</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="27.3288" cy="271.97" width="54.66" height="14.1732"/>
+			<rect x="0" y="264.883" width="54.6576" height="14.1732" class="st10"/>
+			<text x="8.49" y="275.57" class="st11" v:langID="1043"><v:paragraph v:horizAlign="1"/><v:tabList/>20 MPa</text>		</g>
+	</g>
+</svg>

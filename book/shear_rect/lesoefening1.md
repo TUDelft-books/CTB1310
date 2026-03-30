@@ -4,9 +4,9 @@ In [](./instructie.md) is het schuifspanningsverloop op een positieve snede in d
 
 ```{figure} ./instructie_data/voorbeeld.svg
 :align: center
+:class: sticky-margin
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/shear_rect
-
-Voorbeeldconstructie
+:number:
 ```
 
 :::::{exercise}
@@ -19,7 +19,7 @@ Wat zijn de schuifspanningen op een aantal andere punten?
 
 :::::
 
-::::{admonition} Oplossing
+::::{admonition} Uitwerking
 :class: solution, dropdown
 
 Gevraagd is het schuifspanningsverloop op een negatieve snede in $\rm{D}$.

@@ -238,11 +238,11 @@
 			</g>
 			<g id="shape640-141" v:mID="640" v:groupContext="shape" transform="translate(4.25197,-59.5276)">
 				<title>Blad.640</title>
-				<desc>95 mm</desc>
+				<desc>105 mm</desc>
 				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
 				<v:textRect cx="24.8031" cy="248.073" width="49.61" height="29.7638"/>
 				<rect x="0" y="233.191" width="49.6063" height="29.7638" class="st4"/>
-				<text x="7.97" y="251.67" class="st5" v:langID="1043"><v:paragraph v:horizAlign="1"/><v:tabList/>95 mm</text>			</g>
+				<text x="4.97" y="251.67" class="st5" v:langID="1043"><v:paragraph v:horizAlign="1"/><v:tabList/>105 mm</text>			</g>
 		</g>
 		<g id="shape641-144" v:mID="641" v:groupContext="shape" transform="translate(-180.418,42.8947) rotate(-90)">
 			<title>Blad.641</title>

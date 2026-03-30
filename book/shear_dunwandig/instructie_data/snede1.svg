@@ -78,7 +78,7 @@
 		</g>
 		<g id="group372-19" transform="translate(203.576,-156.281)" v:mID="372" v:groupContext="group">
 			<title>Blad.372</title>
-			<g id="shape373-20" v:mID="373" v:groupContext="shape" transform="translate(15.874,0)">
+			<g id="shape373-20" v:mID="373" v:groupContext="shape" transform="translate(15.874,-2.84217E-14)">
 				<title>Blad.373</title>
 				<path d="M3.02 245.9 L3.38 245.9 L11.34 245.9" class="st2"/>
 			</g>
@@ -238,11 +238,11 @@
 			</g>
 			<g id="shape481-141" v:mID="481" v:groupContext="shape" transform="translate(4.25197,-59.5276)">
 				<title>Blad.481</title>
-				<desc>95 mm</desc>
+				<desc>105 mm</desc>
 				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
 				<v:textRect cx="24.8031" cy="231.022" width="49.61" height="29.7638"/>
 				<rect x="0" y="216.14" width="49.6063" height="29.7638" class="st4"/>
-				<text x="7.97" y="234.62" class="st5" v:langID="1043"><v:paragraph v:horizAlign="1"/><v:tabList/>95 mm</text>			</g>
+				<text x="4.97" y="234.62" class="st5" v:langID="1043"><v:paragraph v:horizAlign="1"/><v:tabList/>105 mm</text>			</g>
 		</g>
 		<g id="shape482-144" v:mID="482" v:groupContext="shape" transform="translate(238.442,314.267) rotate(180)">
 			<title>Blad.482</title>
