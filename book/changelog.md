@@ -1,5 +1,8 @@
 # Changelog 🔖
 
+## 2026-03-30: v2025.17.0
+- Toegevoegd uitwerkingen aan [23 februari: Schuifspanningen door buiging in dunwandige doorsnedes - Begeleide oefening 2](./shear_dunwandig/lesoefening2.md)
+
 ## 2026-03-30: v2025.16.0
 - Toegevoegd uitwerkingen aan [23 februari: Schuifspanningen door buiging in dunwandige doorsnedes - Begeleide oefening 1](./shear_dunwandig/lesoefening1.md)
 
