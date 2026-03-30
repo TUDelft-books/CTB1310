@@ -103,7 +103,7 @@ Voor de bovenflens geldt:
 
 $$
 \begin{align*}
-\left| S_{z,\rm{bovenflens}}^{\rm{a}} \right| &= 7 \cdot 300 \cdot 121^2 = 254100 \ \text{mm}^3 \approx 251 \, \rm{cm}^3 \\
+\left| S_{z,\rm{bovenflens}}^{\rm{a}} \right| &= 7 \cdot 300 \cdot 121^2 = 254100 \, \rm{mm}^3 \approx 251 \, \rm{cm}^3 \\
 \left| \tau_{\rm{bovenflens}} \right| &= \frac{200000 \cdot 254100}{(7 \cdot 2)\cdot 901 \cdot 10^5} \approx 40 \, \rm{MPa}
 \end{align*}
 $$
@@ -112,7 +112,7 @@ Voor de onderflens geldt:
 
 $$
 \begin{align*}
-\left| S_{z,\rm{onderflens}}^{\rm{a}} \right| &= 7 \cdot 300 \cdot 121^2 = 125300 \ \text{mm}^3  \approx 125 \, \rm{cm}^3 \\
+\left| S_{z,\rm{onderflens}}^{\rm{a}} \right| &= 7 \cdot 300 \cdot 121^2 = 125300 \, \rm{mm}^3  \approx 125 \, \rm{cm}^3 \\
 \left| \tau_{\rm{onderflens}} \right| &= \frac{200000 \cdot 125300}{(7 \cdot 2)\cdot 901 \cdot 10^5} \approx 20 \, \rm{MPa}
 \end{align*}
 $$
@@ -121,7 +121,7 @@ Voor het lijf geldt:
 
 $$
 \begin{align*}
-\left| S_{z,\rm{lijf}}^{\rm{a}} \right| &= \left| S_{z,\rm{bovenflens}}^{\rm{a}} \right| + 2 \cdot (7 \cdot \sqrt{10}/3 \cdot 121 \cdot 121/2) \approx 362131 \ \text{mm}^3 \approx 362 \, \rm{cm}^3 \\
+\left| S_{z,\rm{lijf}}^{\rm{a}} \right| &= \left| S_{z,\rm{bovenflens}}^{\rm{a}} \right| + 2 \cdot (7 \cdot \sqrt{10}/3 \cdot 121 \cdot 121/2) \approx 362131 \, \rm{mm}^3 \approx 362 \, \rm{cm}^3 \\
 \left| \tau_{\rm{lijf}} \right| &= \frac{200000 \cdot 362131}{(7 \cdot 2)\cdot 901 \cdot 10^5} \approx 57 \, \rm{MPa}
 \end{align*}
 $$
