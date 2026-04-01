@@ -14,9 +14,10 @@ Gegeven is de volgende constructie:
 ```{figure} ./lesoefening_data/constructie.svg
 ---
 align: center
+class: sticky-margin
 source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/torsie2
+number:
 ---
-Constructie
 ```
 
 Waarvan je de wringende momentenlijn moet bepalen.
@@ -30,6 +31,7 @@ Gegeven zijn vier 3D-weergaves van de constructie
 ---
 align: center
 source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/torsie2
+number:
 ---
 ```
 
@@ -38,9 +40,7 @@ source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tre
 
 :::::
 
-% solution_start
-
-::::{admonition} Oplossing
+::::{admonition} Uitwerking
 :class: solution, dropdown
 
 Optie 1 is correct:
@@ -55,8 +55,6 @@ Je hebt nu het assenstelsel verplaatst, maar dat is niet erg zolang je de wringe
 
 ::::
 
-% solution_end
-
 :::::{exercise}
 :nonumber: true
 
@@ -66,6 +64,7 @@ Gegeven zijn vier 2D-weergaves van de constructie
 ---
 align: center
 source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/torsie2
+number:
 ---
 ```
 
@@ -74,9 +73,7 @@ source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tre
 
 :::::
 
-% solution_start
-
-::::{admonition} Oplossing
+::::{admonition} Uitwerking
 :class: solution, dropdown
 
 Optie 1 is correct:
@@ -84,8 +81,6 @@ Optie 1 is correct:
 De puntenlasten zorgen voor draaiing van $z$ naar $y$ dus dat is een negatief wringend moment. De verdeelde belasting zorgt niet voor een wringend moment.
 
 ::::
-
-% solution_end
 
 :::::{exercise}
 :nonumber: true
@@ -97,9 +92,7 @@ Wat weet je over de vorm van de wringende momentenlijn.
 
 :::::
 
-% solution_start
-
-::::{admonition} Oplossing
+::::{admonition} Uitwerking
 :class: solution, dropdown
 
 De wringende momentenlijn verloopt tussen de punten $\rm{A}$ en $\rm{B}$, $\rm{B}$ en $\rm{C}$, etc *constant*: de verdeelde belasting treedt op in het dwarskrachtencentrum, dus er is geen verdeelde belasting die zorgt voor wringende momenten.
@@ -109,8 +102,6 @@ In $\rm{E}$ is het wringend moment gelijk aan *0*: op het vrije uiteinde werken 
 Rondom de punten $\rm{B}$, $\rm{C}$, $\rm{D}$ en $\rm{E}$, maakt het wringende moment *een sprong*: de puntlasten zorgen voor een uitwendig wringend moment, wat een sprong veroorzaakt in de wringende momentenlijn.
 
 ::::
-
-% solution_end
 
 :::::{exercise}
 :nonumber: true
@@ -122,9 +113,7 @@ Bepaal de wringend momentenlijn.
 
 :::::
 
-% solution_start
-
-::::{admonition} Oplossing
+::::{admonition} Uitwerking
 :class: solution, dropdown
 
 Het wringend moment tussen $\rm{D}$ en $\rm{DE}$ is nul. $\rm{E}$ is een vrij uiteinde en op deel $\rm{DE}$ werkt geen wringend moment. Het wringend moment voor het deel $\rm{CD}$ is te bepalen met de volgende snede:
@@ -133,8 +122,8 @@ Het wringend moment tussen $\rm{D}$ en $\rm{DE}$ is nul. $\rm{E}$ is een vrij ui
 ---
 align: center
 source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/torsie2
+number:
 ---
-Snede CD
 ```
 $$
 \begin{align*}
@@ -149,8 +138,8 @@ Een vergelijkbare snede kan worden gemaakt om het wringend moment te vinden in d
 ---
 align: center
 source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/torsie2
+number:
 ---
-Snede BC
 ```
 $$
 \begin{align*}
@@ -166,8 +155,8 @@ Het wringend moment in $\rm{AB}$ kan worden gevonden met de volgende snede:
 ---
 align: center
 source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/torsie2
+number:
 ---
-Snede AB
 ```
 
 $$
@@ -182,10 +171,8 @@ $$
 ---
 align: center
 source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/torsie2
+number:
 ---
-Wringend momentenlijn
 ```
 
 ::::
-
-% solution_end

@@ -14,9 +14,10 @@ In [](./instructie2.md) is een deel van de wringende momentenlijn bepaald voor d
 ```{figure} ./instructie2_data/torsielijn.svg
 ---
 align: center
+class: sticky-margin
 source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/torsie
+number:
 ---
-
 ```
 Deze wringende momentenlijn was al gevonden:
 
@@ -24,8 +25,8 @@ Deze wringende momentenlijn was al gevonden:
 ---
 align: center
 source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/torsie
+number:
 ---
-Deel van de wringende momentenlijn
 ```
 
 Waarvan je de rest van de wringende momentenlijn gaat bepalen.
@@ -40,9 +41,7 @@ Bepaal de wringend momentenlijn.
 
 :::::
 
-% solution_start
-
-::::{admonition} Oplossing
+::::{admonition} Uitwerking
 :class: solution, dropdown
 
 Het wringend moment in deel $\rm{BC}$:
@@ -58,8 +57,8 @@ De snedekrachten die gelijk zijn aan $0$ zijn weggelaten.
 $$
 \begin{align*}
 \sum T_{\rm{BC}} &= 0 \\
-M_{\rm{t}}^{\rm{BC}} + 10 \cdot 3 + 3 \cdot 2 \cdot 1 + \frac{1}{2} \cdot 6 \cdot 2 \cdot \frac{1}{3}&= 0 \\
-M_{\rm{t}}^{\rm{BC}} &= -38 \ \rm{kNm} \left( \twoheadrightarrow \mid \twoheadleftarrow \right)
+M_{\rm{t}}^{\rm{BC}} + 10 \cdot 3 + 3 \cdot 2 \cdot 1 + \frac{1}{2} \cdot 6 \cdot 2 \cdot \frac{2}{3}&= 0 \\
+M_{\rm{t}}^{\rm{BC}} &= -40 \ \rm{kNm} \left( \twoheadrightarrow \mid \twoheadleftarrow \right)
 \end{align*} 
 $$
 
@@ -87,10 +86,8 @@ Dit geeft de volgende wringende momentenlijn:
 ---
 align: center
 source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/torsie
+number:
 ---
-Wringende momentenlijn gehele constructie
 ```
 
 ::::
-
-% solution_end

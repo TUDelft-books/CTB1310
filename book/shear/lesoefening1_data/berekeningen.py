@@ -18,9 +18,15 @@ z_bar = Sz / A
 
 print("z_bar=", z_bar.simplify(), "\approx", z_bar.evalf())
 
+Sz = b1*h1*h1/2 + (b1 + b2) * h2 / 2 * (h1 + h2/3 * (b1 + 2*b2)/(b1 + b2)) + b2 * h3 * (h1 + h2 + h3/2)
+
+z_bar = Sz / A
+
+print("z_bar=", z_bar.simplify(), "\approx", z_bar.evalf())
+
 Izz = b1*h1**3/12 + b1*h1*(z_bar - h1/2)**2 + \
-      b2*h3**3/12 + b1*h1*(z_bar - (h1 + h2 + h3/2))**2 + \
-      (b2**2 + 4 * b1 * b2 * b1**2)/(b1 + b2)/36 * h2**3 + (b1 + b2) * h2 / 2 * (z_bar - (h1 + h2/3 * (b1 + 2*b2)/(b1 + b2)))**2
+      b2*h3**3/12 + b2*h3*(z_bar - (h1 + h2 + h3/2))**2 + \
+      (b2**2 + 4 * b1 * b2 + b1**2)/(b1 + b2)/36 * h2**3 + (b1 + b2) * h2 / 2 * (z_bar - (h1 + h2/3 * (b1 + 2*b2)/(b1 + b2)))**2
 
 print("I_zz=", Izz.simplify(), "\approx", Izz.evalf())
 

@@ -44,13 +44,20 @@ sphinx:                                              # Options passed on to the 
     sphinx_codex_name: "Voorbeeld"
     sphinx_codex_merge_with_proof:     true # default value
     tud_change_titlesize: false
+    git_show_all_authors: true
+    git_author_aliases:
+      ioskam: Iris Oskam
+    git_author_exclude:
+      - 'github-actions[bot]'
+      - 'Lanliss'
+    git_exclude_commits: []
     metadata_figure_settings:
       source:
         warn_missing: true
   extra_extensions:                                  # Gives you a starter package of extensions to use in your book
     - teachbooks_favourites
-    - sphinx_tudelft_theme
     - sphinx_apa_references
+    - sphinx_tudelft_theme
 
 teachbooks:
   attribution_color: attributiongrey

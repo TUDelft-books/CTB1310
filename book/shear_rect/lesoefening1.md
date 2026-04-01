@@ -4,9 +4,9 @@ In [](./instructie.md) is het schuifspanningsverloop op een positieve snede in d
 
 ```{figure} ./instructie_data/voorbeeld.svg
 :align: center
+:class: sticky-margin
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/shear_rect
-
-Voorbeeldconstructie
+:number:
 ```
 
 :::::{exercise}
@@ -19,9 +19,7 @@ Wat zijn de schuifspanningen op een aantal andere punten?
 
 :::::
 
-% solution_start
-
-::::{admonition} Oplossing
+::::{admonition} Uitwerking
 :class: solution, dropdown
 
 Gevraagd is het schuifspanningsverloop op een negatieve snede in $\rm{D}$.
@@ -45,7 +43,7 @@ $$
 \sum F_{\rm{v}} = 0 \to V_{\rm{D}} = 30 \, \rm{kN} \left(⎽|⎺\right)
 $$
 
-Nu kunnen we de schuifspanningen bepalen op karakteristieke afschuivende delen in de doorsnede. Het punt van de doorsnede waarop we de schuifspanning moeten bepalen heeft de coordinaten: $\rm{y}= 15, \rm{z} = -45$. 
+Nu kunnen we de schuifspanningen bepalen op karakteristieke afschuivende delen in de doorsnede. Het punt van de doorsnede waarop we de schuifspanning moeten bepalen heeft de coordinaten: $\rm{y}= 15, \rm{z} = -45$.
 
 Het statisch moment van dit afschuivende deel is:
 
@@ -124,5 +122,3 @@ $$
 Aangezien de dwarskracht naar beneden wijst in de positieve doorsnede is de richting van de schuifspanning ook naar beneden.
 
 ::::
-
-% solution_end

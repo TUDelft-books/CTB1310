@@ -8,7 +8,6 @@ parts:
   - file: contact_information
   - url: https://brightspace.tudelft.nl/d2l/home/774692
     title: Brightspace 📢
-# START REMOVE-FROM-RELEASE
 - caption: Lesstof 🧑‍🏫
   chapters:
   - file: shear_rect/les.md
@@ -27,6 +26,9 @@ parts:
     - file: shear_dunwandig/lesoefening1.md
     - file: shear_dunwandig/lesoefening2.md
   - file: shear_force_center/les.md
+    sections:
+    - file: shear_force_center/instructie.md
+    - file: shear_force_center/lesoefening1.md
   - file: torsie_krachten/les.md
     sections:
     - file: torsie_krachten/instructie.md
@@ -35,8 +37,27 @@ parts:
     - file: torsie_krachten/lesoefening1.md
     - file: torsie_krachten/lesoefening2.md
   - file: torsie_model/les.md
+    sections:
+    - file: torsie_model/instructie.md
+    - file: torsie_model/lesoefening1.md
+    - file: torsie_model/lesoefening2.md
   - file: torsie_shear/les.md
-# END REMOVE-FROM-RELEASE
+    sections:
+    - file: torsie_shear/instructie.md
+    - file: torsie_shear/lesoefening.md
+    - file: torsie_shear/lesoefening2.md
+  - file: toz/toz.md
+  - file: sympy/les.md
+    sections:
+    - file: sympy/instructie.ipynb
+    - file: sympy/lesoefening1.ipynb
+    - file: sympy/lesoefening2.ipynb
+  - file: sympy_COZ/les.md
+    sections:
+    - file: sympy_COZ/opgave1.ipynb
+    - file: sympy_COZ/opgave2.ipynb
+    - file: sympy_COZ/opgave3.ipynb
+    - file: sympy_COZ/opgave4.ipynb
 - caption: Diverse
   chapters:
   - file: changelog

@@ -4,14 +4,15 @@ Gegeven is de volgende doorsnede:
 
 ```{figure} ./lesoefening2_data/voorbeeld.svg
 :align: center
+:class: sticky-margin
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/shear_3
-
-Voorbeelddoorsnede
+:number:
 ```
 
 Verder is gegeven dat voor een segment van een ring geldt:
 
-```{figure} ./lesoefening2_data/Centroid_of_an_annular_sector.svg.png
+```{figure-start} ./lesoefening2_data/Centroid_of_an_annular_sector.svg.png
+:name: cirkelsegment
 :align: center
 :source: [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Centroid_of_an_annular_sector.svg)
 :author: DuckRabbitDuckRabbit
@@ -31,6 +32,9 @@ A &= \alpha \left( r_2^2 - r_1^2 \right) \\
 \end{align*}
 $$
 
+```{figure-end}
+```
+
 :::::{exercise}
 :nonumber: true
 
@@ -39,8 +43,7 @@ Gegeven zijn een aantal mogelijke punten waarop de schuifspanning kan worden bep
 ```{figure} ./lesoefening2_data/punten.svg
 :align: center
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/shear_3
-
-Doorsnede met mogelijke punten voor het bepalen van de schuifspanning.
+:number:
 ```
 
 Je mag er vanuit gaan dat $R \gg b$ voor alle relevante afschuifvlakken.
@@ -52,7 +55,7 @@ Je mag er vanuit gaan dat $R \gg b$ voor alle relevante afschuifvlakken.
 
 % solution_start
 
-::::{admonition} Oplossing
+::::{admonition} Uitwerking
 :class: solution, dropdown
 
 ...
@@ -69,8 +72,7 @@ Gegeven zijn vier mogelijke schuifspanningsverdelingen.
 ```{figure} ./lesoefening2_data/verloop.svg
 :align: center
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/shear_3
-
-Vier mogelijke schuifspanningsverdelingen.
+:number:
 ```
 
 ```{h5p} https://tudelft.h5p.com/content/1292778326294019037/embed
@@ -80,7 +82,7 @@ Vier mogelijke schuifspanningsverdelingen.
 
 % solution_start
 
-::::{admonition} Oplossing
+::::{admonition} Uitwerking
 :class: solution, dropdown
 
 ...
@@ -101,7 +103,38 @@ Bepaal de doorsnedegrootheden
 
 % solution_start
 
-::::{admonition} Oplossing
+::::{admonition} Uitwerking
+:class: solution, dropdown
+
+...
+
+::::
+
+% solution_end
+
+:::::{exercise}
+:nonumber: true
+
+Stel je wilt de formule getoond in {numref}`cirkelsegment` zelf afleiden in het $y,z$-assenstelsel van de doorsnede.
+
+::::{hint}
+
+Voorbeeld van een hoek van $-\cfrac{\pi}{4}$.
+
+```{figure} ./lesoefening2_data/voorbeeld_hoek.svg
+:align: center
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/shear_3
+:number:
+```
+
+::::
+
+```{h5p} https://tudelft.h5p.com/content/1292808037756808497/embed
+```
+
+:::::
+
+::::{admonition} Uitwerking
 :class: solution, dropdown
 
 ...
@@ -122,7 +155,7 @@ Bepaal de maximale schuifspanning
 
 % solution_start
 
-::::{admonition} Oplossing
+::::{admonition} Uitwerking
 :class: solution, dropdown
 
 ...
@@ -134,14 +167,7 @@ Bepaal de maximale schuifspanning
 :::::{exercise}
 :nonumber: true
 
-Waar is de schuifspanning de helft van de maximale waarde uitgedrukt als hoek van het afschuifvlak $\varphi$ tov het assenstelsel tussen $-\cfrac{\pi}{2}$ en $0$ ten opzichte van de $y$-as.?
-
-```{figure} ./lesoefening2_data/voorbeeld_hoek.svg
-:align: center
-:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/shear_3
-
-Voorbeeld van een hoek
-```
+Waar is de schuifspanning de helft van de maximale waarde uitgedrukt als hoek van het afschuifvlak $\varphi$ tov het assenstelsel tussen $-\cfrac{\pi}{2}$ en $0$ ten opzichte van de $y$-as?
 
 ```{h5p} https://tudelft.h5p.com/content/1292778358149562237/embed
 ```
@@ -150,7 +176,7 @@ Voorbeeld van een hoek
 
 % solution_start
 
-::::{admonition} Oplossing
+::::{admonition} Uitwerking
 :class: solution, dropdown
 
 ...

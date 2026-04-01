@@ -28,7 +28,7 @@ print("Sz2=", Sz2.subs(alpha, sym.pi/2), "\approx", Sz2.subs(alpha, sym.pi/2).ev
 V = sym.nsimplify(270000*15/2)*sym.pi
 print("V=", V, "\approx", V.evalf())
 
-tau = V * Sz2 / (Izz * (R1 - R2))
+tau = V * Sz2 / (Izz * (R1 - R2) * 2)
 print("tau=", tau.subs(alpha, sym.pi/2).simplify(), "\approx", tau.subs(alpha, sym.pi/2).evalf())
 
 eq2 = sym.Eq(tau, tau.subs(alpha, sym.pi/2)/2)
