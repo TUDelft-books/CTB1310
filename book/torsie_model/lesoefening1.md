@@ -24,9 +24,7 @@ Gegeven is de volgende constructie en doorsnede
 :number:
 ```
 
-De uitwendige krachten en  
-oplegreacties grijpen aan  
-in het dwarskrachtencentrum.
+De uitwendige krachten en oplegreacties grijpen aan in het dwarskrachtencentrum.
 
 ```{figure-end}
 ```
