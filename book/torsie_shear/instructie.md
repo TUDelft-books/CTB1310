@@ -93,8 +93,7 @@ Gegevens is de volgende constructie en dunwandige doorsnede:
 :number:
 ```
 
-De uitwendige krachten en oplegreacties grijpen  
-aan in het normaal- en dwarskrachtencentrum.
+De uitwendige krachten en oplegreacties grijpen aan in het normaal- en dwarskrachtencentrum.
 
 ```{figure-end}
 ```

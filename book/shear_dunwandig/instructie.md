@@ -23,12 +23,7 @@ Hieronder zijn twee voorbeelden getoond van dunwandige doorsneden waar de schuif
 :number:
 ```
 
-Ook in de uiteindes van de flenzen  
-en in de knooppunten tussen flens  
-en lijf kunnen schuifspanningen  
-worden bepaald terwijl bij een  
-dikwandige doorsnede hier complexe  
-spanningsverdelingen optreden.
+Ook in de uiteindes van de flenzen en in de knooppunten tussen flens en lijf kunnen schuifspanningen worden bepaald terwijl bij een dikwandige doorsnede hier complexe spanningsverdelingen optreden.
 
 :::
 
@@ -41,11 +36,7 @@ spanningsverdelingen optreden.
 :number:
 ```
 
-Ook in de de hoekpunten kunnen de  
-schuifspanningen worden bepaald  
-terwijl bij een dikwandige  
-doorsnede hier complexe  
-spanningsverdelingen optreden.
+Ook in de de hoekpunten kunnen de schuifspanningen worden bepaald terwijl bij een dikwandige doorsnede hier complexe spanningsverdelingen optreden.
 
 
 :::
@@ -73,13 +64,7 @@ Hieronder zijn twee voorbeelden getoond waarin de richting van de schuifspanning
 :number:
 ```
 
-In het lijf moet de schuifspanning  
-naar beneden lopen als er een  
-dwarskracht omlaag werkt. Om een  
-symmetrisch stroom te krijgen moet  
-de schuifspanningen in de bovenste  
-flenzen naar binnen en in de  
-onderste flenzen naar buiten lopen.
+In het lijf moet de schuifspanning naar beneden lopen als er een dwarskracht omlaag werkt. Om een symmetrisch stroom te krijgen moet de schuifspanningen in de bovenste flenzen naar binnen en in de onderste flenzen naar buiten lopen.
 
 :::
 
@@ -92,15 +77,7 @@ onderste flenzen naar buiten lopen.
 :number:
 ```
 
-In het linker lijf kan de grootste  
-verticale kracht optreden (ter hoogte  
-van het normaalkrachtencentrum), dus  
-bij een dwarskracht omlaag moet de  
-schuifspanning in dat lijf naar  
-beneden lopen. De richting van de  
-schuifspanningen in de flenzen en in  
-het rechter lijf volgt dan uit de  
-stroming van de schuifspanning.
+In het linker lijf kan de grootste verticale kracht optreden (ter hoogte van het normaalkrachtencentrum), dus bij een dwarskracht omlaag moet de schuifspanning in dat lijf naar beneden lopen. De richting van de schuifspanningen in de flenzen en in het rechter lijf volgt dan uit de stroming van de schuifspanning.
 
 :::
 
