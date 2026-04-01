@@ -6,10 +6,17 @@ b = sym.Integer(300)
 h = sym.Integer(400)
 t = sym.Integer(12)
 
+F, L = sym.symbols('F L')
+
+F = sym.Integer(4800*9)
+print('F =', F)
+L = sym.Integer(2000)
+
 b_2 = h / 2 * 3 / 4
+print('b_2 =', b_2,'approx', b_2.evalf())
 
 Sy = b * t * b / 2 + h/2 / 4 * 5 * t * (b - b_2 / 2) * 2
-A = b * t * 3 + h / 2 / 4 * 5 * t * 2
+A = b * t * 2 + h / 2 / 4 * 5 * t * 2 + h * t
 
 zy = Sy / A
 
@@ -23,3 +30,19 @@ print('Izz_2 =', Izz_2)
 Iyy = h * t **3 / 12 + h * t * zy **2 + t * b **3 / 12 * 2 + t * b * (zy - b/2)**2 * 2 + t / 3 * 5 * b_2 **3 * 2 + t * h / 2 / 4 * 5 * (b - b_2/2 - zy)**2 * 2
 print('Iyy =', Iyy)
 Iyy_2 = Iyy - h * t **3 / 12
+
+Sy = h * t * zy + zy * t * zy/2 * 2
+print('Sy =', Sy)
+
+
+V = F
+T = F * L
+
+tau = V * Sy / (Iyy * t * 2)
+print('tau =', tau, 'approx', tau.evalf())
+
+A_m = b * h - h * b_2 / 2
+
+tau_2 = T / 2 / A_m / t
+
+print('tau_2 =', tau_2, 'approx', tau_2.evalf())
