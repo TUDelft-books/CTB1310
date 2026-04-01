@@ -28,6 +28,7 @@ grijpen aan in het normaalkrachtencentrum.
 
 ```{figure-start} ./toz_data/doorsnede.svg
 :align: center
+:class: sticky-margin
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/TOZ_schuifspanningen
 :number:
 ```
