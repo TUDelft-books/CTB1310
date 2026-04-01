@@ -99,7 +99,7 @@ $$
 :::::{exercise}
 :nonumber: true
 
-Bepaal de gemiddelde schuifspanning op het horizontale afschuifvlak op $\bar{z} = 250 \, \rm{mm}$ voor een negatieve snede.
+Bepaal de gemiddelde schuifspanning op het horizontale afschuifvlak op $\bar{z} = 250 \, \rm{mm}$ voor een negatieve snede in C.
 
 ```{h5p} https://tudelft.h5p.com/content/1292775934968650997/embed
 ```
@@ -111,7 +111,45 @@ Bepaal de gemiddelde schuifspanning op het horizontale afschuifvlak op $\bar{z} 
 ::::{admonition} Oplossing
 :class: solution, dropdown
 
-...
+Om de gemiddelde schuifspanning voor een negatieve snede in C te kunnen bepalen hebben we eerst de dwarskracht in C nodig. Door het berekenen van de opleggingsreacties kan de dwarskracht in C worden bepaald:
+
+```{figure} ./lesoefening1_data/dwarskracht.svg
+:align: center
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/shear_2
+:number:
+```
+
+$$
+\sum F_{\rm{v}} = 0 \to V_{\rm{C}} = 600 \, \rm{kN} \left(⎽|⎺\right)
+$$
+
+Vervolgens gaan we het statisch moment van het afschuivende deel bepalen:
+
+```{figure} ./lesoefening1_data/Statisch_moment.svg
+:align: center
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/shear_2
+:number:
+```
+
+$$
+\begin{align*}
+S_{z}^{\rm{a}} &= A_{\rm{afschuivend} \, \rm{deel}} \, z_{\rm{N.C.} \longleftrightarrow \rm{zwaartepunt} \, \rm{afschuivend} \, \rm{deel} } \\
+&= 150 \cdot 150 \cdot \left( 325 - 167 \right) \\
+&= 3.56 \, \rm{dm^3}
+\end{align*}
+$$
+
+
+Uiteindelijk kunnen we dan de gemiddelde schuifspanning bepalen:
+
+$$
+\begin{align*}
+\tau_{\rm{max}} &= \cfrac{\left|V_{z} \, S_{z}^{\rm{a}}\right|}{b \, I_{zz}} \\
+&= \cfrac{\left| 600 \cdot 10^3 \, \cdot 3.56\cdot 10^6 \right|}{150 \cdot 10.93 \cdot 10^8} \\
+&= 13 \, \rm{MPa}
+\end{align*}
+$$
+
 
 ::::
 
