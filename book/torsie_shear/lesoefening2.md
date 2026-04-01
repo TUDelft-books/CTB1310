@@ -24,8 +24,7 @@ Gegeven is de volgende constructie en doorsnede.
 :number:
 ```
 
-De uitwendige krachten en oplegreacties  
-grijpen aan in het midden van de doorsnede.
+De uitwendige krachten en oplegreacties grijpen aan in het midden van de doorsnede.
 
 ```{figure-end}
 ```
