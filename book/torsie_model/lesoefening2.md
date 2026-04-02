@@ -24,10 +24,10 @@ Gegeven is de volgende constructie en doorsnede in $\rm{D}$. Het is een versimpe
 :number:
 ```
 
-De verdeelde belasting grijpt aan in het midden van de doorsnede.  
-De $14.32\,\rm{kN}$ grijpt aan in $y=-2 \,\rm{m}$.  
-De oplegreactie bij $A$ grijpt aan in $y=-2 \,\rm{m}$.  
-De oplegreactie bij $B$ grijpt aan in zowel $y=-2 \,\rm{m}$ als $y=+2 \,\rm{m}$.
+- De verdeelde belasting grijpt aan in het midden van de doorsnede.
+- De $14.32\,\rm{kN}$ grijpt aan in $y=-2 \,\rm{m}$.
+- De oplegreactie bij $A$ grijpt aan in $y=-2 \,\rm{m}$.
+- De oplegreactie bij $B$ grijpt aan in zowel $y=-2 \,\rm{m}$ als $y=+2 \,\rm{m}$.
 
 ```{figure-end}
 ```

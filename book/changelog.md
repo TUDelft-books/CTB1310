@@ -1,5 +1,17 @@
 # Changelog 🔖
 
+## 2026-04-02: v2025.18.0
+- Toegevoegd uitwerkingen aan [20 februari: Schuifspanningen door buiging in dikwandige doorsnedes - Begeleide oefening 1](./shear/lesoefening1.md)
+
+## 2026-03-30: v2025.17.0
+- Toegevoegd uitwerkingen aan [23 februari: Schuifspanningen door buiging in dunwandige doorsnedes - Begeleide oefening 2](./shear_dunwandig/lesoefening2.md)
+
+## 2026-03-30: v2025.16.0
+- Toegevoegd uitwerkingen aan [23 februari: Schuifspanningen door buiging in dunwandige doorsnedes - Begeleide oefening 1](./shear_dunwandig/lesoefening1.md)
+
+## 2026-03-30: v2025.15.0
+- Toegevoegd uitwerkingen aan [Deadline 29 maart: COZ 7 Deel differentiaalvergelijkingen met SymPy](./sympy_COZ/les.md)
+
 ## 2026-03-23: v2025.14.0
 - Toegevoegd uitwerkingen aan begeleide oefeningen van [23 maart: Differentiaalvergelijkingen met SymPy](./sympy/les.md)
 

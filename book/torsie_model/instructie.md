@@ -393,9 +393,7 @@ Gegevens is de volgende constructie en twee dunwandige doorsnedes:
 ```
 
 
-De uitwendige krachten en  
-oplegreacties grijpen aan  
-in het dwarskrachtencentrum.
+De uitwendige krachten en oplegreacties grijpen aan in het dwarskrachtencentrum.
 
 ```{figure-end}
 ```
@@ -425,8 +423,7 @@ in het dwarskrachtencentrum.
 :number:
 ```
 
-Infinitesimaal smalle  
-snede in lengterichting
+Infinitesimaal smalle snede in lengterichting
 
 ```{figure-end}
 ```
