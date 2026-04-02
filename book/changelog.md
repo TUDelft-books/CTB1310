@@ -1,5 +1,8 @@
 # Changelog 🔖
 
+## 2026-04-02: v2025.19.0
+- Toegevoegd [](./toz/toz.md)
+
 ## 2026-04-02: v2025.18.0
 - Toegevoegd uitwerkingen aan [20 februari: Schuifspanningen door buiging in dikwandige doorsnedes - Begeleide oefening 1](./shear/lesoefening1.md)
 
