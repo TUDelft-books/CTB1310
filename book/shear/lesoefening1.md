@@ -25,18 +25,6 @@ Gegeven zijn een aantal mogelijke punten waarop de schuifspanning kan worden bep
 
 :::::
 
-% solution_start
-
-::::{admonition} Uitwerking
-:class: solution, dropdown
-
-...
-
-::::
-
-% solution_end
-
-
 :::::{exercise}
 :nonumber: true
 
@@ -101,12 +89,10 @@ Bepaal de gemiddelde schuifspanning op het horizontale afschuifvlak op $\bar{z} 
 
 :::::
 
-% solution_start
-
 ::::{admonition} Uitwerking
 :class: solution, dropdown
 
-Om de gemiddelde schuifspanning voor een negatieve snede in C te kunnen bepalen hebben we eerst de dwarskracht in C nodig. Door het berekenen van de opleggingsreacties kan de dwarskracht in C worden bepaald:
+Om de gemiddelde schuifspanning voor een negatieve snede in $\rm{C}$ te kunnen bepalen hebben we eerst de dwarskracht in $\rm{C}$ nodig. Door het berekenen van de opleggingsreacties kan de dwarskracht in $\rm{C}$ worden bepaald:
 
 ```{figure} ./lesoefening1_data/dwarskracht.svg
 :align: center
@@ -147,5 +133,3 @@ $$
 
 
 ::::
-
-% solution_end
