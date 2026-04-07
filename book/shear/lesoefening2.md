@@ -106,7 +106,26 @@ Bepaal de doorsnedegrootheden
 ::::{admonition} Uitwerking
 :class: solution, dropdown
 
-...
+Voor de oppervlakte van de cirkel geldt de volgende formule:
+
+$$
+\begin{align*}
+A &= \alpha \left( r_2^2 - r_1^2 \right) \\
+&= \pi \cdot \left(300^2 - 150^2\right) \\
+&= 67500 \pi \, \rm{mm^2}
+\end{align*}
+$$
+
+Voor het berekenen van het traagheidsmoment van de cirkel doen we het volgende:
+
+$$
+\begin{align*}
+I &= \cfrac{\pi}{4} \left(r_2^4 - r_1^4 \right) \\
+&= \cfrac{\pi}{4} \left(300^4 - 150^4 \right) \\
+&= 60 \, \rm{dm^4}
+\end{align*}
+$$
+
 
 ::::
 
@@ -158,7 +177,34 @@ Bepaal de maximale schuifspanning
 ::::{admonition} Uitwerking
 :class: solution, dropdown
 
-...
+De maximale schuifspanning bevindt zich ter hoogte van het normaalkrachtcentrum in $\rm{z} = 0$.
+
+Het statisch moment ter hoogte van het normaalkrachtcentrum is:
+
+$$
+\begin{align*}
+S_{z}^{\rm{a}} &= A_{\rm{afschuivend} \, \rm{deel}} \, z_{\rm{N.C.} \longleftrightarrow \rm{zwaartepunt} \, \rm{afschuivend} \, \rm{deel} } \\
+&= \cfrac{1}{2} A \cdot \cfrac{2 \sin \left( \alpha \right)}{ 3 \alpha} \cfrac{r_2^3 - r_1^3}{r_2^2 - r_1^2} \\
+&= \cfrac{1}{2} \pi \left( r_2^2 - r_1^2 \right) \cdot \cfrac{2 \sin \left( \cfrac{1}{2} \pi \right)}{ \cfrac{3}{2} \pi} \cfrac{r_2^3 - r_1^3}{r_2^2 - r_1^2} \\
+&= \cfrac{3}{2} \cdot \left(r_2^3 - r_1^3 \right) \\
+&= \cfrac{3}{2} \cdot \left(300^3 - 150^3 \right) \\
+&= 15.75 \, \rm{dm^3}
+\end{align*}
+$$
+
+De dwarskracht is gegeven, deze is $2025 \pi \, \rm{kN}$.
+
+Uiteindelijk kunnen we dan de maximale schuifspanning bepalen:
+
+$$
+\begin{align*}
+\tau_{\rm{max}} &= \cfrac{V_{z} \, S_{z}^{\rm{a}}}{b \, I_{zz}} \\
+&= \cfrac{2025 \pi \cdot 10^3 \, \cdot 15.75 \cdot 10^6}{\left(2 \cdot 150\right) \cdot 60 \cdot 10^8} \\
+&= 56 \, \rm{MPa}
+\end{align*}
+$$
+
+Omdat de dwarskracht naar beneden wijst is de schuifspanning omhoog en is deze dus negatief.
 
 ::::
 
@@ -179,7 +225,37 @@ Waar is de schuifspanning de helft van de maximale waarde uitgedrukt als hoek va
 ::::{admonition} Uitwerking
 :class: solution, dropdown
 
-...
+We willen de hoek $\alpha$ vinden uit de formule van het statisch moment waarbij de schuifspanning precies gehalveerd is ten opzichte van de maximale schuifspanning. 
+
+$$
+\begin{align*}
+\cfrac{1}{2} \tau_{\rm{max}} &= \cfrac{V_{z} \, S_{z}^{\rm{a}}}{b \, I_{zz}} \\
+&= \cfrac{V_{z}}{b \, I_{zz}} \cdot \alpha \left( r_2^2 - r_1^2 \right) \cdot \cfrac{2 \sin \left( \alpha \right)}{ 3 \alpha} \cfrac{r_2^3 - r_1^3}{r_2^2 - r_1^2} \\
+\\
+\cfrac{56}{2} &= \cfrac{2025 \pi \cdot 10^3}{\left(2 \cdot 150\right) \cdot 60 \cdot 10^8}  \cdot \cfrac{2 \sin \left( \alpha \right)}{3} \left(300^3 - 150^3 \right) \\
+\\
+\sin \left( \alpha \right) &= 0.503 \\
+\alpha &= \cfrac{1}{6} \pi
+\end{align*}
+$$
+
+Omdat er wordt gevraagd naar de hoek $\varphi$ tussen $-\cfrac{\pi}{2}$ en $0$ ten opzichte van de $y$-as moeten we de hoek alpha nog even omschrijven.
+
+```{figure} ./lesoefening2_data/phi_bepaling.svg
+:align: center
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/shear_3
+:number:
+```
+
+De hoek $\varphi$ is dus:
+
+$$
+\begin{align*}
+\varphi &= - \left(\cfrac{1}{2} \pi - \alpha \right)
+&= -\cfrac{1}{3} \pi
+&= -1.05 \, \rm{rad}
+\end{align*}
+$$
 
 ::::
 
