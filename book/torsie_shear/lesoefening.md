@@ -95,12 +95,20 @@ Bepaal de schuifspanning op een positieve doorsnede in punt $\rm{E}$ net rechts 
 
 :::::
 
-:::::{exercise}
-:nonumber: true
+::::{question} Opgave
+:type: short-answer
+:variant: gaps
+:showanswer:
+:admonition:
+:class: exercise
+:nocaption:
 
 Bepaal de totale schuifspanning op een positieve doorsnede in punt $\rm{E}$ net rechts van $\rm{D}$ ten gevolge van de kromming en verwringing.
+---
+MAP[17;0.5]
+DS[{omhoog};omlaag]
+^^^
+? De totale spanning is {gap} $\rm{MPa}$ {gap}.
+---
 
-```{h5p} https://tudelft.h5p.com/content/1292808657783449747/embed
-```
-
-:::::
+::::
