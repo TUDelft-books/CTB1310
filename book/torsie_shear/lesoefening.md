@@ -55,12 +55,119 @@ Kijk terug naar je uitwerking van [de vorige les](../torsie_model/lesoefening2.m
 :::::{exercise}
 :nonumber: true
 
-Gegeven is dat het oppervlakte en statisch moment ten opzichte van de $\bar y$-as van de boven- en zijkanten van de doorsnede  gelijk is aan $4 \cdot 0.01 + 2 \cdot 0.25 \cdot 0.01 = 0.045 \, \rm{m}^2 $ en $4 \cdot 0.01 \cdot 1.75 + 2 \cdot 0.25 \cdot 0.01 \cdot \left(1.75 + \cfrac{0.25}{2}\right) = 0.079375 \rm{m^3}$, respectievelijk.
+Gegeven is dat het oppervlakte en statisch moment ten opzichte van de $\bar y$-as van de boven- en zijkanten van de doorsnede gelijk is aan $4 \cdot 0.01 + 2 \cdot 0.25 \cdot 0.01 = 0.045 \, \rm{m}^2 $ en $4 \cdot 0.01 \cdot 1.75 + 2 \cdot 0.25 \cdot 0.01 \cdot \left(1.75 + \cfrac{0.25}{2}\right) = 0.079375 \rm{m^3}$, respectievelijk.
 
 Om het zwaartepunt van de gehele doorsnede te bepalen is ook het zwaartepunt van het gekromde gedeelte nodig ten opzichte van de $\bar y$-as. Maak daarvoor gebruik van $S_{\bar z} = \int\limits_A z \, dA$ en $A = \int\limits_A dA$. De volgende vragen zijn er om je op weg te helpen.
 
-```{h5p} https://tudelft.h5p.com/content/1292808600979606797/embed
-```
+::::{question}
+:type: multiple-choice
+:variant: single-select
+:showanswer:
+:nocaption:
+
+Welke van de volgende formules is/zijn correct voor het bepalen van $A$ van het gekromde gedeelte?
+---
+[x] $ A = \int\limits_A dA = \int\limits_{\cfrac{\pi}{4}}^{\cfrac{3 \pi}{4}} r t d\varphi $
+[ ] $ A = \int\limits_A dA = \int\limits_{\cfrac{\pi}{4}}^{\cfrac{3 \pi}{4}} \int\limits_{r - \frac{1}{2}t}^{r+\frac{1}{2}} r dr d\varphi $
+> Hoewel dit antwoord correct is, is het een dikwandige berekening. Je mag hier een dunwandige berekening maken, die simpeler is.
+---
+
+::::
+
+::::{question}
+:type: multiple-choice
+:variant: single-select
+:columns: 1 1 1 1
+:showanswer:
+:nocaption:
+
+Welke van de volgende formules is/zijn correct voor het bepalen van $S_{\bar z}$ van het gekromde gedeelte?
+---
+[ ] $ S_{\bar z} = \int\limits_{\cfrac{\pi}{4}}^{\cfrac{3 \pi}{4}} z r t d\varphi  = \int\limits_{\cfrac{\pi}{4}}^{\cfrac{3 \pi}{4}} \sin \left( \varphi \right) d\varphi $
+> $ z = r \sin\left(\varphi\right) $. Dit geeft in de integraal $ r^2 t \sin\left(\varphi\right) = \left( 2 \sqrt{2} \right)^2 \cdot 0.01 \cdot \sin\left(\varphi\right) $
+[ ] $ S_{\bar z} = \int\limits_{\cfrac{\pi}{4}}^{\cfrac{3 \pi}{4}} z r t d\varphi  = \int\limits_{\cfrac{\pi}{4}}^{\cfrac{3 \pi}{4}} 0.02 \sqrt{2} \sin \left( \varphi \right) d\varphi $
+> $ z = r \sin\left(\varphi\right) $. Dit geeft in de integraal $ r^2 t \sin\left(\varphi\right) = \left( 2 \sqrt{2} \right)^2 \cdot 0.01 \cdot \sin\left(\varphi\right) $
+[x] $ S_{\bar z} = \int\limits_{\cfrac{\pi}{4}}^{\cfrac{3 \pi}{4}} z r t d\varphi  = \int\limits_{\cfrac{\pi}{4}}^{\cfrac{3 \pi}{4}} 0.08 \sin \left( \varphi \right) d\varphi $
+---
+
+::::
+
+::::{question}
+:type: multiple-choice
+:variant: single-select
+:columns: 1 1 1 1
+:showanswer:
+:nocaption:
+
+Welke van de volgende formules is/zijn correct voor het bepalen van $S_{\bar z}$ van het gekromde gedeelte?
+---
+[ ] $ S_{\bar z} = \int\limits_{\cfrac{\pi}{4}}^{\cfrac{3 \pi}{4}} 0.08 \sin \left( \varphi \right) d\varphi = 0.04 $
+>
+$$\begin{align*}
+\int\limits_{\cfrac{\pi}{4}}^{\cfrac{3 \pi}{4}} \sin \left( \varphi \right) d\varphi &= -\cos \left( \cfrac{3 \pi}{4} \right) - \left( -\cos \left( \cfrac{ \pi}{4} \right) \right) \\
+ &= - \left( - \frac{1}{2} \sqrt{2} \right) - \left( - \frac{1}{2} \sqrt{2} \right) \\
+ &= \sqrt{2}
+\end{align*}$$
+[ ] $ S_{\bar z} = \int\limits_{\cfrac{\pi}{4}}^{\cfrac{3 \pi}{4}} 0.08 \sin \left( \varphi \right) d\varphi = 0.04 \sqrt{2} $
+>
+$$\begin{align*}
+\int\limits_{\cfrac{\pi}{4}}^{\cfrac{3 \pi}{4}} \sin \left( \varphi \right) d\varphi &= -\cos \left( \cfrac{3 \pi}{4} \right) - \left( -\cos \left( \cfrac{ \pi}{4} \right) \right) \\
+ &= - \left( - \frac{1}{2} \sqrt{2} \right) - \left( - \frac{1}{2} \sqrt{2} \right) \\
+ &= \sqrt{2}
+\end{align*}$$
+[ ] $ S_{\bar z} = \int\limits_{\cfrac{\pi}{4}}^{\cfrac{3 \pi}{4}} 0.08 \sin \left( \varphi \right) d\varphi = 0.08 $
+>
+$$\begin{align*}
+\int\limits_{\cfrac{\pi}{4}}^{\cfrac{3 \pi}{4}} \sin \left( \varphi \right) d\varphi &= -\cos \left( \cfrac{3 \pi}{4} \right) - \left( -\cos \left( \cfrac{ \pi}{4} \right) \right) \\
+ &= - \left( - \frac{1}{2} \sqrt{2} \right) - \left( - \frac{1}{2} \sqrt{2} \right) \\
+ &= \sqrt{2}
+\end{align*}$$
+[x] $ S_{\bar z} = \int\limits_{\cfrac{\pi}{4}}^{\cfrac{3 \pi}{4}} 0.08 \sin \left( \varphi \right) d\varphi = 0.08 \sqrt{2} $
+---
+
+::::
+
+::::{question} Opgave
+:type: short-answer
+:variant: gaps
+:showanswer:
+:nocaption:
+
+Wat is de locatie van het zwaartepunt van het gekromde gedeelte en van het geheel?
+---
+MRP[8 / \pi;0.025]
+MRP[2.1464;0.025]
+^^^
+?
+$ \bar z_{\rm{N.C.}} \, \rm{gekromde} \, \rm{gedeelte} = $ {gap} $ \, \rm{m} $
+
+$ \bar z_{\rm{N.C.}} \, \rm{gehele} \, \rm{doorsnede} \approx $ {gap} $ \, \rm{m} $
+
+---
+
+::::
+
+::::{question} Opgave
+:type: short-answer
+:variant: gaps
+:showanswer:
+:admonition:
+:class: exercise
+:nocaption:
+
+Wat is de locatie van het zwaartepunt van het gekromde gedeelte en van het geheel?
+---
+MRP[8/ \pi;0.025]
+MRP[2.1464;0.025]
+^^^
+?
+$ \bar z_{\rm{N.C.}} \, \rm{gekromde} \, \rm{gedeelte} = $ {gap} $ \, \rm{m} $
+
+$ \bar z_{\rm{N.C.}} \, \rm{gehele} \, \rm{doorsnede} \approx $ {gap} $ \, \rm{m} $
+
+---
+
+::::
 
 :::::
 
@@ -95,12 +202,20 @@ Bepaal de schuifspanning op een positieve doorsnede in punt $\rm{E}$ net rechts 
 
 :::::
 
-:::::{exercise}
-:nonumber: true
+::::{question} Opgave
+:type: short-answer
+:variant: gaps
+:showanswer:
+:admonition:
+:class: exercise
+:nocaption:
 
 Bepaal de totale schuifspanning op een positieve doorsnede in punt $\rm{E}$ net rechts van $\rm{D}$ ten gevolge van de kromming en verwringing.
+---
+MAP[17;0.5]
+DS[{omhoog};omlaag]
+^^^
+? De totale spanning is {gap} $\rm{MPa}$ {gap}.
+---
 
-```{h5p} https://tudelft.h5p.com/content/1292808657783449747/embed
-```
-
-:::::
+::::
