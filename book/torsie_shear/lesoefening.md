@@ -186,16 +186,6 @@ $ \sigma_{\rm{E}} \approx $ {gap} $ \, \rm{MPa} $
 
 ::::
 
-:::::{exercise}
-:nonumber: true
-
-Bepaal de schuifspanning op een positieve doorsnede in punt $\rm{E}$ net rechts van $\rm{D}$ ten gevolge van de dwarskracht.
-
-```{h5p} https://tudelft.h5p.com/content/1292808655867105037/embed
-```
-
-:::::
-
 ::::{question} Opgave
 :type: short-answer
 :variant: gaps
