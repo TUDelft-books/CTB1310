@@ -127,7 +127,7 @@ $$\begin{align*}
 
 ::::
 
-::::{question} Opgave
+::::{question}
 :type: short-answer
 :variant: gaps
 :showanswer:
@@ -147,6 +147,23 @@ $ \bar z_{\rm{N.C.}} \, \rm{gehele} \, \rm{doorsnede} \approx $ {gap} $ \, \rm{m
 
 ::::
 
+:::::
+
+::::{question} Opgave
+:type: short-answer
+:variant: blocks
+:showanswer:
+:admonition:
+:class: exercise
+:nocaption:
+
+Op eenzelfde manier is $I_{zz}$ te berekenen voor het gekromde gedeelte. Ten opzichte van het zwaartepunt van de gehele doorsnede zoals bepaald in de vorige opgave geeft dat: $I_{zz}^{\rm{gekromde} \, \rm{gedeelte}} = 98.63\,\mathrm{dm}^4$. Bepaal $I_{zz}$ in $\rm{dm}^4$ van de gehele doorsnede.
+---
+MAP[169;0.5]
+---
+
+::::
+
 ::::{question} Opgave
 :type: short-answer
 :variant: gaps
@@ -155,42 +172,19 @@ $ \bar z_{\rm{N.C.}} \, \rm{gehele} \, \rm{doorsnede} \approx $ {gap} $ \, \rm{m
 :class: exercise
 :nocaption:
 
-Wat is de locatie van het zwaartepunt van het gekromde gedeelte en van het geheel?
+Bepaal de normaalspanning in punt $\rm{E}$ net rechts van $\rm{D}$.
 ---
-MRP[8/ \pi;0.025]
-MRP[2.1464;0.025]
+MAP[-0.15;0.005]
+MAP[-0.07;0.005]
 ^^^
 ?
-$ \bar z_{\rm{N.C.}} \, \rm{gekromde} \, \rm{gedeelte} = $ {gap} $ \, \rm{m} $
+$ z_{\rm{E}} \approx $ {gap} $ \, \rm{cm} $
 
-$ \bar z_{\rm{N.C.}} \, \rm{gehele} \, \rm{doorsnede} \approx $ {gap} $ \, \rm{m} $
+$ \sigma_{\rm{E}} \approx $ {gap} $ \, \rm{MPa} $
 
 ---
 
 ::::
-
-:::::
-
-:::::{exercise}
-:nonumber: true
-
-Op eenzelfde manier is $I_{zz}$ te berekenen voor het gekromde gedeelte. Ten opzichte van het zwaartepunt van de gehele doorsnede zoals bepaald in de vorige opgave geeft dat: $I_{zz}^{\rm{gekromde} \, \rm{gedeelte}} = 98.63\,\mathrm{dm}^4$. Bepaal $I_{zz}$ van de gehele doorsnede.
-
-
-```{h5p} https://tudelft.h5p.com/content/1292808647660137747/embed
-```
-
-:::::
-
-:::::{exercise}
-:nonumber: true
-
-Bepaal de normaalspanning in punt $\rm{E}$ net rechts van $\rm{D}$.
-
-```{h5p} https://tudelft.h5p.com/content/1292808652061755197/embed
-```
-
-:::::
 
 :::::{exercise}
 :nonumber: true
@@ -201,6 +195,31 @@ Bepaal de schuifspanning op een positieve doorsnede in punt $\rm{E}$ net rechts 
 ```
 
 :::::
+
+::::{question} Opgave
+:type: short-answer
+:variant: gaps
+:showanswer:
+:admonition:
+:class: exercise
+:nocaption:
+
+Bepaal de schuifspanning op een positieve doorsnede in punt $\rm{E}$ net rechts van $\rm{D}$ ten gevolge van de dwarskracht.
+---
+MAP[93;0.5]
+MAP[17;0.5]
+MAP[-5;0.5]
+^^^
+?
+$ V_{\rm{D}}^{\rm{DB}} \approx $ {gap} $ \, \rm{kN} $ (⎺|⎽)
+
+$ \left| S_{\bar{\rm{z}}}^{\left(\rm{a}\right)} \right| \approx $ {gap} $ \, \rm{dm}^3 $
+
+$ \tau_{\rm{E}} \approx $ {gap} $ \, \rm{MPa} $ (Geef een positief antwoord voor een schuifspanning die naar boven gericht is)
+
+---
+
+::::
 
 ::::{question} Opgave
 :type: short-answer
