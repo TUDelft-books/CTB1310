@@ -135,7 +135,7 @@ $$\begin{align*}
 
 Wat is de locatie van het zwaartepunt van het gekromde gedeelte en van het geheel?
 ---
-MRP[8 / \pi;0.025]
+MRPE[8 / \pi;0.025]
 MRP[2.1464;0.025]
 ^^^
 ?
