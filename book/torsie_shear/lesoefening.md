@@ -152,8 +152,8 @@ $ \bar z_{\rm{N.C.}} \, \rm{gehele} \, \rm{doorsnede} \approx $ {gap} $ \, \rm{m
 
 $$
 \begin{align*}
-\bar z_{\rm{N.C. \ gekromde \ gedeelte}} &= \frac{0.08\sqrt{2}}{0.01\sqrt{2}\pi} = \frac{8}{\pi} \approx 2.5465 \, \rm{m} \\
-\bar z_{\rm{N.C. \ gehele \ doorsnede}} &= 0.079375 + \frac{0.08\sqrt{2}}{2(0.25 \cdot 0.01) + 4 \cdot 0.01 + 0.01\sqrt{2}\pi} \approx 2.1527
+\bar z_{\rm{N.C.} \, \rm{gekromde} \, \rm{gedeelte}} &= \frac{0.08\sqrt{2}}{0.01\sqrt{2}\pi} = \frac{8}{\pi} \approx 2.5465 \, \rm{m} \\
+\bar z_{\rm{N.C.} \, \rm{gehele} \, \rm{doorsnede}} &= 0.079375 + \frac{0.08\sqrt{2}}{2(0.25 \cdot 0.01) + 4 \cdot 0.01 + 0.01\sqrt{2}\pi} \approx 2.1527 \, \rm{m}
 \end{align*}
 $$
 
