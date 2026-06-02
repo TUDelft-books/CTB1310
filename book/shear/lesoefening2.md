@@ -133,8 +133,6 @@ Voorbeeld van een hoek van $-\cfrac{\pi}{4}$.
 
 ::::
 
-% solution_end
-
 :::::{exercise}
 :nonumber: true
 
