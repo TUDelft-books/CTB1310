@@ -7,7 +7,7 @@ b = sym.Integer(400)
 
 F, L = sym.symbols('F L')
 
-F = sym.Integer(79000)
+F = sym.Integer(333000)
 #print('F =', F)
 L = sym.Integer(2000)
 
@@ -28,7 +28,7 @@ h_a = sym.Integer(50)
 S_z_a = h_a * b * (h_a / 2 - zc)
 print('S_z_a =', S_z_a)
 
-Izz = b * h **3 / 12 - (b * (h/2)**3 /36 + b * h / 2 / 2 * (h/6*5 - zc)**2)
+Izz = b * h **3 / 12 + b * h * (h/2 - zc)**2- (b * (h/2)**3 /36 + b * h / 2 / 2 * (h/6*5 - zc)**2)
 print('Izz =', Izz)
 
 tau = F * S_z_a / b / Izz

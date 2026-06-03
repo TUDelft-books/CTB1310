@@ -184,13 +184,13 @@
 			<title>Kracht</title>
 			<path d="M7.55 107.54 L7.91 107.54 L34.02 107.54" class="st4"/>
 		</g>
-		<g id="shape303-101" v:mID="303" v:groupContext="shape" transform="translate(103.603,-34.5964)">
+		<g id="shape303-101" v:mID="303" v:groupContext="shape" transform="translate(102.185,-34.5964)">
 			<title>Blad.303</title>
-			<desc>79 kN</desc>
+			<desc>333 kN</desc>
 			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
 			<v:textRect cx="25.5118" cy="97.6171" width="51.03" height="19.8425"/>
 			<rect x="0" y="87.6958" width="51.0236" height="19.8425" class="st6"/>
-			<text x="10.68" y="101.22" class="st7" v:langID="1043"><v:paragraph v:horizAlign="1"/><v:tabList/>79 kN</text>		</g>
+			<text x="7.68" y="101.22" class="st7" v:langID="1043"><v:paragraph v:horizAlign="1"/><v:tabList/>333 kN</text>		</g>
 		<g id="shape304-104" v:mID="304" v:groupContext="shape" transform="translate(141.608,106.57) rotate(153.435)">
 			<title>Blad.304</title>
 			<path d="M0 107.54 L4.25 107.54" class="st8"/>

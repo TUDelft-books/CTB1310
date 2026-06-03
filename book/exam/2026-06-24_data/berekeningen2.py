@@ -31,5 +31,5 @@ a = F_2 * b / F
 print('a =', a, 'approx', a.evalf())
 
 
-Mt = F * (a + h/2)
+Mt = F/1000 * (a + h/2) / 1000
 print('Mt =', Mt, 'approx', Mt.evalf())
