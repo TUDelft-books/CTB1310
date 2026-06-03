@@ -16,11 +16,20 @@ print('Iyy =', Iyy)
 S_y_a = t * h * b/2
 print('S_y_a =', S_y_a)
 
+S_y_a_2 = S_y_a + t * sym.sqrt((h/2)**2 + (b/2)**2) * b / 4
+
 tau = F * S_y_a / Iyy / t
 print('tau =', tau, 'approx', tau.evalf())
+
+tau_2 = F * S_y_a_2 / Iyy / t
+print('tau_2 =', tau_2, 'approx', tau_2.evalf())
 
 F_2 = tau * t * h / 2
 print('F_2 =', F_2, 'approx', F_2.evalf())
 
 a = F_2 * b / F
 print('a =', a, 'approx', a.evalf())
+
+
+Mt = F * (a + h/2)
+print('Mt =', Mt, 'approx', Mt.evalf())
