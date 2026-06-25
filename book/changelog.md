@@ -1,5 +1,8 @@
 # Changelog 🔖
 
+## 2026-06-25: v2025.23.0
+- Toegevoegd [](./exam/2026-06-24.md)
+
 ## 2026-06-02: v2025.22.0
 - Toegevoegd veelgemaakte fouten aan [](./exam/2026-04-14.md)
 
