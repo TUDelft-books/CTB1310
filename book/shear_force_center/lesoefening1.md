@@ -42,8 +42,9 @@ A &= 2 \cdot 200 \cdot 15 + 400 \cdot 30 \\
 \end{align*}
 $$
 
+In de $z$-richting ligt het normaalkrachtencentrum op de symmetrieas.
 
-Om de locatie van het normaalkrachtencentrum te berekenen delen we de doorsnede op in drie delen:
+Om de locatie van het normaalkrachtencentrum in $y$-richting te berekenen delen we de doorsnede op in drie delen:
 
 ```{figure} ./lesoefening_data/Berekening_zNC.svg
 :align: center
@@ -53,15 +54,7 @@ Om de locatie van het normaalkrachtencentrum te berekenen delen we de doorsnede 
 
 $$
 \begin{align*}
-z_{\rm{NC}} &= \cfrac{A_{1} \cdot z_{1} + A_{2} \cdot z_{2} + A_{3} \cdot z_{3} }{A} \\
-&= \cfrac{200 \cdot 15 \cdot 0 + 30 \cdot 400 \cdot 200 + 200 \cdot 15 \cdot 400}{18000} \\
-&= 200 \, \rm{mm}
-\end{align*}
-$$
-
-$$
-\begin{align*}
-y_{\rm{NC}} &= \cfrac{A_{1} \cdot y_{1} + A_{2} \cdot y_{2} + A_{3} \cdot y_{3} }{A} \\
+{\bar{y}}_{\rm{NC}} &= \cfrac{A_{1} \cdot {\bar{y}}_{1} + A_{2} \cdot {\bar{y}}_{2} + A_{3} \cdot {\bar{y}}_{3} }{A} \\
 &= \cfrac{200 \cdot 15 \cdot 100 + 30 \cdot 400 \cdot 0 + 200 \cdot 15 \cdot 100}{18000} \\
 &= 33 \, \rm{mm}
 \end{align*}
