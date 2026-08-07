@@ -179,17 +179,6 @@ Optie 6
 
 :::::
 
-% solution_start
-
-::::{admonition} Uitwerking
-:class: solution, dropdown
-
-...
-
-::::
-
-% solution_end
-
 :::::{exercise}
 :nonumber: true
 
@@ -197,17 +186,6 @@ Optie 6
 ```
 
 :::::
-
-% solution_start
-
-::::{admonition} Uitwerking
-:class: solution, dropdown
-
-...
-
-::::
-
-% solution_end
 
 :::::{exercise}
 :nonumber: true
