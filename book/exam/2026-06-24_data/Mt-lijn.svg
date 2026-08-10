@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Gegenereerd door Microsoft Visio, SVG Export Mt-lijn.svg Pagina-1 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="2.01829in" height="1.94997in"
+		viewBox="0 0 145.317 140.397" xml:space="preserve" color-interpolation-filters="sRGB" class="st7">
+	<v:documentProperties v:langID="1043" v:metric="true" v:viewMarkup="false"/>
+
+	<style type="text/css">
+	<![CDATA[
+		.st1 {stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
+		.st2 {stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:2.25}
+		.st3 {marker-end:url(#mrkr39-16);stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:1}
+		.st4 {fill:#000000;fill-opacity:1;stroke:#000000;stroke-opacity:1;stroke-width:0.35714285714286}
+		.st5 {fill:none;stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
+		.st6 {fill:#000000;font-family:Times New Roman;font-size:1.00001em}
+		.st7 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<defs id="Markers">
+		<g id="lend39">
+			<path d="M 0 0 L 2 -1 L 2 1 L 0 0 M 2 0 L 4 -1 L 4 1 L 2 0 " style="stroke:none"/>
+		</g>
+		<marker id="mrkr39-16" class="st4" v:arrowType="39" v:arrowSize="1" v:setback="11.2" refX="-11.2" orient="auto"
+				markerUnits="strokeWidth" overflow="visible">
+			<use xlink:href="#lend39" transform="scale(-2.8,-2.8) "/>
+		</marker>
+	</defs>
+	<g v:mID="0" v:index="1" v:groupContext="foregroundPage">
+		<title>Pagina-1</title>
+		<v:pageProperties v:drawingScale="0.0393701" v:pageScale="0.0393701" v:drawingUnits="24" v:shadowOffsetX="8.50394"
+				v:shadowOffsetY="-8.50394"/>
+		<g id="shape3710-1" v:mID="3710" v:groupContext="shape" transform="translate(107.574,-41.077) rotate(36.8698)">
+			<title>Ligger, 2 pt.3710</title>
+			<path d="M0 140.4 L113.39 140.4" class="st1"/>
+		</g>
+		<g id="shape3711-4" v:mID="3711" v:groupContext="shape" transform="translate(-117.062,71.2411) rotate(-90)">
+			<title>Blad.3711</title>
+			<path d="M0 140.4 L42.52 140.4" class="st1"/>
+		</g>
+		<g id="shape3712-7" v:mID="3712" v:groupContext="shape" transform="translate(23.3356,-1.125)">
+			<title>Ligger, 2 pt.3712</title>
+			<path d="M0 72.37 L0 29.85 L90.71 97.88 L90.71 140.4" class="st2"/>
+		</g>
+		<g id="group3714-10" transform="translate(134.22,-38.8093) rotate(36.8698)" v:mID="3714" v:groupContext="group">
+			<title>Wringvervormingsteken negatief.108</title>
+			<g id="shape3715-11" v:mID="3715" v:groupContext="shape" transform="translate(6.59472E-14,-2.83465)">
+				<title>Blad.3715</title>
+				<path d="M0 140.4 L10.06 140.4" class="st3"/>
+			</g>
+			<g id="shape3716-17" v:mID="3716" v:groupContext="shape" transform="translate(42.5197,277.96) rotate(180)">
+				<title>Blad.3716</title>
+				<path d="M0 140.4 L10.06 140.4" class="st3"/>
+			</g>
+			<g id="shape3717-22" v:mID="3717" v:groupContext="shape" transform="translate(161.657,134.728) rotate(90)">
+				<title>Blad.3717</title>
+				<path d="M0 140.4 L5.67 140.4" class="st1"/>
+			</g>
+		</g>
+		<g id="shape3718-25" v:mID="3718" v:groupContext="shape" transform="translate(175.322,-32.5731) rotate(36.8698)">
+			<title>Blad.3718</title>
+			<desc>76.5 kNm</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="28.3465" cy="133.311" width="56.7" height="14.1732"/>
+			<rect x="0" y="126.224" width="56.6929" height="14.1732" class="st5"/>
+			<text x="4.35" y="136.91" class="st6" v:langID="1043"><v:paragraph v:horizAlign="1"/><v:tabList/>76.5 kNm</text>		</g>
+		<g id="shape3719-28" v:mID="3719" v:groupContext="shape" transform="translate(84.6133,-100.605) rotate(36.8698)">
+			<title>Blad.3719</title>
+			<desc>76.5 kNm</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="28.3465" cy="133.311" width="56.7" height="14.1732"/>
+			<rect x="0" y="126.224" width="56.6929" height="14.1732" class="st5"/>
+			<text x="4.35" y="136.91" class="st6" v:langID="1043"><v:paragraph v:horizAlign="1"/><v:tabList/>76.5 kNm</text>		</g>
+	</g>
+</svg>

@@ -1,5 +1,17 @@
 # Changelog 🔖
 
+## 2026-06-25: v2025.23.0
+- Toegevoegd [](./exam/2026-06-24.md)
+
+## 2026-06-02: v2025.22.0
+- Toegevoegd veelgemaakte fouten aan [](./exam/2026-04-14.md)
+
+## 2026-04-14: v2025.21.0
+- Toegevoegd [](./exam/2026-04-14.md)
+
+## 2026-04-07: v2025.20.0
+- Toegevoegd uitwerkingen aan [20 februari: Schuifspanningen door buiging in dikwandige doorsnedes - Begeleide oefening 2](./shear/lesoefening2.md)
+
 ## 2026-04-02: v2025.19.0
 - Toegevoegd [](./toz_3/toz.ipynb)
 

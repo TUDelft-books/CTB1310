@@ -26,11 +26,18 @@ jobs:
       contents: write
 
     steps:
+      - name: Create GitHub App token
+        id: app-token
+        uses: actions/create-github-app-token@v3
+        with:
+          client-id: ${{ secrets.CLIENT_ID }}
+          private-key: ${{ secrets.APP_PRIVATE_KEY }}
+    
       - name: Checkout code
         uses: actions/checkout@v6
         with:
           fetch-depth: 0
-          token: ${{ secrets.ACTIONS_DEPLOY_KEY }}
+          token: ${{ steps.app-token.outputs.token }}
 
       - name: Set up Python
         uses: actions/setup-python@v6
@@ -56,22 +63,23 @@ jobs:
                           lines = f.readlines()
 
                       # Remove lines between "% solution_start" and "% solution_end"
-                      # Also remove MyST solution directive blocks between ":::{solution}" and ":::"
-                      in_solution_block = False
-                      in_myst_solution_block = False
-                      myst_solution_colons = 0
+                      # Fail fast on malformed marker pairs (nested starts or unmatched ends).
+                      solution_depth = 0
                       filtered_lines = []
-                      for line in lines:
-                          stripped_line = line.strip()
+                      for line_no, line in enumerate(lines, start=1):
                           if "% solution_start" in line:
-                              in_solution_block = True
+                              if solution_depth > 0:
+                                  raise ValueError(f"Nested % solution_start detected in file: {markdown_file}:{line_no}")
+                              solution_depth += 1
                           elif "% solution_end" in line:
-                              in_solution_block = False
-                          elif not in_solution_block:
+                              if solution_depth == 0:
+                                  raise ValueError(f"% solution_end without matching % solution_start in file: {markdown_file}:{line_no}")
+                              solution_depth -= 1
+                          elif solution_depth == 0:
                               filtered_lines.append(line)
 
                       # Raise an error if a solution block was not properly closed
-                      if in_solution_block:
+                      if solution_depth != 0:
                           raise ValueError("Unclosed % solution_start detected in file: " + markdown_file)
 
                       # Save the modified markdown file
@@ -116,25 +124,26 @@ jobs:
                           notebook = nbformat.read(f, as_version=4)
 
                       # Process each cell to remove solution sections
-                      for cell in notebook.cells:
+                      for cell_index, cell in enumerate(notebook.cells, start=1):
                           if 'source' in cell and cell.source:
                               lines = cell.source.split('\n')
-                              in_solution_block = False
-                              in_myst_solution_block = False
-                              myst_solution_colons = 0
+                              solution_depth = 0
                               filtered_lines = []
                               
-                              for line in lines:
-                                  stripped_line = line.strip()
+                              for line_no, line in enumerate(lines, start=1):
                                   if '% solution_start' in line:
-                                      in_solution_block = True
+                                      if solution_depth > 0:
+                                          raise ValueError(f'Nested % solution_start detected in notebook cell: {notebook_file} (cell {cell_index}, line {line_no})')
+                                      solution_depth += 1
                                   elif '% solution_end' in line:
-                                      in_solution_block = False
-                                  elif not in_solution_block:
+                                      if solution_depth == 0:
+                                          raise ValueError(f'% solution_end without matching % solution_start in notebook cell: {notebook_file} (cell {cell_index}, line {line_no})')
+                                      solution_depth -= 1
+                                  elif solution_depth == 0:
                                       filtered_lines.append(line)
                               
                               # Raise an error if a solution block was not properly closed
-                              if in_solution_block:
+                              if solution_depth != 0:
                                   raise ValueError('Unclosed % solution_start detected in notebook: ' + notebook_file)
                               
                               # Update cell source

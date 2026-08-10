@@ -59,8 +59,8 @@ parts:
     - file: sympy_COZ/opgave3.ipynb
     - file: sympy_COZ/opgave4.ipynb
   - file: toz_3/toz.ipynb
-# START REMOVE-FROM-RELEASE
-# END REMOVE-FROM-RELEASE
+  - file: exam/2026-04-14.md
+  - file: exam/2026-06-24.md
 - caption: Diverse
   chapters:
   - file: changelog

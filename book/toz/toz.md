@@ -15,8 +15,7 @@ Gegeven is de volgende constructie en doorsnede
 :number:
 ```
 
-De verdeelde belasting en oplegreacties  
-grijpen aan in het normaalkrachtencentrum.
+De verdeelde belasting en oplegreacties grijpen aan in het normaalkrachtencentrum.
 
 ```{figure-end}
 ```
@@ -33,8 +32,7 @@ grijpen aan in het normaalkrachtencentrum.
 :number:
 ```
 
-Deze doorsnede moet als dunwandige  
-doorsnede worden beschouwd.
+Deze doorsnede moet als dunwandige doorsnede worden beschouwd.
 
 ```{figure-end}
 ```

@@ -53,17 +53,6 @@ Je mag er vanuit gaan dat $R \gg b$ voor alle relevante afschuifvlakken.
 
 :::::
 
-% solution_start
-
-::::{admonition} Uitwerking
-:class: solution, dropdown
-
-...
-
-::::
-
-% solution_end
-
 :::::{exercise}
 :nonumber: true
 
@@ -80,17 +69,6 @@ Gegeven zijn vier mogelijke schuifspanningsverdelingen.
 
 :::::
 
-% solution_start
-
-::::{admonition} Uitwerking
-:class: solution, dropdown
-
-...
-
-::::
-
-% solution_end
-
 :::::{exercise}
 :nonumber: true
 
@@ -101,12 +79,10 @@ Bepaal de doorsnedegrootheden
 
 :::::
 
-% solution_start
-
 ::::{admonition} Uitwerking
 :class: solution, dropdown
 
-Voor de oppervlakte van de cirkel geldt de volgende formule:
+Voor de oppervlakte van de dikwandige ring geldt de volgende formule:
 
 $$
 \begin{align*}
@@ -116,7 +92,7 @@ A &= \alpha \left( r_2^2 - r_1^2 \right) \\
 \end{align*}
 $$
 
-Voor het berekenen van het traagheidsmoment van de cirkel doen we het volgende:
+Voor het berekenen van het traagheidsmoment van de dikwandige ring geldt het volgende:
 
 $$
 \begin{align*}
@@ -126,10 +102,7 @@ I &= \cfrac{\pi}{4} \left(r_2^4 - r_1^4 \right) \\
 \end{align*}
 $$
 
-
 ::::
-
-% solution_end
 
 :::::{exercise}
 :nonumber: true
@@ -160,8 +133,6 @@ Voorbeeld van een hoek van $-\cfrac{\pi}{4}$.
 
 ::::
 
-% solution_end
-
 :::::{exercise}
 :nonumber: true
 
@@ -171,8 +142,6 @@ Bepaal de maximale schuifspanning
 ```
 
 :::::
-
-% solution_start
 
 ::::{admonition} Uitwerking
 :class: solution, dropdown
@@ -184,10 +153,10 @@ Het statisch moment ter hoogte van het normaalkrachtcentrum is:
 $$
 \begin{align*}
 S_{z}^{\rm{a}} &= A_{\rm{afschuivend} \, \rm{deel}} \, z_{\rm{N.C.} \longleftrightarrow \rm{zwaartepunt} \, \rm{afschuivend} \, \rm{deel} } \\
-&= \cfrac{1}{2} A \cdot \cfrac{2 \sin \left( \alpha \right)}{ 3 \alpha} \cfrac{r_2^3 - r_1^3}{r_2^2 - r_1^2} \\
-&= \cfrac{1}{2} \pi \left( r_2^2 - r_1^2 \right) \cdot \cfrac{2 \sin \left( \cfrac{1}{2} \pi \right)}{ \cfrac{3}{2} \pi} \cfrac{r_2^3 - r_1^3}{r_2^2 - r_1^2} \\
-&= \cfrac{3}{2} \cdot \left(r_2^3 - r_1^3 \right) \\
-&= \cfrac{3}{2} \cdot \left(300^3 - 150^3 \right) \\
+&= \frac{1}{2} \cdot A \cdot \cfrac{2 \cdot \sin \left( \alpha \right)}{ 3 \cdot \alpha} \cfrac{r_2^3 - r_1^3}{r_2^2 - r_1^2} \\
+&= \frac{1}{2} \cdot \pi \cdot \left( r_2^2 - r_1^2 \right) \cdot \cfrac{2 \cdot \sin \left( \frac{1}{2} \cdot \pi \right)}{ \cfrac{3}{2} \pi} \cfrac{r_2^3 - r_1^3}{r_2^2 - r_1^2} \\
+&= \frac{3}{2} \cdot \left(r_2^3 - r_1^3 \right) \\
+&= \frac{3}{2} \cdot \left(300^3 - 150^3 \right) \\
 &= 15.75 \, \rm{dm^3}
 \end{align*}
 $$
@@ -198,7 +167,7 @@ Uiteindelijk kunnen we dan de maximale schuifspanning bepalen:
 
 $$
 \begin{align*}
-\tau_{\rm{max}} &= \cfrac{V_{z} \, S_{z}^{\rm{a}}}{b \, I_{zz}} \\
+\tau_{\rm{max}} &= \cfrac{V_{z} \cdot S_{z}^{\rm{a}}}{b \cdot I_{zz}} \\
 &= \cfrac{2025 \pi \cdot 10^3 \, \cdot 15.75 \cdot 10^6}{\left(2 \cdot 150\right) \cdot 60 \cdot 10^8} \\
 &= 56 \, \rm{MPa}
 \end{align*}
@@ -207,8 +176,6 @@ $$
 Omdat de dwarskracht naar beneden wijst is de schuifspanning omhoog en is deze dus negatief.
 
 ::::
-
-% solution_end
 
 :::::{exercise}
 :nonumber: true
@@ -220,8 +187,6 @@ Waar is de schuifspanning de helft van de maximale waarde uitgedrukt als hoek va
 
 :::::
 
-% solution_start
-
 ::::{admonition} Uitwerking
 :class: solution, dropdown
 
@@ -229,13 +194,13 @@ We willen de hoek $\alpha$ vinden uit de formule van het statisch moment waarbij
 
 $$
 \begin{align*}
-\cfrac{1}{2} \tau_{\rm{max}} &= \cfrac{V_{z} \, S_{z}^{\rm{a}}}{b \, I_{zz}} \\
-&= \cfrac{V_{z}}{b \, I_{zz}} \cdot \alpha \left( r_2^2 - r_1^2 \right) \cdot \cfrac{2 \sin \left( \alpha \right)}{ 3 \alpha} \cfrac{r_2^3 - r_1^3}{r_2^2 - r_1^2} \\
+\frac{1}{2} \tau_{\rm{max}} &= \cfrac{V_{z} \cdot S_{z}^{\rm{a}}}{b \cdot I_{zz}} \\
+\frac{1}{2} \tau_{\rm{max}} &= \frac{V_{z}}{b \cdot I_{zz}} \cdot \alpha \cdot \left( r_2^2 - r_1^2 \right) \cdot \cfrac{2 \cdot \sin \left( \alpha \right)}{ 3 \cdot \alpha} \cfrac{r_2^3 - r_1^3}{r_2^2 - r_1^2} \\
 \\
-\cfrac{56}{2} &= \cfrac{2025 \pi \cdot 10^3}{\left(2 \cdot 150\right) \cdot 60 \cdot 10^8}  \cdot \cfrac{2 \sin \left( \alpha \right)}{3} \left(300^3 - 150^3 \right) \\
+\frac{56}{2} &= \cfrac{2025 \cdot  \pi \cdot 10^3}{\left(2 \cdot 150\right) \cdot 60 \cdot 10^8}  \cdot \cfrac{2 \cdot \sin \left( \alpha \right)}{3} \left(300^3 - 150^3 \right) \\
 \\
 \sin \left( \alpha \right) &= 0.503 \\
-\alpha &= \cfrac{1}{6} \pi
+\alpha &= \frac{1}{6} \pi
 \end{align*}
 $$
 
@@ -251,12 +216,10 @@ De hoek $\varphi$ is dus:
 
 $$
 \begin{align*}
-\varphi &= - \left(\cfrac{1}{2} \pi - \alpha \right)
-&= -\cfrac{1}{3} \pi
+\varphi &= - \left(\frac{1}{2} \cdot \pi - \alpha \right)
+&= -\frac{1}{3} \cdot \pi
 &= -1.05 \, \rm{rad}
 \end{align*}
 $$
 
 ::::
-
-% solution_end
