@@ -26,7 +26,7 @@ Izz = sym.integrate((z - zc)**2 * t * r, (theta, sym.pi/4, sym.pi/4*3))
 print('Izz=',sym.simplify(Izz),'approx=',Izz.evalf())
 
 A_tot = A + b * t + t * sym.nsimplify(0.25) * 2
-Sz_tot = Sz + b * t * sym.nsimplify(1.75) + t * sym.nsimplify(0.25) * 2 * sym.nsimplify(1.75+0.025/2)
+Sz_tot = Sz + b * t * sym.nsimplify(1.75) + t * sym.nsimplify(0.25) * 2 * sym.nsimplify(1.75+0.25/2)
 zc_tot = Sz_tot / A_tot
 print('zc_tot=',sym.simplify(zc_tot),'approx=',zc_tot.evalf())
 
@@ -34,7 +34,7 @@ Izz_tov_zc = Izz + A * (zc - zc_tot)**2
 print('Izz_tov_zc=',sym.simplify(Izz_tov_zc),'approx=',Izz_tov_zc.evalf())
 
 Izz = b * t**3 /12 + b * t * (sym.nsimplify(1.75) - zc_tot)**2 + \
-       t * sym.nsimplify(0.25) **3 /12 *2 + t * sym.nsimplify(0.25) * 2 * (sym.nsimplify(1.75+0.025/2) - zc_tot)**2 + \
+       t * sym.nsimplify(0.25) **3 /12 *2 + t * sym.nsimplify(0.25) * 2 * (sym.nsimplify(1.75+0.25/2) - zc_tot)**2 + \
        Izz + A * (zc - zc_tot)**2
 print('Izz_tot=',sym.simplify(Izz),'approx=',Izz.evalf())
 
