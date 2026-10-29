@@ -29,7 +29,7 @@ preferred-citation:
       value: 'https://github.com/TUDelft-books/CTB1310/' # replace with your own URL when you use this template
       description: 'GitHub repository'
   abstract: >- # replace with your own abstract when you use this template
-    This boko is used in Constructiemechanica 3 at Delft University of Technology.
+    This book is used in Constructiemechanica 3 at Delft University of Technology.
   keywords: # replace with your own keywords when you use this template
     - 'Open interactive textbook'
     - Mechanics

@@ -11,15 +11,8 @@ python -m venv venv
 source venv/Scripts/activate
 
 # Install required packages from requirements.txt and sphinx-autobuild
-pip install -r requirements.txt sphinx-autobuild
-
-# Initialize Jupyter Book configuration for the book directory
-jupyter-book config sphinx book/
-
-# Disable display of all git authors in Sphinx documentation
-# by changing 'git_show_all_authors' from True to False in conf.py
-sed -i 's/git_show_all_authors = True/git_show_all_authors = False/' book/conf.py
+pip install -r requirements.txt sphinx-autobuild tzdata
 
 # Build and serve the Sphinx documentation with auto-reload
 # Opens browser automatically and ignores build artifacts and Python files
-sphinx-autobuild book book/_build/html --open-browser --ignore "book/_build/**" --ignore "*.py"
+sphinx-autobuild book book/_build/html --open-browser --ignore "book/_build/**" --ignore "book/_build" --ignore "*.py" --ignore "book/conf.py" --ignore "book/references.bib" --pre-build "bash sphinx-autobuild-prebuild.sh" --ignore "book/_ext/__pycache__/**" --ignore "**/.ipynb_checkpoints/**" --ignore "book/.teachbooks/**" --ignore "book/_git/**"

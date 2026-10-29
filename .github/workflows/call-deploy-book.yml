@@ -4,8 +4,8 @@ on:
   push:
     branches:
     - '**'
-    - '!2025-draft' # Exclude to avoid triggering the deploy workflow on its own changes
-    - '!2025' # Exclude to avoid triggering the deploy workflow on its own changes
+    - '!2026-draft' # Exclude to avoid triggering the deploy workflow on its own changes
+    - '!2026' # Exclude to avoid triggering the deploy workflow on its own changes
     # If your git repository has the TeachBook or Jupyter Book v1 within some-subfolder next to
     # unrelated files, you can make this run only if a file within that specific
     # folder (or the workflow file itself) has been modified.
@@ -19,7 +19,7 @@ on:
 jobs:
   generate-student-version:
     # Debug: Always show what branch we're on
-    if: ${{ github.ref == 'refs/heads/2025-teacher' || github.event_name == 'workflow_dispatch' }}
+    if: ${{ github.ref == 'refs/heads/2026-teacher' || github.event_name == 'workflow_dispatch' }}
     name: Generate student versions
     runs-on: ubuntu-latest
     permissions:
@@ -63,23 +63,22 @@ jobs:
                           lines = f.readlines()
 
                       # Remove lines between "% solution_start" and "% solution_end"
-                      # Fail fast on malformed marker pairs (nested starts or unmatched ends).
-                      solution_depth = 0
+                      # Also remove MyST solution directive blocks between ":::{solution}" and ":::"
+                      in_solution_block = False
+                      in_myst_solution_block = False
+                      myst_solution_colons = 0
                       filtered_lines = []
-                      for line_no, line in enumerate(lines, start=1):
+                      for line in lines:
+                          stripped_line = line.strip()
                           if "% solution_start" in line:
-                              if solution_depth > 0:
-                                  raise ValueError(f"Nested % solution_start detected in file: {markdown_file}:{line_no}")
-                              solution_depth += 1
+                              in_solution_block = True
                           elif "% solution_end" in line:
-                              if solution_depth == 0:
-                                  raise ValueError(f"% solution_end without matching % solution_start in file: {markdown_file}:{line_no}")
-                              solution_depth -= 1
-                          elif solution_depth == 0:
+                              in_solution_block = False
+                          elif not in_solution_block:
                               filtered_lines.append(line)
 
                       # Raise an error if a solution block was not properly closed
-                      if solution_depth != 0:
+                      if in_solution_block:
                           raise ValueError("Unclosed % solution_start detected in file: " + markdown_file)
 
                       # Save the modified markdown file
@@ -109,7 +108,7 @@ jobs:
                           nbformat.write(notebook, f)
           "
 
-      - name: Remove solution sections from notebook cells
+      - name: Remove solution sections from markdown notebook cells
         run: |
           python -c "
           import os
@@ -124,26 +123,25 @@ jobs:
                           notebook = nbformat.read(f, as_version=4)
 
                       # Process each cell to remove solution sections
-                      for cell_index, cell in enumerate(notebook.cells, start=1):
+                      for cell in notebook.cells:
                           if 'source' in cell and cell.source:
                               lines = cell.source.split('\n')
-                              solution_depth = 0
+                              in_solution_block = False
+                              in_myst_solution_block = False
+                              myst_solution_colons = 0
                               filtered_lines = []
                               
-                              for line_no, line in enumerate(lines, start=1):
+                              for line in lines:
+                                  stripped_line = line.strip()
                                   if '% solution_start' in line:
-                                      if solution_depth > 0:
-                                          raise ValueError(f'Nested % solution_start detected in notebook cell: {notebook_file} (cell {cell_index}, line {line_no})')
-                                      solution_depth += 1
+                                      in_solution_block = True
                                   elif '% solution_end' in line:
-                                      if solution_depth == 0:
-                                          raise ValueError(f'% solution_end without matching % solution_start in notebook cell: {notebook_file} (cell {cell_index}, line {line_no})')
-                                      solution_depth -= 1
-                                  elif solution_depth == 0:
+                                      in_solution_block = False
+                                  elif not in_solution_block:
                                       filtered_lines.append(line)
                               
                               # Raise an error if a solution block was not properly closed
-                              if solution_depth != 0:
+                              if in_solution_block:
                                   raise ValueError('Unclosed % solution_start detected in notebook: ' + notebook_file)
                               
                               # Update cell source
@@ -154,25 +152,69 @@ jobs:
                           nbformat.write(notebook, f)
           "
 
+      - name: Remove solution sections from python notebook cells
+        run: |
+          python -c "
+          import os
+          import nbformat
+
+          # Walk through all files in the repository
+          for root, _, files in os.walk('.'):
+              for file in files:
+                  if file.endswith('.ipynb'):
+                      notebook_file = os.path.join(root, file)
+                      with open(notebook_file) as f:
+                          notebook = nbformat.read(f, as_version=4)
+
+                      # Process each cell to remove solution sections
+                      for cell in notebook.cells:
+                          if 'source' in cell and cell.source:
+                              lines = cell.source.split('\n')
+                              in_solution_block = False
+                              in_py_solution_block = False
+                              py_solution_colons = 0
+                              filtered_lines = []
+                              
+                              for line in lines:
+                                  stripped_line = line.strip()
+                                  if '# solution_start' in line:
+                                      in_solution_block = True
+                                  elif '# solution_end' in line:
+                                      in_solution_block = False
+                                  elif not in_solution_block:
+                                      filtered_lines.append(line)
+                              
+                              # Raise an error if a solution block was not properly closed
+                              if in_solution_block:
+                                  raise ValueError('Unclosed # solution_start detected in notebook: ' + notebook_file)
+                              
+                              # Update cell source
+                              cell.source = '\n'.join(filtered_lines)
+
+                      # Save the modified notebook
+                      with open(notebook_file, 'w') as f:
+                          nbformat.write(notebook, f)
+                    "
+
       - name: Delete old branches and recreate from cleaned source
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           
           # Delete remote branches to start fresh (ignore errors if they don't exist)
-          git push origin --delete 2025-draft 2>/dev/null || true
-          git push origin --delete 2025 2>/dev/null || true
+          git push origin --delete 2026-draft 2>/dev/null || true
+          git push origin --delete 2026 2>/dev/null || true
           
           # Delete local branches to start fresh (ignore errors if they don't exist)
-          git branch -D 2025-draft 2>/dev/null || true
-          git branch -D 2025 2>/dev/null || true
+          git branch -D 2026-draft 2>/dev/null || true
+          git branch -D 2026 2>/dev/null || true
           
-          # Create fresh 2025-draft from cleaned 2025-teacher
-          git checkout -b 2025-draft origin/2025-teacher
+          # Create fresh 2026-draft from cleaned 2026-teacher
+          git checkout -b 2026-draft origin/2026-teacher
           git add .
           
           # Commit and capture hash if there are staged changes
-          git commit -m "Generate assignment version" && {
+          git commit -m "Generate student version" && {
             COMMIT_HASH=$(git rev-parse HEAD)
             echo "Captured commit hash: $COMMIT_HASH"
             
@@ -201,11 +243,11 @@ jobs:
             git commit -m "Update git_exclude_commits with cleaning commit hash"
           } || echo "No changes to commit"
           
-          git push origin 2025-draft
+          git push origin 2026-draft
           
-          # Create fresh 2025 branch from clean 2025-draft
-          git checkout -b 2025 2025-draft
-          git push origin 2025
+          # Create fresh 2026 branch from clean 2026-draft
+          git checkout -b 2026 2026-draft
+          git push origin 2026
 
   call-workflow:
     needs: generate-student-version
