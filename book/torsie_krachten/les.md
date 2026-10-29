@@ -1,3 +1,3 @@
-# 27 februari: Wringende momenten
+# 1 maart: Wringende momenten
 
 In deze les leer je hoe je de wringende momenten kan bepalen aan de hand van differentiaalvergelijkingen en evenwichtsvergelijkingen.
