@@ -10,7 +10,8 @@ Dit boek verwijst naar relevante delen van andere literatuur voor extra voorbeel
 - Mechanica: Spanningen, vervormingen en verplaatsingen {cite:ts}`Hartsuijker2013`. Onder andere verkrijg bij [<img height="12px" src="./figures/logo-boom.svg" alt="Boom" class="no-zoomies">](https://www.boomhogeronderwijs.nl/product/100-9056_Mechanica-Spanningen-vervormingen-verplaatsingen-3e-druk).
   - Opgaves uit dit boek zijn [hier](https://icozct.tudelft.nl/TUD_CT/boekantwoorden/files/TM2vraagstukkenbundel.pdf) te vinden.
   - Dit boek is ook in het Engels beschikbaar: Engineering Mechanics: Volume 2: Stresses, strains and displacements, door {cite:ts}`Hartsuijker2007`. EBook gratis beschikbaar via TU Delft bij [<img height="20px" src="./figures/springer-logo.svg" alt="Springer" class="no-zoomies">](https://link.springer.com/book/10.1007/978-1-4020-5763-2).
-- Opnames van colleges (publiek/open beschikbaar) voor het onderwerp schuifspanningen en sympy: https://collegerama.tudelft.nl/Mediasite/Channel/public-ctb1310/
+- Opnames van colleges (publiek/open beschikbaar) voor het onderwerp schuifspanningen en sympy van het jaar 2025/2026: https://collegerama.tudelft.nl/Mediasite/Channel/public-ctb1310/. Opnames van dit jaar worden na de lessen van dit jaar toegevoegd.
+- ANS: de COZ-opgaves zijn ook opgenomen in ANS waarmee je deze opgaven digitaal kan maken. Tijdens het maken van de opgave krijg je feedback over of je antwoord goed is. Na de deadline van elke COZ-blok worden oplossingen en uitwerkingen ook in dit online boek gepubliceerd. Daarnaast worden de TOZ tussentoetsen en tentamen zowel in dit online boek als in ANS gepubliceerd, waarbij je in ANS ook je eigen indiening kan inzien. De COZ opgaves zijn [hier](...) te vinden in ANS. Als je nog geen toegang hebt tot deze toets, registreer je dan via [deze link](...).
 
 ## Interactieve functies 🧩
 Dit TeachBook bevat interactieve functies!
@@ -23,4 +24,4 @@ Zie je een fout? Klik op {octicon}`mark-github` --> {fa}`lightbulb`, log in met 
 Wil je dit TeachBook persoonlijker maken door (privé of publieke) annotaties toe te voegen? Dan raad ik de [Hypothesis-extensie](https://web.hypothes.is/start/) aan. Dit is alleen voor eigen gebruik, ik monitor geen publieke posts op dit platform.
 
 ## Versie 🗓️
-Dit is de `2025-2026`-versie van het TeachBook. Ga naar [https://oit.tudelft.nl/CTB1310](https://oit.tudelft.nl/CT1310) voor de meest recente versie van dit TeachBook, of pas het jaartal aan in [/CTB1310/2025](https://oit.tudelft.nl/CTB1310/2025) naar het jaar waarin je de cursus volgde.
+Dit is de `2026-2027`-versie van het TeachBook. Ga naar [https://oit.tudelft.nl/CTB1310](https://oit.tudelft.nl/CT1310) voor de meest recente versie van dit TeachBook, of pas het jaartal aan in [/CTB1310/2026](https://oit.tudelft.nl/CTB1310/2026) naar het jaar waarin je de cursus volgde.

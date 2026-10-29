@@ -6,8 +6,9 @@ parts:
   chapters:
   - file: instructies
   - file: contact_information
-  - url: https://brightspace.tudelft.nl/d2l/home/774692
+  - url: https://brightspace.tudelft.nl/d2l/home/869928
     title: Brightspace 📢
+# START REMOVE-FROM-RELEASE
 - caption: Lesstof 🧑‍🏫
   chapters:
   - file: shear_rect/les.md
@@ -61,6 +62,7 @@ parts:
   - file: toz_3/toz.ipynb
   - file: exam/2026-04-14.md
   - file: exam/2026-06-24.md
+# END REMOVE-FROM-RELEASE
 - caption: Diverse
   chapters:
   - file: changelog

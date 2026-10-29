@@ -15,4 +15,4 @@ pip install -r requirements.txt sphinx-autobuild tzdata
 
 # Build and serve the Sphinx documentation with auto-reload
 # Opens browser automatically and ignores build artifacts and Python files
-sphinx-autobuild book book/_build/html --open-browser --ignore "book/_build/**" --ignore "book/_build" --ignore "*.py" --ignore "book/conf.py" --ignore "book/references.bib" --pre-build "bash sphinx-autobuild-prebuild.sh" --ignore "book/_ext/__pycache__/**" --ignore "**/.ipynb_checkpoints/**" --ignore "book/.teachbooks/**" --ignore "book/_git/**"
+sphinx-autobuild book book/_build/html --open-browser --ignore "book/_build/**" --ignore "book/_build" --ignore "*.py" --ignore "book/conf.py" --pre-build "bash sphinx-autobuild-prebuild.sh" --ignore "book/_ext/__pycache__/**" --ignore "**/.ipynb_checkpoints/**" --ignore "book/.teachbooks/**" --ignore "book/_git/**"
