@@ -1,4 +1,4 @@
 (intro)=
-# Welkom bij Constructiemechanica 2
+# Introductie
 
 Dit online interactieve boek bevat de lesstof voor de lessen over schuifspanningen en differentiaalvergelijkingen met SymPy van Constructiemechanica 2. Voor meer informatie over het gebruik van dit boek, zie [](./instructies.md).

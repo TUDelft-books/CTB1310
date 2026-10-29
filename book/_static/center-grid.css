@@ -51,3 +51,16 @@
   display: inline;
   margin: 0;
 }
+
+/* Global fix: center list blocks inside centered figures (outside center-grid). */
+figure.align-center > ul,
+figure.align-center > ol {
+  padding-left: 0;
+  list-style-position: inside;
+}
+
+figure.align-center > ul > li > p,
+figure.align-center > ol > li > p {
+  display: inline;
+  margin: 0;
+}
