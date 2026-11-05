@@ -57,16 +57,6 @@ Bepaal de oplegreacties.
 
 :::::
 
-% solution_start
-
-::::{admonition} Uitwerking
-:class: solution, dropdown
-
-...
-
-::::
-
-% solution_end
 
 :::::{exercise}
 :nonumber: true
@@ -78,16 +68,6 @@ Bepaal de oplegreacties.
 
 :::::
 
-% solution_start
-
-::::{admonition} Uitwerking
-:class: solution, dropdown
-
-...
-
-::::
-
-% solution_end
 
 :::::{exercise}
 :nonumber: true
@@ -97,16 +77,6 @@ Bepaal de oplegreacties.
 
 :::::
 
-% solution_start
-
-::::{admonition} Uitwerking
-:class: solution, dropdown
-
-...
-
-::::
-
-% solution_end
 
 :::::{exercise}
 :nonumber: true
@@ -118,16 +88,6 @@ Bereken de doorsnede als een ring, wat is het polair traagheidsmoment en de schu
 
 :::::
 
-% solution_start
-
-::::{admonition} Uitwerking
-:class: solution, dropdown
-
-...
-
-::::
-
-% solution_end
 
 
 :::::{exercise}
@@ -140,13 +100,3 @@ Bereken de doorsnede als een dunwandige niet-ronde gesloten doorsnede (ook als i
 
 :::::
 
-% solution_start
-
-::::{admonition} Uitwerking
-:class: solution, dropdown
-
-...
-
-::::
-
-% solution_end
