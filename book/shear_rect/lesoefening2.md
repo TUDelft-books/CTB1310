@@ -36,7 +36,7 @@ $$
 \begin{align*}
 \sum F_ {\rm{v}} &= 0 \\
 - V_{\rm{B}} + 2 \cdot 2 &= 0 \\
-V_{\rm{B}} &= 4 \, \rm{kN} \left(⎺|⎽\right) 
+V_{\rm{B}} &= 4 \, \rm{kN} \positiveshear 
 \end{align*}
 $$
 

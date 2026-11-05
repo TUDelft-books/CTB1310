@@ -196,9 +196,7 @@ $$
 \begin{align*}
 \frac{1}{2} \tau_{\rm{max}} &= \cfrac{V_{z} \cdot S_{z}^{\rm{a}}}{b \cdot I_{zz}} \\
 \frac{1}{2} \tau_{\rm{max}} &= \frac{V_{z}}{b \cdot I_{zz}} \cdot \alpha \cdot \left( r_2^2 - r_1^2 \right) \cdot \cfrac{2 \cdot \sin \left( \alpha \right)}{ 3 \cdot \alpha} \cfrac{r_2^3 - r_1^3}{r_2^2 - r_1^2} \\
-\\
 \frac{56}{2} &= \cfrac{2025 \cdot  \pi \cdot 10^3}{\left(2 \cdot 150\right) \cdot 60 \cdot 10^8}  \cdot \cfrac{2 \cdot \sin \left( \alpha \right)}{3} \left(300^3 - 150^3 \right) \\
-\\
 \sin \left( \alpha \right) &= 0.503 \\
 \alpha &= \frac{1}{6} \pi
 \end{align*}

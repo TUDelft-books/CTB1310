@@ -63,10 +63,18 @@ sphinx:                                              # Options passed on to the 
     external_toc_exclude_missing: true               # Replace this with false if you want to build all files in the book, allowing you to refer to pages which are not included in the table of contents, configuration part of jupyterbook, configuration part of sphinx-external-toc (https://sphinx-external-toc.readthedocs.io/en/latest/intro.html)
     html_show_copyright: false                       # As the copyright is included in the author field
     html_last_updated_fmt: ''                        # Adds the date of the last update to the footer
-    mathjax3_config:
-      chtml: {
-        mtextInheritFont: true                       # To typeset text within math prettier
+    katex_prerender: true
+    katex_inherit_font: true
+    katex_options: |
+      {
+        trust: true,
+        macros: {
+          "\\class": "\\htmlClass{#1}{#2}",
+          "\\positiveshear": "\\left(\\overline{\\phantom{I}}|{\\underline{\\phantom{I}}}\\right)",
+          "\\negativeshear": "\\left({\\underline{\\phantom{I}}}|\\overline{\\phantom{I}}\\right)"
+        }
       }
+    tippy_enable_mathjax: false
     named_colors_custom_colors: {'attributiongrey':[150,150,150]} # Custom colour for the attribution admonitions
     sphinx_codex_name: "Voorbeeld"
     sphinx_codex_merge_with_proof:     true # default value
@@ -81,6 +89,7 @@ sphinx:                                              # Options passed on to the 
       - 'github-actions[bot]'
       - 'Lanliss'
     git_exclude_commits: []
+    myst_links_external_new_tab: true
     metadata_figure_settings:
       source:
         warn_missing: true
@@ -103,6 +112,7 @@ sphinx:                                              # Options passed on to the 
     - sphinx_apa_references
     - sphinx_tudelft_theme
     - sphinx_reredirects
+    - sphinxcontrib.katex
 
 teachbooks:
   attribution_color: attributiongrey

@@ -11,11 +11,7 @@ Dit boek verwijst naar relevante delen van andere literatuur voor extra voorbeel
   - Opgaves uit dit boek zijn [hier](https://icozct.tudelft.nl/TUD_CT/boekantwoorden/files/TM2vraagstukkenbundel.pdf) te vinden.
   - Dit boek is ook in het Engels beschikbaar: Engineering Mechanics: Volume 2: Stresses, strains and displacements, door {cite:ts}`Hartsuijker2007`. EBook gratis beschikbaar via TU Delft bij [<img height="20px" src="./figures/springer-logo.svg" alt="Springer" class="no-zoomies">](https://link.springer.com/book/10.1007/978-1-4020-5763-2).
 - Opnames van colleges (publiek/open beschikbaar) voor het onderwerp schuifspanningen en sympy van het jaar 2025/2026: https://collegerama.tudelft.nl/Mediasite/Channel/public-ctb1310/. Opnames van dit jaar worden na de lessen van dit jaar toegevoegd.
-- ANS: de COZ-opgaves zijn ook opgenomen in ANS waarmee je deze opgaven digitaal kan maken. Tijdens het maken van de opgave krijg je feedback over of je antwoord goed is. Na de deadline van elke COZ-blok worden oplossingen en uitwerkingen ook in dit online boek gepubliceerd. Daarnaast worden de TOZ tussentoetsen en tentamen zowel in dit online boek als in ANS gepubliceerd, waarbij je in ANS ook je eigen indiening kan inzien. De COZ opgaves zijn [hier](...) te vinden in ANS. Als je nog geen toegang hebt tot deze toets, registreer je dan via [deze link](...).
-
-## Interactieve functies 🧩
-Dit TeachBook bevat interactieve functies!
-- Interactieve quizzen: Sommige pagina's bevatten interactieve 'H5p'-quizzen. Hiermee kun je je begrip toetsen. Interacties worden niet opgeslagen, tenzij je inlogt bij H5p.
+- ANS: de COZ-opgaves zijn ook opgenomen in ANS waarmee je deze opgaven digitaal kan maken. Tijdens het maken van de opgave krijg je feedback over of je antwoord goed is. Na de deadline van elke COZ-blok worden oplossingen en uitwerkingen ook in dit online boek gepubliceerd. Daarnaast worden de TOZ tussentoetsen en tentamen zowel in dit online boek als in ANS gepubliceerd, waarbij je in ANS ook je eigen indiening kan inzien. De COZ opgaves zijn [hier](https://ans.app/routing/courses/712445) te vinden in ANS. Als je nog geen toegang hebt tot deze toets, registreer je dan via [deze link](https://ans.app/accept/invitations/d2b1d4c9-7986-4fff-9112-9ebcabe0e1b7).
 
 ## Fout gevonden? ❓
 Zie je een fout? Klik op {octicon}`mark-github` --> {fa}`lightbulb`, log in met een GitHub-account en meld je probleem. Het wordt snel opgelost!

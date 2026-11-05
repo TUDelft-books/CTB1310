@@ -2,7 +2,7 @@
 
 Het onderdeel statisch onbepaalde constructies wordt gegeven door Tom van Woudenberg. Neem gerust contact met ons op als je vragen, feedback hebt of als er persoonlijke omstandigheden zijn waar wij van op de hoogte moeten zijn.
 
-Als je vastloopt met een bepaald onderwerp, kun je terecht bij de studentassistenten in kamer 6.41 tijdens het lunchvragenuurtje.
+Als je vastloopt met een bepaald onderwerp, kun je terecht bij de studentassistenten in kamer 6.41 tijdens het lunchvragenuurtje op dinsdag t/m donderdag.
 
 ## Tom van Woudenberg
 - Kamer 6.45
@@ -24,16 +24,15 @@ Als je vastloopt met een bepaald onderwerp, kun je terecht bij de studentassiste
 - SA-mech-CITG@tudelft.nl
 
 ```{figure} figures/overzichtfoto's.jpg
-:width: 473px
+:width: 300px
 :align: center
 :class: dark-light
-:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/studentenassistenten
-:number:
+:source: OneDrive Tom
 ```
 
 - Alexander Dzhanibekyan
 - Iris Oskam
 - Jelke Janssen
 - Laurens van Bavel
-- Lisette de Langen
-- Martijn Westerhof
+- Quirijn Stegers
+- Vyas Jagan

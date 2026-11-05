@@ -6,3 +6,4 @@ git+https://github.com/TeachBooks/TeachBooks-Favourites@all_authors
 sphinx-tudelft-theme
 sphinx-apa-references
 sphinx-reredirects
+git+https://github.com/TeachBooks/sphinxcontrib-katex #to be taken into favourites

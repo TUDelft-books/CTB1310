@@ -201,7 +201,7 @@ MAP[17;0.5]
 MAP[-5;0.5]
 ^^^
 ?
-$ V_{\rm{D}}^{\rm{DB}} \approx $ {gap} $ \, \rm{kN} $ (⎺|⎽)
+$ V_{\rm{D}}^{\rm{DB}} \approx $ {gap} $ \, \rm{kN} \positiveshear $
 
 $ \left| S_{\bar{\rm{z}}}^{\left(\rm{a}\right)} \right| \approx $ {gap} $ \, \rm{dm}^3 $
 

@@ -113,7 +113,7 @@ $$
 \begin{align*}
 M_t &= k \int\limits_A r^2 dA \\
 M_t &=  k \cdot I_{\rm{p}} \\
-k &= \cfrac{M_t}{I_{\rm{p}}} \\
+k &= \cfrac{M_t}{I_{\rm{p}}}
 \end{align*}
 $$
 
@@ -193,7 +193,7 @@ $$
 I_{\rm{p}} &= \int\limits_A r^2 dA \\
 &=  \int\limits_0^{R}{\int\limits_0^{2 \pi}{ r^3 \, d\theta \, dr}} \\
 &= \int\limits_0^{R}{ 2 \pi \cdot r^3 \, dr} \\
-&= \cfrac{\pi}{2} R^4 \\
+&= \cfrac{\pi}{2} R^4
 \end{align*}
 $$
 
@@ -236,7 +236,7 @@ $$
 \begin{align*}
 \sum{F_x} &= 0 \\
 \tau_1 \cdot t_1 \cdot dx - \tau_2 \cdot t_2 \cdot dx &= 0 \\
-\tau_1 \cdot t_1 &= \tau_2 \cdot t_2 \\
+\tau_1 \cdot t_1 &= \tau_2 \cdot t_2
 \end{align*}
 $$
 

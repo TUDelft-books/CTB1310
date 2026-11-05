@@ -40,7 +40,7 @@ $$
 Daarmee kunnen we de dwarskracht in $\rm{D}$ bepalen op een negatieve snede:
 
 $$
-\sum F_{\rm{v}} = 0 \to V_{\rm{D}} = 30 \, \rm{kN} \left(⎽|⎺\right)
+\sum F_{\rm{v}} = 0 \to V_{\rm{D}} = 30 \, \rm{kN} \negativeshear
 $$
 
 Nu kunnen we de schuifspanningen bepalen op karakteristieke afschuivende delen in de doorsnede. Het punt van de doorsnede waarop we de schuifspanning moeten bepalen heeft de coordinaten: $\rm{y}= 15, \rm{z} = -45$.
@@ -84,7 +84,7 @@ Ook is het spanningsverloop net links van $\rm{C}$ gevraagd op een positieve sne
 Door het berekenen van de opleggingsreacties is de dwarskracht in de snede te bepalen:
 
 $$
-\sum F_{\rm{v}} = 0 \to V_{\rm{C_{l}}} = 30 \, \rm{kN} \left(⎺|⎽\right)
+\sum F_{\rm{v}} = 0 \to V_{\rm{C_{l}}} = 30 \, \rm{kN} \positiveshear
 $$
 
 Nu kunnen we de schuifspanningen bepalen op karakteristieke afschuivende delen in de doorsnede. Het punt van de doorsnede waarop we de schuifspanning moeten bepalen heeft de coordinaten: $\rm{y}= -40, \rm{z} = 81$. 
