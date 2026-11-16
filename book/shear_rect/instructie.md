@@ -35,10 +35,48 @@ Dit is voor te stellen door twee op elkaar liggende balken te beschouwen die doo
 
 ## Model
 
-Om de schuifspanningen te kunnen bepalen, gaan ze we een model opstellen op basis van het evenwicht van afschuivende delen en op een infinitesimaal blokje.
+Voordat we de schuifspanningen kunnen bepalen, moeten we eerst beseffen dat schuifspanningen ook vervormingen veroorzaken, net zoals dat normaalspanningen vervormingen veroorzaakten. Normaalspanningen zorgden voor rek, waarbij schuifspanningen zorgen voor afschuiving:
+
+::::{grid} 2
+:class-container: center-grid
+:gutter: 1
+:padding: 0
+
+:::{grid-item-card} Rekvervormingen door normaalspanningen
+
+```{figure} ./instructie_data/afschuiving-2.svg
+:align: center
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/shear_rect
+:number:
+```
+
+:::
+
+:::{grid-item-card} Afschuifvervormingen door schuifspanningen
+
+```{figure} ./instructie_data/afschuiving-3.svg
+:align: center
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/shear_rect
+:number:
+```
+
+:::
+
+::::
+
+Voor normaalspanningen is er een formule afgeleid op basis van het verband tussen de normaalspanningen en de vervormingen door rek van individuele vezels. Anders dan voor de normaalspanningen gaan we voor de schuifspanningen **niet kijken** naar het verband tussen schuifspanningen en de vervormingen door afschuiving. Daarmee volgt onze eerste aanname:
+
+::::::{prf:assumption}
+:nonumber: true
+
+We gaan de afschuifvervorming  negeren, en baseren ons enkel op de vervormingen door extensie. De schuifspanningen en afschuifvervorming zijn dus niet één-op-één gerelateerd in ons model, waar dat bij normaalspanningen wel het geval was.
+
+::::::
+
+Om de schuifspanningen te kunnen bepalen, gaan we een model opstellen op basis van het evenwicht van alle spanningen op afschuivende delen van een doorsnede. Vervolgens gaan we die relateren aan schuifspanningen in andere richtingen met behulp van het evenwicht van een infinitesimaal blokje.
 
 ### Evenwicht afschuivende deel
-Voor het bepalen van schuifspanningen kijken we naar het evenwicht van een infinitesimaal (oneindig kleine afmetingen) stukje van een balk als lijn van lengte $\Delta x$ met daarop snedekrachten $V_z$ en $M_z$. Het moment op de rechter doorsnede is $\Delta M$ groter dan dat op de linker doorsnede.
+Voor het bepalen van schuifspanningen kijken we naar het evenwicht van een infinitesimaal (oneindig kleine afmetingen) stukje van een balk als lijn van lengte $\Delta x$ met daarop snedekrachten $V_z$ en $M_z$, volgens het gegeven assenstelsel. Het moment op de rechter doorsnede is mogelijk $\Delta M$ groter dan dat op de linker doorsnede.
 
 ```{figure} ./instructie_data/beam_section.svg
 :align: center
@@ -46,15 +84,14 @@ Voor het bepalen van schuifspanningen kijken we naar het evenwicht van een infin
 :number:
 ```
 
-We kunnen de spanningen bepalen op de doorsnedes: hoe de spanningen verdeeld over de doorsnede zijn in plaats van enkel de resultaten snedekracht. Daarvoor kijken we naar dezelfde lengte $\Delta x$, maar nu een vrijlichaamsschema van de volledige doorsnede in plaats van het lijnmodel. De verdeling van schuifspanningen zijn nog onbekend, maar voor de normaalspanningen geldt de eerder afgeleide formule $\sigma = \cfrac{M_z z}{I_{zz}}$.
+We kunnen de spanningen bepalen op de doorsnedes: hoe de spanningen verdeeld over de doorsnede zijn in plaats van enkel de resultaten snedekracht. Daarvoor kijken we naar dezelfde lengte $\Delta x$, maar nu een vrijlichaamsschema van de volledige doorsnede in plaats van het lijnmodel. De verdeling van schuifspanningen zijn nog onbekend (dus onbekende functie van $y$ en $z$), maar voor de normaalspanningen geldt de eerder afgeleide formule $\sigma = \cfrac{M_z \cdot z}{I_{zz}}$, met aan de rechterzijde een moment van $M_z + \Delta M_z$.
 
 ::::{grid} 1 1 2 2
 :class-container: center-grid
 :gutter: 1
-:margin: 0
 :padding: 0
 
-:::{grid-item-card} Schuifspanningen
+:::{grid-item-card} Schuifspanningen op volledige doorsnede
 
 ```{figure} ./instructie_data/spanningen_section-1.svg
 :align: center
@@ -64,7 +101,7 @@ We kunnen de spanningen bepalen op de doorsnedes: hoe de spanningen verdeeld ove
 
 :::
 
-:::{grid-item-card} Normaalspanningen
+:::{grid-item-card} Normaalspanningen op volledige doorsnede
 
 ```{figure} ./instructie_data/spanningen_section-2.svg
 :align: center
@@ -74,87 +111,41 @@ We kunnen de spanningen bepalen op de doorsnedes: hoe de spanningen verdeeld ove
 
 :::
 
-:::{grid-item}
-:columns: 12
+::::
 
 ```{attention}
-De schuif- en normaalspanningen zijn los van elkaar getekend, maar treden gelijktijdig op.
+De schuif- en normaalspanningen zijn los van elkaar getekend, maar treden gelijktijdig op. Dit geldt ook voor de andere figuren op deze pagina.
 ```
 
-:::
-
-::::
+De normaalspanningen zijn al eerder afgeleid. In die afleiding hebben we een aantal aannames gedaan over de rekverdeling en de constitutieve vergelijking:
 
 ::::::{prf:assumption}
 :nonumber: true
 
-We negeren de afschuifvervorming ($\gamma$), enkel de vervormingen door extensie / buiging $\varepsilon$ nemen we mee in de daaruit volgende normaalspanningen. De schuifspanningen en afschuifvervorming zijn dus niet één-op-één gerelateerd in ons model, waar dat bij normaalspanningen wel het geval is. Hieronder is een infinitesimaal (oneindig kleine afmetingen) blokje getoond dat wordt belast door schuifspanningen en normaalspanningen. Het zal vervormen door zowel afschuiving $\gamma$ als extensie $\varepsilon$, maar in ons model nemen we enkel de extensie mee om de schuifspanningen te bepalen en negeren we de vervormingen door rek
-
-::::{grid} 3
-:class-container: center-grid
-
-:::{grid-item}
-:columns: auto
-
-```{figure-start} ./instructie_data/afschuiving-1.svg
-:align: center
-:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/shear_rect
-:number:
-```
-Spanningen
-```{figure-end}
-```
-
-:::
-
-:::{grid-item}
-:columns: auto
-
-```{figure-start} ./instructie_data/afschuiving-2.svg
-:align: center
-:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/shear_rect
-:number:
-```
-Vervormingen door rek en afschuiving
-```{figure-end}
-```
-
-:::
-
-:::{grid-item}
-:columns: auto
-
-```{figure-start} ./instructie_data/afschuiving-3.svg
-:align: center
-:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/shear_rect
-:number:
-```
-Vervormingen door enkel rek
-```{figure-end}
-```
-
-:::
-
-::::
-
-De aannames die we hebben gebruikt voor normaalspanningen zijn dus nog steeds geldig:
+De aannames die we hebben gebruikt voor normaalspanningen zijn waren de volgende:
 - De doorsnedes blijven vlak en loodrecht op 'vezels' staan, waarmee het rekverloop lineair is
 - Normaalspanningen en -rekken hebben een lineair verband, waarmee de vorm van het spanningsverloop gelijk is aan die van het rekverloop.
+::::::
 
-Tijdens de afleiding van de formules voor normaalspanningen werden daarnaast nog een aantal aannames gedaan. Aangezien we door gaan bouwen op hetzelfde model, zullen deze aannames ook gelden voor schuifspanningen:
+Tijdens de afleiding van de formules voor normaalspanningen werden daarnaast nog een aantal aannames gedaan. Aangezien we deze formule gaan hergebruiken voor schuifspanningen, zullen deze aannames ook gelden voor schuifspanningen:
+
+:::::{prf:assumption}
+:nonumber: true
+
 - Het assenstelsel grijpt aan in het normaalkrachtencentrum van de doorsnede. Hierdoor vervallen de statische momenten $S_y$ en $S_z$ in de vergelijkingen.
 - De doorsnede is symmetrisch in de $y$- en/of $z$-richting / krachten grijpen aan in de hoofdassen van de doorsnede. Hierdoor vervallen de termen met $I_{yz}$ en zijn spanniningen in de $y$- en $z$-richting onafhankelijk van elkaar.
 - De doorsnede heeft een homogene verdeling van rekstijfheid $E$, waarmee de locatie van het normaalkrachtencentrum en traagheidsmomenten onafhankelijk van de rekstijfheid bepaald kunnen worden en de rekverdeling gelijk is van vorm aan de spanningsverdeling.
 
 ::::::
 
-Nu stellen we een vrijlichaamsschema op met spanningen voor een deel van de doorsnede, het zogenaamde afschuivende deel. Hiervoor snijden we de doorsnede door in de lengterichting $x$. Dit afschuivende deel heeft breedte $b \left(z\right)$ en lengte $\Delta x$. $A^{\rm{a}}$ is de oppervlakte van de linker en rechter doorsnede, $A^{\parallel}$ is de oppervlakte van de onderste doorsnede. De spanningen op dit afschuivende deel kunnen ook worden aangegeven in het vrijlichaamsschema. Op de onderste doorsnede werkt mogelijk een schuifspanning, maar geen normaalspanningen:
+Nu stellen we een vrijlichaamsschema op met spanningen voor een deel van de doorsnede, het zogenaamde afschuivende deel. Hiervoor snijden we de doorsnede door in de lengterichting $x$. Dit afschuivende deel heeft breedte $b \left(z\right)$ en lengte $\Delta x$. $A^{\rm{a}}$ is de oppervlakte van de linker en rechter doorsnede, $A^{\parallel}$ is de oppervlakte van de onderste doorsnede. De spanningen op dit afschuivende deel kunnen ook worden aangegeven in het vrijlichaamsschema. Op de onderste doorsnede werkt mogelijk een schuifspanning met onbekend verloop (dus als functie van $x$ en $y$), maar geen normaalspanningen:
 
-::::{grid} 3
+::::{grid} 1 1 2 2
 :class-container: center-grid
-
-:::{grid-item}
-:columns: auto
+:gutter: 1
+:padding: 0
+    
+:::{grid-item-card} Schuifspanningen op afschuivend deel van de doorsnede
 
 ```{figure} ./instructie_data/spanningen_afschuivend-1.svg
 :align: center
@@ -164,15 +155,7 @@ Nu stellen we een vrijlichaamsschema op met spanningen voor een deel van de door
 
 :::
 
-:::{grid-item}
-:columns: auto
-
-\+
-
-:::
-
-:::{grid-item}
-:columns: auto
+:::{grid-item-card} Normaalspanningen op afschuivend deel van de doorsnede
 
 ```{figure} ./instructie_data/spanningen_afschuivend-2.svg
 :align: center
@@ -186,8 +169,11 @@ Nu stellen we een vrijlichaamsschema op met spanningen voor een deel van de door
 
 Door het evenwicht in de langsrichting op te stellen (zonder de lichtblauwe spanningen $\tau \left(y,z\right)$), kunnen we de gemiddelde schuifspanning bepalen op het afschuivende oppervlakte:
 
+::::::{admonition} Schuifspanningsformule
+:class: definition
+
 $$
-\sum F_x = 0 \to \tau_{\rm{gem}} = -\cfrac{V_{z} \, S_{z}^{\rm{a}} }{b \, I_{zz}}
+\tau_{\rm{gem}} = -\cfrac{V_{z} \, S_{z}^{\rm{a}} }{b \, I_{zz}}
 $$
 
 Met:
@@ -196,9 +182,14 @@ Met:
 - $S_{z}^{\rm{a}}$: het statisch moment van het afschuivende deel van de doorsnede ten opzichte van de $y$-as
 - $b$: de totale breedte van het afschuivende vlak.
 - $I_{zz}$: het traagheidsmoment van de volledige doorsnede in de $z$-richting
+- Het teken volgens het assenstelsel: een positieve $\tau$ werkt in de richting van de $x$-as.
+
+::::::
+
+Deze formule volgt uit het evenwicht van de krachten in de $x$-richting op het afschuivende deel van de doorsnede.
 
 ::::::{admonition} Volledige afleiding
-:class: notation, dropdown
+:class: proposition, dropdown
 
 $$
 \begin{align*}
@@ -216,17 +207,20 @@ $$
 
 ::::::
 
-::::::::{prf:assumption-start} Gemiddelde schuifspanning
+In de afleiding is $\tau \left( x,y\right)$ vervangen door $\tau_{\rm{gem}}$, dit is een aanname die niet altijd geldig is:
+
+::::::::{prf:assumption-start}
 :nonumber: true
 ::::::::
 
-Om het evenwicht op te stellen kunnen we alleen de resulterende schuifkracht bepalen, de verdeling is daarmee onbekend. We kunnen daarmee alleen maar de gemiddelde schuifspanning bepalen. Voor afschuivende vlakken blijkt deze gemiddelde schuifspanning terecht als de breedte van het deel van de doorsnede waar de schuifspanningen worden bepaald veel kleiner is dan de hoogte deze doorsnede.
+Voor afschuivende vlakken blijkt deze gemiddelde schuifspanning terecht als de breedte van het deel van de doorsnede waar de schuifspanningen worden bepaald veel kleiner is dan de hoogte deze doorsnede.
 
-:::::::{grid} 1 2 2 2
-:gutter: 1 1 1 2
+:::::::{grid} 1 1 2 2
+:class-container: center-grid
+:gutter: 1
+:padding: 0
 
 ::::::{grid-item-card} $h \gg b$
-:columns: 12 12 6 6
 
 Voor de volgende doorsnede is de hoogte veel groter dan de breedte:
 
@@ -249,7 +243,6 @@ In dit geval is de schuifspanning op het afschuivende vlak constant en dus gelij
 ::::::
 
 ::::::{grid-item-card} $h\cancel{\gg} b$
-:columns: 12 12 6 6
 
 Voor de volgende doorsnede is de hoogte niet veel groter dan de breedte:
 
@@ -276,16 +269,29 @@ In dit geval zijn de schuifspanningen op het afschuivende vlak niet constant en 
 ::::::::{prf:assumption-end}
 ::::::::
 
-::::::{prf:assumption} Prismatische balk
+Daarnaast zijn in de afleiding een aantal termen weggevallen en vereenvoudigd waarbij er aangenomen is dat de doorsnede aan de linker- en rechterzijde gelijk zijn (en dus ook dezelfde doorsnedegrootheden $I_{zz}$ en $A^{\rm{a}}$): er is een aanname gedaan van een prismatische balk.
+
+::::::{prf:assumption}
 :nonumber: true
 
+De doorsnede moet zijn prismatisch zijn. Hieronder is een voorbeeld getoond van een wel- en niet-prismatische balk (hier met afwijkende $I_{zz}$ en $A^{\rm{a}}$ in de linker en rechter doorsnede). Voor de tweede doorsnede is de schuifspanningsformule niet geldig.
 
-We gaan in deze berekeningen uit van dezelfde doorsnede (en dus ook dezelfde doorsnedegrootheden $I_{zz}$ en $A^{\rm{a}}$) in de linker en rechter doorsnede, wat betekent dat we aannemen dat de doorsnede niet verandert over de lengte van de balk; dus een prismatische balk.
+::::{grid} 2
+:class-container: center-grid
+:gutter: 1
+:padding: 0
 
-:::::{prf:example}
-:nonumber: true
+:::{grid-item-card} Prismatische doorsnede
 
-Hieronder is een voorbeeld getoond van een niet-prismatische balk (hier met afwijkende $I_{zz}$ en $A^{\rm{a}}$ in de linker en rechter doorsnede). Hiervoor is de formule voor schuifspanningen niet geldig.
+```{figure} ./instructie_data/wel_prismatisch.svg
+:align: center
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/shear_rect
+:number:
+```
+
+:::
+
+:::{grid-item-card} Niet-prismatische doorsnede
 
 ```{figure} ./instructie_data/prismatisch.svg
 :align: center
@@ -293,9 +299,46 @@ Hieronder is een voorbeeld getoond van een niet-prismatische balk (hier met afwi
 :number:
 ```
 
-:::::
+:::
+
+::::
 
 ::::::
+
+Tot slot moet het afschuivend vlak zo worden gekozen dat deze loodrecht is op de randen van de doorsnede, alleen dan is de schuifspanning uniform over het afschuivend vlak en dus gelijk aan de gemiddelde schuifspanning. Zonder deze aanname is de schuifspanning niet uniform over het afschuivend vlak en is de schuifspanningsformule dus niet geldig:
+
+::::::{prf:assumption}
+:nonumber: true
+
+::::{grid} 2
+:class-container: center-grid
+:gutter: 1
+:padding: 0
+
+:::{grid-item-card} Afschuivend deel loodrecht op randen van de doorsnede met een uniforme schuifspanning
+
+```{figure} ./instructie_data/constant_wel.svg
+:align: center
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/shear_rect
+:number:
+```
+
+:::
+
+:::{grid-item-card} Afschuivend deel niet loodrecht op randen van de doorsnede met een uniform schuifspanning
+
+```{figure} ./instructie_data/constant_niet.svg
+:align: center
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/shear_rect
+:number:
+```
+
+:::
+
+::::
+
+::::::
+
 
 ### Evenwicht infinitesimaal blokje
 
@@ -375,42 +418,6 @@ In het onderstaande voorbeeld is voor een rechthoekige doorsnede de nulspanning 
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/shear_rect
 :number:
 ```
-
-:::::
-
-Daarnaast geldt dat, vanwege de aanname dat de schuifspanning gemiddeld verdeeld is over de langsrichting van het afschuivende deel van de doorsnede, de formule alleen een geldig antwoord geeft als een afschuivend deel wordt genomen waarin de schuifspanning daadwerkelijk constant is. We moeten het snedevlak daarom altijd loodrecht op de randen van de doorsnede nemen.
-
-:::::{prf:example}
-:nonumber: true
-
-In onderstaande twee doorsnedes is in het eerste figuur het afschuivende deel loodrecht op de randen van de doorsnede genomen, waardoor de schuifspanning constant is over het afschuivende oppervlaktevlak. In het tweede geval is het afschuivende deel niet loodrecht op de randen van de doorsnede genomen, waardoor de schuifspanning niet constant is over het afschuivende oppervlaktevlak.
-
-::::{grid} 2
-:class-container: center-grid
-
-:::{grid-item}
-:columns: auto
-
-```{figure} ./instructie_data/constant_wel.svg
-:align: center
-:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/shear_rect
-:number:
-```
-
-:::
-
-:::{grid-item}
-:columns: auto
-
-```{figure} ./instructie_data/constant_niet.svg
-:align: center
-:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/shear_rect
-:number:
-```
-
-:::
-
-::::
 
 :::::
 
