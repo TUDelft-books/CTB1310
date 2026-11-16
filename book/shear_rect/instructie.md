@@ -51,11 +51,13 @@ Voor het bepalen van schuifspanningen kijken we naar het evenwicht van een infin
 
 We kunnen de spanningen bepalen op de doorsnedes. Daarvoor kijken we naar dezelfde lengte $\Delta x$, maar nu de volledige doorsnede in plaats van het lijnmodel. De schuifspanningen zijn nog onbekend, maar voor de normaalspanningen geldt de eerder afgeleide formule $\sigma = \cfrac{M_z z}{I_{zz}}$.
 
-::::{grid} 3
+::::{grid} 1 1 2 2
 :class-container: center-grid
+:gutter: 1
+:margin: 0
+:padding: 0
 
-:::{grid-item}
-:columns: auto
+:::{grid-item-card} Schuifspanningen
 
 ```{figure} ./instructie_data/spanningen_section-1.svg
 :align: center
@@ -65,8 +67,7 @@ We kunnen de spanningen bepalen op de doorsnedes. Daarvoor kijken we naar dezelf
 
 :::
 
-:::{grid-item}
-:columns: auto
+:::{grid-item-card} Normaalspanningen
 
 ```{figure} ./instructie_data/spanningen_section-2.svg
 :align: center
@@ -76,11 +77,16 @@ We kunnen de spanningen bepalen op de doorsnedes. Daarvoor kijken we naar dezelf
 
 :::
 
-::::
+:::{grid-item}
+:columns: 12
 
-:::{note}
+```{attention}
 De schuif- en normaalspanningen zijn los van elkaar getekend, maar treden gelijktijdig op.
+```
+
 :::
+
+::::
 
 ::::::{prf:assumption}
 :nonumber: true
