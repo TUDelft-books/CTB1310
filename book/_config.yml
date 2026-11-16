@@ -50,6 +50,8 @@ sphinx:                                              # Options passed on to the 
     keep_warnings: true
 # END REMOVE-FROM-RELEASE
     html_linkcheck_enabled: true 
+    linkcheck_ignore:
+      - '^https?://icozct\.tudelft\.nl(?:[/:?#]|$)' #disable temporarily as TU Delft servers are down
     nitpicky: true                                   # Enables warnings for all references where the target cannot be found, configuration part of Sphinx (https://www.sphinx-doc.org/en/master/usage/configuration.html#confval-nitpicky)
     myst_enable_extensions:                          # Sets extensions to enable in the myst parser, configuration part of MyST parser (https://myst-parser.readthedocs.io/en/latest/syntax/optional.html)
       - attrs_block
