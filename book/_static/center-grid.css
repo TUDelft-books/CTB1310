@@ -3,6 +3,10 @@
   align-items: center;      /* center items vertically */
 }
 
+.sd-container-fluid.center-grid > .sd-row:first-child {
+  align-items: stretch;
+}
+
 /* Keep figure text no wider than its image inside center-grid layouts. */
 .sd-container-fluid.center-grid figure.align-center {
   display: table;
