@@ -78,6 +78,10 @@ We kunnen de spanningen bepalen op de doorsnedes. Daarvoor kijken we naar dezelf
 
 ::::
 
+:::{note}
+De schuif- en normaalspanningen zijn los van elkaar getekend, maar treden gelijktijdig op.
+:::
+
 ::::::{prf:assumption}
 :nonumber: true
 
