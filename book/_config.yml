@@ -93,6 +93,7 @@ sphinx:                                              # Options passed on to the 
     metadata_figure_settings:
       source:
         warn_missing: true
+    sd_card_legacy_separators: false
     teachbooks_questions:
       feedbacks:
         multiple-choice:

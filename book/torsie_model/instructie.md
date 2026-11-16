@@ -46,10 +46,9 @@ De doorsnedes blijven vlak en loodrecht op ‘vezels’ staan, waarmee de vorm v
 :::
 ::::
 
-
-+++
-
+:::{card-footer}
 Normaalspanningen en -rekken hebben een lineair verband ($\sigma = E \varepsilon$), waarmee de vorm van het spanningsverloop gelijk is aan die van het rekverloop.
+:::
 
 :::::
 
@@ -85,8 +84,9 @@ De doorsnedes blijven vlak en radiale lijnen blijven recht, waarmee de cirkelvor
 :::
 ::::
 
-+++
+:::{card-footer}
 Schuifspanningen en -rekken hebben een lineair verband ($\tau = G \gamma$), waarmee de vorm van het spanningsverloop gelijk is aan die van het rekverloop.
+:::
 
 :::::
 
