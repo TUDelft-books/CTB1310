@@ -2,7 +2,7 @@
 
 Het onderdeel statisch onbepaalde constructies wordt gegeven door Tom van Woudenberg. Neem gerust contact met ons op als je vragen, feedback hebt of als er persoonlijke omstandigheden zijn waar wij van op de hoogte moeten zijn.
 
-Als je vastloopt met een bepaald onderwerp, kun je terecht bij de studentassistenten in kamer 6.41 tijdens het lunchvragenuurtje op dinsdag t/m donderdag.
+Je kan ook terecht bij de studentassistenten in kamer 6.41 tijdens het lunchvragenuurtje op dinsdag t/m donderdag.
 
 ## Tom van Woudenberg
 - Kamer 6.45
