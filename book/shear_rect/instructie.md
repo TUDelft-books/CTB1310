@@ -2,10 +2,7 @@
 
 Tot nu toe hebben we enkel gerekend aan normaalspanningen, en enkel door buiging en verlenging/verkorting. Tijdens buiging treden er echter ook schuifspanningen op in de doorsnede: schuifspanningen die langs een een snede werken in plaats van loodrecht daarop.
 
-::::::{prf:example}
-:nonumber: true
-
-Dit is voor te stellen door twee op elkaar liggende balken te beschouwen die doorbuigen. Als je deze twee balken aan elkaar zou willen lijmen zodat deze werken als één balk, zouden schuifspanningen nodig zijn die de vervormingen door buiging enigszins tegengaan:
+Dit is voor te stellen door twee op elkaar liggende balken te beschouwen die doorbuigen. Als je deze twee balken aan elkaar zou willen lijmen zodat deze werken als één balk, zouden schuifspanningen nodig zijn die de onderliggende afschuiving van de twee afzonderlijke balken door buiging zouden tegengaan:
 
 ::::{grid} 2
 :class-container: center-grid
@@ -36,9 +33,9 @@ Dit is voor te stellen door twee op elkaar liggende balken te beschouwen die doo
 
 ::::
 
-::::::
-
 ## Model
+
+Om de schuifspanningen te kunnen bepalen, gaan ze we een model opstellen op basis van het evenwicht van afschuivende delen en op een infinitesimaal blokje.
 
 ### Evenwicht afschuivende deel
 Voor het bepalen van schuifspanningen kijken we naar het evenwicht van een infinitesimaal (oneindig kleine afmetingen) stukje van een balk als lijn van lengte $\Delta x$ met daarop snedekrachten $V_z$ en $M_z$. Het moment op de rechter doorsnede is $\Delta M$ groter dan dat op de linker doorsnede.
@@ -49,7 +46,7 @@ Voor het bepalen van schuifspanningen kijken we naar het evenwicht van een infin
 :number:
 ```
 
-We kunnen de spanningen bepalen op de doorsnedes. Daarvoor kijken we naar dezelfde lengte $\Delta x$, maar nu de volledige doorsnede in plaats van het lijnmodel. De schuifspanningen zijn nog onbekend, maar voor de normaalspanningen geldt de eerder afgeleide formule $\sigma = \cfrac{M_z z}{I_{zz}}$.
+We kunnen de spanningen bepalen op de doorsnedes: hoe de spanningen verdeeld over de doorsnede zijn in plaats van enkel de resultaten snedekracht. Daarvoor kijken we naar dezelfde lengte $\Delta x$, maar nu een vrijlichaamsschema van de volledige doorsnede in plaats van het lijnmodel. De verdeling van schuifspanningen zijn nog onbekend, maar voor de normaalspanningen geldt de eerder afgeleide formule $\sigma = \cfrac{M_z z}{I_{zz}}$.
 
 ::::{grid} 1 1 2 2
 :class-container: center-grid

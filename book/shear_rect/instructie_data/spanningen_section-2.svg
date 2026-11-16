@@ -3,7 +3,7 @@
 <!-- Gegenereerd door Microsoft Visio, SVG Export spanningen_section-2.svg Pagina-1 -->
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
 		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="4.09506in" height="2.43543in"
-		viewBox="0 0 294.844 175.351" xml:space="preserve" color-interpolation-filters="sRGB" class="st21">
+		viewBox="0 0 294.844 175.351" xml:space="preserve" color-interpolation-filters="sRGB" class="st22">
 	<v:documentProperties v:langID="1043" v:metric="true" v:viewMarkup="false"/>
 
 	<style type="text/css">
@@ -25,10 +25,11 @@
 		.st15 {baseline-shift:-32.4941%;font-size:0.649882em;font-style:normal}
 		.st16 {font-size:1em;font-style:normal}
 		.st17 {fill:#f2f2f2;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
-		.st18 {baseline-shift:-32.4941%;font-size:0.649882em}
+		.st18 {baseline-shift:-32.4941%;font-size:0.649882em;font-style:italic}
 		.st19 {font-size:1em}
-		.st20 {stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.5}
-		.st21 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+		.st20 {baseline-shift:-32.4941%;font-size:0.649882em}
+		.st21 {stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.5}
+		.st22 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
 	]]>
 	</style>
 
@@ -272,25 +273,27 @@
 			<text x="4.42" y="171.86" class="st9" v:langID="1043"><v:paragraph v:horizAlign="1"/><v:tabList/>y</text>		</g>
 		<g id="shape3278-208" v:mID="3278" v:groupContext="shape" transform="translate(202.344,-92.501)">
 			<title>Blad.3278</title>
-			<desc>Mz · z</desc>
+			<desc>(Mz + ΔMz)· z</desc>
 			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
 			<v:textRect cx="46.063" cy="168.264" width="92.13" height="14.1732"/>
 			<rect x="0" y="161.177" width="92.126" height="14.1732" class="st8"/>
-			<text x="32.71" y="171.86" class="st9" v:langID="1043"><v:paragraph v:horizAlign="1"/><v:tabList/>M<tspan dy="-0.279em"
-						class="st18" v:baseFontSize="12">z</tspan><tspan dy="0.181em" class="st19"> </tspan>· z</text>		</g>
-		<g id="shape3279-213" v:mID="3279" v:groupContext="shape" transform="translate(202.344,-78.3277)">
+			<text x="12.79" y="171.87" class="st13" v:langID="1043"><v:paragraph v:horizAlign="1"/><v:tabList/>(<tspan class="st14">M</tspan><tspan
+						dy="-0.279em" class="st18" v:baseFontSize="12">z</tspan><tspan dy="0.181em" class="st14"> </tspan><tspan
+						class="st14">+ </tspan>Δ<tspan class="st14">M</tspan><tspan dy="-0.279em" class="st18" v:baseFontSize="12">z</tspan><tspan
+						dy="0.181em" class="st19">)</tspan><tspan class="st14">· z</tspan></text>		</g>
+		<g id="shape3279-219" v:mID="3279" v:groupContext="shape" transform="translate(202.344,-78.3277)">
 			<title>Blad.3279</title>
 			<desc>Izz</desc>
 			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
 			<v:textRect cx="46.063" cy="168.264" width="92.13" height="14.1732"/>
 			<rect x="0" y="161.177" width="92.126" height="14.1732" class="st8"/>
 			<text x="41.03" y="171.86" class="st9" v:langID="1043"><v:paragraph v:horizAlign="1"/><v:tabList/>I<tspan dy="-0.279em"
-						class="st18" v:baseFontSize="12">zz</tspan></text>		</g>
-		<g id="shape3280-217" v:mID="3280" v:groupContext="shape" transform="translate(234.233,-92.501)">
+						class="st20" v:baseFontSize="12">zz</tspan></text>		</g>
+		<g id="shape3280-223" v:mID="3280" v:groupContext="shape" transform="translate(216.517,-92.501)">
 			<title>Blad.3280</title>
-			<path d="M0 175.35 L28.35 175.35" class="st20"/>
+			<path d="M0 175.35 L63.78 175.35" class="st21"/>
 		</g>
-		<g id="shape3281-220" v:mID="3281" v:groupContext="shape" transform="translate(0.375,-78.3277)">
+		<g id="shape3281-226" v:mID="3281" v:groupContext="shape" transform="translate(0.375,-78.3277)">
 			<title>Blad.3281</title>
 			<desc>σlinker doorsnede(z) =</desc>
 			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
@@ -299,25 +302,25 @@
 			<text x="5.79" y="171.87" class="st9" v:langID="1043"><v:paragraph v:horizAlign="1"/><v:tabList/>σ<tspan dy="-0.279em"
 						class="st15" v:baseFontSize="12">linker doorsnede</tspan><tspan dy="0.181em" class="st16">(</tspan>z<tspan
 						class="st16">) =</tspan></text>		</g>
-		<g id="shape3282-226" v:mID="3282" v:groupContext="shape" transform="translate(0.375,-64.1545)">
+		<g id="shape3282-232" v:mID="3282" v:groupContext="shape" transform="translate(0.375,-64.1545)">
 			<title>Blad.3282</title>
 			<desc>Mz · z</desc>
 			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
 			<v:textRect cx="46.063" cy="168.264" width="92.13" height="14.1732"/>
 			<rect x="0" y="161.177" width="92.126" height="14.1732" class="st8"/>
 			<text x="32.71" y="171.86" class="st9" v:langID="1043"><v:paragraph v:horizAlign="1"/><v:tabList/>M<tspan dy="-0.279em"
-						class="st18" v:baseFontSize="12">z</tspan><tspan dy="0.181em" class="st19"> </tspan>· z</text>		</g>
-		<g id="shape3283-231" v:mID="3283" v:groupContext="shape" transform="translate(0.375,-49.9813)">
+						class="st20" v:baseFontSize="12">z</tspan><tspan dy="0.181em" class="st19"> </tspan>· z</text>		</g>
+		<g id="shape3283-237" v:mID="3283" v:groupContext="shape" transform="translate(0.375,-49.9813)">
 			<title>Blad.3283</title>
 			<desc>Izz</desc>
 			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
 			<v:textRect cx="46.063" cy="168.264" width="92.13" height="14.1732"/>
 			<rect x="0" y="161.177" width="92.126" height="14.1732" class="st8"/>
 			<text x="41.03" y="171.86" class="st9" v:langID="1043"><v:paragraph v:horizAlign="1"/><v:tabList/>I<tspan dy="-0.279em"
-						class="st18" v:baseFontSize="12">zz</tspan></text>		</g>
-		<g id="shape3284-235" v:mID="3284" v:groupContext="shape" transform="translate(32.2648,-64.1545)">
+						class="st20" v:baseFontSize="12">zz</tspan></text>		</g>
+		<g id="shape3284-241" v:mID="3284" v:groupContext="shape" transform="translate(32.2648,-64.1545)">
 			<title>Blad.3284</title>
-			<path d="M0 175.35 L28.35 175.35" class="st20"/>
+			<path d="M0 175.35 L28.35 175.35" class="st21"/>
 		</g>
 	</g>
 </svg>
