@@ -68,13 +68,6 @@ We kunnen de spanningen bepalen op de doorsnedes. Daarvoor kijken we naar dezelf
 :::{grid-item}
 :columns: auto
 
-\+
-
-:::
-
-:::{grid-item}
-:columns: auto
-
 ```{figure} ./instructie_data/spanningen_section-2.svg
 :align: center
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/shear_rect
