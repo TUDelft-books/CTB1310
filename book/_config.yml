@@ -41,8 +41,7 @@ sphinx:                                              # Options passed on to the 
       use_repository_button: true                    # Replace with false if you don't want the repository button (i.e. if you have a private repo)
       use_edit_page_button: true
       use_issues_button : true                       # Replace with false if you don't want the issues button (i.e. if you don't want to use GitHub issues or have a private repo)
-      article_header_end:
-        - changelog-article-header-buttons.html
+      use_notification_button: false
       launch_buttons:
         thebe: true                                  # Required for live code: https://teachbooks.io/manual/features/live_code.html
       announcement: "<p>This book is not the version shared with students. That one is available here <a href='https://oit.tudelft.nl/CTB1310' style='color: cyan;'>oit.tudelft.nl/CTB1310</a></p>"

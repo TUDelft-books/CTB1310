@@ -208,7 +208,7 @@ jobs:
           # Delete local branches to start fresh (ignore errors if they don't exist)
           git branch -D 2026-draft 2>/dev/null || true
           git branch -D 2026 2>/dev/null || true
-          
+
           # Create fresh 2026-draft from cleaned 2026-teacher
           git checkout -b 2026-draft origin/2026-teacher
           git add .
@@ -247,6 +247,13 @@ jobs:
           
           # Create fresh 2026 branch from clean 2026-draft
           git checkout -b 2026 2026-draft
+          if ! grep -qx '      use_notification_button: false' book/_config.yml; then
+            echo "Expected use_notification_button: false in book/_config.yml" >&2
+            exit 1
+          fi
+          sed -i 's/^      use_notification_button: false$/      use_notification_button: true/' book/_config.yml
+          git add book/_config.yml
+          git commit -m "Enable notification button"
           git push origin 2026
 
   call-workflow:
