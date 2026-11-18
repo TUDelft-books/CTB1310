@@ -145,6 +145,18 @@ $ \bar z_{\rm{N.C.}} \, \rm{gehele} \, \rm{doorsnede} \approx $ {gap} $ \, \rm{m
 
 ---
 
+:::::
+
+::::{admonition} Uitwerking
+:class: solution, dropdown
+
+$$
+\begin{align*}
+\bar z_{\rm{N.C.} \, \rm{gekromde} \, \rm{gedeelte}} &= \frac{0.08\sqrt{2}}{0.01\sqrt{2}\pi} = \frac{8}{\pi} \approx 2.5465 \, \rm{m} \\
+\bar z_{\rm{N.C.} \, \rm{gehele} \, \rm{doorsnede}} &= 0.079375 + \frac{0.08\sqrt{2}}{2(0.25 \cdot 0.01) + 4 \cdot 0.01 + 0.01\sqrt{2}\pi} \approx 2.1527 \, \rm{m}
+\end{align*}
+$$
+
 ::::
 
 :::::
@@ -157,10 +169,23 @@ $ \bar z_{\rm{N.C.}} \, \rm{gehele} \, \rm{doorsnede} \approx $ {gap} $ \, \rm{m
 :class: exercise
 :nocaption:
 
-Op eenzelfde manier is $I_{zz}$ te berekenen voor het gekromde gedeelte. Ten opzichte van het zwaartepunt van de gehele doorsnede zoals bepaald in de vorige opgave geeft dat: $I_{zz}^{\rm{gekromde} \, \rm{gedeelte}} = 98.63\,\mathrm{dm}^4$. Bepaal $I_{zz}$ in $\rm{dm}^4$ van de gehele doorsnede.
+Op eenzelfde manier is $I_{zz}$ te berekenen voor het gekromde gedeelte. Ten opzichte van het zwaartepunt van de gehele doorsnede zoals bepaald in de vorige opgave geeft dat: $I_{zz}^{\rm{gekromde} \, \rm{gedeelte}} = 96.41\,\mathrm{dm}^4$. Bepaal $I_{zz}$ in $\rm{dm}^4$ van de gehele doorsnede.
 ---
 MAP[169;0.5]
 ---
+
+:::::
+
+::::{admonition} Uitwerking
+:class: solution, dropdown
+
+$$
+\begin{align*}
+I_{zz} &= 96.41 + 2 \cdot \left( \frac{0.01 \cdot 0.25^3}{12} + 0.25 \cdot 0.01 \cdot (1.875 - 2.1527)^2 \right) \\
+&\quad + \frac{4 \cdot 0.01^3}{12} + 4 \cdot 0.01 \cdot (1.75 - 2.1527)^2 \\
+&= 0.01654 \, \rm{m}^4 = 165 \, \rm{dm}^4
+\end{align*}
+$$
 
 ::::
 
@@ -178,11 +203,39 @@ MAP[-0.15;0.005]
 MAP[-0.07;0.005]
 ^^^
 ?
-$ z_{\rm{E}} \approx $ {gap} $ \, \rm{cm} $
+$ z_{\rm{E}} \approx $ {gap} $ \, \rm{m} $
 
 $ \sigma_{\rm{E}} \approx $ {gap} $ \, \rm{MPa} $
 
 ---
+
+:::::
+
+::::{admonition} Uitwerking
+:class: solution, dropdown
+
+$$
+\begin{align*}
+\sum T_{\rm{A}} &= 0 \\
++ B_{\rm{v}} \cdot 25 + 14.32 \cdot 10 - 12.5 \cdot 40 \cdot 5 &= 0 \\
+B_{\rm{v}} &= 94.272 \, \rm{kN} \left( \uparrow \right)
+\end{align*}
+$$
+
+$$
+\begin{align*}
+\sum M_{\rm{D}} &= 0 \\
++ 94.272 \cdot 15 - 12.5 \cdot 15 \cdot 7.5 - M_{\rm{D}} &= 0 \\
+M_{\rm{D}} &= 7.83 \, \rm{kNm} \left( \smile \right)
+\end{align*}
+$$
+
+$$
+\begin{align*}
+\sigma_{\rm{E}} &= \frac{7.83 \cdot 10^6 \cdot (-150)}{0.01654 \cdot 10^{12}} \\
+&\approx -0.07 \, \rm{MPa}
+\end{align*}
+$$
 
 ::::
 
