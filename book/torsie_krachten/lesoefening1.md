@@ -40,6 +40,8 @@ number:
 
 :::::
 
+% solution_start
+
 ::::{admonition} Uitwerking
 :class: solution, dropdown
 
@@ -54,6 +56,8 @@ Optie 3 is ook correct:
 Je hebt nu het assenstelsel verplaatst, maar dat is niet erg zolang je de wringende momenten nog maar wel laat aangrijpen in het dwarskrachtencentrum, niet op de locatie van het nieuwe assenstelsel.
 
 ::::
+
+% solution_end
 
 :::::{exercise}
 :nonumber: true
@@ -73,6 +77,8 @@ number:
 
 :::::
 
+% solution_start
+
 ::::{admonition} Uitwerking
 :class: solution, dropdown
 
@@ -81,6 +87,8 @@ Optie 1 is correct:
 De puntenlasten zorgen voor draaiing van $z$ naar $y$ dus dat is een negatief wringend moment. De verdeelde belasting zorgt niet voor een wringend moment.
 
 ::::
+
+% solution_end
 
 :::::{exercise}
 :nonumber: true
@@ -91,6 +99,8 @@ Wat weet je over de vorm van de wringende momentenlijn.
 ```
 
 :::::
+
+% solution_start
 
 ::::{admonition} Uitwerking
 :class: solution, dropdown
@@ -103,6 +113,8 @@ Rondom de punten $\rm{B}$, $\rm{C}$, $\rm{D}$ en $\rm{E}$, maakt het wringende m
 
 ::::
 
+% solution_end
+
 :::::{exercise}
 :nonumber: true
 
@@ -112,6 +124,8 @@ Bepaal de wringend momentenlijn.
 ```
 
 :::::
+
+% solution_start
 
 ::::{admonition} Uitwerking
 :class: solution, dropdown
@@ -176,3 +190,5 @@ number:
 ```
 
 ::::
+
+% solution_end

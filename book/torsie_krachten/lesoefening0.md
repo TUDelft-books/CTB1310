@@ -41,6 +41,8 @@ Bepaal de wringend momentenlijn.
 
 :::::
 
+% solution_start
+
 ::::{admonition} Uitwerking
 :class: solution, dropdown
 
@@ -91,3 +93,5 @@ number:
 ```
 
 ::::
+
+% solution_end

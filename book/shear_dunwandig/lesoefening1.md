@@ -30,6 +30,8 @@ Bepaal de snedekrachten in staaf $\rm{CD}$ net links van $\rm{D}$ volgens het as
 
 :::::
 
+% solution_start
+
 ::::{admonition} Uitwerking
 :class: solution, dropdown
 
@@ -64,6 +66,8 @@ Alleen staaf $\rm{CD}$ is dus geen pendelstaaf, aangezien de staaf wordt belast 
 
 ::::
 
+% solution_end
+
 :::::{exercise}
 :nonumber: true
 
@@ -73,6 +77,8 @@ Bepaal de doorsnedegrootheden
 ```
 
 :::::
+
+% solution_start
 
 ::::{admonition} Uitwerking
 :class: solution, dropdown
@@ -87,6 +93,8 @@ $$
 
 ::::
 
+% solution_end
+
 :::::{exercise}
 :nonumber: true
 
@@ -96,6 +104,8 @@ Bepaal de normaalspanning en schuifspanning op een positieve snede in staaf $\rm
 ```
 
 :::::
+
+% solution_start
 
 ::::{admonition} Uitwerking
 :class: solution, dropdown
@@ -109,3 +119,5 @@ S_{z}^{\rm{a}} &= 2 \cdot (12 \cdot 300 \cdot 50) = 360000 \, \rm{mm}^3 \\
 $$
 
 ::::
+
+% solution_end

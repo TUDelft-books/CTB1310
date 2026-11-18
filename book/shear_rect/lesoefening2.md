@@ -19,6 +19,8 @@ Wat is de dwarskracht net rechts van $\rm{B}$?
 
 :::::
 
+% solution_start
+
 ::::{admonition} Uitwerking
 :class: solution, dropdown
 
@@ -42,6 +44,8 @@ $$
 
 ::::
 
+% solution_end
+
 :::::{exercise}
 :nonumber: true
 
@@ -51,6 +55,8 @@ Bepaal de maximale schuifspanning op een negatieve doorsnede net rechts van $\rm
 ```
 
 :::::
+
+% solution_start
 
 ::::{admonition} Uitwerking
 :class: solution, dropdown
@@ -97,6 +103,8 @@ De dwarskracht op deze negatieve snede is omhoog, dus zal de schuifspanning ook 
 
 ::::
 
+% solution_end
+
 :::::{exercise}
 :nonumber: true
 
@@ -104,6 +112,8 @@ De dwarskracht op deze negatieve snede is omhoog, dus zal de schuifspanning ook 
 ```
 
 :::::
+
+% solution_start
 
 ::::{admonition} Uitwerking
 :class: solution, dropdown
@@ -121,6 +131,9 @@ Evenwicht geeft de volgende dwarskrachtenlijn:
 Dus de absolute schuifspanning is maximaal op een positieve en negatieve snede net links van $\rm{B}$.
 
 ::::
+
+% solution_end
+
 :::::{exercise}
 :nonumber: true
 
@@ -130,6 +143,8 @@ Bepaal de maximale absolute schuifspanning
 ```
 
 :::::
+
+% solution_start
 
 ::::{admonition} Uitwerking
 :class: solution, dropdown
@@ -145,3 +160,5 @@ $$
 $$
 
 ::::
+
+% solution_end

@@ -35,6 +35,8 @@ Bepaal de doorsnedegrootheden
 
 :::::
 
+% solution_start
+
 ::::{admonition} Uitwerking
 :class: solution, dropdown
 
@@ -79,6 +81,8 @@ $$
 
 ::::
 
+% solution_end
+
 :::::{exercise}
 :nonumber: true
 
@@ -88,6 +92,8 @@ Bepaal de gemiddelde schuifspanning op het horizontale afschuifvlak op $\bar{z} 
 ```
 
 :::::
+
+% solution_start
 
 ::::{admonition} Uitwerking
 :class: solution, dropdown
@@ -133,3 +139,5 @@ $$
 
 
 ::::
+
+% solution_end

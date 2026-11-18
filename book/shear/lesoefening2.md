@@ -79,6 +79,8 @@ Bepaal de doorsnedegrootheden
 
 :::::
 
+% solution_start
+
 ::::{admonition} Uitwerking
 :class: solution, dropdown
 
@@ -104,6 +106,8 @@ $$
 
 ::::
 
+% solution_end
+
 :::::{exercise}
 :nonumber: true
 
@@ -126,12 +130,16 @@ Voorbeeld van een hoek van $-\cfrac{\pi}{4}$.
 
 :::::
 
+% solution_start
+
 ::::{admonition} Uitwerking
 :class: solution, dropdown
 
 ...
 
 ::::
+
+% solution_end
 
 :::::{exercise}
 :nonumber: true
@@ -142,6 +150,8 @@ Bepaal de maximale schuifspanning
 ```
 
 :::::
+
+% solution_start
 
 ::::{admonition} Uitwerking
 :class: solution, dropdown
@@ -177,6 +187,8 @@ Omdat de dwarskracht naar beneden wijst is de schuifspanning omhoog en is deze d
 
 ::::
 
+% solution_end
+
 :::::{exercise}
 :nonumber: true
 
@@ -186,6 +198,8 @@ Waar is de schuifspanning de helft van de maximale waarde uitgedrukt als hoek va
 ```
 
 :::::
+
+% solution_start
 
 ::::{admonition} Uitwerking
 :class: solution, dropdown
@@ -221,3 +235,5 @@ $$
 $$
 
 ::::
+
+% solution_end

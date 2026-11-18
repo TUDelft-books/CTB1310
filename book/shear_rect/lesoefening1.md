@@ -19,6 +19,8 @@ Wat zijn de schuifspanningen op een aantal andere punten?
 
 :::::
 
+% solution_start
+
 ::::{admonition} Uitwerking
 :class: solution, dropdown
 
@@ -122,3 +124,5 @@ $$
 Aangezien de dwarskracht naar beneden wijst in de positieve doorsnede is de richting van de schuifspanning ook naar beneden.
 
 ::::
+
+% solution_end

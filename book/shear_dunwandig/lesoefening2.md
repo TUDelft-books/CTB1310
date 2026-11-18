@@ -36,12 +36,16 @@ Gegeven zijn zes mogelijke schuifspanningsverdelingen.
 
 :::::
 
+% solution_start
+
 ::::{admonition} Uitwerking
 :class: solution, dropdown
 
 Variant 6 is correct. De dwarskracht werkt in z-richting, dus linear schuifsspanning verloop in y-richting en parabolisch in z-richting. $S_{z}^{\rm{a}}$ is nul voor een snede bij $y=0$ onderin en boven het profiel. De schuifspanning is maximaal ter hoogte van $\rm{N.C.}$
 
 ::::
+
+% solution_end
 
 :::::{exercise}
 :nonumber: true
@@ -52,6 +56,8 @@ Bepaal de doorsnedegrootheden
 ```
 
 :::::
+
+% solution_start
 
 ::::{admonition} Uitwerking
 :class: solution, dropdown
@@ -76,6 +82,8 @@ I_{zz} &= \frac{300 \cdot 7^3}{12} + 300 \cdot 7 \cdot 121^2 + 2 \cdot \left( \f
 $$
 ::::
 
+% solution_end
+
 :::::{exercise}
 :nonumber: true
 
@@ -85,6 +93,8 @@ Bepaal de maximale schuifspanning in de bovenflens, onderflens en het lijf.
 ```
 
 :::::
+
+% solution_start
 
 ::::{admonition} Uitwerking
 :class: solution, dropdown
@@ -117,3 +127,5 @@ $$
 $$
 
 ::::
+
+% solution_end
