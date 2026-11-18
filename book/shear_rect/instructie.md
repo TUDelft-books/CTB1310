@@ -68,13 +68,6 @@ We kunnen de spanningen bepalen op de doorsnedes. Daarvoor kijken we naar dezelf
 :::{grid-item}
 :columns: auto
 
-\+
-
-:::
-
-:::{grid-item}
-:columns: auto
-
 ```{figure} ./instructie_data/spanningen_section-2.svg
 :align: center
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/shear_rect
@@ -311,7 +304,7 @@ $$
 \begin{align*}
 \left. \sum T \right|_{\rm{A}} &= 0 \\
 \underbrace{\sigma_{zx} \, \Delta x \, \Delta y}_{\rm{Resultante} \, \rm{kracht} \, \rm{op} \, \rm{vlakje} \, z} \, \underbrace{\Delta z}_{\rm{Arm} \, \rm{ten} \, \rm{opzichte} \, \rm{van} \, \rm{A}} - \underbrace{\sigma_{xz} \, \Delta x \, \Delta y}_{\rm{Resultante} \, \rm{kracht} \, \rm{op} \, \rm{vlakje} \, x} \,  \underbrace{\Delta z}_{\rm{Arm} \, \rm{ten} \, \rm{opzichte} \, \rm{van} \, \rm{A}} &= 0 \\
-\sigma_{zx} &= \sigma_{xz} \\
+\sigma_{zx} &= \sigma_{xz}
 \end{align*}
 $$
 
@@ -481,7 +474,7 @@ Daarmee kunnen we de dwarskracht in $\rm{D}$ bepalen op een positieve snede:
 ```
 
 $$
-\sum F_{\rm{v}} = 0 \to V_{\rm{D}} = 30 \, \rm{kN} \left(⎽|⎺\right)
+\sum F_{\rm{v}} = 0 \to V_{\rm{D}} = 30 \, \rm{kN} \negativeshear
 $$
 
 Nu kunnen we de schuifspanningen bepalen op karakteristieke afschuivende delen in de doorsnede. Op de boven en onderzijde is de schuifspanning $0$ en aangezien we een rechthoekige doorsnede hebben weten we dat het schuifspanningsverloop parabolisch is met een maximum ter hoogte van het normaalkrachtencentrum. Daarom wordt op dat punt de maximale schuifspanning bepaald waarmee het hele schuifspanningsverloop gedefinieerd is. Het normaalkrachtencentrum bevindt zich in het zwaartepunt van de doorsnede, wat voor een rechthoek precies in het midden is.

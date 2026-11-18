@@ -155,6 +155,8 @@ Bepaal de snedekrachten.
 
 ::::
 
+% solution_end
+
 :::::{exercise}
 :nonumber: true
 

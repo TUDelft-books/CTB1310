@@ -3,6 +3,10 @@
   align-items: center;      /* center items vertically */
 }
 
+.sd-container-fluid.center-grid > .sd-row:first-child {
+  align-items: stretch;
+}
+
 /* Keep figure text no wider than its image inside center-grid layouts. */
 .sd-container-fluid.center-grid figure.align-center {
   display: table;
@@ -48,6 +52,19 @@
 
 #pst-secondary-sidebar aside.sticky-margin-generated figure.align-center > ul > li > p,
 #pst-secondary-sidebar aside.sticky-margin-generated figure.align-center > ol > li > p {
+  display: inline;
+  margin: 0;
+}
+
+/* Global fix: center list blocks inside centered figures (outside center-grid). */
+figure.align-center > ul,
+figure.align-center > ol {
+  padding-left: 0;
+  list-style-position: inside;
+}
+
+figure.align-center > ul > li > p,
+figure.align-center > ol > li > p {
   display: inline;
   margin: 0;
 }

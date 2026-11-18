@@ -257,7 +257,7 @@ $$
 \begin{align*}
 S_{z}^{\rm{a}} = & \, 40 \cdot 20 \cdot \cfrac{1}{2} \cdot \left(60.\bar{5} - \cfrac{20}{3} \right)\\
 & + 20 \sqrt{2} \cdot 38 \sqrt{2} \cdot \left(60.\bar{5} - \cfrac{38}{2} \right) \\
-= & \, 84720 \, \rm{mm}^3 \\
+= & \, 84720 \, \rm{mm}^3
 \end{align*}
 $$
 

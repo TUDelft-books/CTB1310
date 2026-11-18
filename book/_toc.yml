@@ -6,8 +6,9 @@ parts:
   chapters:
   - file: instructies
   - file: contact_information
-  - url: https://brightspace.tudelft.nl/d2l/home/774692
+  - url: https://brightspace.tudelft.nl/d2l/home/869928
     title: Brightspace 📢
+# START REMOVE-FROM-RELEASE
 - caption: Lesstof 🧑‍🏫
   chapters:
   - file: shear_rect/les.md
@@ -52,14 +53,14 @@ parts:
     - file: sympy/instructie.ipynb
     - file: sympy/lesoefening1.ipynb
     - file: sympy/lesoefening2.ipynb
-  - file: sympy_COZ/les.md
-    sections:
-    - file: sympy_COZ/opgave1.ipynb
-    - file: sympy_COZ/opgave2.ipynb
-    - file: sympy_COZ/opgave3.ipynb
-    - file: sympy_COZ/opgave4.ipynb
+    - file: sympy/opgave1.ipynb
+    - file: sympy/opgave2.ipynb
+    - file: sympy/opgave3.ipynb
+    - file: sympy/opgave4.ipynb
   - file: toz_3/toz.ipynb
   - file: exam/2026-04-14.md
+  - file: exam/2026-06-24.md
+# END REMOVE-FROM-RELEASE
 - caption: Diverse
   chapters:
   - file: changelog

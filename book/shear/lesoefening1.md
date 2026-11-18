@@ -101,7 +101,7 @@ Om de gemiddelde schuifspanning voor een negatieve snede in $\rm{C}$ te kunnen b
 ```
 
 $$
-\sum F_{\rm{v}} = 0 \to V_{\rm{C}} = 600 \, \rm{kN} \left(⎽|⎺\right)
+\sum F_{\rm{v}} = 0 \to V_{\rm{C}} = 600 \, \rm{kN} \negativeshear
 $$
 
 Vervolgens gaan we het statisch moment van het afschuivende deel bepalen:

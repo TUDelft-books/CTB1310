@@ -3,11 +3,11 @@
 
 Je kunt naar dit boek verwijzen als:
 
-> Tom van Woudenberg van de Technische Universiteit Delft (2025) _CTB1310 - Constructiemechanica 2_. https://oit.tudelft.nl/CTB1310. Bronbestanden op https://github.com/TUDelft-books/CTB1310. CC BY 4.0.
+> Tom van Woudenberg van de Technische Universiteit Delft (2026) _CTB1310 - Constructiemechanica 2_. https://oit.tudelft.nl/CTB1310/2026. Bronbestanden op https://github.com/TUDelft-books/CTB1310. CC BY 4.0.
 
 Je kunt naar individuele hoofdstukken of pagina's binnen dit boek verwijzen als:
 
-> `<Titel van Hoofdstuk of Pagina>`. in Tom van Woudenberg van de Technische Universiteit Delft (2025) _CTB1310 - Constructiemechanica 2_. `<url naar specifieke pagina op de boekwebsite>`. Bronbestanden op `<link naar specifieke commit / bestand in github repo>`. CC BY 4.0.
+> `<Titel van Hoofdstuk of Pagina>`. in Tom van Woudenberg van de Technische Universiteit Delft (2026) _CTB1310 - Constructiemechanica 2_. `<url naar specifieke pagina op de boekwebsite>`. Bronbestanden op `<link naar specifieke commit / bestand in github repo>`. CC BY 4.0.
 
 We verwachten dat de inhoud van dit boek aanzienlijk zal veranderen. Daarom raden we aan om direct de broncode te gebruiken met de bovenstaande referentie naar de GitHub-repository, inclusief datum en bestandsnaam. Hoewel er in de loop van de tijd inhoud wordt toegevoegd, blijven hoofdstuktitels en URL's naar verwachting redelijk stabiel. We geven echter geen garantie; als het belangrijk is om naar een specifieke locatie/commit binnen het boek te verwijzen, doe dit dan expliciet.
 

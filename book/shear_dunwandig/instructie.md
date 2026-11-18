@@ -186,8 +186,10 @@ Afschuifvlak ter hoogte van het normaalkrachtencentrum.
 
 
 $$
-S_{z}^{\rm{a}} = 4 \cdot \left(150 - 45 \right) \cdot \cfrac{\left(150 - 45 \right)}{2} = 22050 \, \rm{mm^3} \\
-\tau = \cfrac{\left| V \, S_{z}^{\rm{a}} \right| }{I_{zz} \, t} \approx \cfrac{\left| 9900 \cdot 22050\right|}{4 \cdot  4.95 \cdot 10^6 } \approx 11 \, \rm{MPa}
+\begin{align*}
+S_{z}^{\rm{a}} &= 4 \cdot \left(150 - 45 \right) \cdot \cfrac{\left(150 - 45 \right)}{2} = 22050 \, \rm{mm^3} \\
+\tau &= \cfrac{\left| V \, S_{z}^{\rm{a}} \right| }{I_{zz} \, t} \approx \cfrac{\left| 9900 \cdot 22050\right|}{4 \cdot  4.95 \cdot 10^6 } \approx 11 \, \rm{MPa}
+\end{align*}
 $$
 
 Vervolgens net onder de aansluiting van het lijf met de flens, waarbij wederom één van de twee lijven wordt doorgesneden:
@@ -200,8 +202,10 @@ Afschuifvlak net onder de aansluiting van het lijf met de flens.
 ```
 
 $$
-S_{z}^{\rm{a}} = 4 \cdot 150 \cdot \left(\cfrac{150}{2}-45\right) = 18000 \, \rm{mm^3} \\
-\tau = \cfrac{\left| V \, S_{z}^{\rm{a}} \right| }{I_{zz} \, t} \approx \cfrac{\left| 9900 \cdot 18000\right|}{4 \cdot  4.95 \cdot 10^6 } \approx 9.0 \, \rm{MPa}
+\begin{align*}
+S_{z}^{\rm{a}} &= 4 \cdot 150 \cdot \left(\cfrac{150}{2}-45\right) = 18000 \, \rm{mm^3} \\
+\tau &= \cfrac{\left| V \, S_{z}^{\rm{a}} \right| }{I_{zz} \, t} \approx \cfrac{\left| 9900 \cdot 18000\right|}{4 \cdot  4.95 \cdot 10^6 } \approx 9.0 \, \rm{MPa}
+\end{align*}
 $$
 
 Vervolgens nemen we een afschuifvlak net links van de linker aansluiting van het lijf met de flens, waarbij nu de flens wordt doorgesneden:
@@ -214,8 +218,10 @@ Afschuifvlak net links van de linker aansluiting van het lijf met de flens.
 ```
 
 $$
-S_{z}^{\rm{a}} = 4 \cdot 50 \cdot \left(-45\right) = -9000 \, \rm{mm^3} \\
-\tau = \cfrac{\left| V \, S_{z}^{\rm{a}} \right| }{I_{zz} \, t} \approx \cfrac{\left| 9900 \cdot -9000\right|}{4 \cdot  4.95 \cdot 10^6 } \approx 4.5 \, \rm{MPa}
+\begin{align*}
+S_{z}^{\rm{a}} &= 4 \cdot 50 \cdot \left(-45\right) = -9000 \, \rm{mm^3} \\
+\tau &= \cfrac{\left| V \, S_{z}^{\rm{a}} \right| }{I_{zz} \, t} \approx \cfrac{\left| 9900 \cdot -9000\right|}{4 \cdot  4.95 \cdot 10^6 } \approx 4.5 \, \rm{MPa}
+\end{align*}
 $$
 
 En tot slot het afschuifvlak net rechts van de linker aansluiting van het lijf met de flens, wederom met de flens doorgesneden:
@@ -228,8 +234,10 @@ Afschuifvlak net rechts van de linker aansluiting van het lijf met de flens.
 ```
 
 $$
-S_{z}^{\rm{a}} = 18000-9000 = 9000 \, \rm{mm^3} \\
-\tau = \cfrac{\left| V \, S_{z}^{\rm{a}} \right| }{I_{zz} \, t} \approx \cfrac{\left| 9900 \cdot 9000\right|}{4 \cdot  4.95 \cdot 10^6 } \approx 4.5 \, \rm{MPa}
+\begin{align*}
+S_{z}^{\rm{a}} &= 18000-9000 = 9000 \, \rm{mm^3} \\
+\tau &= \cfrac{\left| V \, S_{z}^{\rm{a}} \right| }{I_{zz} \, t} \approx \cfrac{\left| 9900 \cdot 9000\right|}{4 \cdot  4.95 \cdot 10^6 } \approx 4.5 \, \rm{MPa}
+\end{align*}
 $$
 
 Dit geeft dus het volgende schuifspanningsverloop:
