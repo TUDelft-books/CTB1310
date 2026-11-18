@@ -20,7 +20,7 @@ sphinx:                                              # Options passed on to the 
     redirects:
       shear_rect/les: ./instructie.html
       shear/les: ./instructie.html
-      shear_dunwandig/les: ./theorie.html
+      shear_dunwandig/les: ./instructie.html
       shear_force_center/les: ./instructie.html
       torsie_krachten/les: ./instructie.html
       torsie_model/les: ./instructie.html
