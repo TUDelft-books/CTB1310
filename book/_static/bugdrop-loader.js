@@ -1,4 +1,5 @@
 (function () {
+  var feedbackIconUrl = new URL("icon_bugdrop.png", document.currentScript.src).href;
   var FEEDBACK_SVG =
     '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="1em" height="1em" ' +
     'fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" ' +
@@ -67,9 +68,6 @@
     var text = a.querySelector(".btn__text-container");
     if (text) text.textContent = "Send feedback";
     else a.textContent = "Send feedback";
-
-    // Use your own hosted icon file in _static
-    var feedbackIconUrl = "/_static/icon_bugdrop.png";
 
     // Try to find existing icon container used by the theme
     var iconContainer = a.querySelector(".btn__icon-container");
