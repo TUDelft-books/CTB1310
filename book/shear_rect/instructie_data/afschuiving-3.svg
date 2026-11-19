@@ -2,29 +2,103 @@
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <!-- Gegenereerd door Microsoft Visio, SVG Export afschuiving-3.svg Pagina-1 -->
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
-		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="1.58522in" height="1.19152in"
-		viewBox="0 0 114.136 85.7894" xml:space="preserve" color-interpolation-filters="sRGB" class="st3">
+		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="1.90768in" height="1.31713in"
+		viewBox="0 0 137.353 94.8333" xml:space="preserve" color-interpolation-filters="sRGB" class="st5">
 	<v:documentProperties v:langID="1043" v:metric="true" v:viewMarkup="false"/>
 
 	<style type="text/css">
 	<![CDATA[
-		.st1 {fill:#a5a5a5;fill-opacity:0.5;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:0.5;stroke-width:0.75}
-		.st2 {fill:#a5a5a5;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
-		.st3 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+		.st1 {fill:url(#ptrn2-4);shape-rendering:crispEdges;stroke:#000000;stroke-dasharray:5.25,3.75;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:0.5;stroke-width:0.75}
+		.st2 {marker-start:url(#mrkr5-10);stroke:#31859b;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
+		.st3 {fill:#31859b;fill-opacity:1;stroke:#31859b;stroke-opacity:1;stroke-width:0.34246575342466}
+		.st4 {fill:#a5a5a5;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
+		.st5 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
 	]]>
 	</style>
 
+	<defs id="Patterns_And_Gradients">
+		<pattern id="ptrn2-4" v:fillPattern="2" v:foreground="#a5a5a5" v:background="#ffffff" patternUnits="userSpaceOnUse"
+				width="6" height="6" viewBox="0 0 64 64">
+			<image x="0" y="0" width="64" height="64" image-rendering="optimizeSpeed"
+					xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAYAAADED76LAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAA6SURBVChTY3jx4sV/bAAkvmbNmv8M6BIgAJME0RgKkCVBAEUBuiSKAmyScAW4JMEK8EmCAAM+SZA4AEHv8uk8tf5/AAAAAElFTkSuQmCC"/>
+		</pattern>
+	</defs>
+	<defs id="Markers">
+		<g id="lend5">
+			<path d="M 2 1 L 0 0 L 1.98117 -0.993387 C 1.67173 -0.364515 1.67301 0.372641 1.98465 1.00043 " style="stroke:none"/>
+		</g>
+		<marker id="mrkr5-10" class="st3" v:arrowType="5" v:arrowSize="0" v:setback="4.63" refX="4.63" orient="auto"
+				markerUnits="strokeWidth" overflow="visible">
+			<use xlink:href="#lend5" transform="scale(2.92) "/>
+		</marker>
+	</defs>
 	<g v:mID="0" v:index="1" v:groupContext="foregroundPage">
 		<title>Pagina-1</title>
 		<v:pageProperties v:drawingScale="0.0393701" v:pageScale="0.0393701" v:drawingUnits="24" v:shadowOffsetX="8.50394"
 				v:shadowOffsetY="-8.50394"/>
-		<g id="shape106-1" v:mID="106" v:groupContext="shape" transform="translate(28.7215,-0.375)">
-			<title>Blad.106</title>
-			<rect x="0" y="0.750003" width="56.6929" height="85.0394" class="st1"/>
+		<g id="shape3337-1" v:mID="3337" v:groupContext="shape" transform="translate(40.3301,-4.89698)">
+			<title>Blad.3337</title>
+			<path d="M0 94.83 L56.69 94.83 L56.69 9.79 L0 9.79 L0 94.83 Z" class="st1"/>
 		</g>
-		<g id="shape104-3" v:mID="104" v:groupContext="shape" transform="translate(0.375,-14.5482)">
+		<g id="shape3309-5" v:mID="3309" v:groupContext="shape" transform="translate(4.89699,-89.9364)">
+			<title>Spanning.3309</title>
+			<path d="M3.47 94.83 L3.83 94.83 L21.26 94.83" class="st2"/>
+		</g>
+		<g id="shape3310-11" v:mID="3310" v:groupContext="shape" transform="translate(4.89699,-75.7631)">
+			<title>Spanning.3310</title>
+			<path d="M3.47 94.83 L3.83 94.83 L21.26 94.83" class="st2"/>
+		</g>
+		<g id="shape3311-16" v:mID="3311" v:groupContext="shape" transform="translate(4.89699,-61.5899)">
+			<title>Spanning.3311</title>
+			<path d="M3.47 94.83 L3.83 94.83 L21.26 94.83" class="st2"/>
+		</g>
+		<g id="shape3312-21" v:mID="3312" v:groupContext="shape" transform="translate(4.89699,-47.4167)">
+			<title>Spanning.3312</title>
+			<path d="M3.47 94.83 L3.83 94.83 L21.26 94.83" class="st2"/>
+		</g>
+		<g id="shape3313-26" v:mID="3313" v:groupContext="shape" transform="translate(4.89699,-33.2434)">
+			<title>Spanning.3313</title>
+			<path d="M3.47 94.83 L3.83 94.83 L21.26 94.83" class="st2"/>
+		</g>
+		<g id="shape3314-31" v:mID="3314" v:groupContext="shape" transform="translate(4.89699,-4.89699)">
+			<title>Spanning.3314</title>
+			<path d="M3.47 94.83 L3.83 94.83 L21.26 94.83" class="st2"/>
+		</g>
+		<g id="shape3315-36" v:mID="3315" v:groupContext="shape" transform="translate(4.89699,-19.0702)">
+			<title>Spanning.3315</title>
+			<path d="M3.47 94.83 L3.83 94.83 L21.26 94.83" class="st2"/>
+		</g>
+		<g id="shape3316-41" v:mID="3316" v:groupContext="shape" transform="translate(132.456,184.77) rotate(180)">
+			<title>Spanning.3316</title>
+			<path d="M3.47 94.83 L3.83 94.83 L21.26 94.83" class="st2"/>
+		</g>
+		<g id="shape3317-46" v:mID="3317" v:groupContext="shape" transform="translate(132.456,170.596) rotate(180)">
+			<title>Spanning.3317</title>
+			<path d="M3.47 94.83 L3.83 94.83 L21.26 94.83" class="st2"/>
+		</g>
+		<g id="shape3318-51" v:mID="3318" v:groupContext="shape" transform="translate(132.456,156.423) rotate(180)">
+			<title>Spanning.3318</title>
+			<path d="M3.47 94.83 L3.83 94.83 L21.26 94.83" class="st2"/>
+		</g>
+		<g id="shape3319-56" v:mID="3319" v:groupContext="shape" transform="translate(132.456,142.25) rotate(180)">
+			<title>Spanning.3319</title>
+			<path d="M3.47 94.83 L3.83 94.83 L21.26 94.83" class="st2"/>
+		</g>
+		<g id="shape3320-61" v:mID="3320" v:groupContext="shape" transform="translate(132.456,128.077) rotate(180)">
+			<title>Spanning.3320</title>
+			<path d="M3.47 94.83 L3.83 94.83 L21.26 94.83" class="st2"/>
+		</g>
+		<g id="shape3321-66" v:mID="3321" v:groupContext="shape" transform="translate(132.456,99.7303) rotate(180)">
+			<title>Spanning.3321</title>
+			<path d="M3.47 94.83 L3.83 94.83 L21.26 94.83" class="st2"/>
+		</g>
+		<g id="shape3322-71" v:mID="3322" v:groupContext="shape" transform="translate(132.456,113.904) rotate(180)">
+			<title>Spanning.3322</title>
+			<path d="M3.47 94.83 L3.83 94.83 L21.26 94.83" class="st2"/>
+		</g>
+		<g id="shape104-76" v:mID="104" v:groupContext="shape" transform="translate(19.0702,-19.0702)">
 			<title>Blad.104</title>
-			<rect x="0" y="29.0965" width="113.386" height="56.6929" class="st2"/>
+			<rect x="0" y="38.1404" width="99.2126" height="56.6929" class="st4"/>
 		</g>
 	</g>
 </svg>
