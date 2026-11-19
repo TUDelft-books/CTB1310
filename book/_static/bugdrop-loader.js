@@ -27,7 +27,7 @@
   function loadBugDrop() {
     var s = document.createElement("script");
     s.src = "https://bugdrop.neonwatty.workers.dev/widget.v1.js";
-    s.dataset.repo = "TUDelft-MUDE/teacher";
+    s.dataset.repo = "TUDelft-books/CTB1310";
     s.dataset.screenshot = "auto";
     s.dataset.locale = "nl";
     s.dataset.button = "false"; // hide floating pill; we open from menu
