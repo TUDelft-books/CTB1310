@@ -48,8 +48,8 @@ sphinx:                                              # Options passed on to the 
       announcement: "<p>This book is not the version shared with students. That one is available here <a href='https://oit.tudelft.nl/CTB1310' style='color: cyan;'>oit.tudelft.nl/CTB1310</a></p>"
 # START REMOVE-FROM-RELEASE
     keep_warnings: true
+    html_linkcheck_enabled: false
 # END REMOVE-FROM-RELEASE
-    html_linkcheck_enabled: true 
     linkcheck_ignore:
       - '^https?://icozct\.tudelft\.nl(?:[/:?#]|$)' #disable temporarily as TU Delft servers are down
     nitpicky: true                                   # Enables warnings for all references where the target cannot be found, configuration part of Sphinx (https://www.sphinx-doc.org/en/master/usage/configuration.html#confval-nitpicky)
