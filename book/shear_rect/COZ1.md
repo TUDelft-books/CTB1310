@@ -45,23 +45,6 @@ Teken de schuifspanningsverdeling op een negatieve snede net links van $\rm{C}$.
 
 ::::
 
-% solution_start
-
-::::{admonition} Uitwerking
-:class: solution, dropdown
-
-```{figure} ./COZ1_data/spanningen.svg
-:align: center
-:number:
-:figclass: sticky-margin
-:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/COZ_schuif_1
-```
-
-...
-
-::::
-
-% solution_end
 
 
 ::::{admonition} Opgave
@@ -71,13 +54,3 @@ Bepaal de maximale schuifspanning in de balk.
 
 ::::
 
-% solution_start
-
-::::{admonition} Uitwerking
-:class: solution, dropdown
-
-...
-
-::::
-
-% solution_end

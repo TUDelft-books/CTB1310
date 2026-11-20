@@ -44,18 +44,6 @@ number:
 
 :::::
 
-% solution_start
-
-::::{admonition} Uitwerking
-:class: solution, dropdown
-
-Optie 3 is correct:
-
-De verdeelde belasting werkt naast het dwarskrachtencentrum, dus dit veroorzaakt een wringend moment van $z$ naar $y$. De rechterhandregel geeft dan een vectorpijl in de negatieve $x$-richting.
-
-::::
-
-% solution_end
 
 :::::{exercise}
 :nonumber: true
@@ -67,20 +55,6 @@ Wat weet je over de vorm van de wringende momentenlijn.
 
 :::::
 
-% solution_start
-
-::::{admonition} Uitwerking
-:class: solution, dropdown
-
-De wringende momentenlijn verloopt tussen de punten $\rm{A}$ en $\rm{B}$, $\rm{B}$ en $\rm{C}$ *linear*: de constante verdeelde belasting treedt op naast het dwarskrachtencentrum, dus dat zorgt voor een lineair verlopende wringende momentenlijn.
-
-In $\rm{C}$ het wringend moment is gelijk aan *een nog onbekende waarde*: dit uiteinde is geen vrij uiteinde.
-
-Rondom de punten $\rm{A}$ en $\rm{B}$, het wringende moment maakt *een sprong*: de uitwendige geconcentreerde wringende momenten zorgen voor een uitwendig wringend moment, wat een sprong veroorzaakt inde wringende momentenlijn.
-
-::::
-
-% solution_end
 
 :::::{exercise}
 :nonumber: true
@@ -92,105 +66,3 @@ Bepaal de wringend momentenlijn.
 
 :::::
 
-% solution_start
-
-::::{admonition} Uitwerking
-:class: solution, dropdown
-
-Het wringend moment halverwege $\rm{C}$ en $\rm{B}$:
-
-```{figure} ./lesoefening2_data/Snede_CB_halverwege.svg
----
-align: center
-source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/torsie2
-number:
----
-```
-$$
-\begin{align*}
-\sum T_{\rm{BC}} &= 0 \\
-M_{\rm{t}}^{\rm{BC} \, \rm{halverwege}} - 100 \cdot 2 &= 0 \\
-M_{\rm{t}}^{\rm{BC} \, \rm{halverwege}} &= 200 \, \rm{Nm} \left( \twoheadleftarrow \mid \twoheadrightarrow \right)
-\end{align*} 
-$$
-
-Het wringend moment net links van $\rm{B}$:
-
-```{figure} ./lesoefening2_data/Snede_B_links.svg
----
-align: center
-source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/torsie2
-number:
----
-```
-$$
-\begin{align*}
-\sum T_{\rm{BC}} &= 0 \\
-M_{\text{t}}^{\rm{B} \, \rm{links}} - 100 \cdot 4 &= 0 \\
-M_{\text{t}}^{\rm{B} \, \rm{links}} &= 400 \, \rm{Nm} \left( \twoheadleftarrow \mid \twoheadrightarrow \right)
-\end{align*}
-$$
-
-
-Het wringend moment net rechts van $\rm{B}$:
-```{figure} ./lesoefening2_data/Snede_B_rechts.svg
----
-align: center
-source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/torsie2
-number:
----
-```
-$$
-\begin{align*}
-\sum T_{\text{BC}} &= 0 \\
-M_{\rm{t}}^{\rm{B} \, \rm{rechts}} - 100 \cdot 4 + 400 &= 0 \\
-M_{\rm{t}}^{\rm{B} \, \rm{rechts}} &= 0 
-\end{align*} 
-$$
-
-Het wringend moment halverwege $\rm{B}$ en $\rm{A}$:
-
-```{figure} ./lesoefening2_data/Snede_AB_halverwege.svg
----
-align: center
-source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/torsie2
-number:
----
-```
-$$
-\begin{align*}
-\sum T_{\text{AC}} &= 0 \\
-M_{\rm{t}}^{\rm{AB} \, \rm{halverwege}} - 100 \cdot 6 + 400 &= 0 \\
-M_{\rm{t}}^{\rm{AB} \, \rm{halverwege}} &= 200 \, \rm{Nm} \left( \twoheadleftarrow \mid \twoheadrightarrow \right)
-\end{align*} 
-$$
-
-Het wringend moment in $\rm{A}$:
-
-```{figure} ./lesoefening2_data/Moment_A.svg
----
-align: center
-source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/torsie2
-number:
----
-```
-$$
-\begin{align*}
-\sum T_{\text{AC}} &= 0 \\
-M_{\rm{t}}^{\rm{A}} - 100 \cdot 8 + 400 &= 0 \\
-M_{\rm{t}}^{\rm{A}} &= 400 \, \rm{Nm} \left( \twoheadleftarrow \mid \twoheadrightarrow \right)
-\end{align*} 
-$$
-
-De wringende momentenlijn ziet er dan als volgt uit:
-```{figure} ./lesoefening2_data/Mt-line.svg
----
-align: center
-source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/torsie2
-number:
----
-```
-
-::::
-
-% solution_end

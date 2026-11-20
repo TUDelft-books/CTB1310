@@ -40,24 +40,6 @@ number:
 
 :::::
 
-% solution_start
-
-::::{admonition} Uitwerking
-:class: solution, dropdown
-
-Optie 1 is correct:
-
-Ons assenstelsel is altijd rechtsdraaiend, dus een rotatie van bijvoorbeeld z naar x geeft met de rechterhandregel je duim in de richting van de y-as.
-
-Het assenstelsel had daarnaast de verdeelde belastingen en oplegging op de x-as, niet de puntlasten.
-
-Optie 3 is ook correct:
-
-Je hebt nu het assenstelsel verplaatst, maar dat is niet erg zolang je de wringende momenten nog maar wel laat aangrijpen in het dwarskrachtencentrum, niet op de locatie van het nieuwe assenstelsel.
-
-::::
-
-% solution_end
 
 :::::{exercise}
 :nonumber: true
@@ -77,18 +59,6 @@ number:
 
 :::::
 
-% solution_start
-
-::::{admonition} Uitwerking
-:class: solution, dropdown
-
-Optie 1 is correct:
-
-De puntenlasten zorgen voor draaiing van $z$ naar $y$ dus dat is een negatief wringend moment. De verdeelde belasting zorgt niet voor een wringend moment.
-
-::::
-
-% solution_end
 
 :::::{exercise}
 :nonumber: true
@@ -100,20 +70,6 @@ Wat weet je over de vorm van de wringende momentenlijn.
 
 :::::
 
-% solution_start
-
-::::{admonition} Uitwerking
-:class: solution, dropdown
-
-De wringende momentenlijn verloopt tussen de punten $\rm{A}$ en $\rm{B}$, $\rm{B}$ en $\rm{C}$, etc *constant*: de verdeelde belasting treedt op in het dwarskrachtencentrum, dus er is geen verdeelde belasting die zorgt voor wringende momenten.
-
-In $\rm{E}$ is het wringend moment gelijk aan *0*: op het vrije uiteinde werken geen uitwendige wringende momenten, dus de wringende momentenlijn begint op 0.
-
-Rondom de punten $\rm{B}$, $\rm{C}$, $\rm{D}$ en $\rm{E}$, maakt het wringende moment *een sprong*: de puntlasten zorgen voor een uitwendig wringend moment, wat een sprong veroorzaakt in de wringende momentenlijn.
-
-::::
-
-% solution_end
 
 :::::{exercise}
 :nonumber: true
@@ -125,70 +81,3 @@ Bepaal de wringend momentenlijn.
 
 :::::
 
-% solution_start
-
-::::{admonition} Uitwerking
-:class: solution, dropdown
-
-Het wringend moment tussen $\rm{D}$ en $\rm{DE}$ is nul. $\rm{E}$ is een vrij uiteinde en op deel $\rm{DE}$ werkt geen wringend moment. Het wringend moment voor het deel $\rm{CD}$ is te bepalen met de volgende snede:
-
-```{figure} ./lesoefening_data/Snede_CD.svg
----
-align: center
-source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/torsie2
-number:
----
-```
-$$
-\begin{align*}
-\sum T_{\rm{CD}} &= 0 \\
-- M_{\rm{t}}^{\rm{CD}} - 120 &= 0 \\
-M_{\rm{t}}^{\rm{CD}} &= -120 \ \rm{kNm} \left( \twoheadrightarrow \mid \twoheadleftarrow \right)
-\end{align*} 
-$$
-
-Een vergelijkbare snede kan worden gemaakt om het wringend moment te vinden in deel $\rm{BC}$:
-```{figure} ./lesoefening_data/Snede_BC.svg
----
-align: center
-source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/torsie2
-number:
----
-```
-$$
-\begin{align*}
-\sum T_{\rm{BC}} &= 0 \\
-- M_{\rm{t}}^{\rm{BC}} - 120 - 120 &= 0 \\
-M_{\rm{t}}^{\rm{BC}} &= -240 \ \rm{kNm} \left( \twoheadrightarrow \mid \twoheadleftarrow \right)
-\end{align*} 
-$$
-
-Het wringend moment in $\rm{AB}$ kan worden gevonden met de volgende snede:
-
-```{figure} ./lesoefening_data/Snede_AB.svg
----
-align: center
-source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/torsie2
-number:
----
-```
-
-$$
-\begin{align*}
-\sum T_{\rm{AB}} &= 0 \\
-- M_{\rm{t}}^{\rm{AB}} - 120 - 120 - 120 &= 0 \\
-M_{\rm{t}}^{\rm{AB}} &= -360 \ \rm{kNm} \left( \twoheadrightarrow \mid \twoheadleftarrow \right)
-\end{align*} 
-$$
-
-```{figure} ./lesoefening_data/Mt-line.svg
----
-align: center
-source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/torsie2
-number:
----
-```
-
-::::
-
-% solution_end
