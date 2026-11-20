@@ -21,10 +21,10 @@ h = sym.nsimplify(0.250)
 Izz = b * h**3 / 12
 S_a = b * h / 4 * h / 2
 
-print(Izz,S_a)
+print('I_zz=',Izz,Izz.evalf(),'S_a=',S_a,S_a.evalf())
 
 tau_B = VB * S_a / (Izz * b)
-print(tau_B)
+print('tau_b=',tau_B,print(tau_B.evalf()))
 
 Bv = q * (L2 + L3)**2 / 2 / L2
 print(Bv)

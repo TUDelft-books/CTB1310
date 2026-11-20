@@ -1,23 +1,52 @@
 # Begeleide oefening 2
 
-Gegeven is de volgende constructie
+Gegeven is de volgende constructie:
 
-```{figure} ./lesoefening2/constructie.svg
+::::{grid} 1 1 2 2
+:class-container: center-grid
+
+:::{grid-item}
+:columns: auto
+
+```{figure} ./lesoefening2/constructie_1.svg
 :align: center
-:class: sticky-margin
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/shear_rect_oef
 :number:
+:figclass: sticky-margin
 ```
 
-:::::{exercise}
-:nonumber: true
+:::
 
-Wat is de dwarskracht net rechts van $\rm{B}$?
+:::{grid-item}
+:columns: auto
 
-```{h5p} https://tudelft.h5p.com/content/1292769955038569107/embed
+```{figure} ./lesoefening2/constructie_2.svg
+:align: center
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/shear_rect_oef
+:number:
+:figclass: sticky-margin
 ```
 
-:::::
+:::
+
+::::
+
+::::{question} Opgave
+:type: short-answer
+:variant: gaps
+:admonition:
+:class: exercise
+:nocaption:
+
+---
+M[4]
+> Heb je het goede teken? Het assenstelsel bepaalt het teken van de dwarskracht.
+^^^
+?
+De dwarskracht net rechts van $\rm{B}$ is {gap} $\rm{kN}$
+---
+
+::::
 
 % solution_start
 
@@ -46,15 +75,21 @@ $$
 
 % solution_end
 
-:::::{exercise}
-:nonumber: true
+::::{question} Opgave
+:type: short-answer
+:variant: gaps
+:admonition:
+:class: exercise
+:nocaption:
 
-Bepaal de maximale schuifspanning op een negatieve doorsnede net rechts van $\rm{B}$.
+---
+M[-0.24]
+^^^
+?
+De maximale schuifspanning op een negatieve doorsnede net rechts van $\rm{B}$ is {gap} $\rm{MPa} \, \left(\downarrow\right)$
+---
 
-```{h5p} https://tudelft.h5p.com/content/1292769957827644647/embed
-```
-
-:::::
+::::
 
 % solution_start
 
@@ -85,7 +120,7 @@ $$
 \begin{align*}
 I_{zz} &= \cfrac{b \, h^3}{12} \\
 &= \cfrac{100 \cdot 250^3}{12} \\
-&= 130208333.3 \, \rm{mm^4}
+&= 130208333.\bar{3} \, \rm{mm^4}
 \end{align*}
 $$
 
@@ -94,8 +129,8 @@ Daarmee kunnen we de maximale schuifspanning bepalen:
 $$
 \begin{align*}
 \left| \tau_{\rm{max}} \right| &= \cfrac{\left|V_{z} \, S_{z}^{\rm{a}}\right|}{b \, I_{zz}} \\
-&= \cfrac{\left| 4000 \, \cdot -781250 \right|}{100 \cdot 130208333.3} \\
-&\approx 0.24 \, \rm{MPa}
+&= \cfrac{\left| 4000 \, \cdot -781250 \right|}{100 \cdot 130208333.\bar{3}} \\
+&= 0.24 \, \rm{MPa}
 \end{align*}
 $$
 
@@ -105,13 +140,28 @@ De dwarskracht op deze negatieve snede is omhoog, dus zal de schuifspanning ook 
 
 % solution_end
 
-:::::{exercise}
-:nonumber: true
+::::{question} Opgave
+:variant: multiple-select
+:admonition:
+:class: exercise
+:nocaption:
+:columns: 1 1 1 1
 
-```{h5p} https://tudelft.h5p.com/content/1292769959370185427/embed
-```
+Waar is de absolute schuifspanning maximaal?
+---
+[ ] Op een negatieve snede tussen $ \rm{A} $ en $ \rm{S} $
+> Heb je ook de dwarskracht berekend op de andere punten? Is de schuifspanning maximaal waar de dwarskracht maximaal is?
+[ ] Op een positieve snede tussen $ \rm{A} $ en $ \rm{S} $
+> Heb je ook de dwarskracht berekend op de andere punten? Is de schuifspanning maximaal waar de dwarskracht maximaal is?
+[x] Op een positieve snede net links van $ \rm{B} $
+[x] Op een negatieve snede net rechts van $ \rm{B} $
+[ ] Op een positieve snede net rechts van $ \rm{B} $
+> Heb je ook de dwarskracht berekend op de andere punten? Is de schuifspanning maximaal waar de dwarskracht maximaal is?
+[ ] Op een negatieve snede net links van $ \rm{B} $
+> Heb je ook de dwarskracht berekend op de andere punten? Is de schuifspanning maximaal waar de dwarskracht maximaal is?
+---
 
-:::::
+::::
 
 % solution_start
 
@@ -134,15 +184,21 @@ Dus de absolute schuifspanning is maximaal op een positieve en negatieve snede n
 
 % solution_end
 
-:::::{exercise}
-:nonumber: true
+::::{question} Opgave
+:type: short-answer
+:variant: gaps
+:admonition:
+:class: exercise
+:nocaption:
 
-Bepaal de maximale absolute schuifspanning
+---
+M[0.348]
+^^^
+?
+De maximale absolute schuifspanning ois {gap} $\rm{MPa}$
+---
 
-```{h5p} https://tudelft.h5p.com/content/1292769961422841717/embed
-```
-
-:::::
+::::
 
 % solution_start
 
@@ -154,8 +210,8 @@ De eerder berekende $S_{z}^{\rm{a}}$ en $I_{zz}$ kunnen worden gebruikt om de ab
 $$
 \begin{align*}
 \left| \tau_{\rm{max}} \right| &= \cfrac{\left|V_{z} \, S_{z}^{\rm{a}}\right|}{b \, I_{zz}} \\
-&= \cfrac{\left| 5800 \, \cdot -781250 \right|}{100 \cdot 130208333.3} \\
-&\approx 0.35 \, \rm{MPa}
+&= \cfrac{\left| 5800 \, \cdot -781250 \right|}{100 \cdot 130208333.\bar{3}} \\
+&= 0.348 \, \rm{MPa}
 \end{align*}
 $$
 

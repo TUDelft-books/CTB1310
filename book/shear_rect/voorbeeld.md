@@ -1,5 +1,7 @@
 # Voorbeeld
 
+Gegeven is de volgende constructie:
+
 ::::{grid} 1 1 2 2
 :class-container: center-grid
 
@@ -11,6 +13,7 @@
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/shear_rect
 :number:
 :figclass: sticky-margin
+:name: voorbeeld_1
 ```
 
 :::
@@ -23,6 +26,7 @@
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/shear_rect
 :number:
 :figclass: sticky-margin
+:name: voorbeeld_2
 ```
 
 :::

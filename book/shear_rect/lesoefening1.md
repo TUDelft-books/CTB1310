@@ -1,6 +1,6 @@
 # Begeleide oefening 1
 
-In [](./voorbeeld.md) is het schuifspanningsverloop op een positieve snede in doorsnede $\rm{D}$ gevonden voor de volgende constructie:
+In [het voorbeeld](./voorbeeld.md) is het schuifspanningsverloop op een positieve snede in doorsnede $\rm{D}$ gevonden voor de volgende constructie:
 
 ::::{grid} 1 1 2 2
 :class-container: center-grid
@@ -37,7 +37,6 @@ In [](./voorbeeld.md) is het schuifspanningsverloop op een positieve snede in do
 :admonition:
 :class: exercise
 :nocaption:
-:showanswer:
 
 ---
 M[1.5]
