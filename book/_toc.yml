@@ -14,22 +14,28 @@ parts:
   - file: shear_rect/les.md
     sections:
     - file: shear_rect/instructie.md
+    - file: shear_rect/voorbeeld.md
+    - file: shear_rect/extra_instructie.md
     - file: shear_rect/lesoefening1.md
     - file: shear_rect/lesoefening2.md
+    - file: shear_rect/extra_oefeningen.md
   - file: shear/les.md
     sections:
     - file: shear/instructie.md
     - file: shear/lesoefening1.md
     - file: shear/lesoefening2.md
+    - file: shear/extra_oefeningen.md
   - file: shear_dunwandig/les.md
     sections:
     - file: shear_dunwandig/instructie.md
     - file: shear_dunwandig/lesoefening1.md
     - file: shear_dunwandig/lesoefening2.md
+    - file: shear_dunwandig/extra_oefeningen.md
   - file: shear_force_center/les.md
     sections:
     - file: shear_force_center/instructie.md
     - file: shear_force_center/lesoefening1.md
+    - file: shear_force_center/extra_oefeningen.md
   - file: torsie_krachten/les.md
     sections:
     - file: torsie_krachten/instructie.md
@@ -37,16 +43,19 @@ parts:
     - file: torsie_krachten/lesoefening0.md
     - file: torsie_krachten/lesoefening1.md
     - file: torsie_krachten/lesoefening2.md
+    - file: torsie_krachten/extra_oefeningen.md
   - file: torsie_model/les.md
     sections:
     - file: torsie_model/instructie.md
     - file: torsie_model/lesoefening1.md
     - file: torsie_model/lesoefening2.md
+    - file: torsie_model/extra_oefeningen.md
   - file: torsie_shear/les.md
     sections:
     - file: torsie_shear/instructie.md
     - file: torsie_shear/lesoefening.md
     - file: torsie_shear/lesoefening2.md
+    - file: torsie_shear/extra_oefeningen.md
   - file: toz/toz.md
   - file: sympy/les.md
     sections:
@@ -57,6 +66,7 @@ parts:
     - file: sympy/opgave2.ipynb
     - file: sympy/opgave3.ipynb
     - file: sympy/opgave4.ipynb
+    - file: sympy/extra_oefeningen.md
   - file: toz_3/toz.ipynb
   - file: exam/2026-04-14.md
   - file: exam/2026-06-24.md

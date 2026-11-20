@@ -191,6 +191,3 @@ In hoofdstuk 6.4 van het boek Mechanica, spanningen, vervormingen en verplaatsin
 
 ## Instructies in collegevorm
 Dit onderwerp is [in les 9](https://collegerama.tudelft.nl/Mediasite/Channel/public-ctb1310/watch/5bbcdc16886a48f0b0e92f3396ca041a1d) gepresenteerd in collegevorm van 10:00 tot 1:03:40.
-
-## Oefeningen
-[Opgaves 6.7, 6.8, 6.11, 6.13, 6.30 in hoofdstuk 4.5 van het boek Mechanica, spanningen, vervormingen en verplaatsingen](https://icozct.tudelft.nl/TUD_CT/boekantwoorden/files/TM2vraagstukkenbundel.pdf) {cite:p}`Hartsuijker2013`. Bepaal enkel de wringend momentenlijn en negeer de vragen over stijfheden, spanningen en verplaatsingen. Antwoorden zijn [hier](https://icozct.tudelft.nl/TUD_CT/boekantwoorden/vol2/Chapter6/) beschikbaar.

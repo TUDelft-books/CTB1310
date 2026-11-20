@@ -627,6 +627,3 @@ In hoofdstuk 5.5 van het boek Mechanica, spanningen, vervormingen en verplaatsin
 
 ## Instructies in collegevorm
 Dit onderwerp is [in les 8](https://collegerama.tudelft.nl/Mediasite/Channel/public-ctb1310/watch/197a0582e28f4491b77d90db256fde721d) gepresenteerd in collegevorm van 8:50 tot 58:00.
-
-## Oefeningen
-[Opgaves 5.49 - 5.54 in hoofdstuk 5 van het boek Mechanica, spanningen, vervormingen en verplaatsingen](https://icozct.tudelft.nl/TUD_CT/boekantwoorden/files/TM2vraagstukkenbundel.pdf) {cite:p}`Hartsuijker2013`. Antwoorden zijn [hier](https://icozct.tudelft.nl/TUD_CT/boekantwoorden/vol2/Chapter5/) beschikbaar.

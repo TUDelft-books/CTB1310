@@ -1,7 +1,7 @@
 # first list the packages you wish to download from PyPI
 teachbooks
 
-git+https://github.com/TeachBooks/TeachBooks-Favourites@CORS #waiting for merge of https://github.com/TeachBooks/TeachBooks-Zoomies/commit/14ce87f78114fe0db4933fd1f6d9bfb483b2bbb1
+git+https://github.com/TeachBooks/TeachBooks-Favourites
 
 sphinx-tudelft-theme
 sphinx-apa-references
