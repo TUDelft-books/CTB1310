@@ -380,7 +380,7 @@ De formule die we net hebben afgeleid gaf de gemiddelde schuifspanningen op het 
 :number:
 ```
 
-We kunnen deze spanningen aan elkaar relateren door het evenwicht van een infinitesimaal blokje te bekijken. Ditmaal infinitesimaal in alle richtingen:
+We kunnen deze spanningen aan elkaar relateren door het evenwicht van een infinitesimaal blokje te bekijken ergens uit de constructie. Ditmaal infinitesimaal in alle richtingen:
 
 ```{figure} ./instructie_data/blokje_snede.svg
 :align: center
@@ -414,7 +414,7 @@ Dus de schuifspanningen op een zijde $90^\circ$ ten opzichte van elkaar zijn gel
 
 :::::::::
 
-:::::::::{step} Bepaal de implicaties van ons model.
+:::::::::{step} Bepaal de implicaties van het model.
 
 -   Omdat de schuifspanningen in de doorsnederichting gelijk zijn aan de schuifspanningen in de langsrichting, kunnen we deze ook wel aangeduid met een algemene $\tau$ in plaats van $\sigma_{zx}$ en $\sigma_{xz}$:
 

@@ -18,6 +18,7 @@ parts:
     - file: shear_rect/extra_instructie.md
     - file: shear_rect/lesoefening1.md
     - file: shear_rect/lesoefening2.md
+    - file: shear_rect/COZ1.md
     - file: shear_rect/extra_oefeningen.md
   - file: shear/les.md
     sections:

@@ -195,7 +195,7 @@ Dus de absolute schuifspanning is maximaal op een positieve en negatieve snede n
 M[0.348]
 ^^^
 ?
-De maximale absolute schuifspanning ois {gap} $\rm{MPa}$
+De maximale absolute schuifspanning is {gap} $\rm{MPa}$
 ---
 
 ::::
